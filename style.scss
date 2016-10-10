@@ -18,11 +18,37 @@ html {
   //height: 100%;
 }
 
+// TODO: add this back in but fade to darkGray
+.contentbox {
+  //background-color: $darkGray;
+  //padding: 30px;
+  //border-radius: 10px;
+  //margin-bottom: 30px;
+  padding-top: 80px;
+}
+
+.contentbox h1, h3, h4 {
+  color: $white;
+  line-height: 0.8;
+  text-align: center;
+
+  @include mobile {
+    line-height: 0.7;
+  }
+}
+
+// TODO: glitch out and show bg-color on scroll when first load
+
+// TODO: add logo!
+
+// TODO: pick a font (if want custom, make it images)
+
+// TODO: restyle jumbotron. Make bigger? add image? make color change tint on image?
+
 body {
   text-align: center;
   background: $darkGray;
   font: 18px/1.4 $helvetica;
-  //font-family: 'Raleway', sans-serif;
   //height: 100%;
 }
 
@@ -35,7 +61,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkGray;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -241,31 +267,42 @@ nav {
   }
 }
 
-// ---------------------------
-// START EVAN STUFF
-// ---------------------------
-
-.jumbowrapper{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  z-index: -1;
+#everythingwrapper{
+  //TODO: deal with offset properly so equivalent to top anchor
 }
 
 .jumbotron {
-  position: relative;
+  position: fixed;
+  //position: relative;
+  width: 100vw;
+  top: 0;
+  z-index: -1;
   overflow: hidden;
-  height: 100%;
-  background-color: #222222;
-  //background-image: url("/images/hackBD.JPG");
+  height: 100vh;
+  //background-color: $white;
+  background: $gray url("/images/tmd.JPG") no-repeat center left;
+  //background-size: 100%;
+  //background-image: url("/images/header.JPG");
+  //background-size: 100% 100%;
   //opacity: 0.5;
   //background-color: rgb(0, 179, 255); // Tint color
-  //background-blend-mode: multiply;
+  //background-blend-mode: multiply; //TODO: probably set if use dynamic colors
+}
+
+.jumbotron.black {
+  background: $black;
+  transition: background 2s ease 0s;
+  -webkit-transition: background 2s ease 0s; /* Safari */
+}
+
+.jumbotron.white {
+  background: $gray url("/images/tmd.JPG") no-repeat center;
+  transition: background 2s ease 0s;
+  -webkit-transition: background 2s ease 0s; /* Safari */
 }
 
 .bg_color {
-  background-color: #222222;
+  background-color: transparent;
   color: $lightGray;
   font-weight: bold;
   width: 10vw;
@@ -273,29 +310,59 @@ nav {
 }
 
 .jumbocontent {
-  position: relative;
-  text-align: left;
-  padding-left: 5vw;
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  //  position: relative;
+  //  text-align: left;
+  //  padding-left: 5vw;
 }
 
-.jumbocontent h2 {
-  line-height: 1.0;
-  font-weight: normal;
-  color: $lightGray;
-  font-size: 2vw;
-
-  @include mobile {
-    line-height: 0.7;
-  }
+.jumboinner {
+  display: table-cell;
+  vertical-align: middle;
+  //padding-bottom: 10vh;
 }
 
-.jumbocontent strong {
-  color: chartreuse;
+.jumboinner h1 {
+  color: $white;
+  text-shadow: #000 2px 2px 1px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.jumbocontent b {
-  color: #edf06c;
+.jumboinner h2 {
+  color: $white; //#58b158;
+  line-height: 0.1;
+  text-shadow: #000 2px 2px 1px;
+  -webkit-font-smoothing: antialiased;
 }
+
+.btn {
+  -moz-box-shadow: 2px 2px 2px #111;
+  -webkit-box-shadow: 2px 2px 2px #111;
+  box-shadow: 2px 2px 2px #111;
+}
+
+//.jumbocontent h2 {
+//  line-height: 1.0;
+//  font-weight: normal;
+//  color: $lighterGray;
+//  font-size: 2vw;
+//
+//  @include mobile {
+//    line-height: 0.7;
+//  }
+//}
+//
+//.jumbocontent strong {
+//  color: chartreuse;
+//}
+//
+//.jumbocontent b {
+//  color: #edf06c;
+//}
 
 .video-background {
   position: absolute;
@@ -312,6 +379,7 @@ nav {
   margin-top: 100vh;
 }
 
+// TODO: remove if use background fade
 .mainpagecontent {
   padding: 2% 7% 7%;
   background-color: $darkGray;
@@ -321,10 +389,11 @@ nav {
   width: 107vw;
   border-width: 0;
   z-index: 1;
+  border-radius: 0;
   background-color: transparent;
-  -moz-box-shadow: 0 0 0 #111;
-  -webkit-box-shadow: 0 0 0 #111;
-  box-shadow: 0 0 0 #111;
+  -moz-box-shadow: 0 -17px 30px #111;
+  -webkit-box-shadow: 0 -17px 30px #111;
+  box-shadow: 0 -17px 30px #111;
 }
 
 .navbar-inverse h3 {
@@ -338,14 +407,13 @@ nav {
   }
 }
 
-// TODO: alignment off when transitioning
 .navbar-inverse.opaque {
   position: fixed;
   top: 0;
-  background-color: $white;
-  -moz-box-shadow: 0 17px 20px #111;
-  -webkit-box-shadow: 0 17px 20px #111;
-  box-shadow: 0 17px 20px #111;
+  background-color: $lightGray;
+  -moz-box-shadow: 0 17px 30px #111;
+  -webkit-box-shadow: 0 17px 30px #111;
+  box-shadow: 0 17px 30px #111;
 
   transition: all 2s ease 0s;
   transition-property: box-shadow, -webkit-box-shadow, -moz-box-shadow, background-color;
@@ -355,12 +423,18 @@ nav {
   position: static;
   top: 100px;
   background-color: transparent;
-  -moz-box-shadow: 0 0 0 #111;
-  -webkit-box-shadow: 0 0 0 #111;
-  box-shadow: 0 0 0 #111;
+  -moz-box-shadow: 0 -17px 20px #111;
+  -webkit-box-shadow: 0 -17px 20px #111;
+  box-shadow: 0 -17px 20px #111;
 
   transition: all 2s ease 0s;
   transition-property: box-shadow, -webkit-box-shadow, -moz-box-shadow, background-color;
+}
+
+// TODO: find a better way to overwrite this
+.navbar-nav>li>a {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .container-fluid {
@@ -370,6 +444,7 @@ nav {
   text-align:left;
 }
 
+// TODO: mess around with this navbar stuff
 .container-fluid ul{
   list-style:none;
   position:relative;
@@ -395,47 +470,6 @@ nav {
   }
 }
 
-// TODO: Why does h2, h3 (but not h1) overwrite jumbotron???! Something to do with bootstrap???!?!???
-.allprogress h1, h3, h4 {
-  color: $white;
-  line-height: 0.8;
-  text-align: center;
-
-  @include mobile {
-    line-height: 0.7;
-  }
-}
-
-.timeline h1, h3, h4 {
-  color: $white;
-  line-height: 0.8;
-  text-align: center;
-
-  @include mobile {
-    line-height: 0.7;
-  }
-}
-
-.personalinterests h1, h3, h4 {
-  color: $white;
-  line-height: 0.8;
-  text-align: center;
-
-  @include mobile {
-    line-height: 0.7;
-  }
-}
-
-.tempconstruction h1, h3, h4 {
-  color: $white;
-  line-height: 0.8;
-  text-align: center;
-
-  @include mobile {
-    line-height: 0.7;
-  }
-}
-
 .singleprogress h3 {
   text-align: left;
 }
@@ -451,13 +485,11 @@ nav {
   text-align: left;
 }
 
-.tempconstruction h1, h4{
-  color: $white;
+#timeline span {
+  font-weight: normal;
+  font-style: italic;
+  color: $green;
 }
-
-// ---------------------------
-// END EVAN STUFF
-// ---------------------------
 
 //
 // .main
@@ -498,10 +530,11 @@ nav {
   //border-top: 1px solid #ddd;
   //border-bottom: 1px solid #ddd;
   position: relative;
-  background-color: $gray;
+  background: $gray url("/images/dark_texture.jpg") repeat;
 }
 
 footer {
+  color: #6d6d6d;
   padding: 20px 0;
   text-align: center;
 }

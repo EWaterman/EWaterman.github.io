@@ -8,256 +8,390 @@ layout: default
 		// Check the initial Position of the Sticky Header
 		var stickyHeaderTop = $('.navbar-inverse').offset().top;
 
-		// If top of the window is at the header, make it opaque.
-		// TODO: scroll isn't smooth on these ones.
+		// If top of the window is at the header, make it opaque and fade background.
 		$(window).scroll(function(){
 			if( $(window).scrollTop() > stickyHeaderTop - 1 ) {
 				$('.navbar-inverse').removeClass('transparent').addClass('opaque');
+				//$('.jumbotron').removeClass('white').addClass('black');
 			} else {
-				$('.navbar-inverse').addClass('transparent').removeClass('opaque');
+				$('.navbar-inverse').removeClass('opaque').addClass('transparent');
+				//$('.jumbotron').removeClass('black').addClass('white');
 			}
 		});
 	});
 </script>
 
 <!--BACKGROUND LIVE UPDATE-->
-<script>
-	$(document).ready(function() {
-		$('.bg_color').keyup(function() {
+<!--<script>-->
+	<!--$(document).ready(function() {-->
+		<!--$('.bg_color').keyup(function() {-->
 
-			var bg_color = $(this).val(); // grab color input value
+			<!--var bg_color = $(this).val(); // grab color input value-->
 
-			if ($(this).val().length > 0 || (/^[a-zA-Z0-9#]*$/.test(bg_color)))
-			{
-				// replace css value on live preview
-				$('.jumbotron').css('background-color', bg_color);
-				$('.bg_color').css('background-color', bg_color);
-			}
-			else
-			{
-				//resorts back to default if no value entered
-				$('.jumbotron').css('background-color', '#222222');
-				$('.bg_color').css('background-color', '#222222');
-			}
+			<!--if ($(this).val().length > 0 || (/^[a-zA-Z0-9#]*$/.test(bg_color)))-->
+			<!--{-->
+				<!--// replace css value on live preview-->
+				<!--$('.jumbotron').css('background-color', bg_color);-->
+				<!--$('.bg_color').css('background-color', bg_color);-->
+			<!--}-->
+			<!--else-->
+			<!--{-->
+				<!--//resorts back to default if no value entered-->
+				<!--$('.jumbotron').css('background-color', '$white');-->
+				<!--$('.bg_color').css('background-color', '$white');-->
+			<!--}-->
 
-		});
-	});
-</script>
+		<!--});-->
+	<!--});-->
+<!--</script>-->
 
-<!-- TODO: add text box that submits to function that contains a css update -->
+<!-- Wraps everything, mainly so can call to top -->
+<div id="everythingwrapper">
 
-<!-- Jumbotron at top of page -->
-<header>
-    <div class="jumbowrapper">
-      <div class="jumbotron">
-        <!--<video class="video-background" preload muted autoplay loop>-->
-          <!--<source src="https://s3.amazonaws.com/distill-videos/videos/processed/2180/lighthouse.mp4" type="video/mp4">-->
-          <!--<source src="" type="video/ogg">  TODO: add ogg and other versions of video -->
-        <!--</video>-->
-        <div class="jumbocontent">
-					<h2><b>&ltbody</b> style="background-color: <input type="text" name="bg_color" class="bg_color" value="#222222" pattern="[A-Za-z#0-9]*"/>"<b>></b></h2>
-					<br>
-					<h2>&nbsp&nbsp&nbsp&nbsp<b>&ltdiv</b> name=<strong>"Evan Waterman"</strong> class=<strong>"Full stack developer"</strong><b>></b></h2>
-					<!--<br>-->
-					<h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>&lth2></b>Click <b>&lta></b><a href="#mainpagewrapper">HERE</a><b>&lta></b> to see more... <b>&lt/h2></b></h2>
-					<!--<br>-->
-					<h2>&nbsp&nbsp&nbsp&nbsp<b>&lt/div></b></h2>
-					<!--<br>-->
-					<h2><b>&lt/body></b></h2>
-        </div>
-      </div>
-    </div>
-</header>
+	<!-- Jumbotron at top of page -->
+	<!-- TODO: add page turn symbol in top right that can click on to get to "source code" and do css stuff -->
+	<header>
+			<div class="jumbowrapper">
+				<div class="jumbotron">
+					<!--<video class="video-background" preload muted autoplay loop>-->
+						<!--<source src="https://s3.amazonaws.com/distill-videos/videos/processed/2180/lighthouse.mp4" type="video/mp4">-->
+						<!--<source src="" type="video/ogg">  TODO: add ogg and other versions of video -->
+					<!--</video>-->
+					<div class="jumbocontent">
+						<!-- for vertical centering -->
+						<div class="jumboinner">
+							<!--<h2><b>&ltbody</b> style="background-color: <input type="text" name="bg_color" class="bg_color" value="white" pattern="[A-Za-z#0-9]*"/>"<b>></b></h2>-->
+							<!--<br>-->
+							<!--<h2>&nbsp&nbsp&nbsp&nbsp<b>&ltdiv</b> name=<strong>"Evan Waterman"</strong> class=<strong>"Full stack developer"</strong><b>></b></h2>-->
+							<!--<h2>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>&lth2></b>Click <b>&lta></b><a href="#mainpagewrapper">HERE</a><b>&lt/a></b> to see more... <b>&lt/h2></b></h2>-->
+							<!--<h2>&nbsp&nbsp&nbsp&nbsp<b>&lt/div></b></h2>-->
+							<!--<h2><b>&lt/body></b></h2>-->
 
-<div class="mainpagewrapper" id="mainpagewrapper">
-
-	<!-- Header that fades in once it reaches the top of the page -->
-		<nav class="navbar navbar-inverse hidden-tablet hidden-phone">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li><a href="#allprogress"><h3>Skills</h3></a></li>
-						<li><a href="#timeline"><h3>My Timeline</h3></a></li>
-						<li><a href="#top"><h3>Back To Top</h3></a></li>
-						<li><a href="#personalinterests"><h3>My Interests</h3></a></li>
-						<li><a href="#tempconstruction"><h3>Contact Me</h3></a></li>
-					</ul>
+							<h2>Hi, I'm Evan Waterman.</h2>
+							<h1>Full stack developer.</h1>
+							<br>
+							<a href="#mainpagewrapper" class="btn btn-success">But that's not all...</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</nav>
-	</div>
+	</header>
 
-<!-- Wrapper for main page content -->
-<div class="mainpagecontent">
+	<div class="mainpagewrapper" id="mainpagewrapper">
 
-  <div class="allprogress" id="allprogress">
-		<br>
-		<br>
-    <h1>Skills</h1>
-    <h3>The techniques I've gained over the years.</h3>
-    <br>
-		<!-- TODO: Add icons -->
-    <div class="row">
-    	<div class="col-sm-6 col-md-6">
-				<div class="singleprogress">
-					<h3>Programming Languages</h3>
-					<div class="progress">
-						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-							Python
-						</div>
+		<!-- Header that fades in once it reaches the top of the page -->
+			<nav class="navbar navbar-inverse hidden-tablet hidden-phone">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
 					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-							Java
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-							C/C++
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-							C# with Unity
-						</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li><a href="#allprogress"><h3>Skills</h3></a></li>
+							<li><a href="#timeline"><h3>My Timeline</h3></a></li>
+							<li><a href="#top"><h3>Back To Top</h3></a></li> <!-- TODO: switch to everythingwrapper once working -->
+							<li><a href="#personalinterests"><h3>My Interests</h3></a></li>
+							<li><a href="#contact"><h3>Contact Me</h3></a></li>
+						</ul>
 					</div>
 				</div>
+			</nav>
 
+		<!-- Wrapper for main page content -->
+		<div class="mainpagecontent">
+
+			<div class="contentbox" id="allprogress">
+				<h1>Skills</h1>
+				<h3>The techniques I've gained over the years.</h3>
 				<br>
+				<!-- TODO: Add icons -->
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<div class="singleprogress">
+							<h3>Programming Languages</h3>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									Python
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									Java
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									C/C++
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									C# with Unity
+								</div>
+							</div>
+						</div>
 
-				<div class="singleprogress">
-					<h3>Front End Web Development</h3>
-					<div class="progress">
-						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-							HTML
+						<br>
+
+						<div class="singleprogress">
+							<h3>Front End Web Development</h3>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									HTML
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									CSS/SCSS
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									JavaScript (Angular, React)
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									Bootstrap
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-							CSS/SCSS
+
+					<div class="col-sm-6 col-md-6">
+						<div class="singleprogress">
+							<h3>Back End Web Development</h3>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									Ruby on Rails
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									JavaScript (Node)
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									PHP
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									SQL
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-							JavaScript (Angular, React)
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-							Bootstrap
+
+						<br>
+
+						<div class="singleprogress">
+							<h3>Everything Else</h3>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									Git, Command Line Window and Linux (CentOS)
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+									Shell
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+									Photoshop
+								</div>
+							</div>
+							<div class="progress">
+								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+									Testing (Unit, Integration, System)
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="col-sm-6 col-md-6">
-				<div class="singleprogress">
-					<h3>Back End Web Development</h3>
-					<div class="progress">
-						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-							Ruby on Rails
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-							JavaScript (Node)
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-							PHP
-						</div>
-					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-							SQL
-						</div>
-					</div>
-				</div>
-
 				<br>
+				<br>
+				<br>
+			</div>
 
-				<div class="singleprogress">
-					<h3>Everything Else</h3>
-					<div class="progress">
-						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-							Git, Command Line Window and Linux (CentOS)
-						</div>
+			<!--sumstacker (july 2015), tmd (jan 2010), cms (jan 2016)-->
+			<div class="contentbox" id="timeline">
+				<h1>My Timeline</h1>
+				<h3>How I got to where I am today.</h3>
+				<br>
+				<div class="row">
+					<h3>January 2012 - Opened Cafepress Online Clothing Store</h3>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/cafe.jpg" alt="Cafepress">
 					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-							Shell
-						</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/sogo.jpg" alt="Suns Out Guns Out">
 					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-							Photoshop
-						</div>
+				</div>
+				<div class="row">
+					<h3>Winter 2012 - NESception <span>- Photoshop, GameMaker</span></h3>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/barn-in.png" alt="Barn In">
 					</div>
-					<div class="progress">
-						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-							Testing (Unit, Integration, System)
-						</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/barn-out.png" alt="Barn Out">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/heli.png" alt="Helicopter">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/train.png" alt="Train">
+					</div>
+				</div>
+				<div class="row">
+					<h3>Summer 2012 - Business Card designer <span>- Photoshop</span></h3>
+					<div class="col-sm-12 col-md-12">
+						<img src="/images/timeline/Chris.png" alt="Business Card" height="350">
+					</div>
+				</div>
+				<div class="row">
+					<h3>Summer 2014 - Trip to south-east Asia</h3>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/atv.jpg" alt="ATV">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/elephant.jpg" alt="Elephant">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/falls.jpg" alt="Falls">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/hk.jpg" alt="Hong Kong">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/river.jpg" alt="River">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/temple.jpg" alt="Temple">
+					</div>
+				</div>
+				<div class="row">
+					<h3>August 2014 - DrawingCRapp, Drawing Game <span>- Unity/C#</span></h3>
+					<div class="col-sm-12 col-md-12">
+						<img src="/images/timeline/CRapp.png" alt="Drawing CRapp" height="400">
+					</div>
+				</div>
+				<div class="row">
+					<h3>September 2014 - UBC Teaching Assistant</h3>
+					<div class="col-sm-12 col-md-12">
+						<img src="/images/timeline/UBC.jpeg" alt="UBC" height="350">
+					</div>
+				</div>
+				<div class="row">
+					<h3>September 2015 - Carbon Emissions vs Snow Depth, Study <span>- Ruby On Rails</span></h3>
+					<div class="col-sm-12 col-md-12">
+						<img src="/images/timeline/emission.PNG" alt="Emission">
+					</div>
+				</div>
+				<div class="row">
+					<h3>May 2015 - Joined Demonware as a Software Developer Intern <span>- Python, Docker, Shell, C++/C</span></h3>
+					<div class="col-sm-12 col-md-12">
+						<img src="/images/timeline/demonware.png" alt="Demonware">
+					</div>
+				</div>
+				<div class="row">
+					<h3>Summer 2016 - Trip across BC and Alberta</h3>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/hike.jpg" alt="Hike">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/skyline.jpg" alt="Skyline">
+					</div>
+				</div>
+				<div class="row">
+					<h3>January 2016 - Clutemusic.com <span>- Wordpress</span></h3>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/Clute1.PNG" alt="Clute1">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/Clute2.PNG" alt="Clute2">
+					</div>
+				</div>
+				<div class="row">
+					<h3>September 2016 - HackBD <span>- HTML, CSS/SCSS, Bootstrap, React.js</span></h3>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/hackBD5.JPG" alt="HackBD5">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/hackBD.jpg" alt="HackBD">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/hackBD1.png" alt="HackBD1">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<img src="/images/timeline/hackBD2.png" alt="HackBD2">
+					</div>
+				</div>
+				<div class="row">
+					<h3>October 2016 - Represent the 10, charity project</h3>
+					<div class="col-sm-6 col-md-6">
+					</div>
+					<div class="col-sm-6 col-md-6">
+					</div>
+				</div>
+				<div class="row">
+					<h3>.</h3>
+					<h3>.</h3>
+					<h3>.</h3>
+					<h3>To be continued...</h3>
+				</div>
+				<br>
+				<br>
+			</div>
+
+			<div class="contentbox" id="personalinterests">
+				<h1>Personal Interests</h1>
+				<h3>A little bit about what makes me unique.</h3>
+				<br>
+				<br>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<h3>Downhill Biking</h3>
+						<img src="/images/interests/bike.jpg">
+					</div>
+					<div class="col-sm-6 col-md-6">
+						<h3>Snowboarding</h3>
+						<img src="/images/interests/boarding.jpg">
 					</div>
 				</div>
 			</div>
+
+			<!-- only used as an anchor -->
+			<div id="contact"></div>
+
+			<!-- Displays all posts. TODO: add a blog! -->
+			<!--<div class="posts">-->
+				<!--{% for post in site.posts %}-->
+					<!--<article class="post">-->
+
+						<!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
+
+						<!--<div class="entry">-->
+							<!--{{ post.excerpt }}-->
+						<!--</div>-->
+
+						<!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+					<!--</article>-->
+				<!--{% endfor %}-->
+			<!--</div>-->
 		</div>
-		<br>
-		<br>
-		<br>
 	</div>
-
-	<div class="timeline" id="timeline">
-		<br>
-		<br>
-		<h1>My Timeline</h1>
-		<h3>How I got to where I am today.</h3>
-		<br>
-		<h3>Coming Soon...</h3>
-		<br>
-		<br>
-	</div>
-
-	<div class="personalinterests" id="personalinterests">
-		<br>
-		<br>
-		<h1>Personal Interests</h1>
-		<h3>A little bit about what makes me unique.</h3>
-		<br>
-		<h3>Coming Soon...</h3>
-		<br>
-		<br>
-	</div>
-
-	<div class="tempconstruction" id="tempconstruction">
-		<br>
-		<br>
-		<h1>Well, that's it for now...</h1>
-		<br>
-		<h3>This website is currently under construction. If you'd like to find out more about me, please visit the following links to my other pages.</h3>
-	</div>
-
-<!-- Displays all posts. TODO: add a blog! -->
-<!--<div class="posts">-->
-  <!--{% for post in site.posts %}-->
-    <!--<article class="post">-->
-
-      <!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
-
-      <!--<div class="entry">-->
-        <!--{{ post.excerpt }}-->
-      <!--</div>-->
-
-      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
-    <!--</article>-->
-  <!--{% endfor %}-->
-<!--</div>-->
-</div>
 </div>

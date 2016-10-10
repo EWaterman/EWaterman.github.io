@@ -6,6 +6,8 @@
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
+    <!--TODO: add icon!-->
+
     {% include meta.html %}
 
     <!-- This fixes IE HTML5 problems -->
@@ -25,6 +27,7 @@
 
     <!-- Smooth scroll to page anchors -->
     <script>
+      // TODO: Scroll isn't smooth when using TOP anchor
       $(function() {
         $('a[href*="#"]:not([href="#"])').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -63,6 +66,10 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <br>
+          made by Evan Waterman
+          <br>
+          <span style="font-size:0.6em;">HTML5 | CSS3 | JavaScript | Bootstrap | jQuery</span>
         </footer>
       </div>
     </div>
