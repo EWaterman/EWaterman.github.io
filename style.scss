@@ -266,7 +266,7 @@ nav {
 }
 
 #everythingwrapper{
-  //TODO: deal with offset properly so equivalent to top anchor
+  //TODO: deal with offset properly so equivalent to top anchor (set pos to 0 0?)
 }
 
 .jumbotron {
@@ -278,7 +278,7 @@ nav {
   overflow: hidden;
   height: 100vh;
   //background-color: $white;
-  background: $gray url("/images/tmd.jpg") no-repeat center left;
+  background: $gray url("/images/tmd_full.jpg") no-repeat center left;
   //background-size: 100%;
   //background-image: url("/images/header.JPG");
   //background-size: 100% 100%;
