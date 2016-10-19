@@ -6,7 +6,7 @@
 
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <!--TODO: add icon!-->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
     {% include meta.html %}
 
@@ -16,33 +16,12 @@
     <![endif]-->
 
     <!-- Stylesheets -->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">-->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Smooth scroll to page anchors -->
-    <script>
-      // TODO: Scroll isn't smooth when using TOP anchor
-      $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html, body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-    </script>
   </head>
 
   <body>
@@ -54,18 +33,17 @@
     </div>
     <![endif]-->
 
-
-
     <!-- Container for page content. The content of each "child" page resides here -->
     <div id="main" role="main" class="contentcontainer">
       {{ content }}
     </div>
 
     <!-- Footer -->
-    <div class="wrapper-footer">
+    <div class="wrapper-footer" id="contact">
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <br>
           <br>
           made by Evan Waterman
           <br>
@@ -74,7 +52,20 @@
       </div>
     </div>
 
-    <!-- Google analytics. TODO: find out what this is exactly -->
+    <!--Back to Top-->
+    <!-- TODO: maybe have in top center but just arrow and note that says back to top -->
+    <a href="#0" class="cd-top">Top</a>
+
     {% include analytics.html %}
+
+    <!-- SCRIPTS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Smooth scroll to page anchors -->
+    <script src="/js/smoothscroll.js"></script>
+
+    <!-- Back to Top -->
+    <script src="/js/main.js"></script>
+
   </body>
 </html>

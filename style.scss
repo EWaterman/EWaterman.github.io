@@ -7,6 +7,7 @@
 
 @import "reset";
 @import "variables";
+@import "loader";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -15,16 +16,10 @@
 
 html {
   font-size: 100%;
-  //height: 100%;
 }
 
-// TODO: add this back in but fade to darkGray
 .contentbox {
-  //background-color: $darkGray;
-  //padding: 30px;
-  //border-radius: 10px;
-  //margin-bottom: 30px;
-  padding-top: 80px;
+  padding: 0 7% 7%;
 }
 
 .contentbox h1, h3, h4 {
@@ -37,22 +32,18 @@ html {
   }
 }
 
-// TODO: glitch out and show bg-color on scroll when first load
-
-// TODO: add logo!
-
-// TODO: pick a font (if want custom, make it images)
+// TODO: pick a font:
+//font-family: 'Alte DIN', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//font-family: brandon-grotesque, sans-serif;
 
 body {
   text-align: center;
   background: $darkGray;
   font: 18px/1.4 $helvetica;
-  //height: 100%;
 }
 
 .container {
   margin: 0 auto;
-  //max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
@@ -93,6 +84,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  color: $white;
 }
 
 a {
@@ -177,10 +169,10 @@ img {
 // .masthead
 //
 
-//.wrapper-masthead {
-//  margin-bottom: 50px;
-//  height: 100%;
-//}
+.wrapper-masthead {
+  margin-bottom: 50px;
+  height: 100%;
+}
 
 .masthead {
   padding: 20px 0;
@@ -238,68 +230,55 @@ img {
   }
 }
 
-nav {
-  float: right;
-  //margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+//nav {
+//  float: right;
+//  //margin-top: 23px; // @TODO: Vertically middle align
+//  font-family: $helveticaNeue;
+//  font-size: 18px;
+//
+//  @include mobile {
+//    float: none;
+//    margin-top: 9px;
+//    display: block;
+//    font-size: 16px;
+//  }
+//
+//  a {
+//    margin-left: 20px;
+//    color: $darkGray;
+//    text-align: right;
+//    font-weight: 300;
+//    letter-spacing: 1px;
+//
+//    @include mobile {
+//      margin: 0 10px;
+//      color: $blue;
+//    }
+//  }
+//}
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
 
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
 
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
+// TEXT BOX FOR EDITING BG COLOR
+ .css_editor {
+  background-color: $white;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+ }
 
-#everythingwrapper{
-  //TODO: deal with offset properly so equivalent to top anchor (set pos to 0 0?)
-}
-
-.jumbotron {
-  position: fixed;
-  //position: relative;
-  width: 100vw;
-  top: 0;
-  z-index: -1;
-  overflow: hidden;
-  height: 100vh;
-  //background-color: $white;
-  background: $gray url("/images/tmd_full.jpg") no-repeat center left;
-  //background-size: 100%;
-  //background-image: url("/images/header.JPG");
-  //background-size: 100% 100%;
-  //opacity: 0.5;
-  //background-color: rgb(0, 179, 255); // Tint color
-  //background-blend-mode: multiply; //TODO: probably set if use dynamic colors
-}
-
-.jumbotron.black {
+.css_editor.black {
   background: $black;
   transition: background 2s ease 0s;
   -webkit-transition: background 2s ease 0s; /* Safari */
 }
 
-.jumbotron.white {
+.css_editor.white {
   background: $gray url("/images/tmd.jpg") no-repeat center left;
   transition: background 2s ease 0s;
   -webkit-transition: background 2s ease 0s; /* Safari */
 }
 
-.bg_color {
+.text_editor {
   background-color: transparent;
   color: $lightGray;
   font-weight: bold;
@@ -307,60 +286,159 @@ nav {
   height: 7vh;
 }
 
+.css_editor h2 {
+  line-height: 1.0;
+  font-weight: normal;
+  color: $lighterGray;
+  font-size: 2vw;
+
+  @include mobile {
+    line-height: 0.7;
+  }
+}
+
+.css_editor strong {
+  color: chartreuse;
+}
+
+.css_editor b {
+  color: #edf06c;
+}
+// END TEXT BOX FOR EDITING BG COLOR
+
+// ANIMATES ALL DIFFERENT ATTRIBUTES
+.animated {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+// END ANIMATES ALL DIFFERENT ATTRIBUTES
+
+.jumbo-col {
+  height: inherit;
+}
+
+.jumbo-col-text:hover {
+  background-color: #66fcf1;
+  color: #10131a;
+  text-decoration: none;
+}
+
+.jumbo-col-text:active, .jumbo-col-text:focus, .jumbo-col-text:visited {
+  text-decoration: none;
+  color: $white;
+}
+
+// DARKENS ELEMENTS ON HOVER
+.darken {
+  background-color: rgba(0,0,0,0);
+}
+.darken:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+// END DARKENS ELEMENTS ON HOVER
+
+// GRAYS OUT ELEMENTS ON HOVER
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+// END GRAYS OUT ELEMENTS ON HOVER
+
+// JUMBOTRON
+.jumbotron {
+  position: fixed;
+  padding: 0;
+  width: 100vw;
+  top: 0;
+  z-index: -1;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.jumbo-col-text {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  transform: translateX(-25%) translateY(-10%);
+
+  display: inline-block;
+  min-height: 58px;
+  padding: 0 22px;
+  border: 2px solid #66fcf1;
+  background: none;
+  font-size: 16px;
+  line-height: 52px;
+  color: #fff;
+  letter-spacing: .25em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
+}
+
+#jt-image1, #jt-image2, #jt-image3 {
+  height: inherit;
+  padding: 0;
+}
+
+#jt-image1 {
+  background: $gray url("/images/interests/boarding.jpg") no-repeat 80% 50%;
+}
+
+#jt-image2 {
+  background: $darkGray url("/images/work/hackBD.jpg") no-repeat 60% 40%;
+}
+
+#jt-image3 {
+  //background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat center left;
+  background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
+}
+
 .jumbocontent {
+  pointer-events: none;
   display: table;
   position: absolute;
   height: 100%;
   width: 100%;
-
-  //  position: relative;
-  //  text-align: left;
-  //  padding-left: 5vw;
+  z-index: 100;
 }
 
 .jumboinner {
   display: table-cell;
   vertical-align: middle;
-  //padding-bottom: 10vh;
+
+  pointer-events: none;
+  //margin-top: 35vh;
+  //margin-bottom: 65vh;
+  letter-spacing: .25em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
-.jumboinner h1 {
-  color: $white;
-  text-shadow: #000 2px 2px 1px;
-  -webkit-font-smoothing: antialiased;
+.jumboinner h1{
+
+  color: #66fcf1;
+  line-height: 50px;
+  padding-top: 30px;
 }
 
 .jumboinner h2 {
   color: $white; //#58b158;
   line-height: 0.1;
-  text-shadow: #000 2px 2px 1px;
-  -webkit-font-smoothing: antialiased;
 }
-
-.btn {
-  -moz-box-shadow: 2px 2px 2px #111;
-  -webkit-box-shadow: 2px 2px 2px #111;
-  box-shadow: 2px 2px 2px #111;
-}
-
-//.jumbocontent h2 {
-//  line-height: 1.0;
-//  font-weight: normal;
-//  color: $lighterGray;
-//  font-size: 2vw;
-//
-//  @include mobile {
-//    line-height: 0.7;
-//  }
-//}
-//
-//.jumbocontent strong {
-//  color: chartreuse;
-//}
-//
-//.jumbocontent b {
-//  color: #edf06c;
-//}
+// END JUMBOTRON
 
 .video-background {
   position: absolute;
@@ -373,101 +451,21 @@ nav {
   width:100%;
 }
 
+// START OF MAIN PAGE CONTENT
 .mainpagewrapper {
   margin-top: 100vh;
+  -moz-box-shadow: 0 -10px 30px #111;
+  -webkit-box-shadow: 0 -10px 30px #111;
+  box-shadow: 0 -10px 30px #111;
 }
+// END START OF MAIN PAGE CONTENT
 
-// TODO: remove if use background fade
 .mainpagecontent {
-  padding: 2% 7% 7%;
+  padding-top: 1%;
   background-color: $darkGray;
 }
 
-.navbar-inverse {
-  width: 107vw;
-  border-width: 0;
-  z-index: 1;
-  border-radius: 0;
-  background-color: transparent;
-  -moz-box-shadow: 0 -17px 30px #111;
-  -webkit-box-shadow: 0 -17px 30px #111;
-  box-shadow: 0 -17px 30px #111;
-}
-
-.navbar-inverse h3 {
-  color: $darkGray;
-}
-
-// removes navbar if window too small
-@media (max-width: 767px) {
-  .navbar{
-    display:none;
-  }
-}
-
-.navbar-inverse.opaque {
-  position: fixed;
-  top: 0;
-  background-color: $lightGray;
-  -moz-box-shadow: 0 17px 30px #111;
-  -webkit-box-shadow: 0 17px 30px #111;
-  box-shadow: 0 17px 30px #111;
-
-  transition: all 2s ease 0s;
-  transition-property: box-shadow, -webkit-box-shadow, -moz-box-shadow, background-color;
-}
-
-.navbar-inverse.transparent {
-  position: static;
-  top: 100px;
-  background-color: transparent;
-  -moz-box-shadow: 0 -17px 20px #111;
-  -webkit-box-shadow: 0 -17px 20px #111;
-  box-shadow: 0 -17px 20px #111;
-
-  transition: all 2s ease 0s;
-  transition-property: box-shadow, -webkit-box-shadow, -moz-box-shadow, background-color;
-}
-
-// TODO: find a better way to overwrite this
-.navbar-nav>li>a {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.container-fluid {
-  float:right;
-  position:relative;
-  left:-50%;
-  text-align:left;
-}
-
-// TODO: mess around with this navbar stuff
-.container-fluid ul{
-  list-style:none;
-  position:relative;
-  left:50%;
-}
-
-.container-fluid li {
-  float:left;
-  position:relative;
-}
-
-.container-fluid a {
-  padding:2px 5px;
-  text-align:center;
-  white-space:nowrap;
-}
-
-.container-fluid h3{
-  &:hover {
-    text-decoration: underline;
-    -moz-text-decoration-color: $darkerGray;
-    text-decoration-color: $darkerGray;
-  }
-}
-
+// PROGRESS/SKILLS
 .singleprogress h3 {
   text-align: left;
 }
@@ -482,17 +480,117 @@ nav {
   padding-left: 20px;
   text-align: left;
 }
+// END PROGRESS/SKILLS
 
-#timeline span {
+// PREVIOUS WORK
+#previous-work {
+  //background-color: $lightGray;
+}
+
+#previous-work span {
   font-weight: normal;
   font-style: italic;
   color: $green;
 }
 
+.right-col, .right-col h3 {
+  text-align: left;
+}
+
+//.right-col h3 {
+//  text-align: left;
+//}
+
+.left-col {
+  text-align: right;
+}
+
+// END PREVIOUS WORK
+
+// CAROUSEL
+
+.carousel-inner > .item > img{
+  width:640px;
+  max-height:360px;
+}
+
+// END CAROUSEL
+
+// BACK TO TOP
+
+.cd-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 2em auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 0 solid black;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url("/images/cd-top-arrow.svg") no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  border: 5px solid black;
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+// END BACK TO TOP
+
 //
 // .main
 //
 
+// POSTS AND COMMENTS
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -522,11 +620,10 @@ nav {
     font-size: 15px;
   }
 }
+// END POSTS AND COMMENTS
 
+// FOOTER
 .wrapper-footer {
-  //margin-top: 50px;
-  //border-top: 1px solid #ddd;
-  //border-bottom: 1px solid #ddd;
   position: relative;
   background: $gray url("/images/dark_texture.jpg") repeat;
 }
@@ -536,6 +633,7 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+// END FOOTER
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
