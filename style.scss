@@ -19,7 +19,7 @@ html {
 }
 
 .contentbox {
-  padding: 0 7% 7%;
+  padding: 5% 7%;
 }
 
 .contentbox h1, h3, h4 {
@@ -35,11 +35,13 @@ html {
 // TODO: pick a font:
 //font-family: 'Alte DIN', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 //font-family: brandon-grotesque, sans-serif;
+//font-family: tablet-gothic-narrow, sans-serif;
 
 body {
   text-align: center;
   background: $darkGray;
   font: 18px/1.4 $helvetica;
+  color: $white;
 }
 
 .container {
@@ -319,7 +321,7 @@ img {
 }
 
 .jumbo-col-text:hover {
-  background-color: #66fcf1;
+  background-color: $lightBlue;
   color: #10131a;
   text-decoration: none;
 }
@@ -370,7 +372,7 @@ img {
   display: inline-block;
   min-height: 58px;
   padding: 0 22px;
-  border: 2px solid #66fcf1;
+  border: 2px solid $lightBlue;
   background: none;
   font-size: 16px;
   line-height: 52px;
@@ -429,7 +431,7 @@ img {
 
 .jumboinner h1{
 
-  color: #66fcf1;
+  color: $lightBlue;
   line-height: 50px;
   padding-top: 30px;
 }
@@ -461,9 +463,24 @@ img {
 // END START OF MAIN PAGE CONTENT
 
 .mainpagecontent {
-  padding-top: 1%;
+  background-color: $darkerGray;
+}
+
+// CONTENT BOXES
+#about-me {
+  background-color: $darkerGray;
+  padding-top: 3%;
+  padding-bottom: 8%;
+}
+
+#allprogress {
   background-color: $darkGray;
 }
+
+#previous-work {
+  background-color: $darkerGray;
+}
+// END CONTENT BOXES
 
 // PROGRESS/SKILLS
 .singleprogress h3 {
@@ -504,20 +521,16 @@ img {
 .left-col {
   text-align: right;
 }
-
 // END PREVIOUS WORK
 
 // CAROUSEL
-
 .carousel-inner > .item > img{
   width:640px;
   max-height:360px;
 }
-
 // END CAROUSEL
 
 // BACK TO TOP
-
 .cd-container {
   width: 90%;
   max-width: 768px;
