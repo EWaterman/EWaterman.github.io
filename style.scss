@@ -72,32 +72,19 @@ h1 {
   }
 }
 
-//h2 {
-//  font-size: 140%;
-//}
 
 h3 {
   font-size: 160%;
 }
-
-//h4 {
-//  font-size: 150%;
-//}
 
 @media (max-width: 800px) {
   /* Font size for narrow viewport */
   h1 {
     font-size: 150%;
   }
-  //h2 {
-  //  font-size: 100%;
-  //}
   h3 {
     font-size: 100%;
   }
-  //h4 {
-  //  font-size: 30px
-  //}
 }
 
 p {
@@ -501,6 +488,26 @@ img {
 }
 // END CONTENT BOXES
 
+// COLOURS
+
+.orange {
+  color: $orange;
+}
+
+.blue {
+  color: $blue;
+}
+
+.red {
+  color: $red;
+}
+
+.green  {
+  color: $green;
+}
+
+// END COLOURS
+
 // PROGRESS/SKILLS
 .singleprogress h3 {
   text-align: left;
@@ -523,10 +530,12 @@ img {
   //background-color: $lightGray;
 }
 
-#previous-work span {
-  font-weight: normal;
-  font-style: italic;
+#previous-work i {
   color: $green;
+}
+
+#previous-work h3 {
+  color: $blue;
 }
 
 .right-col, .right-col h3 {
