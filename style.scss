@@ -20,6 +20,7 @@ html {
 
 .contentbox {
   padding: 5% 7%;
+  min-height: 100vh;
 }
 
 .contentbox h1, h3, h4 {
@@ -65,28 +66,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 350%;
   a {
     color: inherit;
   }
 }
 
-h2 {
-  font-size: 3vw;
-}
+//h2 {
+//  font-size: 140%;
+//}
 
 h3 {
-  font-size: 2vw;
+  font-size: 160%;
 }
 
-h4 {
-  font-size: 1vw;
-  color: $gray;
+//h4 {
+//  font-size: 150%;
+//}
+
+@media (max-width: 800px) {
+  /* Font size for narrow viewport */
+  h1 {
+    font-size: 150%;
+  }
+  //h2 {
+  //  font-size: 100%;
+  //}
+  h3 {
+    font-size: 100%;
+  }
+  //h4 {
+  //  font-size: 30px
+  //}
 }
 
 p {
   margin: 15px 0;
-  color: $white;
+  color: inherit;
 }
 
 a {
@@ -316,21 +332,6 @@ img {
 }
 // END ANIMATES ALL DIFFERENT ATTRIBUTES
 
-.jumbo-col {
-  height: inherit;
-}
-
-.jumbo-col-text:hover {
-  background-color: $lightBlue;
-  color: #10131a;
-  text-decoration: none;
-}
-
-.jumbo-col-text:active, .jumbo-col-text:focus, .jumbo-col-text:visited {
-  text-decoration: none;
-  color: $white;
-}
-
 // DARKENS ELEMENTS ON HOVER
 .darken {
   background-color: rgba(0,0,0,0);
@@ -363,30 +364,50 @@ img {
   height: 100vh;
 }
 
-.jumbo-col-text {
-  position: absolute;
-  bottom: 10%;
-  left: 35%;
-  transform: translateX(-25%) translateY(-10%);
+.jumbo-col {
+  height: inherit;
+  width: 100%;
+  position: relative;
+  display: table;
+}
 
+.jumbo-col-text {
+  position: relative;
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.jumbo-col-btn {
   display: inline-block;
+  margin-bottom: 15%;
+
   min-height: 58px;
   padding: 0 22px;
   border: 2px solid $lightBlue;
   background: none;
   font-size: 16px;
   line-height: 52px;
-  color: #fff;
+  color: $white;
   letter-spacing: .25em;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
-  vertical-align: middle;
-  text-align: center;
   -webkit-appearance: none;
   -moz-appearance: none;
   -webkit-transition: background .4s, color .4s;
   transition: background .4s, color .4s;
+}
+
+.jumbo-col-btn:hover {
+  background-color: $lightBlue;
+  color: #10131a;
+  text-decoration: none;
+}
+
+.jumbo-col-btn:active, .jumbo-col-btn:focus, .jumbo-col-btn:visited {
+  text-decoration: none;
+  color: $white;
 }
 
 #jt-image1, #jt-image2, #jt-image3 {
@@ -469,8 +490,6 @@ img {
 // CONTENT BOXES
 #about-me {
   background-color: $darkerGray;
-  padding-top: 3%;
-  padding-bottom: 8%;
 }
 
 #allprogress {
@@ -549,6 +568,7 @@ img {
   width: 40px;
   border: 0 solid black;
   position: fixed;
+// TODO: maybe have in top center but just arrow and note that says back to top
   bottom: 40px;
   right: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);

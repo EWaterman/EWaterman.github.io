@@ -19,33 +19,41 @@ layout: default
 	<!-- TODO: add page turn symbol in top right that can click on to get to "source code" and do css stuff. -->
 	<div class="jumbotron">
 
-				<!--for vertical centering -->
-				<div class="jumbocontent">
-					<div class="jumboinner">
-						<h1>Evan Waterman</h1>
-						<hr width="50%">
-						<h3>Is many things. Click to find out more.</h3>
-					</div>
-				</div>
+		<!--for vertical centering -->
+		<div class="jumbocontent">
+			<div class="jumboinner">
+				<h1>Evan Waterman</h1>
+				<hr width="50%">
+				<h3>Is many things. Click to find out more.</h3>
+			</div>
+		</div>
 
-				<!-- TODO: Make a quick slide show animation of the three images. -->
-				<!-- TODO: Clicking on button makes image expand into scroll box containing all info for that section. -->
-				<div id="jt-image1" class="col-sm-4 col-md-4 grayscale animated">
-					<div class="jumbo-col">
-						<a class="jumbo-col-text" href="/personal">Hobbyist</a>
-					</div>
-				</div>
-				<div id="jt-image2" class="col-sm-4 col-md-4 grayscale animated">
-					<div class="jumbo-col">
-						<a class="jumbo-col-text" href="#mainpagewrapper">Full Stack Dev</a>
-					</div>
-				</div>
-				<div id="jt-image3" class="col-sm-4 col-md-4 grayscale animated">
-					<div class="jumbo-col">
-						<a class="jumbo-col-text" href="/travelblog">World Traveller</a>
-					</div>
+		<!-- TODO: Make a quick slide show animation of the three images. -->
+		<!-- TODO: Clicking on button makes image expand (and increase z level)  into a container with all info for that section. -->
+		<!-- TODO: Each section has own html file -->
+		<div id="jt-image1" class="col-sm-4 col-md-4 grayscale animated">
+			<div class ="jumbo-col">
+				<div class="jumbo-col-text">
+					<a class="jumbo-col-btn" href="/personal">Hobbyist</a>
 				</div>
 			</div>
+		</div>
+		<div id="jt-image2" class="col-sm-4 col-md-4 grayscale animated">
+			<div class ="jumbo-col">
+				<div class="jumbo-col-text">
+					<a class="jumbo-col-btn" href="#mainpagewrapper">Full Stack Dev</a>
+				</div>
+			</div>
+		</div>
+		<div id="jt-image3" class="col-sm-4 col-md-4 grayscale animated">
+			<div class ="jumbo-col">
+				<div class="jumbo-col-text">
+					<a class="jumbo-col-btn" href="/travelblog">World Traveller</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </header>
 
 <div class="mainpagewrapper" id="mainpagewrapper">
@@ -58,23 +66,22 @@ layout: default
 			<hr width="65%">
 			<br>
 			<div class="row">
-				<!-- TODO: Cut this down. Too much reading is boring!-->
 				<div class="right-col col-lg-offset-2 col-sm-8 col-md-8">
+					<!--TODO: look at dev sites motto sections-->
 					<p>
 						Hello! I'm Evan Waterman, a full stack developer currently studying Computer Science
-						at the University of British Columbia. I'm a passionate developer with experience in the
-						entire development process including UI/UX design, front-end development,
-						back-end development, database design and unit, integration and system testing.
+						at the University of British Columbia.
 						<br><br>
 						When it comes to code, I have a particular passion for three things:
 						<br>
 					</p>
 					<ul>
-						<li>Writing clear, concise code that can easily be picked up by newcomers to a project.</li>
-						<li>Unit functionality is key! Use default files and common methods avoids duplicate code, allowing for future changes to be quick and bug-free.</li>
-						<li>Optimize! Be efficient and have scalability in mind. If we expanded to 1,000 times the users could the servers support it? How about 100,000?</li>
+						<li>Writing <b>clear, concise code</b> that can easily be picked up by newcomers to a project.</li>
+						<li>Designing with <b>unit functionality</b> to create a simple, adaptable framework.</li>
+						<li><b>Optimization!</b> Be efficient and have scalability in mind.</li>
 					</ul>
 					<p>
+						<br>
 						Outside of my studies, I like to play video games
 						(<a href="https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic" target="_blank">Star Wars KoTOR</a>,
 						<a href="https://en.wikipedia.org/wiki/The_Talos_Principle" target="_blank">The Talos Principle</a>,
@@ -150,6 +157,8 @@ layout: default
 					</div>
 				</div>
 
+				<br>
+
 				<div class="col-sm-6 col-md-6">
 					<div class="singleprogress">
 						<h3>Back End Web Development</h3>
@@ -200,12 +209,15 @@ layout: default
 							</div>
 						</div>
 					</div>
+
+					<br>
+
 				</div>
 			</div>
 		</div>
 
 		<!-- TODO: ADD sumstacker (july 2015), cms (jan 2016)-->
-		<!-- TODO: add (expandable? or filters?) categories: front-end, back-end, full-stack, database-design, asset design/other-->
+		<!-- TODO: add (expandable) categories: front-end, back-end, full-stack, database-design, asset design/other-->
 		<div class="contentbox" id="previous-work">
 			<h1>Previous Work</h1>
 			<hr width="100%">
