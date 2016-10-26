@@ -340,6 +340,18 @@ img {
 }
 // END GRAYS OUT ELEMENTS ON HOVER
 
+// PAGE TURN
+
+// TODO: disable on mobile
+#page-turn {
+  position: absolute;
+  top: -1px;
+  right: -15px;
+  z-index: 200;
+}
+
+// END PAGE TURN
+
 // JUMBOTRON
 .jumbotron {
   position: fixed;
@@ -463,7 +475,7 @@ img {
 
 // START OF MAIN PAGE CONTENT
 .mainpagewrapper {
-  margin-top: 100vh;
+  //margin-top: 100vh;
   -moz-box-shadow: 0 -10px 30px #111;
   -webkit-box-shadow: 0 -10px 30px #111;
   box-shadow: 0 -10px 30px #111;
@@ -472,6 +484,45 @@ img {
 
 .mainpagecontent {
   background-color: $darkerGray;
+}
+
+// CONTENT BTN STUFF
+
+#dev-content, #travel-content, #personal-content, #css-content{
+  display:none;
+}
+
+#dev-close:focus, #travel-close:focus, #personal-close:focus, #turn-btn:focus, #css-close:focus{
+  outline:none;
+}
+
+.close:hover{
+  opacity: 1;
+}
+
+.close {
+  position: fixed;
+  right: 2vw;
+  top: 5vh;
+  z-index: 100;
+  opacity: 0.5;
+
+  -webkit-filter: drop-shadow(2px 2px 0 black)
+  drop-shadow(-2px 2px 0 black)
+  drop-shadow(2px -2px 0 black)
+  drop-shadow(-2px -2px 0 black);
+
+  filter: drop-shadow(2px 2px 0 black)
+  drop-shadow(-2px 2px 0 black)
+  drop-shadow(2px -2px 0 black)
+  drop-shadow(-2px -2px 0 black);
+}
+
+// END CONTENT BTN STUFF
+
+#csspagewrapper {
+  background: $white url("/images/css.PNG") no-repeat top left;
+  height: 100vh;
 }
 
 // CONTENT BOXES

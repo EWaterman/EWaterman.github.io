@@ -20,38 +20,36 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+    <!-- Loader (has to be at top) -->
+    <script src="/js/loader.js"></script>
+
   </head>
 
   <body>
 
     <!--[if lt IE 7]>
-    <div id="content" style="margin-top:100px; text-align: center;">
+    <div id="IEcheck" style="margin-top:100px; text-align: center;">
       <h2>HI THERE!</h2>
       <p>It looks like you have stumbled across my website on a non compatible browser. Please download an awesome browser (I suggest <a href="http://www.mozilla.org/en-US/firefox">Firefox</a> or <a href="https://www.google.com/intl/en/chrome/browser/">Chome</a>) Then revisit my site so you can view it as intended.<br> Otherwise just contact me at <a href="mailto:evanjwaterman@gmail.com">:evanjwaterman@gmail.com</a>.</p>
     </div>
     <![endif]-->
+
+    <!-- Loader (has to be at top) -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+
+    </div>
 
     <!-- Container for page content. The content of each "child" page resides here -->
     <div id="main" role="main" class="contentcontainer">
       {{ content }}
     </div>
 
-    <!-- Footer -->
-    <div class="wrapper-footer" id="contact">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-          <br>
-          <br>
-          made by Evan Waterman
-          <br>
-          <span style="font-size:0.6em;">HTML5 | CSS3 | JavaScript | Bootstrap | jQuery</span>
-        </footer>
-      </div>
-    </div>
-
     <!--Back to Top-->
-    <a href="#0" class="cd-top">Top</a>
+    <!--<a href="#0" class="cd-top">Top</a>-->
 
     {% include analytics.html %}
 
@@ -62,7 +60,16 @@
     <script src="/js/smoothscroll.js"></script>
 
     <!-- Back to Top -->
-    <script src="/js/main.js"></script>
+    <!--<script src="/js/to-top.js"></script>-->
+
+    <!-- All button press results -->
+    <script src="/js/on-btn-press.js"></script>
+
+    <!-- Dynamic Header -->
+    <!--<script src="/js/dynamic-header.js"></script>-->
+
+    <!--Background live update -->
+    <!--<script src="/js/bg-liveupdate.js"></script>-->
 
   </body>
 </html>
