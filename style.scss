@@ -19,17 +19,17 @@ html {
 }
 
 .contentbox {
-  padding: 5% 7%;
-  min-height: 100vh;
-}
+  padding: 3% 7%;
+  overflow:hidden;
 
-.contentbox h1, h3, h4 {
-  color: $white;
-  line-height: 0.8;
-  text-align: center;
+  h1, h3, h4 {
+    color: $white;
+    line-height: 1.0;
+    text-align: center;
 
-  @include mobile {
-    line-height: 0.7;
+    @include mobile {
+      line-height: 1.7;
+    }
   }
 }
 
@@ -235,80 +235,51 @@ img {
   }
 }
 
-//nav {
-//  float: right;
-//  //margin-top: 23px; // @TODO: Vertically middle align
-//  font-family: $helveticaNeue;
-//  font-size: 18px;
+// TEXT BOX FOR EDITING BG COLOR
+// .css_editor {
+//  background-color: $white;
+//  background-size: 100% 100%;
+//  background-blend-mode: multiply;
 //
-//  @include mobile {
-//    float: none;
-//    margin-top: 9px;
-//    display: block;
-//    font-size: 16px;
-//  }
-//
-//  a {
-//    margin-left: 20px;
-//    color: $darkGray;
-//    text-align: right;
-//    font-weight: 300;
-//    letter-spacing: 1px;
+//  h2 {
+//    line-height: 1.0;
+//    font-weight: normal;
+//    color: $lighterGray;
+//    font-size: 2vw;
 //
 //    @include mobile {
-//      margin: 0 10px;
-//      color: $blue;
+//      line-height: 0.7;
 //    }
 //  }
+//
+//  b {
+//    color: #edf06c;
+//  }
+//
+//  strong {
+//    color: chartreuse;
+//  }
+// }
+//
+//.css_editor.black {
+//  background: $black;
+//  transition: background 2s ease 0s;
+//  -webkit-transition: background 2s ease 0s; /* Safari */
 //}
-
-
-
-// TEXT BOX FOR EDITING BG COLOR
- .css_editor {
-  background-color: $white;
-  background-size: 100% 100%;
-  background-blend-mode: multiply;
- }
-
-.css_editor.black {
-  background: $black;
-  transition: background 2s ease 0s;
-  -webkit-transition: background 2s ease 0s; /* Safari */
-}
-
-.css_editor.white {
-  background: $gray url("/images/tmd.jpg") no-repeat center left;
-  transition: background 2s ease 0s;
-  -webkit-transition: background 2s ease 0s; /* Safari */
-}
-
-.text_editor {
-  background-color: transparent;
-  color: $lightGray;
-  font-weight: bold;
-  width: 10vw;
-  height: 7vh;
-}
-
-.css_editor h2 {
-  line-height: 1.0;
-  font-weight: normal;
-  color: $lighterGray;
-  font-size: 2vw;
-
-  @include mobile {
-    line-height: 0.7;
-  }
-}
-
-.css_editor strong {
-  color: chartreuse;
-}
-
-.css_editor b {
-  color: #edf06c;
-}
+//
+//.css_editor.white {
+//  background: $gray url("/images/tmd.jpg") no-repeat center left;
+//  transition: background 2s ease 0s;
+//  -webkit-transition: background 2s ease 0s; /* Safari */
+//}
+//
+//.text_editor {
+//  background-color: transparent;
+//  color: $lightGray;
+//  font-weight: bold;
+//  width: 10vw;
+//  height: 7vh;
+//}
 // END TEXT BOX FOR EDITING BG COLOR
 
 // ANIMATES ALL DIFFERENT ATTRIBUTES
@@ -340,27 +311,102 @@ img {
 }
 // END GRAYS OUT ELEMENTS ON HOVER
 
+// MENU
+.menu, .menu-mobile {
+  display:block;
+  width:100px;
+  height:100px;
+  background-color:transparent;
+  border-radius:50%;
+  z-index:20;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+}
+
+.menu {
+  position:fixed;
+  top: 15px;
+  left: 15px;
+}
+
+.menu-mobile {
+  position:relative;
+  display: inline-block;
+}
+
+.menu-button1, .menu-button2, .menu-button3 {
+  width: 60%;
+  height: 60%;
+  background-color: $gray;
+  border-radius:50%;
+  position: absolute;
+  color: $white;
+  text-align: center;
+  line-height: 70px;
+  top: 25%;
+  left: 25%;
+  z-index: 10;
+
+  a {
+    color: $white;
+  }
+}
+
+.menu-button1 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.menu-button2 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+}
+
+.menu-button3 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
+}
+
+.mask {
+  width:100px;
+  height:100px;
+  background: $green;
+  border-radius:50%;
+  position:absolute;
+  z-index:21;
+  color:$white;
+  text-align:center;
+  line-height:120px;
+  cursor:pointer;
+}
+
+// END MENU
+
 // PAGE TURN
 
-// TODO: disable on mobile
 #page-turn {
   position: absolute;
   top: -1px;
   right: -15px;
-  z-index: 200;
+  //z-index: 100;
 }
 
 // END PAGE TURN
 
 // JUMBOTRON
-.jumbotron {
+.jumbotron, .mainpage-mobile {
   position: fixed;
   padding: 0;
   width: 100vw;
   top: 0;
-  z-index: -1;
   overflow: hidden;
   height: 100vh;
+}
+
+.mainpage-mobile {
+  text-align: center;
+}
+
+.mainpage-text-mobile {
+  margin-top: 10%;
 }
 
 .jumbo-col {
@@ -423,7 +469,6 @@ img {
 }
 
 #jt-image3 {
-  //background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat center left;
   background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
 }
 
@@ -441,82 +486,70 @@ img {
   vertical-align: middle;
 
   pointer-events: none;
-  //margin-top: 35vh;
-  //margin-bottom: 65vh;
   letter-spacing: .25em;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
-}
 
-.jumboinner h1{
+  h1 {
+    color: $lightBlue;
+    line-height: 50px;
+    padding-top: 30px;
+  }
 
-  color: $lightBlue;
-  line-height: 50px;
-  padding-top: 30px;
-}
+  h2 {
 
-.jumboinner h2 {
-  color: $white; //#58b158;
-  line-height: 0.1;
+    color: $white; //#58b158;
+    line-height: 0.1;
+  }
+
 }
 // END JUMBOTRON
 
-.video-background {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: 1;
-  width:100%;
-}
-
-// START OF MAIN PAGE CONTENT
-.mainpagewrapper {
-  //margin-top: 100vh;
-  -moz-box-shadow: 0 -10px 30px #111;
-  -webkit-box-shadow: 0 -10px 30px #111;
-  box-shadow: 0 -10px 30px #111;
-}
-// END START OF MAIN PAGE CONTENT
-
 .mainpagecontent {
+
   background-color: $darkerGray;
+  //background-color: $black;
+  //-moz-box-shadow: 0 -10px 30px #111;
+  //-webkit-box-shadow: 0 -10px 30px #111;
+  //box-shadow: 0 -10px 30px #111;
 }
 
 // CONTENT BTN STUFF
 
-#dev-content, #travel-content, #personal-content, #css-content{
-  display:none;
-}
-
-#dev-close:focus, #travel-close:focus, #personal-close:focus, #turn-btn:focus, #css-close:focus{
-  outline:none;
-}
-
-.close:hover{
-  opacity: 1;
-}
-
-.close {
-  position: fixed;
-  right: 2vw;
-  top: 5vh;
-  z-index: 100;
-  opacity: 0.5;
-
-  -webkit-filter: drop-shadow(2px 2px 0 black)
-  drop-shadow(-2px 2px 0 black)
-  drop-shadow(2px -2px 0 black)
-  drop-shadow(-2px -2px 0 black);
-
-  filter: drop-shadow(2px 2px 0 black)
-  drop-shadow(-2px 2px 0 black)
-  drop-shadow(2px -2px 0 black)
-  drop-shadow(-2px -2px 0 black);
-}
+//#dev-content, #travel-content, #personal-content, #css-content{
+//  display:none;
+//}
+//
+//#css-content{
+//  display:none;
+//  z-index: 200;
+//}
+//
+//#dev-close:focus, #travel-close:focus, #personal-close:focus, #turn-btn:focus, #css-close:focus{
+//  outline:none;
+//}
+//
+//.close:hover{
+//  opacity: 1;
+//}
+//
+//.close {
+//  position: fixed;
+//  right: 2vw;
+//  top: 5vh;
+//  opacity: 0.5;
+//
+//  -webkit-filter: drop-shadow(2px 2px 0 black)
+//  drop-shadow(-2px 2px 0 black)
+//  drop-shadow(2px -2px 0 black)
+//  drop-shadow(-2px -2px 0 black);
+//
+//  filter: drop-shadow(2px 2px 0 black)
+//  drop-shadow(-2px 2px 0 black)
+//  drop-shadow(2px -2px 0 black)
+//  drop-shadow(-2px -2px 0 black);
+//}
 
 // END CONTENT BTN STUFF
 
@@ -526,18 +559,60 @@ img {
 }
 
 // CONTENT BOXES
-#about-me {
-  background-color: $darkerGray;
-}
-
 #allprogress {
   background-color: $darkGray;
 }
 
-#previous-work {
+#about-me, #code-passion, #previous-work {
   background-color: $darkerGray;
 }
 // END CONTENT BOXES
+
+// ABOUT ME
+#hello {
+  margin-top: 5%;
+}
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 150%;
+  }
+
+  span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+
+  span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  span:before, span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: $white;
+  }
+}
+
+.passions {
+  margin-top: 15%;
+}
+
+#passion-h {
+  margin-top: 10%;
+}
+
+// END ABOUT ME
 
 // COLOURS
 
@@ -578,104 +653,96 @@ img {
 
 // PREVIOUS WORK
 #previous-work {
-  //background-color: $lightGray;
-}
 
-#previous-work i {
-  color: $green;
-}
+  i {
+    color: $green;
+  }
 
-#previous-work h3 {
-  color: $blue;
+  h3 {
+    color: $blue;
+  }
 }
 
 .right-col, .right-col h3 {
   text-align: left;
 }
 
-//.right-col h3 {
-//  text-align: left;
-//}
-
 .left-col {
   text-align: right;
 }
+
+#previous-work-image {
+  height: 400px;
+  background: url("/images/work/hackBD.jpg") no-repeat center center;
+}
 // END PREVIOUS WORK
 
-// CAROUSEL
-.carousel-inner > .item > img{
-  width:640px;
-  max-height:360px;
-}
-// END CAROUSEL
-
 // BACK TO TOP
-.cd-container {
-  width: 90%;
-  max-width: 768px;
-  margin: 2em auto;
-}
-.cd-container::after {
-  /* clearfix */
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.cd-top {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  border: 0 solid black;
-  position: fixed;
-// TODO: maybe have in top center but just arrow and note that says back to top
-  bottom: 40px;
-  right: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  /* image replacement properties */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  background: rgba(232, 98, 86, 0.8) url("/images/cd-top-arrow.svg") no-repeat center 50%;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
-}
-.cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
-  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-  -moz-transition: opacity .3s 0s, visibility 0s 0s;
-  transition: opacity .3s 0s, visibility 0s 0s;
-}
-.cd-top.cd-is-visible {
-  /* the button becomes visible */
-  border: 5px solid black;
-  visibility: visible;
-  opacity: 1;
-}
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
-}
-.cd-top:hover {
-  background-color: #e86256;
-  opacity: 1;
-}
-@media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 60px;
-    width: 60px;
-    right: 30px;
-    bottom: 30px;
-  }
-}
+//.cd-container {
+//  width: 90%;
+//  max-width: 768px;
+//  margin: 2em auto;
+//}
+//.cd-container::after {
+//  /* clearfix */
+//  content: '';
+//  display: table;
+//  clear: both;
+//}
+//
+//.cd-top {
+//  display: inline-block;
+//  height: 40px;
+//  width: 40px;
+//  border: 0 solid black;
+//  position: fixed;
+//  bottom: 40px;
+//  right: 10px;
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+//  /* image replacement properties */
+//  overflow: hidden;
+//  text-indent: 100%;
+//  white-space: nowrap;
+//  background: rgba(232, 98, 86, 0.8) url("/images/cd-top-arrow.svg") no-repeat center 50%;
+//  visibility: hidden;
+//  opacity: 0;
+//  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+//  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+//  transition: opacity .3s 0s, visibility 0s .3s;
+//}
+//.cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
+//  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+//  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+//  transition: opacity .3s 0s, visibility 0s 0s;
+//}
+//.cd-top.cd-is-visible {
+//  /* the button becomes visible */
+//  border: 5px solid black;
+//  visibility: visible;
+//  opacity: 1;
+//}
+//.cd-top.cd-fade-out {
+//  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+//  opacity: .5;
+//}
+//.cd-top:hover {
+//  background-color: #e86256;
+//  opacity: 1;
+//}
+//@media only screen and (min-width: 768px) {
+//  .cd-top {
+//    right: 20px;
+//    bottom: 20px;
+//  }
+//}
+//@media only screen and (min-width: 1024px) {
+//  .cd-top {
+//    height: 60px;
+//    width: 60px;
+//    right: 30px;
+//    bottom: 30px;
+//  }
+//}
 
 // END BACK TO TOP
 
@@ -727,6 +794,26 @@ footer {
   text-align: center;
 }
 // END FOOTER
+
+// PERSONAL INTERESTS
+
+#personal-interests {
+  //background: $black url("/images/interests/boarding.jpg") no-repeat center right;
+}
+
+#personal-biking {
+  background: $black url("/images/interests/bike3.png") no-repeat top right;
+}
+
+#personal-tmd {
+  background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
+}
+
+#personal-comic {
+  //background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
+}
+
+// END PERSONAL INTERESTS
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

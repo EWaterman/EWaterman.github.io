@@ -1,0 +1,77 @@
+---
+layout: page
+title: World Traveller
+permalink: /travel/
+---
+
+
+<!--TODO: add about section-->
+
+<!-- Wrapper for Travel content -->
+<div class="mainpagecontent" id="travel-content">
+
+	<div class="contentbox" id="travel-blog">
+		<h1>Travel Blog</h1>
+		<hr width="50%">
+		<h3>A look at all the places I've visited.</h3>
+		<br>
+		<br>
+
+		<div class="posts">
+			{% for post in site.posts %}
+			<article class="post">
+
+				<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+				<div class="entry">
+					{{ post.excerpt }}
+				</div>
+
+				<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+			</article>
+			{% endfor %}
+		</div>
+	</div>
+
+	<div class="contentbox" id="travel-pictures">
+		<h1>My Timeline</h1>
+		<hr width="50%">
+		<br>
+		<div class="row">
+			<h3>Summer 2016 - Trip across BC and Alberta</h3>
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/hike.jpg" alt="Hike">
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/skyline.jpg" alt="Skyline">
+			</div>
+		</div>
+
+		<div class="row">
+			<h3>Summer 2014 - Trip to south-east Asia</h3>
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/atv.jpg" alt="ATV">
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/elephant.jpg" alt="Elephant">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/falls.jpg" alt="Falls">
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/hk.jpg" alt="Hong Kong">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/river.jpg" alt="River">
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<img src="/images/timeline/temple.jpg" alt="Temple">
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -15,7 +15,10 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.css" />
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -57,7 +60,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Smooth scroll to page anchors -->
-    <script src="/js/smoothscroll.js"></script>
+    <!--<script src="/js/smoothscroll.js"></script>-->
 
     <!-- Back to Top -->
     <!--<script src="/js/to-top.js"></script>-->
@@ -65,8 +68,24 @@
     <!-- All button press results -->
     <script src="/js/on-btn-press.js"></script>
 
-    <!-- Dynamic Header -->
-    <!--<script src="/js/dynamic-header.js"></script>-->
+    <!-- Menu Button -->
+    <script src="/js/menu.js"></script>
+
+    <!-- Custom Scrollbar -->
+    <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+      (function($){
+        $(window).on("load",function(){
+          $("#scrollbar").mCustomScrollbar({
+            theme:"light-thick",
+            setHeight: 400,
+            autoExpandScrollbar: true
+            //autoHideScrollbar: true
+            //snapAmount: integer
+          });
+        });
+      })(jQuery);
+    </script>
 
     <!--Background live update -->
     <!--<script src="/js/bg-liveupdate.js"></script>-->
