@@ -23,9 +23,7 @@ html {
   overflow:hidden;
 
   h1, h3, h4 {
-    color: $white;
     line-height: 1.0;
-    text-align: center;
 
     @include mobile {
       line-height: 1.7;
@@ -282,14 +280,6 @@ img {
 //}
 // END TEXT BOX FOR EDITING BG COLOR
 
-// ANIMATES ALL DIFFERENT ATTRIBUTES
-.animated {
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-// END ANIMATES ALL DIFFERENT ATTRIBUTES
-
 // DARKENS ELEMENTS ON HOVER
 .darken {
   background-color: rgba(0,0,0,0);
@@ -458,6 +448,10 @@ img {
 #jt-image1, #jt-image2, #jt-image3 {
   height: inherit;
   padding: 0;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 #jt-image1 {
@@ -605,7 +599,8 @@ img {
 }
 
 .passions {
-  margin-top: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #passion-h {
@@ -671,9 +666,30 @@ img {
   text-align: right;
 }
 
+.prev-work-short {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  //margin-left: 0;
+  //margin-right: 0;
+}
+
+.prev-work-short:hover {
+  background-color: $darkGray;
+  cursor: pointer;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.prev-work-detailed {
+  display: none;
+}
+
 #previous-work-image {
-  height: 400px;
-  background: url("/images/work/hackBD.jpg") no-repeat center center;
+  height: 500px;
+  //background: url("/images/work/hackBD.jpg") no-repeat center center;
 }
 // END PREVIOUS WORK
 

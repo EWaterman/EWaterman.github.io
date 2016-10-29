@@ -9,9 +9,7 @@
     {% include meta.html %}
 
     <!-- This fixes IE HTML5 problems -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -76,12 +74,12 @@
     <script>
       (function($){
         $(window).on("load",function(){
-          $("#scrollbar").mCustomScrollbar({
+          $(".scrollbar").mCustomScrollbar({
             theme:"light-thick",
-            setHeight: 400,
-            autoExpandScrollbar: true
-            //autoHideScrollbar: true
-            //snapAmount: integer
+            setHeight: 500,
+            autoExpandScrollbar: true,
+            scrollInertia: 100
+            //snapAmount: 200
           });
         });
       })(jQuery);

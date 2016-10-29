@@ -1,47 +1,5 @@
 // File for all button presses that show page content
 
-// // Dev Content
-// $('#dev-btn').click(function() {
-//     $('#dev-content').toggle('slow', function() {
-//         // Animation complete.
-//     });
-// });
-//
-// // Close Dev Content
-// $('#dev-close').click(function() {
-//     $('#dev-content').toggle('slow', function() {
-//         // Animation complete.
-//     });
-// });
-//
-// // Travel Content
-// $('#travel-btn').click(function() {
-//     $('#travel-content').toggle('slow', function() {
-//         // Animation complete.
-//     });
-// });
-//
-// // Close Travel Content
-// $('#travel-close').click(function() {
-//     $('#travel-content').toggle('slow', function() {
-//         // Animation complete.
-//     });
-// });
-//
-// // Personal Content
-// $('#personal-btn').click(function() {
-//     $('#personal-content').toggle('slow', function() {
-//         // Animation complete.
-//     });
-// });
-//
-// // Close Personal Content
-// $('#personal-close').click(function() {
-//     $('#personal-content').toggle('slow', function() {
-//         // Animation complete.
-//     });
-// });
-
 // CSS Content
 $('#turn-btn').click(function() {
     $('#css-content').toggle('slow', function() {
@@ -52,6 +10,17 @@ $('#turn-btn').click(function() {
 // Close CSS Content
 $('#css-close').click(function() {
     $('#css-content').toggle('slow', function() {
+        // Animation complete.
+    });
+});
+
+// Previous Work Details
+$('.prev-work-short').click(function() {
+    var target = "#" + $(this).attr('id') + "-info";
+    $(target).show('slow', function() {
+        // Animation complete.
+    });
+    $(target).siblings("div").hide('slow', function() {
         // Animation complete.
     });
 });
