@@ -30,7 +30,10 @@ $(document).ready(function() {
     var active5 = false;
     var active6 = false;
 
-    $('.menu-mobile').on('touchstart', function() {
+    $('.menu-mobile').on('touchstart mousedown', function(e) {
+
+        // Stops android from counting both touchstart and mousedown on mobile
+        e.preventDefault();
 
         if (!active4) $(this).find('.menu-button1').css({'background-color': 'gray', 'transform': 'translate(-90px,90px)'});
         else $(this).find('.menu-button1').css({'background-color': 'dimGray', 'transform': 'none'});

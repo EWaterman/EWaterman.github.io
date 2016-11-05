@@ -19,6 +19,7 @@ package.json
 .idea/codeStyleSettings.xml
 .idea/inspectionProfiles/
 .idea/workspace.xml
+.idea/modules.xml
 .idea/tasks.xml
 .idea/dictionaries
 .idea/vcs.xml
