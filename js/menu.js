@@ -1,14 +1,12 @@
 // Menu Button
 // Designed by Christophe Kirsch: http://codepen.io/chriskirsch/full/XJVEag/
-// TODO: add text and make transparent/white on click
-// TODO: make buttons fall straight down on desktop
 $(document).ready(function() {
 
     var active1 = false;
     var active2 = false;
     var active3 = false;
 
-    $('.menu').on('mousedown', function() {
+    $('.menu').click(function() {
 
         if (!active1) $(this).find('.menu-button1').css({'background-color': 'gray', 'transform': 'translate(0px,120px)'});
         else $(this).find('.menu-button1').css({'background-color': 'dimGray', 'transform': 'none'});
@@ -30,10 +28,7 @@ $(document).ready(function() {
     var active5 = false;
     var active6 = false;
 
-    $('.menu-mobile').on('touchstart mousedown', function(e) {
-
-        // Stops android from counting both touchstart and mousedown on mobile
-        e.preventDefault();
+    $('.menu-mobile').click(function() {
 
         if (!active4) $(this).find('.menu-button1').css({'background-color': 'gray', 'transform': 'translate(-90px,90px)'});
         else $(this).find('.menu-button1').css({'background-color': 'dimGray', 'transform': 'none'});
