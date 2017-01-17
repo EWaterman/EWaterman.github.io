@@ -20,25 +20,3 @@ $(document).ready(function() {
 
     });
 });
-
-// Mobile version for homepage
-$(document).ready(function() {
-
-    var active4 = false;
-    var active5 = false;
-    var active6 = false;
-
-    $('.menu-mobile').click(function() {
-
-        if (!active4) $(this).find('.menu-button1').css({'background-color': 'gray', 'transform': 'translate(-90px,90px)'});
-        else $(this).find('.menu-button1').css({'background-color': 'dimGray', 'transform': 'none'});
-        if (!active5) $(this).find('.menu-button2').css({'background-color': 'gray', 'transform': 'translate(0px,120px)'});
-        else $(this).find('.menu-button2').css({'background-color': 'darkGray', 'transform': 'none'});
-        if (!active6) $(this).find('.menu-button3').css({'background-color': 'gray', 'transform': 'translate(90px,90px)'});
-        else $(this).find('.menu-button3').css({'background-color': 'silver', 'transform': 'none'});
-        active4 = !active4;
-        active5 = !active5;
-        active6 = !active6;
-
-    });
-});

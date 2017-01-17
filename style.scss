@@ -40,7 +40,6 @@ body {
   text-align: center;
   background: $darkGray;
   font: 18px/1.4 $helvetica;
-  color: $white;
 }
 
 .container {
@@ -51,7 +50,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -233,6 +231,457 @@ img {
   }
 }
 
+// ======================================================
+// ================== START MY STUFF!! ==================
+// ======================================================
+
+// GENERAL STUFF
+//  -DARKENS ELEMENTS ON HOVER
+//  -GRAYS OUT ELEMENTS ON HOVER
+//  -PAGE NAVIGATOR
+//  -COLORS
+
+// HOMEPAGE
+
+// DEV PAGE
+//  -CONTENT BOXES
+//  -ABOUT ME
+//  -PROGRESS BOXES
+
+// TODO: finish this
+
+// ======================================================
+// =================== GENERAL STUFF ====================
+// ======================================================
+
+// =========== DARKENS ELEMENTS ON HOVER ================
+.darken {
+  background-color: rgba(0,0,0,0);
+}
+.darken:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+// ========== END DARKENS ELEMENTS ON HOVER ==============
+
+// ========== GRAYS OUT ELEMENTS ON HOVER ================
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+// ========== END GRAYS OUT ELEMENTS ON HOVER =============
+
+// ================= PAGE NAVIGATOR =======================
+.menu {
+  display:block;
+  width:100px;
+  height:100px;
+  background-color:transparent;
+  border-radius:50%;
+  z-index:20;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+}
+
+.menu {
+  position:fixed;
+  top: 15px;
+  left: 15px;
+}
+
+.menu-button1, .menu-button2, .menu-button3 {
+  width: 60%;
+  height: 60%;
+  background-color: $gray;
+  border-radius:50%;
+  position: absolute;
+  color: $white;
+  text-align: center;
+  line-height: 70px;
+  top: 25%;
+  left: 25%;
+  z-index: 10;
+
+  a {
+    color: $white;
+  }
+}
+
+.menu-button1 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.menu-button2 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+}
+
+.menu-button3 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
+}
+
+.mask {
+  width:100px;
+  height:100px;
+  background: $green;
+  border-radius:50%;
+  position:absolute;
+  z-index:21;
+  color:$white;
+  text-align:center;
+  line-height:120px;
+  cursor:pointer;
+}
+
+// ================== END PAGE NAVIGATOR ==================
+
+// ======================= COLOURS ========================
+.orange {
+  color: $orange;
+}
+
+.blue {
+  color: $blue;
+}
+
+.red {
+  color: $red;
+}
+
+.green  {
+  color: $green;
+}
+// ===================== END COLOURS =====================
+
+// =========================================================
+// ===================== HOMEPAGE ==========================
+// =========================================================
+#homepage-wrapper {
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+
+  background-color: $homepageBg;
+  color: $black;
+}
+
+@media only screen and (orientation: landscape) {
+  .homepage-title {
+    position: fixed;
+    z-index: 100;
+    pointer-events: none;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .homepage-buttons {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  //kill all column related stuff
+  [class*="col-"] {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .homepage-image {
+    vertical-align: bottom;
+    display: table-cell;
+  }
+
+  .homepage-buttons {
+    margin: 0 10%;
+  }
+
+  .homepage-btn {
+    width: 80%;
+  }
+}
+
+.homepage-btn {
+  display: block;
+  margin-top: 30px;
+  min-height: 58px;
+  padding: 0 22px;
+  border: 2px solid $black;
+  background: none;
+  font-size: 16px;
+  line-height: 52px;
+  color: $black;
+  letter-spacing: .25em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
+}
+
+.homepage-btn:hover {
+  background-color: $black;
+  color: $homepageBg;
+  text-decoration: none;
+}
+
+.homepage-btn:active, .homepage-btn:focus {
+  text-decoration: none;
+  color: $homepageBg;
+}
+
+#jt-image1, #jt-image2, #jt-image3 {
+  height: inherit;
+  padding: 0;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#jt-image1 {
+  background: $gray url("/images/interests/boarding.jpg") no-repeat 80% 50%;
+}
+
+#jt-image2 {
+  background: $darkGray url("/images/work/hackBD.jpg") no-repeat 60% 40%;
+}
+
+#jt-image3 {
+  background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
+}
+// ====================== END HOMEPAGE =====================
+
+// =========================================================
+// ===================== DEV PAGE ==========================
+// =========================================================
+#dev-content {
+  color: $white;
+}
+
+// ====================== CONTENT BOXES =====================
+#allprogress {
+  background-color: $darkGray;
+}
+
+#about-me, #code-passion, #previous-work {
+  background-color: $darkerGray;
+}
+// =================== END CONTENT BOXES =====================
+
+// ====================== ABOUT ME ===========================
+#hello {
+  margin-top: 5%;
+}
+
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 150%;
+  }
+
+  span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+
+  span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  span:before, span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: $white;
+  }
+}
+
+.passions {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#passion-h {
+  margin-top: 10%;
+}
+// ===================== END ABOUT ME ======================
+
+// ================== PROGRESS/SKILLS ======================
+.singleprogress {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.progress {
+  background-color: $darkGray;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+}
+
+.progress-bar {
+  padding-left: 20px;
+  text-align: left;
+}
+// ================ END PROGRESS/SKILLS ===================
+
+// =================== PREVIOUS WORK ======================
+#previous-work {
+
+  i {
+    color: $green;
+  }
+
+  h3 {
+    color: $blue;
+  }
+}
+
+.right-col, .right-col h3 {
+  text-align: left;
+}
+
+.left-col {
+  text-align: right;
+}
+
+.prev-work-short {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  //margin-left: 0;
+  //margin-right: 0;
+}
+
+.prev-work-short:hover {
+  background-color: $darkGray;
+  cursor: pointer;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.prev-work-detailed {
+  display: none;
+}
+
+#previous-work-image {
+  height: 500px;
+}
+// ==================== END PREVIOUS WORK ====================
+
+// ===========================================================
+// ========================= FOOTER ==========================
+// ===========================================================
+.wrapper-footer {
+  position: relative;
+  background: $gray url("/images/dark_texture.jpg") repeat;
+}
+
+footer {
+  color: #6d6d6d;
+  padding: 20px 0;
+  text-align: center;
+}
+// ======================= END FOOTER ========================
+
+// ===========================================================
+// ==================== PERSONAL INTERESTS ===================
+// ===========================================================
+#personal-content{
+  color: $white;
+}
+
+#personal-biking {
+  background: $black url("/images/interests/bike3.png") no-repeat top right;
+}
+
+#personal-tmd {
+  background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
+}
+
+#personal-comic {
+  //background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
+}
+// =================== END PERSONAL INTERESTS ================
+
+// ===========================================================
+// ========================== TRAVEL =========================
+// ===========================================================
+#travel-content{
+  color: $white;
+}
+
+
+// TODO: put this stuff in ----------------------------------------------------------------------
+
+
+// PAGE TURN
+//#page-turn {
+//  position: absolute;
+//  top: -1px;
+//  right: -15px;
+//  z-index: 100;
+//}
+// END PAGE TURN
+
+// CONTENT BTN STUFF
+//#dev-content, #travel-content, #personal-content, #css-content{
+//  display:none;
+//}
+//
+//#css-content{
+//  display:none;
+//  z-index: 200;
+//}
+//
+//#dev-close:focus, #travel-close:focus, #personal-close:focus, #turn-btn:focus, #css-close:focus{
+//  outline:none;
+//}
+//
+//.close:hover{
+//  opacity: 1;
+//}
+//
+//.close {
+//  position: fixed;
+//  right: 2vw;
+//  top: 5vh;
+//  opacity: 0.5;
+//
+//  -webkit-filter: drop-shadow(2px 2px 0 black)
+//  drop-shadow(-2px 2px 0 black)
+//  drop-shadow(2px -2px 0 black)
+//  drop-shadow(-2px -2px 0 black);
+//
+//  filter: drop-shadow(2px 2px 0 black)
+//  drop-shadow(-2px 2px 0 black)
+//  drop-shadow(2px -2px 0 black)
+//  drop-shadow(-2px -2px 0 black);
+//}
+
+// END CONTENT BTN STUFF
+
+//#csspagewrapper {
+//  background: $white url("/images/css.PNG") no-repeat top left;
+//  height: 100vh;
+//}
+
 // TEXT BOX FOR EDITING BG COLOR
 // .css_editor {
 //  background-color: $white;
@@ -280,493 +729,14 @@ img {
 //}
 // END TEXT BOX FOR EDITING BG COLOR
 
-// DARKENS ELEMENTS ON HOVER
-.darken {
-  background-color: rgba(0,0,0,0);
-}
-.darken:hover {
-  background-color: rgba(0,0,0,0.5);
-}
-// END DARKENS ELEMENTS ON HOVER
-
-// GRAYS OUT ELEMENTS ON HOVER
-.grayscale {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-.grayscale:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-// END GRAYS OUT ELEMENTS ON HOVER
-
-// MENU
-.menu, .menu-mobile {
-  display:block;
-  width:100px;
-  height:100px;
-  background-color:transparent;
-  border-radius:50%;
-  z-index:20;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-}
-
-.menu {
-  position:fixed;
-  top: 15px;
-  left: 15px;
-}
-
-.menu-mobile {
-  position:relative;
-  display: inline-block;
-}
-
-.menu-button1, .menu-button2, .menu-button3 {
-  width: 60%;
-  height: 60%;
-  background-color: $gray;
-  border-radius:50%;
-  position: absolute;
-  color: $white;
-  text-align: center;
-  line-height: 70px;
-  top: 25%;
-  left: 25%;
-  z-index: 10;
-
-  a {
-    color: $white;
-  }
-}
-
-.menu-button1 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-}
-
-.menu-button2 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
-}
-
-.menu-button3 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
-}
-
-.mask {
-  width:100px;
-  height:100px;
-  background: $green;
-  border-radius:50%;
-  position:absolute;
-  z-index:21;
-  color:$white;
-  text-align:center;
-  line-height:120px;
-  cursor:pointer;
-}
-
-// END MENU
-
-// PAGE TURN
-
-#page-turn {
-  position: absolute;
-  top: -1px;
-  right: -15px;
-  //z-index: 100;
-}
-
-// END PAGE TURN
-
-// JUMBOTRON
-.jumbotron, .mainpage-mobile {
-  position: fixed;
-  padding: 0;
-  width: 100vw;
-  top: 0;
-  overflow: hidden;
-  height: 100vh;
-}
-
-.mainpage-mobile {
-  text-align: center;
-}
-
-.mainpage-text-mobile {
-  margin-top: 10%;
-}
-
-.jumbo-col {
-  height: inherit;
-  width: 100%;
-  position: relative;
-  display: table;
-}
-
-.jumbo-col-text {
-  position: relative;
-  display: table-cell;
-  vertical-align: bottom;
-  text-align: center;
-}
-
-.jumbo-col-btn {
-  display: inline-block;
-  margin-bottom: 15%;
-
-  min-height: 58px;
-  padding: 0 22px;
-  border: 2px solid $lightBlue;
-  background: none;
-  font-size: 16px;
-  line-height: 52px;
-  color: $white;
-  letter-spacing: .25em;
-  text-decoration: none;
-  font-weight: 600;
-  text-transform: uppercase;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -webkit-transition: background .4s, color .4s;
-  transition: background .4s, color .4s;
-}
-
-.jumbo-col-btn:hover {
-  background-color: $lightBlue;
-  color: #10131a;
-  text-decoration: none;
-}
-
-.jumbo-col-btn:active, .jumbo-col-btn:focus, .jumbo-col-btn:visited {
-  text-decoration: none;
-  color: $white;
-}
-
-#jt-image1, #jt-image2, #jt-image3 {
-  height: inherit;
-  padding: 0;
-
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-#jt-image1 {
-  background: $gray url("/images/interests/boarding.jpg") no-repeat 80% 50%;
-}
-
-#jt-image2 {
-  background: $darkGray url("/images/work/hackBD.jpg") no-repeat 60% 40%;
-}
-
-#jt-image3 {
-  background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
-}
-
-.jumbocontent {
-  pointer-events: none;
-  display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 100;
-}
-
-.jumboinner {
-  display: table-cell;
-  vertical-align: middle;
-
-  pointer-events: none;
-  letter-spacing: .25em;
-  text-decoration: none;
-  font-weight: 600;
-  text-transform: uppercase;
-
-  h1 {
-    color: $lightBlue;
-    line-height: 50px;
-    padding-top: 30px;
-  }
-
-  h2 {
-
-    color: $white; //#58b158;
-    line-height: 0.1;
-  }
-
-}
-// END JUMBOTRON
-
-.mainpagecontent {
-
-  background-color: $darkerGray;
-  //background-color: $black;
-  //-moz-box-shadow: 0 -10px 30px #111;
-  //-webkit-box-shadow: 0 -10px 30px #111;
-  //box-shadow: 0 -10px 30px #111;
-}
-
-// CONTENT BTN STUFF
-
-//#dev-content, #travel-content, #personal-content, #css-content{
-//  display:none;
-//}
-//
-//#css-content{
-//  display:none;
-//  z-index: 200;
-//}
-//
-//#dev-close:focus, #travel-close:focus, #personal-close:focus, #turn-btn:focus, #css-close:focus{
-//  outline:none;
-//}
-//
-//.close:hover{
-//  opacity: 1;
-//}
-//
-//.close {
-//  position: fixed;
-//  right: 2vw;
-//  top: 5vh;
-//  opacity: 0.5;
-//
-//  -webkit-filter: drop-shadow(2px 2px 0 black)
-//  drop-shadow(-2px 2px 0 black)
-//  drop-shadow(2px -2px 0 black)
-//  drop-shadow(-2px -2px 0 black);
-//
-//  filter: drop-shadow(2px 2px 0 black)
-//  drop-shadow(-2px 2px 0 black)
-//  drop-shadow(2px -2px 0 black)
-//  drop-shadow(-2px -2px 0 black);
-//}
-
-// END CONTENT BTN STUFF
-
-#csspagewrapper {
-  background: $white url("/images/css.PNG") no-repeat top left;
-  height: 100vh;
-}
-
-// CONTENT BOXES
-#allprogress {
-  background-color: $darkGray;
-}
-
-#about-me, #code-passion, #previous-work {
-  background-color: $darkerGray;
-}
-// END CONTENT BOXES
-
-// ABOUT ME
-#hello {
-  margin-top: 5%;
-}
-
-.strike {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-
-  span {
-    position: relative;
-    display: inline-block;
-    font-size: 150%;
-  }
-
-  span:before {
-    right: 100%;
-    margin-right: 15px;
-  }
-
-  span:after {
-    left: 100%;
-    margin-left: 15px;
-  }
-  span:before, span:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 9999px;
-    height: 1px;
-    background: $white;
-  }
-}
-
-.passions {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-#passion-h {
-  margin-top: 10%;
-}
-
-// END ABOUT ME
-
-// COLOURS
-
-.orange {
-  color: $orange;
-}
-
-.blue {
-  color: $blue;
-}
-
-.red {
-  color: $red;
-}
-
-.green  {
-  color: $green;
-}
-
-// END COLOURS
-
-// PROGRESS/SKILLS
-.singleprogress h3 {
-  text-align: left;
-}
-
-.progress {
-  background-color: $darkGray;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-}
-
-.progress-bar {
-  padding-left: 20px;
-  text-align: left;
-}
-// END PROGRESS/SKILLS
-
-// PREVIOUS WORK
-#previous-work {
-
-  i {
-    color: $green;
-  }
-
-  h3 {
-    color: $blue;
-  }
-}
-
-.right-col, .right-col h3 {
-  text-align: left;
-}
-
-.left-col {
-  text-align: right;
-}
-
-.prev-work-short {
-  text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  //margin-left: 0;
-  //margin-right: 0;
-}
-
-.prev-work-short:hover {
-  background-color: $darkGray;
-  cursor: pointer;
-
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.prev-work-detailed {
-  display: none;
-}
-
-#previous-work-image {
-  height: 500px;
-  //background: url("/images/work/hackBD.jpg") no-repeat center center;
-}
-// END PREVIOUS WORK
-
-// BACK TO TOP
-//.cd-container {
-//  width: 90%;
-//  max-width: 768px;
-//  margin: 2em auto;
-//}
-//.cd-container::after {
-//  /* clearfix */
-//  content: '';
-//  display: table;
-//  clear: both;
-//}
-//
-//.cd-top {
-//  display: inline-block;
-//  height: 40px;
-//  width: 40px;
-//  border: 0 solid black;
-//  position: fixed;
-//  bottom: 40px;
-//  right: 10px;
-//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-//  /* image replacement properties */
-//  overflow: hidden;
-//  text-indent: 100%;
-//  white-space: nowrap;
-//  background: rgba(232, 98, 86, 0.8) url("/images/cd-top-arrow.svg") no-repeat center 50%;
-//  visibility: hidden;
-//  opacity: 0;
-//  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-//  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-//  transition: opacity .3s 0s, visibility 0s .3s;
-//}
-//.cd-top.cd-is-visible, .cd-top.cd-fade-out, .cd-top:hover {
-//  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-//  -moz-transition: opacity .3s 0s, visibility 0s 0s;
-//  transition: opacity .3s 0s, visibility 0s 0s;
-//}
-//.cd-top.cd-is-visible {
-//  /* the button becomes visible */
-//  border: 5px solid black;
-//  visibility: visible;
-//  opacity: 1;
-//}
-//.cd-top.cd-fade-out {
-//  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-//  opacity: .5;
-//}
-//.cd-top:hover {
-//  background-color: #e86256;
-//  opacity: 1;
-//}
-//@media only screen and (min-width: 768px) {
-//  .cd-top {
-//    right: 20px;
-//    bottom: 20px;
-//  }
-//}
-//@media only screen and (min-width: 1024px) {
-//  .cd-top {
-//    height: 60px;
-//    width: 60px;
-//    right: 30px;
-//    bottom: 30px;
-//  }
-//}
-
-// END BACK TO TOP
+// ===========================================================
+// ===================== END MY STUFF!! ======================
+// ===========================================================
 
 //
 // .main
 //
 
-// POSTS AND COMMENTS
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -796,40 +766,6 @@ img {
     font-size: 15px;
   }
 }
-// END POSTS AND COMMENTS
-
-// FOOTER
-.wrapper-footer {
-  position: relative;
-  background: $gray url("/images/dark_texture.jpg") repeat;
-}
-
-footer {
-  color: #6d6d6d;
-  padding: 20px 0;
-  text-align: center;
-}
-// END FOOTER
-
-// PERSONAL INTERESTS
-
-#personal-interests {
-  //background: $black url("/images/interests/boarding.jpg") no-repeat center right;
-}
-
-#personal-biking {
-  background: $black url("/images/interests/bike3.png") no-repeat top right;
-}
-
-#personal-tmd {
-  background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
-}
-
-#personal-comic {
-  //background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
-}
-
-// END PERSONAL INTERESTS
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
