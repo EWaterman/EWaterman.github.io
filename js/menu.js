@@ -8,15 +8,24 @@ $(document).ready(function() {
 
     $('.menu').click(function() {
 
-        if (!active1) $(this).find('.menu-button1').css({'background-color': 'gray', 'transform': 'translate(0px,120px)'});
-        else $(this).find('.menu-button1').css({'background-color': 'dimGray', 'transform': 'none'});
-        if (!active2) $(this).find('.menu-button2').css({'background-color': 'gray', 'transform': 'translate(90px,90px)'});
-        else $(this).find('.menu-button2').css({'background-color': 'darkGray', 'transform': 'none'});
-        if (!active3) $(this).find('.menu-button3').css({'background-color': 'gray', 'transform': 'translate(120px,0px)'});
-        else $(this).find('.menu-button3').css({'background-color': 'silver', 'transform': 'none'});
+        if (!active1) $(this).find('.menu-button1').css({'transform': 'translate(0px,120px)'});
+        else $(this).find('.menu-button1').css({'transform': 'none'});
+        if (!active2) $(this).find('.menu-button2').css({'transform': 'translate(90px,90px)'});
+        else $(this).find('.menu-button2').css({'transform': 'none'});
+        if (!active3) $(this).find('.menu-button3').css({'transform': 'translate(120px,0px)'});
+        else $(this).find('.menu-button3').css({'transform': 'none'});
         active1 = !active1;
         active2 = !active2;
         active3 = !active3;
 
+    });
+});
+
+//colour icon for current page
+$(document).ready(function() {
+    $(".menu a").each(function() {
+        if (this.href == window.location.href) {
+            $(this).addClass("active");
+        }
     });
 });

@@ -337,6 +337,9 @@ img {
   cursor:pointer;
 }
 
+.active {
+  background-color: $red;
+}
 // ================== END PAGE NAVIGATOR ==================
 
 // ======================= COLOURS ========================
@@ -360,48 +363,62 @@ img {
 // =========================================================
 // ===================== HOMEPAGE ==========================
 // =========================================================
-#homepage-wrapper {
-  position: fixed;
-  width: 100vw;
-  min-height: 100vh;
-
+#homepage-content {
+  height: 100vh;
   background-color: $homepageBg;
   color: $black;
 }
 
-@media only screen and (orientation: landscape) {
-  .homepage-title {
-    position: fixed;
-    z-index: 100;
-    pointer-events: none;
-    margin: auto;
-    left: 0;
-    right: 0;
-  }
-
-  .homepage-buttons {
-    margin-top: 10%;
-  }
+#homepage-title {
+  padding-top: 20px;
 }
 
-@media only screen and (orientation: portrait) {
+.homepage-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#homepage-row {
+  overflow: hidden;
+}
+
+// smaller than 784
+@media only screen and (max-width: 784px) {
+
   //kill all column related stuff
   [class*="col-"] {
     width: 100%;
     margin-left: 0;
   }
 
-  .homepage-image {
-    vertical-align: bottom;
-    display: table-cell;
+  #homepage-title {
+    height: 100px;
+    h1 {
+      font-size: 1.5em;
+    }
   }
 
-  .homepage-buttons {
-    margin: 0 10%;
+  #homepage-row {
+    height: calc(100vh - 100px) //change to proper
   }
 
   .homepage-btn {
     width: 80%;
+  }
+}
+
+// larger than 785
+@media only screen and (min-width: 785px) {
+  #homepage-title {
+    height: 200px;
+    h1 {
+      font-size: 3.3em;
+    }
+  }
+
+  #homepage-row {
+    height: calc(100vh - 200px) //change to proper
   }
 }
 
@@ -425,37 +442,36 @@ img {
   transition: background .4s, color .4s;
 }
 
-.homepage-btn:hover {
+.homepage-btn:hover, .homepage-btn:active, .homepage-btn:focus {
   background-color: $black;
   color: $homepageBg;
   text-decoration: none;
 }
 
-.homepage-btn:active, .homepage-btn:focus {
+.homepage-btn:visited {
   text-decoration: none;
-  color: $homepageBg;
 }
 
-#jt-image1, #jt-image2, #jt-image3 {
-  height: inherit;
-  padding: 0;
-
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-#jt-image1 {
-  background: $gray url("/images/interests/boarding.jpg") no-repeat 80% 50%;
-}
-
-#jt-image2 {
-  background: $darkGray url("/images/work/hackBD.jpg") no-repeat 60% 40%;
-}
-
-#jt-image3 {
-  background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
-}
+//#jt-image1, #jt-image2, #jt-image3 {
+//  height: inherit;
+//  padding: 0;
+//
+//  -webkit-transition: all 0.5s ease;
+//  -o-transition: all 0.5s ease;
+//  transition: all 0.5s ease;
+//}
+//
+//#jt-image1 {
+//  background: $gray url("/images/interests/boarding.jpg") no-repeat 80% 50%;
+//}
+//
+//#jt-image2 {
+//  background: $darkGray url("/images/work/hackBD.jpg") no-repeat 60% 40%;
+//}
+//
+//#jt-image3 {
+//  background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
+//}
 // ====================== END HOMEPAGE =====================
 
 // =========================================================
@@ -561,10 +577,8 @@ img {
 
 .prev-work-short {
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
-  //margin-left: 0;
-  //margin-right: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .prev-work-short:hover {
@@ -584,21 +598,6 @@ img {
   height: 500px;
 }
 // ==================== END PREVIOUS WORK ====================
-
-// ===========================================================
-// ========================= FOOTER ==========================
-// ===========================================================
-.wrapper-footer {
-  position: relative;
-  background: $gray url("/images/dark_texture.jpg") repeat;
-}
-
-footer {
-  color: #6d6d6d;
-  padding: 20px 0;
-  text-align: center;
-}
-// ======================= END FOOTER ========================
 
 // ===========================================================
 // ==================== PERSONAL INTERESTS ===================
@@ -626,7 +625,22 @@ footer {
 #travel-content{
   color: $white;
 }
+// ======================== END TRAVEL =======================
 
+// ===========================================================
+// ========================= FOOTER ==========================
+// ===========================================================
+.wrapper-footer {
+  position: relative;
+  background: $gray url("/images/dark_texture.jpg") repeat;
+}
+
+footer {
+  color: #6d6d6d;
+  padding: 20px 0;
+  text-align: center;
+}
+// ======================= END FOOTER ========================
 
 // TODO: put this stuff in ----------------------------------------------------------------------
 
