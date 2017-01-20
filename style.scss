@@ -429,7 +429,7 @@ img {
   }
 
   .homepage-col {
-    max-height: 550px;
+    max-height: calc(1.21489198 * 45vw);
     height: calc(100vh - 200px);
   }
 }
