@@ -367,10 +367,21 @@ img {
   height: 100vh;
   background-color: $homepageBg;
   color: $black;
+  overflow: hidden;
+}
+
+//#homepage-inner-content {
+//  background-color: $homepageBg;
+//}
+
+#poo {
+  height: 1000px;
+  background-color: $black;
 }
 
 #homepage-title {
   padding-top: 20px;
+  //background-color: $homepageBg;
 }
 
 .homepage-btn {
@@ -379,8 +390,12 @@ img {
   margin-right: auto;
 }
 
-#homepage-row {
-  overflow: hidden;
+.homepage-buttons {
+  overflow-y: auto;
+}
+
+.homepage-image {
+  overflow-y: hidden;
 }
 
 // smaller than 784
@@ -399,10 +414,6 @@ img {
     }
   }
 
-  #homepage-row {
-    height: calc(100vh - 100px) //change to proper
-  }
-
   .homepage-btn {
     width: 80%;
   }
@@ -417,8 +428,9 @@ img {
     }
   }
 
-  #homepage-row {
-    height: calc(100vh - 200px) //change to proper
+  .homepage-col {
+    max-height: 550px;
+    height: calc(100vh - 200px);
   }
 }
 
