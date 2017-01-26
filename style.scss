@@ -73,16 +73,6 @@ h3 {
   font-size: 160%;
 }
 
-@media (max-width: 800px) {
-  /* Font size for narrow viewport */
-  h1 {
-    font-size: 150%;
-  }
-  h3 {
-    font-size: 100%;
-  }
-}
-
 p {
   margin: 15px 0;
   color: inherit;
@@ -248,11 +238,23 @@ img {
 //  -ABOUT ME
 //  -PROGRESS BOXES
 
+// BIO PAGE
+
 // TODO: finish this
 
 // ======================================================
 // =================== GENERAL STUFF ====================
 // ======================================================
+
+// sm and under
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 150%;
+  }
+  h3 {
+    font-size: 100%;
+  }
+}
 
 // =========== DARKENS ELEMENTS ON HOVER ================
 .darken {
@@ -294,7 +296,7 @@ img {
   left: 15px;
 }
 
-.menu-button1, .menu-button2, .menu-button3 {
+.menu-button1, .menu-button2, .menu-button3, .menu-button4 {
   width: 60%;
   height: 60%;
   background-color: $gray;
@@ -322,6 +324,10 @@ img {
 
 .menu-button3 {
   transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
+}
+
+.menu-button4 {
+  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;
 }
 
 .mask {
@@ -370,24 +376,29 @@ img {
   overflow: hidden;
 }
 
-//#homepage-inner-content {
-//  background-color: $homepageBg;
-//}
+// sm and under
+@media only screen and (max-width: 768px) {
+  #homepage-title {
+    height: 100px;
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+}
 
-#poo {
+// md and over
+@media only screen and (min-width: 769px) {
+  #homepage-title {
+    height: 200px;
+    h1 {
+      font-size: 3.3em;
+    }
+  }
+}
+
+#problem-solver {
   height: 1000px;
   background-color: $black;
-}
-
-#homepage-title {
-  padding-top: 20px;
-  //background-color: $homepageBg;
-}
-
-.homepage-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .homepage-buttons {
@@ -398,36 +409,19 @@ img {
   overflow-y: hidden;
 }
 
-// smaller than 784
-@media only screen and (max-width: 784px) {
-
-  //kill all column related stuff
-  [class*="col-"] {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  #homepage-title {
-    height: 100px;
-    h1 {
-      font-size: 1.5em;
-    }
-  }
-
+// sm and under
+@media only screen and (max-width: 768px) {
   .homepage-btn {
     width: 80%;
   }
+
+  .homepage-col {
+    max-height: calc(40vh);
+  }
 }
 
-// larger than 785
-@media only screen and (min-width: 785px) {
-  #homepage-title {
-    height: 200px;
-    h1 {
-      font-size: 3.3em;
-    }
-  }
-
+// md and over
+@media only screen and (min-width: 769px) {
   .homepage-col {
     max-height: calc(1.21489198 * 45vw);
     height: calc(100vh - 200px);
@@ -435,6 +429,8 @@ img {
 }
 
 .homepage-btn {
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   margin-top: 30px;
   min-height: 58px;
@@ -610,6 +606,29 @@ img {
   height: 500px;
 }
 // ==================== END PREVIOUS WORK ====================
+
+// ======================== DEV PAGE =========================
+
+// =========================================================
+// ===================== BIO PAGE ==========================
+// =========================================================
+
+#bio-content {
+  background-color: $homepageBg;
+  overflow-y: hidden;
+  height: 600px;
+}
+
+.bio-col {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bio-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $darkerGray;
+}
 
 // ===========================================================
 // ==================== PERSONAL INTERESTS ===================
