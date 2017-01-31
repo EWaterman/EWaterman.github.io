@@ -45,3 +45,12 @@ $(window).resize(function() {
     //     hasbar = false
     // }
 });
+
+
+$(window).on("load",function(){
+    $("#scrollbar-homepage").mCustomScrollbar({
+        theme:"light-thick",
+        autoExpandScrollbar: true,
+        scrollInertia: 100
+    });
+});
