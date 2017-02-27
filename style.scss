@@ -226,21 +226,18 @@ img {
 // ======================================================
 
 // GENERAL STUFF
-//  -DARKENS ELEMENTS ON HOVER
-//  -GRAYS OUT ELEMENTS ON HOVER
 //  -PAGE NAVIGATOR
 //  -COLORS
-
 // HOMEPAGE
-
 // DEV PAGE
 //  -CONTENT BOXES
 //  -ABOUT ME
-//  -PROGRESS BOXES
-
+//  -PROGRESS/SKILLS
+//  -PREVIOUS WORK
+// COMIC PAGE
 // BIO PAGE
-
-// TODO: finish this
+// TRAVEL PAGE
+// FOOTER
 
 // ======================================================
 // =================== GENERAL STUFF ====================
@@ -255,27 +252,6 @@ img {
     font-size: 100%;
   }
 }
-
-// =========== DARKENS ELEMENTS ON HOVER ================
-.darken {
-  background-color: rgba(0,0,0,0);
-}
-.darken:hover {
-  background-color: rgba(0,0,0,0.5);
-}
-// ========== END DARKENS ELEMENTS ON HOVER ==============
-
-// ========== GRAYS OUT ELEMENTS ON HOVER ================
-.grayscale {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-
-.grayscale:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-// ========== END GRAYS OUT ELEMENTS ON HOVER =============
 
 // ================= PAGE NAVIGATOR =======================
 .menu {
@@ -459,27 +435,6 @@ img {
 .homepage-btn:visited {
   text-decoration: none;
 }
-
-//#jt-image1, #jt-image2, #jt-image3 {
-//  height: inherit;
-//  padding: 0;
-//
-//  -webkit-transition: all 0.5s ease;
-//  -o-transition: all 0.5s ease;
-//  transition: all 0.5s ease;
-//}
-//
-//#jt-image1 {
-//  background: $gray url("/images/interests/boarding.jpg") no-repeat 80% 50%;
-//}
-//
-//#jt-image2 {
-//  background: $darkGray url("/images/work/hackBD.jpg") no-repeat 60% 40%;
-//}
-//
-//#jt-image3 {
-//  background: $darkerGray url("/images/timeline/skyline.jpg") no-repeat 10% 50%;
-//}
 // ====================== END HOMEPAGE =====================
 
 // =========================================================
@@ -607,14 +562,14 @@ img {
 }
 // ==================== END PREVIOUS WORK ====================
 
-// ======================== DEV PAGE =========================
+// ==================== END DEV PAGE =========================
 
 // =========================================================
 // ===================== BIO PAGE ==========================
 // =========================================================
-
 #bio-content {
   background-color: $homepageBg;
+  color: $darkerGray;
   overflow-y: hidden;
   height: 600px;
 }
@@ -630,30 +585,34 @@ img {
   color: $darkerGray;
 }
 
-// ===========================================================
-// ==================== PERSONAL INTERESTS ===================
-// ===========================================================
-#personal-content{
-  color: $white;
+// ==================== END BIO PAGE =========================
+
+// =========================================================
+// ===================== COMIC PAGE ==========================
+// =========================================================
+
+.venue {
+  margin: 20px;
 }
 
-#personal-biking {
-  background: $black url("/images/interests/bike3.png") no-repeat top right;
+.frst, .prev, .rand, .next, .last {
+  border-radius: 25px;
 }
 
-#personal-tmd {
-  background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
+#comic-box {
+  background-color: $black;
 }
 
-#personal-comic {
-  //background: $black url("/images/interests/tmd_full3.png") no-repeat top left;
-}
-// =================== END PERSONAL INTERESTS ================
+// ==================== END COMIC PAGE =========================
 
 // ===========================================================
 // ========================== TRAVEL =========================
 // ===========================================================
-#travel-content{
+#travel-content {
+  color: $white;
+}
+
+.entry {
   color: $white;
 }
 // ======================== END TRAVEL =======================
@@ -672,107 +631,6 @@ footer {
   text-align: center;
 }
 // ======================= END FOOTER ========================
-
-// TODO: put this stuff in ----------------------------------------------------------------------
-
-
-// PAGE TURN
-//#page-turn {
-//  position: absolute;
-//  top: -1px;
-//  right: -15px;
-//  z-index: 100;
-//}
-// END PAGE TURN
-
-// CONTENT BTN STUFF
-//#dev-content, #travel-content, #personal-content, #css-content{
-//  display:none;
-//}
-//
-//#css-content{
-//  display:none;
-//  z-index: 200;
-//}
-//
-//#dev-close:focus, #travel-close:focus, #personal-close:focus, #turn-btn:focus, #css-close:focus{
-//  outline:none;
-//}
-//
-//.close:hover{
-//  opacity: 1;
-//}
-//
-//.close {
-//  position: fixed;
-//  right: 2vw;
-//  top: 5vh;
-//  opacity: 0.5;
-//
-//  -webkit-filter: drop-shadow(2px 2px 0 black)
-//  drop-shadow(-2px 2px 0 black)
-//  drop-shadow(2px -2px 0 black)
-//  drop-shadow(-2px -2px 0 black);
-//
-//  filter: drop-shadow(2px 2px 0 black)
-//  drop-shadow(-2px 2px 0 black)
-//  drop-shadow(2px -2px 0 black)
-//  drop-shadow(-2px -2px 0 black);
-//}
-
-// END CONTENT BTN STUFF
-
-//#csspagewrapper {
-//  background: $white url("/images/css.PNG") no-repeat top left;
-//  height: 100vh;
-//}
-
-// TEXT BOX FOR EDITING BG COLOR
-// .css_editor {
-//  background-color: $white;
-//  background-size: 100% 100%;
-//  background-blend-mode: multiply;
-//
-//  h2 {
-//    line-height: 1.0;
-//    font-weight: normal;
-//    color: $lighterGray;
-//    font-size: 2vw;
-//
-//    @include mobile {
-//      line-height: 0.7;
-//    }
-//  }
-//
-//  b {
-//    color: #edf06c;
-//  }
-//
-//  strong {
-//    color: chartreuse;
-//  }
-// }
-//
-//.css_editor.black {
-//  background: $black;
-//  transition: background 2s ease 0s;
-//  -webkit-transition: background 2s ease 0s; /* Safari */
-//}
-//
-//.css_editor.white {
-//  background: $gray url("/images/tmd.jpg") no-repeat center left;
-//  transition: background 2s ease 0s;
-//  -webkit-transition: background 2s ease 0s; /* Safari */
-//}
-//
-//.text_editor {
-//  background-color: transparent;
-//  color: $lightGray;
-//  font-weight: bold;
-//  width: 10vw;
-//  height: 7vh;
-//}
-// END TEXT BOX FOR EDITING BG COLOR
 
 // ===========================================================
 // ===================== END MY STUFF!! ======================
