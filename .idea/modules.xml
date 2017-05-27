@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EWaterman.github.io.iml" filepath="$PROJECT_DIR$/.idea/EWaterman.github.io.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ctc_site/.idea/ctc_site.iml" filepath="$PROJECT_DIR$/../ctc_site/.idea/ctc_site.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../represent-the-10/.idea/represent-the-10.iml" filepath="$PROJECT_DIR$/../represent-the-10/.idea/represent-the-10.iml" />
     </modules>
   </component>
 </project>

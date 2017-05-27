@@ -21,14 +21,6 @@ html {
 .contentbox {
   padding: 3% 7%;
   overflow:hidden;
-
-  h1, h3, h4 {
-    line-height: 1.0;
-
-    @include mobile {
-      line-height: 1.7;
-    }
-  }
 }
 
 // TODO: pick a font:
@@ -38,7 +30,7 @@ html {
 
 body {
   text-align: center;
-  background: $darkGray;
+  background: $homepageBg;
   font: 18px/1.4 $helvetica;
 }
 
@@ -79,9 +71,10 @@ p {
 }
 
 a {
-  color: $blue;
+  color: inherit;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+
   &:hover, &:active {
     color: $blue;
   }
@@ -230,7 +223,6 @@ img {
 //  -COLORS
 // HOMEPAGE
 // DEV PAGE
-//  -CONTENT BOXES
 //  -ABOUT ME
 //  -PROGRESS/SKILLS
 //  -PREVIOUS WORK
@@ -372,6 +364,21 @@ img {
   }
 }
 
+#ks-promotion {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#ks-img {
+  float: right;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
 #problem-solver {
   height: 1000px;
   background-color: $black;
@@ -442,17 +449,8 @@ img {
 // =========================================================
 #dev-content {
   color: $white;
-}
-
-// ====================== CONTENT BOXES =====================
-#allprogress {
-  background-color: $darkGray;
-}
-
-#about-me, #code-passion, #previous-work {
   background-color: $darkerGray;
 }
-// =================== END CONTENT BOXES =====================
 
 // ====================== ABOUT ME ===========================
 #hello {
@@ -507,7 +505,7 @@ img {
 }
 
 .progress {
-  background-color: $darkGray;
+  background-color: $darkerGray;
   border-radius: 0;
   -webkit-box-shadow: none;
 }
@@ -569,7 +567,7 @@ img {
 // =========================================================
 #bio-content {
   background-color: $homepageBg;
-  color: $darkerGray;
+  color: $black;
   overflow-y: hidden;
   height: 600px;
 }
@@ -582,7 +580,6 @@ img {
 .bio-link {
   text-transform: uppercase;
   text-decoration: none;
-  color: $darkerGray;
 }
 
 // ==================== END BIO PAGE =========================
@@ -599,8 +596,31 @@ img {
   border-radius: 25px;
 }
 
-#comic-box {
-  background-color: $black;
+#comic-content {
+  color: $black;
+}
+
+#comic-title {
+  background-color: $homepageBg;
+}
+
+.comic-row {
+  margin-top: 100px;
+}
+
+.comic-text {
+  text-align: left;
+  margin-top: 25px;
+}
+
+#mc_embed_signup .button {
+  background-color: $green;
+}
+
+#mc_embed_signup{
+  background: $homepageBg;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 
 // ==================== END COMIC PAGE =========================
@@ -609,11 +629,11 @@ img {
 // ========================== TRAVEL =========================
 // ===========================================================
 #travel-content {
-  color: $white;
+  color: $black;
 }
 
 .entry {
-  color: $white;
+  color: $black;
 }
 // ======================== END TRAVEL =======================
 
