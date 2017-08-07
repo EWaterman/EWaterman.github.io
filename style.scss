@@ -388,8 +388,19 @@ img {
   overflow-y: auto;
 }
 
-.homepage-image {
-  overflow-y: hidden;
+#homepage-main-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.homepage-doodle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 20;
 }
 
 // sm and under

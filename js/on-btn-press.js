@@ -17,10 +17,17 @@ $('#css-close').click(function() {
 // Previous Work Details
 $('.prev-work-short').click(function() {
     var target = "#" + $(this).attr('id') + "-info";
-    $(target).show('slow', function() {
-        // Animation complete.
-    });
-    $(target).siblings("div").hide('slow', function() {
-        // Animation complete.
-    });
+    $(target).show('fast');
+    $(target).siblings("div").hide('fast');
+});
+
+// Homepage Doodles
+$('.homepage-btn').hover(function() {
+    var target = "#" + $(this).attr('id') + "-doodle";
+    $(target).fadeIn('fast');
+    $(target).siblings("img").finish();
+}, function() {
+    var target = "#" + $(this).attr('id') + "-doodle";
+    $(target).fadeOut('fast');
+    $(target).siblings("img").finish();
 });
