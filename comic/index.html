@@ -9,16 +9,19 @@ permalink: /comic/
 	<!-- Full width title card -->
 	<div id="comic-title">
 		<!-- No row because don't want margin -->
+
+		<!-- Desktop only title -->
 		<div class="comic-title-col col-md-12 hidden-sm hidden-xs">
 			<img src="/images/comic/collage2.png" width="auto" height="auto">
 		</div>
 
+		<!-- Mobile only title -->
 		<div class="comic-title-col col-xs-12 hidden-md hidden-lg hidden-xl">
-			<img src="/images/comic/logo.png" width="350" height="auto">
+			<img id="comic-title-mobile" src="/images/comic/title.png" width="350" height="auto">
 		</div>
 
 		<div class="comic-title-col col-xs-12 hidden-md hidden-lg hidden-xl">
-			<img src="/images/comic/title.png" width="350" height="auto">
+			<img src="/images/comic/logo.png" width="350" height="auto">
 		</div>
 
 		<!-- Back to normal width -->
@@ -47,9 +50,17 @@ permalink: /comic/
 
 			<div class="row">
 				<div class="col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10">
-					<h3>
+
+					<!-- GUMROAD -->
+					<script src="https://gumroad.com/js/gumroad.js"></script>
+					<a class="hidden-sm hidden-xs" href="https://gum.co/JWOYY" target="_blank">
+						<img class="gumroad-stuff" src="/images/comic/free.jpg">
+					</a>
+
+					<h3 id="comic-tagline">
 						What if only the rich had superpowers?
 					</h3>
+
 					<p class="comic-text">
 						Ten years ago, superheroes succeeded in their battle against the forces of evil. With the final
 						supervillains destroyed, it seemed that the world would at last see peace. However not even the
@@ -105,6 +116,7 @@ permalink: /comic/
 				<!--</div>-->
 			<!--</div>-->
 
+			<!-- The actual comics -->
 			<div class="row comic-row">
 				<div class="col-md-offset-2 col-md-8">
 					<img src="/images/comic/01-01-l-02.png" width="100%" height="auto">
@@ -114,9 +126,16 @@ permalink: /comic/
 				</div>
 			</div>
 
+			<!-- Newsletter sign up -->
 			<div class="row comic-row">
 				<div class="col-md-offset-2 col-md-8">
-					<img src="/images/comic/banner.jpg" width="100%" height="auto">
+					<img id="comic-know-more" src="/images/comic/banner.jpg" width="100%" height="auto">
+
+					<!-- GUMROAD -->
+					<a href="https://gum.co/JWOYY" target="_blank">
+						<img class="gumroad-stuff" src="/images/comic/free.jpg">
+					</a>
+
 					{% include newsletter.html %}
 				</div>
 			</div>
