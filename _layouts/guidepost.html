@@ -1,0 +1,58 @@
+---
+layout: page
+---
+
+<article class="guidepost">
+
+  <div class="container-fluid">
+    <div class="row">
+
+			<!-- Main Content Section -->
+      <div class="col-md-offset-1 col-md-8">
+				<div id="guidepost-content-box">
+					{% include page-nav.html %}
+					<hr>
+					<h1>{{ page.title }}</h1>
+
+					<div id="guidepost-content">
+        		{{ content }}
+					</div>
+					<hr>
+					{% include page-nav.html %}
+				</div>
+      </div>
+
+			<!-- Table of Contents Section-->
+      <div id="guide-toc" class="col-md-3">
+
+				<h3 id="toc-title">Table of Contents</h3>
+
+				{% for category in site.categories %}
+					{% assign cat = category | first%}
+					{% unless cat == "guide" %}
+						<h3><a href="{{ site.baseurl }}/guide/{{ cat }}/overview">{{ cat }}</a></h3>
+
+						<ul class="list-unstyled">
+							{% for post in category[1] reversed %}
+
+								<!-- Hilight current page -->
+							<!--TODO: style buttons-->
+								{% if page.url == post.url %}
+									<li class="active"><a href="{{ post.url }}" class="active">{{ post.title }}</a></li>
+								{% else %}
+									<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+
+						<hr>
+
+					{% endunless %}
+				{% endfor %}
+      </div>
+    </div>
+
+		{% include disqus.html %}
+  </div>
+
+</article>

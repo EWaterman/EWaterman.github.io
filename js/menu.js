@@ -29,7 +29,7 @@ $(document).ready(function() {
 //colour icon for current page
 $(document).ready(function() {
     $(".menu a").each(function() {
-        if (this.href == window.location.href) {
+        if (window.location.href.startsWith(this.href)) {
             $(this).addClass("active");
         }
     });

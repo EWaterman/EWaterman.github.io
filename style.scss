@@ -32,6 +32,8 @@ body {
   text-align: center;
   background: $homepageBg;
   font: 18px/1.4 $helvetica;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -227,6 +229,7 @@ img {
 //  -PROGRESS/SKILLS
 //  -PREVIOUS WORK
 // COMIC PAGE
+// GUIDE PAGE
 // BIO PAGE
 // TRAVEL PAGE
 // FOOTER
@@ -245,7 +248,7 @@ img {
   }
 }
 
-// ================= PAGE NAVIGATOR =======================
+  // ================= PAGE NAVIGATOR =======================
 .menu {
   display:block;
   width:100px;
@@ -455,6 +458,7 @@ img {
   -moz-appearance: none;
   -webkit-transition: background .4s, color .4s;
   transition: background .4s, color .4s;
+  box-shadow: 0 0 5px black;
 }
 
 .homepage-btn:hover, .homepage-btn:active, .homepage-btn:focus {
@@ -672,6 +676,195 @@ img {
 // ==================== END COMIC PAGE =========================
 
 // ===========================================================
+// ======================== GUIDE PAGE =======================
+// ===========================================================
+
+#pagenav {
+  min-height: 10px;
+}
+
+#pagenav-prev {
+  float: left;
+}
+
+#pagenav-next {
+  float: right;
+}
+
+
+#guidepost-content-box {
+  text-align: left;
+  background-color: whitesmoke;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  hr {
+    height: 5px;
+    color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
+  }
+
+  h1 {
+    border-bottom: 10px solid #2AA198;
+  }
+}
+
+#guidepost-content {
+  margin-top: 60px;
+  margin-bottom: 50px;
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+}
+
+#guide-content {
+  background-color: $homepageBg;
+  min-height: 100vh;
+}
+
+#guide-toc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 5px groove;
+  background-color: #d2d2d2;
+  margin-bottom: 50px;
+}
+
+// md and over
+@media only screen and (min-width: 769px) {
+#guide-toc {
+  border-left: 5px groove;
+  }
+}
+
+#toc-title {
+  border-bottom: 3px solid black;
+}
+
+#toc-icon {
+  margin-top: 15px;
+}
+
+.fa-8x{
+  font-size: 8em;
+}
+
+// sm and under
+@media only screen and (max-width: 768px) {
+  .guide-btn {
+    width: 80%;
+  }
+}
+
+.guide-btn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5px;
+  min-height: 58px;
+  padding: 0 22px;
+  border: 2px solid $black;
+  border-radius: 15px;
+  background: none;
+  font-size: 16px;
+  line-height: 52px;
+  color: $black;
+  letter-spacing: .18em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
+  box-shadow: 0 0 5px black;
+}
+
+.guide-btn:hover, .guide-btn:active, .guide-btn:focus {
+  background-color: $black;
+  color: $homepageBg;
+  text-decoration: none;
+}
+
+.guide-btn:visited {
+  text-decoration: none;
+}
+
+#guide-links {
+  margin-top: 15px;
+}
+
+#guide-main-left {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#guide-main-right {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+// md and over
+@media only screen and (min-width: 769px) {
+  #guide-main-right {
+    border-left: 5px groove;
+  }
+}
+
+#guide-desc {
+  margin-top: 40px;
+}
+
+.gbtn-start {
+  background-color: #15ef38;
+}
+
+.gbtn1 {
+  background-color: #42b4c5;
+}
+.gbtn2 {
+  background-color: #427ec5;
+}
+.gbtn3 {
+  background-color: #9142c5;
+}
+.gbtn4 {
+  background-color: #bb42c5;
+}
+.gbtn5 {
+  background-color: #c54274;
+}
+.gbtn6 {
+  background-color: #c55942;
+}
+.gbtn7 {
+  background-color: #c58942;
+}
+.gbtn8 {
+  background-color: #c5a742;
+}
+.gbtn9 {
+  background-color: #acc542;
+}
+.gbtn10 {
+  background-color: #42c551;
+}
+.gbtn11 {
+  background-color: #42c5ab;
+}
+
+.unclickable, .unclickable:hover, .unclickable:active, .unclickable:focus{
+  text-decoration: line-through;
+  background-color: gray;
+  color: black;
+}
+// =================== END GUIDE PAGE ========================
+
+// ===========================================================
 // ========================== TRAVEL =========================
 // ===========================================================
 #travel-content {
@@ -716,16 +909,16 @@ footer {
   border-bottom: none;
 }
 
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
+blockquote {
+  margin: 1.8em .8em;
+  border-left: 2px solid $gray;
+  padding: 0.1em 1em;
+  color: $gray;
+  font-size: 18px;
+  font-style: italic;
+}
 
+.post {
   .comments {
     margin-top: 10px;
   }
