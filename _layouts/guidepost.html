@@ -33,7 +33,7 @@ layout: page
 				<h3 id="toc-title">Table of Contents</h3>
 
 				{% for category in site.categories %}
-					{% assign cat = category | first%}
+					{% assign cat = category | first | lower %}
 					{% unless cat == "guide" %}
 						<h3><a href="{{ site.baseurl }}/guide/{{ cat }}/overview">{{ cat }}</a></h3>
 
