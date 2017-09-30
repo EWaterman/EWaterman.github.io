@@ -6,6 +6,8 @@ categories: ["guide", "Before You Start"]
 
 ### <a name="project-folder"></a>Project folder
 
+<hr><br>
+
 With scripts, art, marketing supplies and more, you’re going to have A LOT of files to deal with. Without a plan for where to store all your files it’s easy for your project folder to become a complete mess. **A good folder structure will save you a lot of headaches searching for your files.**
 
 If you want to use the same folder structure that I do, follow these steps:
@@ -19,7 +21,11 @@ If you want to use the same folder structure that I do, follow these steps:
 
 I also use a similar folder structure to **manage my marketing and kickstarter data**. This structure is designed by the folks at ComixTribe. Check that out [HERE](http://ComixLaunch.com/organize) (you’ll have to subscribe to the ComixTribe e-mail list).
 
+<br>
+
 ### Naming files
+
+<hr><br>
 
 To complement the project folder structure, I suggest using the following naming scheme to **keep your files organized within your folders.**
 
@@ -41,7 +47,11 @@ Ex.
 mtm-01-01-r-01.tif 
 ```
 
+<br>
+
 ### How to Not Lose All Your Files
+
+<hr><br>
 
 Imagine getting all your scripts done, your pages and pages of art all organized and ready to go. Now imagine your computer hard drive crashing and losing everything. Yeah no, never again.
 
