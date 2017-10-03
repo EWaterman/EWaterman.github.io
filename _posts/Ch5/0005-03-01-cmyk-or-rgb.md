@@ -1,13 +1,12 @@
 ---
 layout: guidepost
-title: CMYK Or RGB
+title: CMYK or RGB
 categories: ["guide", "Colouring"]
 ---
 
 [Color Guide For Offset Printing](http://www.printninja.com/printing-resource-center/file-setup/offset-printing-guidelines/offset-color-requirements) - Print Ninja
 
 <hr><br>
-
 Before you start any colour work **it’s important to know which colour gamut you’re going to be working in**.
 
 

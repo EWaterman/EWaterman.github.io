@@ -11,7 +11,6 @@ categories: ["guide", "Lettering"]
 [Comic Book FX](http://www.comicbookfx.com/) - Searchable database of sound effect examples from old comics. 
 
 <hr><br>
-
 Letterers often struggle with sound effects. Some use [them a lot](http://www.hoodedutilitarian.com/wp-content/uploads/2009/12/Will-Eisner-Spirit-05.jpg), while some [don’t use them at all](http://g-ecx.images-amazon.com/images/G/01/kindle/merch/comics-graphic-novels/watchmen-009.jpg).
 
 There’s a lot that goes into getting them right so here are some tips to help you along:

@@ -11,7 +11,6 @@ categories: ["guide", "Writing"]
 [What’s In a Name? Choosing an Effective Title For Your Webcomic](http://www.makingcomics.com/2014/08/09/whats-in-a-name-choosing-a-title-for-webcomic/) - Sarah Driffill
 
 <hr><br>
-
 Your title, along with the [cover art]({{ site.baseurl }}{% link _posts/Ch4/0004-07-01-cover-art.md %}), is the first thing people will see when looking at your comic. Because of this, a good title will often be the deciding factor for whether or not someone will pick up your book.
 
 When choosing a title you want to consider the following:

@@ -25,6 +25,8 @@ layout: page
 					<hr>
 					{% include page-nav.html %}
 				</div>
+
+				<a id="bookmark-this" href="#" title="Bookmark This Page"><i class="fa fa-bookmark-o fa-4x"></i></a>
       </div>
 
 			<!-- Table of Contents Section-->
@@ -36,6 +38,8 @@ layout: page
 					{% assign cat = category | first %}
 					{% unless cat == "guide" %}
 						<h3><a href="{{ site.baseurl }}/guide/{{ cat | downcase }}/overview">{{ cat }}</a></h3>
+
+						<hr>
 
 						<ul class="list-unstyled">
 							{% for post in category[1] reversed %}
@@ -49,10 +53,12 @@ layout: page
 							{% endfor %}
 						</ul>
 
-						<hr>
+						<hr style="border-top: 1px solid #000;">
 
 					{% endunless %}
 				{% endfor %}
+
+				<i class="fa fa-comments fa-4x"></i>
       </div>
     </div>
 
@@ -60,3 +66,6 @@ layout: page
   </div>
 
 </article>
+
+<script src="/js/addtohomescreen.min.js"></script>
+<script src="/js/bookmark.js"></script>

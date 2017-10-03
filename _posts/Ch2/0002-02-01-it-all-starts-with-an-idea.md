@@ -23,7 +23,6 @@ Well...
 [Coming Up With Story Ideas: 10 Methods You Can Use](https://www.youtube.com/watch?v=ymYocLTkWEA) (video) - markcrilley
 
 <hr><br>
-
 Writers often have tons of ideas bouncing around in their heads but here are a few quick tips if you’re struggling to come up with something:
 
 - **Go out and explore.** Walk the streets, go for a hike in nature, whatever. Just get yourself out of your regular environment.
@@ -47,7 +46,6 @@ Writers often have tons of ideas bouncing around in their heads but here are a f
 ### How Awesome Is My Idea?
 
 <hr><br>
-
 Okay so you have your first idea for a story. A few good ways to tell if your idea is a good one are if:
 
 - **It’s unique.** By creating a story that people have never read before, you’ll be able to immediately hook them in. There are so many cookie cutter plot movies out there. If you diverge in just a single aspect, whether it be plot, characters or setting, your story is more likely to be noticed. Think Guardians of the Galaxy and the Deadpool movies. Still really mainstream films but everyone loved them because they put a twist on their genre.

@@ -7,7 +7,6 @@ categories: ["guide", "Hiring A Team"]
 [All for One and One for All (Collaboration Agreements in Comics)](http://npcontract.blogspot.ca/2012/07/all-for-one-and-one-for-all.html) - Creative Contract Consulting
 
 <hr><br>
-
 Publishers will almost certainly provide their own contracts (if they don’t, be weary) but if you’re self publishing, you’ll be handling it yourself.
 
 If you’re collaborating with a team on a project, you’re going to want a contract, especially if it’s long term. **People will naturally forget things that were agreed upon so it’s a good idea to have written and signed information down when that happens.** It also help clear up any confusion at the start of projects.

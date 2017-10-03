@@ -13,7 +13,6 @@ For each of your applications ask the following questions:
 ### Do they fit within your budget?
 
 <hr><br>
-
 First off, if you haven’t figured out your budget for your project, now is the time to do it.
 
 I’m sure you’d love to have a celebrity artist ink your comic but you probably don’t have the budget for that to happen. It’s important to be realistic and evaluate whether or not you can afford the total cost of hiring someone on.
@@ -35,7 +34,6 @@ As a side note, remember that artists are people too! It takes many, many hours 
 ### Do they have any samples or published work?
 
 <hr><br>
-
 The easiest way to see if someone is a good fit for your project is to check out their previous work. This pretty much goes without saying but **never hire someone without first asking for samples of their work**. If they don’t have anything to show, they probably aren’t the best choice.
 
 When checking out a creator’s work, ask yourself: Does their style fit with the style you want for your comic?
@@ -47,7 +45,6 @@ If you’re having trouble figuring out the exact style you want for your story,
 ### Are they skilled at what they do?
 
 <hr><br>
-
 You put a lot of effort into your comic and so I’m sure you want it looking the best it can be.
 
 Don’t know how to analyse the quality of a piece of work? Check out the chapters on [drawing]({{ site.baseurl }}{% link _posts/Ch4/0004-01-01-overview.md %}), [coloring]({{ site.baseurl }}{% link _posts/Ch5/0005-01-01-overview.md %}) and [lettering]({{ site.baseurl }}{% link _posts/Ch6/0006-01-01-overview.md %}) and see if it follows those tips.
@@ -59,5 +56,4 @@ Of course if you’re paying your team a below average rate you should expect ap
 ### Do they respond to you in a timely manner?
 
 <hr><br>
-
 Timeliness may not seem like an important factor to you right now, but when you have a colourist getting mad at you because he needed page 10 inked a week ago and your artist is MIA… yeah it’s kind of a problem.

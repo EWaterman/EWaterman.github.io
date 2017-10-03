@@ -7,7 +7,6 @@ categories: ["guide", "Drawing"]
 - [Panel Layout: The Golden Ratio](http://www.makingcomics.com/2014/05/07/panel-layout-golden-ratio/) - Making Comics
 
 <hr><br>
-
 When designing thumbnails, your first focus should be page composition: how the panels fit together on the page.
 
 Here are some tips to make sure your page layout is fully optimized:

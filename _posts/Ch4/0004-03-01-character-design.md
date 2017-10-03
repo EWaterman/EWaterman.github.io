@@ -12,8 +12,6 @@ categories: ["guide", "Drawing"]
 [How a Character’s Choice of Clothing Benefits the Story](http://its-a-writer-thing.tumblr.com/post/123597982752/how-a-characters-choice-of-clothing-benefits-the) - It's a Writer Thing
 
 <hr><br>
-
-
 When designing characters you have a few options.
 
 The easy route is to **give your characters a look that matches how you want your reader to feel about them**. Big and strong characters come off as angry and intimidating. Characters with scrawny arms and big glasses seem nerdy. If someone dresses quirky, we see them as outsiders or “different”.

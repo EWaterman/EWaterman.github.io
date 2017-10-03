@@ -15,7 +15,6 @@ If you’re working digital, Print Ninja made [this awesome guide](http://www.pr
 ### Page Dimensions
 
 <hr><br>
-
 Make sure that before you start drawing, you know what the dimensions of your pages will be.
 
 **The standard single issue comic is 6.75 inches by 10.25 inches** but by no means do you have to obey that standard. Comics come in all shapes and sizes. Just note that if you use abnormal dimensions, you may run into complications when you go to print your comic.
@@ -33,7 +32,6 @@ A consequence of working at a larger scale is that your files can get very big. 
 ### Resolution
 
 <hr><br>
-
 There’s nothing worse than drawing up your entire comic then realizing when you go to print that you’ve been working at too low a resolution.
 
 The resolution is essentially how high quality your images and prints are. **Most printers print at 300 DPI** (dots per inch). Feel free to work at a higher DPI but you won’t get a clearer image by printing files at a higher DPI than what the printer is capable of.

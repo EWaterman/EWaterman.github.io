@@ -7,7 +7,6 @@ categories: ["guide", "Lettering"]
 [Standard Black vs Rich Black](http://www.printninja.com/printing-resource-center/file-setup/offset-printing-guidelines/offset-color-requirements/standard-black-vs-rich-black) - Print Ninja
 
 <hr><br>
-
 I mentioned this briefly in the section on colouring but I think it’s especially important when it comes to lettering.
 
 To summarize again, there are two ways to create black with CMYK colouring:

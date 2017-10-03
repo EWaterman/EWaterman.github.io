@@ -23,7 +23,6 @@ As I rearrange and rewrite scenes, I frequently jump back and forth between thes
 ### Splitting Scenes Into Atoms
 
 <hr><br>
-
 The first thing I do when breaking down a scene is to take my notes and split them up into atoms.
 
 [Mastering Comics](https://www.amazon.ca/Mastering-Comics-Drawing-Pictures-Continued/dp/1596436174/ref=pd_sim_14_1?_encoding=UTF8&psc=1&refRID=717HW3NH9NTRCSMXJVJ2) by Jessica Abel and Matt Madden has an excellent section on this that I encourage you to check out.
@@ -62,7 +61,6 @@ All that said, I found that a lot of this part of the process can be glossed ove
 ### Grouping Atoms Into Pages
 
 <hr><br>
-
 Once I have all my atoms I start dividing them up into pages. Here are a few tips to determine the best places to split pages:
 
 - **Avoid having too many or too few atoms in a page.** Having too many atoms will result in cluttered pages. Too few will be a waste of space (unless an important action is taking place). This is more important when considering the actual panels of a page but since panels are built up of atoms, it’s good to catch any problems early on.
@@ -100,7 +98,6 @@ Also notice how I divided the atoms here. I chose to split them up evenly, four 
 ### Forming Panels
 
 <hr><br>
-
 Once I have my atoms and page breaks, I can finally begin to construct my panels.
 
 First off, what even IS a panel?

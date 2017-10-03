@@ -16,7 +16,7 @@ Okay, so outlining!
 
 This is where you figure out all the major plot elements and the order they go in. You don’t need to sort out out all the little details yet (save that for the actual writing of the scenes), just the general idea of what happens within each scene.
 
-I’ve put outlining before world building and characters but these steps are really all intertwined.
+I’ve put outlining before [world building]({{ site.baseurl }}{% link _posts/Ch2/0002-05-01-world-building.md %}) and [characters]({{ site.baseurl }}{% link _posts/Ch2/0002-06-01-characters.md %}) but these steps are really all intertwined.
 
 <br>
 
