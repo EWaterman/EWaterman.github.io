@@ -53,7 +53,7 @@ Well, first let me tell you about...
 
 <br>
 
-### The M.I.C.E. Quotient
+### <a name="mice-quotient"></a>The M.I.C.E. Quotient
 
 <hr><br>
 

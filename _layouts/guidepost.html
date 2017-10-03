@@ -33,9 +33,9 @@ layout: page
 				<h3 id="toc-title">Table of Contents</h3>
 
 				{% for category in site.categories %}
-					{% assign cat = category | first | downcase %}
+					{% assign cat = category | first %}
 					{% unless cat == "guide" %}
-						<h3><a href="{{ site.baseurl }}/guide/{{ cat }}/overview">{{ cat }}</a></h3>
+						<h3><a href="{{ site.baseurl }}/guide/{{ cat | downcase }}/overview">{{ cat }}</a></h3>
 
 						<ul class="list-unstyled">
 							{% for post in category[1] reversed %}

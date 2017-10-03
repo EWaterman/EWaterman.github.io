@@ -106,4 +106,4 @@ A quick Wikipedia search for my name gives the following:
 
 - If you’re stuck you can **combine two ordinary names together to create a unique one.** For example, Cole + Brendan = Brolen.
 
-- **Don’t have multiple characters names start with the same letter.** Naming your main characters David, Dan and Daryll will be confusing to your readers. That said, this could be used intentionally for comedic purposes.
+- **Don’t have multiple characters names start with the same letter.** Naming your main characters David, Dan and Daryll will be confusing to your readers. That said, this could be used intentionally for [comedic purposes](https://en.wikipedia.org/wiki/Ed,_Edd_n_Eddy).
