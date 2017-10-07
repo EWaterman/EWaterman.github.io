@@ -4,6 +4,9 @@ title: File Setup
 categories: ["guide", "Drawing"]
 ---
 
+[Photoshop Image Size and Resolution](https://helpx.adobe.com/photoshop/using/image-size-resolution.html) - Adobe
+
+<hr><br>
 Before you start working on your pages, you want to make sure they’re set up properly. **I always like to make sure my pages are formatted to be print ready, even if I don’t plan on printing them.** You never know what you might want to do with your work in the future so it’s better to be safe and have your pages ready for anything.
 
 If you’re working with pencils and paper, you can generally find paper with the right page size for your art at any crafts store.

@@ -24,13 +24,17 @@ The following is a collection of all the resources that don’t fit into any par
 ### Books
 
 <hr><br>
-[Understanding Comics](https://www.amazon.ca/Understanding-Comics-Scott-McCloud/dp/006097625X) - Scott McCloud
+[Understanding Comics](https://www.amazon.ca/Understanding-Comics-Scott-McCloud/dp/006097625X), [Making Comics](https://www.amazon.com/Making-Comics-Storytelling-Secrets-Graphic/dp/0060780940/) and [Reinventing Comics](https://www.amazon.com/Reinventing-Comics-Imagination-Technology-Revolutionizing/dp/0060953500/) - Scott McCloud
 
 [Comics and Sequential Art](https://www.amazon.ca/Comics-Sequential-Art-Will-Eisner/dp/0393331261) - Will Eisner
 
 [Drawing Words & Writing Pictures](https://www.amazon.ca/Drawing-Words-Writing-Pictures-Graphic/dp/1596431318) - Jessica Abel, Matt Madden
 
+[How to Make Webcomics](https://www.amazon.com/How-Make-Webcomics-Scott-Kurtz/dp/158240870X) - Scott Kurtz, Kris Straub, Dave Kellett, Brad Guigar
+
 [Manga in Theory and Practice: The Craft of Creating Manga](https://www.amazon.com/Manga-Theory-Practice-Craft-Creating/dp/1421594072) - Hirohiko Araki
+
+[Cartooning: Philosophy and Practice](https://www.amazon.com/Cartooning-Philosophy-Practice-Ivan-Brunetti/dp/0300170998) - Ivan Brunetti
 
 <br>
 
@@ -63,3 +67,10 @@ The following is a collection of all the resources that don’t fit into any par
 [Jonathan Rector](https://www.youtube.com/channel/UCIwM7XnDFaw33oEWN0iZCmw) - Lineart and colour tutorials with a focus on Manga Studio
 
 [Coffee Table Comics](https://www.youtube.com/channel/UCfMrl0S6VFZGbu35Yb7v5xw) -  Tips for inking, colouring, crowdfunding and more
+
+<br>
+
+### Courses
+
+<hr><br>
+[How to Make a Comic Book](https://www.coursera.org/learn/make-comic-books) - A project-centered course where you create an original four page minicomic designed around a short story of your choosing. The full course material is available for free.

@@ -9,6 +9,10 @@ categories: ["guide", "Drawing"]
 
 [How to Design a Great Character](https://www.youtube.com/watch?v=XxNUIRVOmMw&index=1&list=PLNaAcA0yN3KYup8psSoyOd_mKW27av89V) (video) - Draw with Jazza
 
+[Figures: They Speak For Themselves](http://dresdencodak.tumblr.com/post/3583964949/figures-they-speak-for-themselves-mildly-nsfw) (NSFW at end) - Aaron Diaz
+
+[Cartoon Fundamentals: How to Draw a Cartoon Body](https://design.tutsplus.com/articles/cartoon-fundamentals-how-to-draw-a-cartoon-body--vector-18651) - Carlos Gomes Cabral
+
 [How a Character’s Choice of Clothing Benefits the Story](http://its-a-writer-thing.tumblr.com/post/123597982752/how-a-characters-choice-of-clothing-benefits-the) - It's a Writer Thing
 
 <hr><br>

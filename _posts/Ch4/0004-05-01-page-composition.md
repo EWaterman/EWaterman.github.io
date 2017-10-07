@@ -4,7 +4,11 @@ title: Page Composition
 categories: ["guide", "Drawing"]
 ---
 
-- [Panel Layout: The Golden Ratio](http://www.makingcomics.com/2014/05/07/panel-layout-golden-ratio/) - Making Comics
+[Comic Book Paper](http://comicbookpaper.com/) - You pick the number of panels in your page and it provides a whole bunch sample page layouts. Really, really cool.
+
+[Advanced Layouts: Paneling Outside the Box](http://dresdencodak.tumblr.com/post/841119890/advanced-layouts-paneling-outside-the-box) - Aaron Diaz
+
+[Panel Layout: The Golden Ratio](http://www.makingcomics.com/2014/05/07/panel-layout-golden-ratio/) - Making Comics
 
 <hr><br>
 When designing thumbnails, your first focus should be page composition: how the panels fit together on the page.

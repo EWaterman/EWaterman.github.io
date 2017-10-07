@@ -12,4 +12,6 @@ Here’s a list of sites where you can get digital fonts from. Make sure to chec
 
 [Font Squirrel](https://www.fontsquirrel.com/fonts/list/classification/comic) - Mostly general fonts though they have decent collection of comic specific fonts.
 
+[Comicraft](http://www.comicbookfonts.com/) - Lots of comic specific fonts. They’re not cheap but a lot of them look pretty good.
+
 [Calligraphr](https://www.calligraphr.com/) - Turn your handwriting into a font!
