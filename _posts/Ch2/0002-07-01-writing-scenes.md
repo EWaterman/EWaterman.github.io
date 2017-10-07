@@ -9,7 +9,6 @@ categories: ["guide", "Writing"]
 [Writing The Perfect Scene](http://www.advancedfictionwriting.com/articles/writing-the-perfect-scene/) - Randy Ingermanson
 
 <hr><br>
-
 So you have your outline with a bunch of basic scenes scattered all over it. Now it’s time to actually go a write those scenes!
 
 Before you start, **I recommend not applying the following rules to your first draft**. I prefer to just write out my scenes in full and then evaluate them in retrospect. This lets them come out more naturally. As always, you have to decide what method works best for you.
@@ -19,7 +18,11 @@ Anyways, let’s jump into some quick tips to make sure your scenes are looking 
 
 - **SHOW DON’T TELL** (usually). Comics are a visual medium. Often you can express an idea or emotion through the drawings instead of using a wall of text. There are of course exceptions to this rule. Some things just come across better when told by characters. Unfortunately I don’t know any formula for spotting these situations so you’ll just have to play it by ear.
 
-- **Details matter!** By giving your characters subtle mannerisms, you can reflect their personalities or how they feel about something. Similarly, you can express how the society of your world works through the everyday actions people perform. For example, by showing people using superpowers for ordinary things like floating the TV remote to themselves, you can express how mundane powers have become in your world.
+- **Details matter!** By giving your characters subtle mannerisms, you can reflect their personalities or how they feel about something. Similarly, you can express how the society of your world works through the everyday actions people perform.
+
+![this should be a photo](/images/guide/details.jpg)
+
+For example, in this scene form More Than Men, a young woman is shown using her powers to help her wait tables at a restauraunt. This subtly shows the reader how mundane powers have become in the world while at the same time serving as a natural pause in the scene.
 
 - **Determine the purpose of your scene and fulfill it.** Read back into the section on [the M.I.C.E. quotient]({{ site.baseurl }}{% link _posts/Ch2/0002-04-01-outlining.md %}#mice-quotient) about the different elements of a story. Each scene should progress at least one of these elements. Figure out which elements (the plot, the characters, the world or the idea) your scene addresses and make sure it develops them in some way.
 
@@ -34,7 +37,6 @@ Anyways, let’s jump into some quick tips to make sure your scenes are looking 
 ### The Elements of a Scene
 
 <hr><br>
-
 In general, layout of a scene can often be broken down into the following sequence of events:
 
 - **A Goal:** Something that one or more of your characters want to achieve.

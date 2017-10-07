@@ -731,6 +731,12 @@ img {
   hr {
     height: 1px;
   }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
 }
 
 #guide-content {

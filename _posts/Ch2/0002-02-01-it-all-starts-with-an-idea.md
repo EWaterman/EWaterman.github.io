@@ -4,6 +4,8 @@ title: It All Starts With An Idea
 categories: ["guide", "Writing"]
 ---
 
+![](/images/guide/idea.jpg)
+
 *What if only the rich had super powers?*
 
 That was the idea that sparked my entire story. Everything I wrote in More Than Men is a follow up to that question.

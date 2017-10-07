@@ -13,7 +13,6 @@ The following is a collection of all the resources that don’t fit into any par
 ### Links and Articles
 
 <hr><br>
-
 [Making Comics](http://www.makingcomics.com/) - Collection of articles pertaining to all aspects of comics
 
 [Pipedream Comics](http://pipedreamcomics.co.uk/category/opinion/the-garcia-method-how-to-write-a-digital-comic) - Comic creation articles written by writer Ryan Garcia. 
@@ -25,7 +24,6 @@ The following is a collection of all the resources that don’t fit into any par
 ### Books
 
 <hr><br>
-
 [Understanding Comics](https://www.amazon.ca/Understanding-Comics-Scott-McCloud/dp/006097625X) - Scott McCloud
 
 [Comics and Sequential Art](https://www.amazon.ca/Comics-Sequential-Art-Will-Eisner/dp/0393331261) - Will Eisner
@@ -39,7 +37,6 @@ The following is a collection of all the resources that don’t fit into any par
 ### Podcasts
 
 <hr><br>
-
 [Writing Excuses](http://www.writingexcuses.com/) - A weekly podcast hosted by well known, published writers. Though it’s designed for novel writers, it’s still jam packed with helpful info for writers of all kinds.
 
 [Comics Experience](http://www.comicsexperience.com/podcast/) - A bi-monthly podcast all about the comic making process.
@@ -57,7 +54,6 @@ The following is a collection of all the resources that don’t fit into any par
 ### YouTube channels
 
 <hr><br>
-
 [Camera Panda](https://www.youtube.com/playlist?list=PLH3mK1NZn9QqOSj3ObrP3xL8tEJQ12-vL) - A playlist of the entire “writing for science fiction and fantasy” university course taught by Brandon Sanderson. **WATCH THIS SERIES!!!!** Trust me.
 
 [Jenna Moreci](https://www.youtube.com/channel/UCS_fcv9kBpDN4WWrfcbCrgw/videos) - Very blunt tips and tricks with a focus on writing.

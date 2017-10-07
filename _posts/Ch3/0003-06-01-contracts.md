@@ -6,6 +6,10 @@ categories: ["guide", "Hiring A Team"]
 
 [All for One and One for All (Collaboration Agreements in Comics)](http://npcontract.blogspot.ca/2012/07/all-for-one-and-one-for-all.html) - Creative Contract Consulting
 
+[The Pocket Lawyer for Comic Book Creators](https://www.amazon.ca/Pocket-Lawyer-Comic-Book-Creators/dp/0415661803) (book) - Thomas A. Crowell Esq.
+
+[The Law for Comic Book Creators](https://www.amazon.ca/Law-Comic-Book-Creators-Applications/dp/0786473606/ref=pd_sim_14_1?_encoding=UTF8&psc=1&refRID=XRAH6P652T16S6Y1B9HG) (book) - Joe Sergi
+
 <hr><br>
 Publishers will almost certainly provide their own contracts (if they don’t, be weary) but if you’re self publishing, you’ll be handling it yourself.
 

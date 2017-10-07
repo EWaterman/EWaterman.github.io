@@ -4,6 +4,8 @@ title: Staying Organized
 categories: ["guide", "Before You Start"]
 ---
 
+![](/images/guide/messy.jpg)
+
 ### <a name="project-folder"></a>Project folder
 
 <hr><br>
@@ -37,6 +39,7 @@ Ex.
 01-02-l-01.tif	-> letters for issue 1 page 2
 02-13-c-05.tif	-> fifth version of colours for issue 2 page 13
 ```
+![](/images/guide/files.jpg)
 
 If you have many projects that you’re working on, you may want to **consider prepending the project name to the front of your file names.**
 ```

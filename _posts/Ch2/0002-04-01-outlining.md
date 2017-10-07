@@ -4,12 +4,13 @@ title: Outlining
 categories: ["guide", "Writing"]
 ---
 
+![](/images/guide/outline.jpg)
+
 [8 ways to outline a novel](https://litreactor.com/columns/8-ways-to-outline-a-novel) - Robbie Blair
 
 [How to outline your novel](https://www.youtube.com/watch?v=Hwv2SKayUPo) (video) - Jenna Moreci
 
 <hr><br>
-
 First off, even if you’re not an outliner, I encourage you to read this section. There are a whole bunch of tips that will transfer completely to the revision process (which is really just outlining in retrospective).
 
 Okay, so outlining!
@@ -23,7 +24,6 @@ I’ve put outlining before [world building]({{ site.baseurl }}{% link _posts/Ch
 ### Plotting vs Pantsing
 
 <hr><br>
-
 There are two extremes when it comes to outlining:
 
 - **Plotting** absolutely everything out before you write and
@@ -56,7 +56,6 @@ Well, first let me tell you about...
 ### <a name="mice-quotient"></a>The M.I.C.E. Quotient
 
 <hr><br>
-
 If you haven’t heard of [the M.I.C.E. quotient](http://www.sfcenter.ku.edu/Workshop-stuff/MICE-Quotient.htm), it essentially states that there are four elements that a story can have:
 
 - **Milieu** (concerning the world)
@@ -83,7 +82,6 @@ My outlining method plays with this concept, and helps me ensure that I fulfill 
 ### My Amazingly Flawless Outlining Method <sup>TM</sup>
 
 <hr><br>
-
 My method is just too complicated to explain through text so I’m going to make a video about it at some point and link it here. For now you’ll just have to sit in anticipation… Sorry.
 
 <br>
@@ -91,7 +89,6 @@ My method is just too complicated to explain through text so I’m going to make
 ### General Tips
 
 <hr><br>
-
 Here are some general tips that you’ll want to account for in your outlining process:
 
 - **Fulfill your promises.** If I had to give just one tip on outlining, it would be this one. Always, always, always close your arcs. You don’t have to outright answer every question you raise and your characters don’t have to succeed in their struggles. What you DO have to do is address those things in a satisfying way. Check the previous section on the M.I.C.E. quotient if you haven’t done so yet.
@@ -113,5 +110,5 @@ Here are some general tips that you’ll want to account for in your outlining p
 - **The events that occur in a story are important but what matters more is their effect on the characters.** If the characters aren’t invested in the plot, the reader probably won’t be either (because readers get attached to characters!). As much as possible, give the plot lasting effects on your characters.
 
 - **Consider the “Yes but…” or “No and...” method.** The purpose of this method is to maintain conflict throughout your story and keep a causal chain of events. In every scene ask yourself, do your characters succeed in what they’re trying to do? Your answer should be one of the following:
-Yes, but now there’s another problem we’ll have to deal with in the next scene!
-No, and now the problem is even worse!
+    - Yes, but now there’s another problem we’ll have to deal with in the next scene!
+    - No, and now the problem is even worse!

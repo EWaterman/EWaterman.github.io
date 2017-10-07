@@ -4,6 +4,8 @@ title: Characters
 categories: ["guide", "Writing"]
 ---
 
+![](/images/guide/characters.jpg)
+
 [Resource Dump: Creating Characters](http://bookandslugclub.tumblr.com/post/124011497252/resource-dump-creating-characters-primary) - Massive collection of character creation articles
 
 [Establishing Characters \| Plutona (2015)](https://www.youtube.com/watch?v=cw-QPyBtbGc) (video) - Strip Panel Naked 
@@ -11,7 +13,6 @@ categories: ["guide", "Writing"]
 [Characterization & Character Creation](http://www.springhole.net/writing/characterization.htm) - Springhole
 
 <hr><br>
-
 Han Solo, Batman, Forrest Gump… Everyone has their favourite. 
 
 **Characters are the lifeblood of your story.** Without strong, likable characters there is very little chance your readers will be interested in your comic.
@@ -29,7 +30,6 @@ So listen up!
 [5 ways to make a character more likable](https://www.youtube.com/watch?v=hHSTa7XPeHc) (video) - Brookes Eggleston
 
 <hr><br>
-
 So you want to make amazing characters. Good! Here are some quick tips on how to do that:
 
 #### Make your characters relatable.
@@ -85,7 +85,6 @@ In my character bios, I include things like appearance, personal history, person
 [Naming Languages, Part I: Why names in fantasy often suck](http://rassaku.livejournal.com/2183.html) - rassaku
 
 <hr><br>
-
 Some people think the names of your characters don’t really matter but they actually have more impact than you may believe. Here are some tips to make sure your characters names have the right kind of impact:
 
 - **It’s generally a good idea to make character names easy to pronounce.** You can test this by reading the name out loud. Nghzz’aa Bkl’epp may seem cool at first but your reader isn’t going to want to read that a hundred times.

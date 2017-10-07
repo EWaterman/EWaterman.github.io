@@ -15,7 +15,6 @@ categories: ["guide", "Writing"]
 [World Building Outline](https://docs.google.com/document/d/1DZHe9EFXWqw_1PGxrOyqBrM5up9Yj4a38FsQ3PxXPGc/edit) (google doc) - massive list of outlining related tips
 
 <hr><br>
-
 So you want to build a world eh?
 
 Most people only associate world building with fantasy or sci-fi stories but in reality, **world building is required in every story if you want to keep things consistent and avoid plot holes.**
@@ -33,7 +32,6 @@ World building can be split into two phases (though you’ll almost certainly be
 ### <a name="creation"></a>Creation
 
 <hr><br>
-
 **The creation phase is for the parts of your story that don’t exist in reality.** Alien races, magic systems, superpowers... how each of these things work in your story is completely up to you. 
 
 Creation is where most fantasy stories will be spending their world building time. It’s the realm of the unknown. You have absolute freedom to decide how your story operates.
@@ -53,7 +51,6 @@ As a bit of a side note, while creating your world, I encourage you to **look be
 ### <a name="research"></a>Research
 
 <hr><br>
-
 **The research phase is for the parts of your story that exist in the real world or have already been previously created.** This is an important distinction to make. Even though elves don’t exist in the real world, there’s still countless amount of information written about them. If you’re including something in your story that people could have prior knowledge about, it’s important to do your research to make sure you represent it correctly. (Though I’d argue having a generic “elf” race in your story is very overused and boring. Spice it up a bit! How can you twist the common understanding of what and elf is to make it interesting?)
 
 Research on a subject can be conducted in many ways:
@@ -69,7 +66,6 @@ Once you’ve done some research, **tweak your ideas from the creation phase so 
 ### Sorting Out the Details and Knowing When You’re Done
 
 <hr><br>
-
 Now that you have a system in place, it’s time to think about the details of your world. How do people in your world greet each other? What superpower would be most useful to help a waitress serve tables? As you can see, this step can get very... specific.
 
 WARNING: This is usually where world builder’s disease kicks in. 
