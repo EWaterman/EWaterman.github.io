@@ -400,7 +400,13 @@ img {
   overflow-y: auto;
 }
 
+#homepage-main-img-wrapper {
+  height: 100%;
+  overflow-y: hidden;
+}
+
 #homepage-main-img {
+  background-color: $homepageBg;
   position: absolute;
   top: 0;
   left: 0;
@@ -415,12 +421,8 @@ img {
   z-index: 20;
 }
 
-.homepage-col {
-  overflow-y: hidden;
-}
-
-// sm and under
-@media only screen and (max-width: 768px) {
+// md and under
+@media only screen and (max-width: 1199px) {
   .homepage-btn {
     width: 80%;
   }
@@ -430,8 +432,8 @@ img {
   }
 }
 
-// md and over
-@media only screen and (min-width: 769px) {
+// lg and over
+@media only screen and (min-width: 1200px) {
   .homepage-col {
     max-height: calc(1.21489198 * 45vw);
     height: calc(100vh - 200px);
@@ -633,7 +635,8 @@ img {
 }
 
 .comic-row {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .comic-title-col {
@@ -651,7 +654,7 @@ img {
 }
 
 .gumroad-stuff {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .comic-text {
@@ -673,7 +676,7 @@ img {
   font: 14px Helvetica, Arial, sans-serif;
 }
 
-// ==================== END COMIC PAGE =========================
+// ===================== END COMIC PAGE ======================
 
 // ===========================================================
 // ======================== GUIDE PAGE =======================
