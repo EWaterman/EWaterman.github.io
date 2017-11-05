@@ -286,19 +286,19 @@ img {
 }
 
 .menu-button1 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
 }
 
 .menu-button2 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
+  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
 }
 
 .menu-button3 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
+  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
 }
 
 .menu-button4 {
-  transition: all 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .6s;
+  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .5s;
 }
 
 .mask {
