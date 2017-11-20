@@ -3,6 +3,9 @@ layout: guidepost
 title: Character Design
 categories: ["guide", "Drawing"]
 ---
+
+![](/images/guide/designs01.jpg)
+
 [Creating Characters: 6 Tips to Help You](https://www.youtube.com/watch?v=ph7-q9GOMR0) (video) - Mark Crilley 
 
 [How to Create Characters](https://www.youtube.com/watch?v=Rpj2J4tn4YI&index=100&list=PLNaAcA0yN3KYup8psSoyOd_mKW27av89V&t=1207s) (video) - Draw with Jazza
