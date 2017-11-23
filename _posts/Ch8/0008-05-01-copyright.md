@@ -1,51 +1,8 @@
 ---
 layout: guidepost
-title: Barcodes and Copyright
+title: Copyright
 categories: ["guide", "Publishing"]
 ---
-
-### Barcodes and Product Numbers
-
-[Barcodes ISBNs UPCs Oh My](http://www.comixtribe.com/2013/07/10/barcodes-isbns-upcs-oh-my/) - Tyler James
-
-<hr><br>
-**Some comic shops require barcodes to scan in their books** and so if you want to sell in stores, you should probably get one.
-
-Mandatory disclaimer: Different countries handle barcodes differently. The information below is based off US and Canada standards. Make sure to research your own country's rules.
-
-If you're only planning on selling your comics online or at conventions, you may not need any of this stuff but if you want to be safe and include them, the type of barcode and number required depends on your book type.
-
-**Graphic Novels require an ISBN.**
-
-![](/images/guide/isbn.png)
-
-Canadians can [get these for free](http://www.bac-lac.gc.ca/eng/services/isbn-canada/Pages/isbn-canada.aspx) but everyone else will have to pay. I've been told people trust [Bowker for buying numbers](https://www.myidentifiers.com/isbn/main).
-
-**Single issue comics** (those saddle stitched floppy ones) **don't require an ISBN.**
-
-![](/images/guide/upc.jpg)
-
-Instead, **you'll need a UPC number** (UPC-A specifically). You can easily purchase a number online. I use [barcodestalk](https://www.barcodestalk.com/bar-code-numbers) but there are other options available.
-
-Once you have your UPC code, **you'll need to add the five digit extension code**. This code is really simple. The first three digits are the issue number, the second is the cover variant, and the third is the printing number.
-
-For example, an extension of 00312 means third issue, first variant, second printing.
-
-Your full UPC number will be your twelve digit UPC code, a space, then your extension code. Ex. 123456789123 00111
-
-Once you have your number (either ISBN or UPC), **you can generate the actual barcode itself for free**. [This generator by Terry Burton](http://www.terryburton.co.uk/barcodewriter/generator/) is the one I use though any should work. Just make sure the image produced is in high resolution.
-
-Here are some other options for generating ISBN barcodes:
-- [creativindiecovers.com](http://www.creativindiecovers.com/free-online-isbn-barcode-generator/)
-- [bookow](https://www.bookow.com/resources.php)
-
-> Okay I've gotten all the required stuff, where do I put them?
-
-Some comics choose to put it on the front so the comic can be put in a sleeve and still be scanned but it's ugly and blocks art. For this reason, **most comics keep them on the back cover**.
-
-As for how to actually get it on the cover, talk to your cover artist or whoever is in charge of preparing your files. If that's you, **make sure the barcode is in high resolution and it's not too small!** You want those things to be able be scanned after all. The online resources I posted above generate eps files that you can import directly into your editing software, making it quite easy to set everything up.
-
-### Copyright
 
 [How to Copyright Your Comic Creations](http://info.legalzoom.com/copyright-comic-creations-27168.html) - Victoria McGrath
 
