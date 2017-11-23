@@ -29,4 +29,10 @@ Not only does it make your art more visually pleasing but it also clarifies thin
 
 - **Objects of the same colour are perceived as the same distance away.** This is a consequence of how the brain works when analyzing images. If you have a bright blue object in the foreground and another object with the same colour in the background, the depth of your image will start feeling distorted. Generally you want to stick to a specific tone across each level of depth in your image.
 
+- **Consider adding atmospheric perspective to add depth to a panel.** Also known as atmospheric haze or fog, this is the change in appearance of objects as they are viewed at increasing distances through the layers of illuminated air. The further away you go, the more desaturated they become. You see this effect a lot in mountain scenes like this one:
+
+![](/images/guide/haze.jpeg)
+
+Notice how the mountains in the back are more faded than the ones in the front? This effect can be achieved by desaturating the colours of far away objects and can be enhanced with color holds.
+
 - **Consider the meaning of your colours.** Over time, our society has assigned an emotion or symbol to each of the main colours. Because of this, people will often have a subconscious reaction when seeing a specific colour. This meaning varies between cultures (and I warn you to be weary of stereotypes) but one possible assignment is well summarized [here](http://www.color-wheel-pro.com/color-meaning.html).

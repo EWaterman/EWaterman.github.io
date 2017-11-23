@@ -1,6 +1,6 @@
 ---
 layout: guidepost
-title: Colour or Black and White
+title: Colour or B&W
 categories: ["guide", "Colouring"]
 ---
 
