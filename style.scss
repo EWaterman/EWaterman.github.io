@@ -630,7 +630,7 @@ img {
   color: $black;
 }
 
-#comic-title {
+#comic-page {
   background-color: $homepageBg;
 }
 
@@ -639,17 +639,31 @@ img {
   margin-bottom: 25px;
 }
 
+#comic-title {
+  margin-bottom: 50px;
+}
+
 .comic-title-col {
   padding-right: 0;
   padding-left: 0;
 }
 
-#comic-title-mobile {
-  margin-top: 20px;
+.comic-sign-up {
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 60px;
+  background-color: #e8e6e6;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
+}
+
+#comic-sign-up-title {
+  font-size: 200%;
 }
 
 #comic-logline {
-  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .gumroad-stuff {
@@ -657,8 +671,14 @@ img {
 }
 
 .comic-text {
+  font-size: 110%;
   text-align: left;
-  margin-top: 25px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.comic-img {
+  border: 3px solid $black;
 }
 
 #comic-know-more {
@@ -670,7 +690,7 @@ img {
 }
 
 #mc_embed_signup{
-  background: $homepageBg;
+  background: $transparent;
   clear: left;
   font: 14px Helvetica, Arial, sans-serif;
 }
