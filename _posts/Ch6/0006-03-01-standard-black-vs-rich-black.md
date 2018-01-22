@@ -14,16 +14,22 @@ To summarize again, there are two ways to create black with CMYK colouring:
 - **Standard blacks** use only K values while setting CMY values to zero.
 - **Rich blacks** add CMY values to your blacks. Rich blacks result in a more absolute black when going to print.
 
-In colouring, it’s almost always prefered to use rich blacks over standard ones but in lettering this is not the case.
+In colouring, it’s almost always prefered to use rich blacks over standard ones but in lettering this is not necessarily the case.
 
-In printing, each source colour (cyan, magenta, yellow and black) require a different printing plate. This means the number of source colours you use in each section of a page will determine the number of plates required to print that section.
+Which is best will really depend on the printer you use. I’ll explain the differences between printers more in a later section but for now:
+
+In offset printing (large printers usually reserved for major printing companies), each source colour (cyan, magenta, yellow and black) require a different printing plate. This means the number of source colours you use in each section of a page will determine the number of plates required to print that section.
 
 Because rich blacks use all four colours, they require all four printing plates (CMYK) to be used. If a slight shifting in the plates occurs, those rich blacks can become blurred on the page. This effect is more noticeable in lettering since the lines are so slim so any shifting effects are more amplified.
 
 By using standard blacks this effect can be avoided since they only use a single printing plate (K).
 
-Because of this, **I recommend sticking to standard blacks** (C=0, Y=0, M=0, K=100) **when lettering.**
+However if you are printing with a digital printer (like the ones you have at home which print with ink cartridges), this effect is non-existent.
 
-This is not a fully agreed upon topic however. Many letterers do choose to use rich blacks in their work to get a more pure colour out of their letters.
+Because of this, **when it comes to lettering, I recommend sticking to standard blacks** (C=0, Y=0, M=0, K=100) **if you’re printing with an offset printer and rich blacks** (something along the lines of C=60, Y=60, M=40, K=100) **otherwise.**
+
+This is not a fully agreed upon topic however. Many letterers choose to risk using rich blacks even when printing with offset printers to get a more pure colour out of their letters.
+
+If this all seems overwhelming, don’t worry. It’s relatively easy to switch between the two if need be and it has a minimal effect on the end result.
 
 Ultimately the magnitude of the shifting effect depends on the printer you use so make sure to talk to them about it before going to print.

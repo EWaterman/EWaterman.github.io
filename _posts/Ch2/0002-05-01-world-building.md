@@ -19,7 +19,7 @@ So you want to build a world eh?
 
 Most people only associate world building with fantasy or sci-fi stories but in reality, **world building is required in every story if you want to keep things consistent and avoid plot holes.**
 
-That said, be careful not to get trapped in this phase ([world builder’s disease](http://thewritersaurus.com/2015/03/06/the-dreaded-world-builders-disease/ is real my friends). You probably can’t be like Tolkien and spend 12 years world building plus make an entire book around the lore of your stories.
+That said, be careful not to get trapped in this phase ([world builder’s disease](http://thewritersaurus.com/2015/03/06/the-dreaded-world-builders-disease/) is real my friends). You probably can’t be like Tolkien and spend 12 years world building plus make an entire book around the lore of your stories.
 
 > But how do I know when I’ve done enough world building?
 
@@ -80,4 +80,4 @@ If you’re like me though and want to plan as much as you can early on...
 
 One of your goals with worldbuilding the details should be to **show that there's more life out there than just what your main plot is exploring**. By answering questions like these, you’ll be able to fill the gaps in your world and make it feel more real.
 
-That said, **you shouldn’t expose all the details to the reader**. If you take all your time showing off the cool intricacies of your world, there won’t be any space left for the actual plot. Excessive exposition is boring, especially when it has nothing to do with what’s going on in the story. **Find the details often enforce the tone, setting and characters of your story.** To tie things back to my original example, I decided to give the waitress in my story telekinetic powers. Not only does this make sense logically (it eases her job by allowing her to float dishes and such around) but it also serves to enhance the idea that in my world, even low skilled jobs are occupied by those with powers.
+That said, **you shouldn’t expose all the details to the reader**. If you take all your time showing off the cool intricacies of your world, there won’t be any space left for the actual plot. Excessive exposition is boring, especially when it has nothing to do with what’s going on in the story. **Find the details that help enforce the tone, setting and characters of your story.** To tie things back to my original example, I decided to give the waitress in my story telekinetic powers. Not only does this make sense logically (it eases her job by allowing her to float dishes and such around) but it also serves to enhance the idea that in my world, even low skilled jobs are occupied by those with powers.

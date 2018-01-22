@@ -6,7 +6,7 @@ categories: ["guide", "Lettering"]
 
 Here’s some basic but important technical points that I’ve seen plenty of letterers mess up on:
 
-- **Keep the panel border larger than balloon border.** The panel is what divides up the sections of your page and thus it should have the most dominant lines. This is to help the flow of the page obvious to the reader. Sound effects can sometimes be an exception to this rule.
+- **Keep the panel border larger than the balloon border.** The panel is what divides up the sections of your page and thus it should have the most dominant lines. This is to help the flow of the page obvious to the reader. Sound effects can sometimes be an exception to this rule.
 
 - **Don’t letter in serif fonts.** No explanation here, it’s just universally accepted as a big no-no.
 
@@ -36,7 +36,7 @@ Here’s some basic but important technical points that I’ve seen plenty of le
 
 - **Extend the tail of the balloon from it’s center.** This makes the balloon feel properly weighted. If you are connecting multiple balloons together with a single tail, the tail should go through the center of all of them.
 
-- **The close balloons are together, the faster they’re be read in succession.** As the reader’s eye travels through a panel, they get the illusion of time passing. If you put balloons closer together, they’ll seem like they occur within a smaller amount of time. Butting balloons up against each other shows that one is said immediately after the other. This often implies one character interrupting another. This takes me to my next point:
+- **The closer balloons are together, the faster they’ll be read in succession.** As the reader’s eye travels through a panel, they get the illusion of time passing. If you put balloons closer together, they’ll seem like they occur within a smaller amount of time. Butting balloons up against each other shows that one is said immediately after the other. This often implies one character interrupting another. This takes me to my next point:
 
 - **Don’t put balloons in adjacent panels right next to each other unless you want to reader to move there immediately.** By putting two balloons together, you’re showing the reader the next spot their eye should go too. Often times, adjacent balloons are accidentally placed too close to each other, resulting in the reader skipping over the rest of the panel.
 
@@ -48,7 +48,7 @@ Here’s some basic but important technical points that I’ve seen plenty of le
 
 - **Don’t block line of sight with word balloons or captions.** It can confuse the reader and detract from the moment. The difference can be seen by switching from [this](http://www.balloontales.com/tips/tails_joins/pointer1_lg.gif) to [this](http://www.balloontales.com/tips/tails_joins/pointer4_lg.gif). That said, this effect can potentially be used to show a disconnect between characters.
 
-- **Be consistent with the shape of your balloon tails**. If you want to use curvy tails, stick with that for a majority of situations. Consistency helps normalize elements for your reader. Once you’ve set a baseline, you can switch it up in certain moments to show emphasis (straight lines for an abrupt statement) or to express how different characters talk (a sly, shady character might have curvy tails that wrap around the other elements within the panel)
+- **Be consistent with the shape of your balloon tails**. If you want to use curved tails, stick with that for a majority of situations. Consistency helps normalize elements for your reader. Once you’ve set a baseline, you can switch it up in certain moments to show emphasis (straight lines for an abrupt statement) or to express how different characters talk (a sly, shady character might have curvy tails that wrap around the other elements within the panel)
 
 - **Use balloons to guide the eye through the page.** Here’s a [great guide](http://chrisoatley.com/comic-balloons-comic-layout/) by Chris Oatley that covers a whole bunch of ways to do this. 
 
