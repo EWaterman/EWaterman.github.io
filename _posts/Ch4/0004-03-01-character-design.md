@@ -21,7 +21,21 @@ categories: ["guide", "Drawing"]
 <hr><br>
 When designing characters you have a ton of factors to tweak. Things like race, body type, hair style, facial features and posture all play an important role in how readers will perceive your characters. 
 
-- **Make each of your characters distinct.** Like I said before, there are many different features you can vary when creating characters. If all your characters are buff white dudes with brown hair and a goatee, your readers are 
+- Even if you're drawing monsters or other fictional creatures, it's important that you **get familiar with the anatomy of the body.** While your characters may not share our human features, knowing how anatomy works will help your drawings become consistently proportionate, and thus feel more alive and believable. I've provided many links about drawing characters in the above section but here are some quick tips:
+
+    - **The average man is seven heads tall while the average woman is six and a half heads tall.** This just means that if you stacked seven heads on top of each other, you'd get the height of the average guy. That's not to say that all your characters have to be average height! Instead treat it as a base point to build your characters from.
+
+    - **Compile a resource folder.** If what you're drawing involves a lot of women bodybuilders, look up websites with photos of women bodybuilders. The more photos you can collect of different people in different poses, the less you'll have to draw from memory. The same applies to anything you're drawing, whether it's people, animals or cars. If you can't find any photos online of your subject, go out and take some yourself! Many artists will use themselves or a close friend as a model for their drawings. If all else fails, you can always get a mirror and make the poses yourself. Don't worry, no one will be there to judge you.
+
+    - **Attend life drawing courses.** There's no better way to learn how to draw the body than with a real model. Many famous artists swear by them, saying the courses they went to were the single greatest boost to their drawing abilities.
+
+- **Make each of your characters distinct.** Like I said before, there are many different features you can vary when creating characters. If all your characters are buff white dudes with brown hair and a goatee, your readers are going to get confused. There are many ways you can make someone look unique:
+
+    - **Accessories:** Piercings, a cool haircut, a beauty spot, tattoos, a robot arm... These things might seem like small touches but they go a long way to helping a character stand out.
+
+    - **Clothing:** Ripped jeans, a fine silk suit, sweatpants and a hoodie, a school girl uniform... Your options are near limitless with this one. Remember your character is dressing themselves so only go as wild as they would.
+
+    - **Equipment/personal items:** A lucky bullet, a pocket bible, a pet side-kick, a photo of their mom... While items like these may be less helpful for identifying a character, they're a quick way to establish personality or some background for the reader. Having a character pull out their set of trick dice that they stole from a gang lord will immediately add depth to that character's history, making them feel more real to the reader. They can even be used as a part of the story itself if you can weave it into the narrative.
 
 - Once you've decided on their look, **make sure to draw your characters consistently**. While the clothes your characters wear may change, facial features do not. Even subtle slips in style can result in an unrecognizable character and consequently a confused reader. A lot of artists create [character/model design sheets](http://characterdesignnotes.blogspot.ca/2010/12/model-sheets-101.html) to help them draw characters consistently. These sheets involve a bunch of shots of their characters with many different positions, angles and facial/body expressions, providing a reference of the character for the artist.
 

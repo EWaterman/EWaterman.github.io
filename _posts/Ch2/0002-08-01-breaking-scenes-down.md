@@ -6,15 +6,17 @@ categories: ["guide", "Writing"]
 
 Okay so you have your scenes written out, now it’s time to really start building your script by breaking things down into pages and panels.
 
-I like to break my scenes down in three steps, writing up my script as I go. The steps are: 
+Again, I suggest you **write your first draft freely before trying to follow all these tips**. Let it come out naturally at least once.
 
-- **Splitting apart the individual actions of a scene**
+After I finish writing a scene, I like to analyse what I've written so far by breaking the scene down into its components. I do this in three steps:
 
-- **Grouping those actions into pages**
+- First, I **split apart the individual actions of the scene**
 
-- **Forming panels from the actions**
+- I then **group those actions into pages**
 
-Each step has it’s own explicit purpose and by following them, I can create a solid, in depth script of each scene.
+- Finally, **I use those now divided up actions to form panels**
+
+Each step has its own explicit purpose and by following them, I can create a solid, in depth script of each scene.
 
 As I rearrange and rewrite scenes, I frequently jump back and forth between these three steps so don’t feel like you have to complete each one fully before moving forward.
 
@@ -29,7 +31,9 @@ The first thing I do when breaking down a scene is to take my notes and split th
 
 > So… what’s an atom?
 
-*Atoms are the elementary actions of a scene.* A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into.
+*Atoms are the elementary actions of a scene.* Snapshots in time, comprising of a single action or state change. A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into.
+
+Any time something moves from one state to another, no matter how small the change, it can be considered as an atomic change.
 
 Here’s an example scene from my comic:
 
@@ -46,7 +50,7 @@ That scene broken into atoms might look like the following:
 - The drug dealer pulls out a gun.
 - The drug dealer shoots at Faith.
 
-I usually don’t include dialogue when I break down scenes but it’s important to keep it in the back of your mind.
+Each atom contains a single action, independent from the fact that some of those actions could be done in parallel to each other. By breaking things down into atoms, we can easily identify every time something changes in a scene.
 
 There are a couple reasons to break out the atoms of a scene:
 
@@ -55,6 +59,8 @@ There are a couple reasons to break out the atoms of a scene:
 - **It can help reveal which moments can be merged together and which ones must stand on their own.** (More on this in the “forming panels” section.)
 
 All that said, I found that a lot of this part of the process can be glossed over. It’s not really necessary to break absolutely everything down. It’s just helpful if you’re struggling with organizing a particular scene.
+
+I don't usually include dialogue when I break scenes down like this, but feel free to do so if you find it helpful. Either way, it’s still important to keep in the back of your mind as you break a scene down.
 
 <br>
 
@@ -116,11 +122,11 @@ This concept of “parallelizable atoms” is very important to grasp so I pulle
 
 Let’s simplify things a bit: I want you to imagine a person alone, in an empty room.
 
-The two atoms the person smiles and the person opens the door can be shown together. It is physically possible to draw the person opening the door while smiling.
+The two atoms "the person smiles" and "the person opens the door" can be shown together. It is physically possible to draw the person opening the door while smiling.
 
-However the atoms the person opens the door and the person closes the door are not parallelizable. No matter how hard you try, it’s pretty much impossible to show both the opening and closing of a door in one drawing, at least in a readable way.
+However the atoms "the person opens the door" and "the person closes the door" are not parallelizable. No matter how hard you try, it’s pretty much impossible to show both the opening and closing of a door in one drawing, at least in a readable way.
 
-**If two atoms are NOT parallelizable, it’s almost ALWAYS a good idea to split them up into different panels.**
+**If two atoms are NOT parallelizable (and you need to show them both), it’s almost ALWAYS a good idea to split them up into different panels.**
 
 Unfortunately, things get a little more complicated when you add more characters to the mix.
 

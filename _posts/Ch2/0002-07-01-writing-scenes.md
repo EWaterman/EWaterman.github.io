@@ -11,7 +11,7 @@ categories: ["guide", "Writing"]
 <hr><br>
 So you have your outline with a bunch of basic scenes scattered all over it. Now it’s time to actually go a write those scenes!
 
-Before you start, **I recommend not applying the following rules to your first draft**. I prefer to just write out my scenes in full and then evaluate them in retrospect. This lets them come out more naturally. As always, you have to decide what method works best for you.
+Before you start, **I recommend not applying the following rules to your first draft**. I prefer to first write out my scenes in full and then evaluate them against these tips in retrospect. I found that this lets the story flow more naturally since I don't have to keep stopping my writing to check if I'm doing everything exactly right. As always, you have to decide what method works best for you.
 
 Anyways, let’s jump into some quick tips to make sure your scenes are looking great:
 
