@@ -39,13 +39,15 @@ In short, your purpose is what you want to achieve with your story.
 
 My comic More Than Men has a few core purposes:
 
-To get the reader thinking about societal problems like political and economic inequality
-Create an engaging character drama story
+- To get the reader thinking about societal problems like political and economic inequality
+
+- Create an engaging character drama story
 
 There are also a couple secondary purposes:
 
-Provide a meta commentary about the state of the superhero genre
-To have exciting action sequences
+- Provide a meta commentary about the state of the superhero genre
+
+- To have exciting action sequences
 
 Whether it be to make people laugh or make them cry, every story has (at least one) purpose and now it’s time to apply that purpose to start gathering your fans.
 
@@ -53,7 +55,7 @@ Remember that just like you, your audience has a purpose too. I’m sure some of
 
 Different people are looking for different things in their stories. The key concept is that **your most loyal followers, the ones who will actually be engaging with your content, will be those whose purpose syncs up with the purpose of your comic**.
 
-If the purpose of your story is to teach others about astronomy, trying to sell that story to people who are looking for a straight forward action story, you're not going to get a lot of responses.
+If the purpose of your story is to teach others about astronomy, trying to sell that story to people who are looking for a straight forward action story is not going to get you a lot of responses.
 
 You’ll have much more success if you instead target people looking to learn more about astronomy.
 

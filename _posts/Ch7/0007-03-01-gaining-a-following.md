@@ -12,7 +12,7 @@ Post pages or even specific panels that you’re really proud of, time lapses of
 
 The key here is to get people excited in your project. You want people to look at your stuff and want to see more.
 
-There are a lot of different techniques that can help you achieve this but basically, you want your posts to both stand out from the crowd, and be immediately eye catching. Because of this, **the more visually engaging you can make your posts, the better the response will be**. Posting a picture a colourful painting of your characters in action will (probably) get you far more engagement than simply making a generic text post about it. Wall of text post tend to just get scrolled past unless the message is short and interesting.
+There are a lot of different techniques that can help you achieve this but basically, you want your posts to both stand out from the crowd, and be immediately eye catching. Because of this, **the more visually engaging you can make your posts, the better the response will be**. Posting a colourful painting of your characters in action will probably get you more engagement than simply making a generic text post about it. Wall of text post tend to just get scrolled past unless the message is short and interesting.
 
 > But I’m just starting out! I don’t even have any finished art yet!
 
@@ -30,8 +30,9 @@ I would do things like post multiple versions of our main logo to Facebook and g
 
 We’ll talk more about this later, but **some of the best marketing campaigns focus on engaging the audience**. By getting your followers directly involved in the process, they’ll start becoming more invested in your product because they feel like they played a part in its creation. It doesn’t matter how small the contribution, they’ll want to see your project succeed because they put effort into it themselves.
 
-It’s also a nice way to get some extra feedback as to what works for your audience and what doesn’t which is always nice little bonus.
+It’s also a nice way to get some extra feedback as to what works for your audience and what doesn’t, which is always nice little bonus.
 
+<br>
 Oh, and **don't try and boost your numbers by going on Twitter and mass following a bunch of random people**. While you may get some people following you back, those numbers won’t actually mean anything. In fact, they could actually be detrimental to your campaign!
 
 Lots of social media sites are now deciding what content shows up on people’s news feeds based on the “quality” of each post. The quality of a post is often determined by the number of people engaging with it relative to the number of followers you have. If you get a bunch of people following you simply because you followed them, odds are they’re not going to “like” or share your content. This would mean that your percentage of engagement would actually drop (more followers but little to no increase in engagement), resulting in your posts dropping in “quality” and thus showing up on fewer people’s feeds.
