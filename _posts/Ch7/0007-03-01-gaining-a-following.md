@@ -14,6 +14,8 @@ The key here is to get people excited in your project. You want people to look a
 
 There are a lot of different techniques that can help you achieve this but basically, you want your posts to both stand out from the crowd, and be immediately eye catching. Because of this, **the more visually engaging you can make your posts, the better the response will be**. Posting a colourful painting of your characters in action will probably get you more engagement than simply making a generic text post about it. Wall of text post tend to just get scrolled past unless the message is short and interesting.
 
+Also, **vary your content when possible**. Posting the same type of thing over and over is boring and besides, different people like different things. Some want to see more line work while others want to see character profiles. By varying the content you product, you'll be able to stay fresh as well as attract different people to your profile.
+
 > But I’m just starting out! I don’t even have any finished art yet!
 
 Don’t worry.
@@ -39,4 +41,4 @@ Lots of social media sites are now deciding what content shows up on people’s 
 
 Ultimately you want to remember that **your goal is to gain loyal supporters**. The kind of people who will actually step up and support your project when the time comes.
 
-While having an extra 1000 followers is great, I’d much rather trade them in for 50 loyal supporters.
+While having an extra 1000 followers is great, getting another 50 loyal supporters is even better.
