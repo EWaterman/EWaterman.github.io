@@ -43,6 +43,8 @@ The following is a collection of all the resources that don’t fit into any par
 <hr><br>
 [Writing Excuses](http://www.writingexcuses.com/) - A weekly podcast hosted by well known, published writers. Though it’s designed for novel writers, it’s still jam packed with helpful info for writers of all kinds.
 
+[Dirty Old Ladies](dirtyoldladies.tumblr.com/) - Don't let the title deter you. This podcast hosts 3 of the biggest indie creators out there and is full of great advice about Kickstarting comics, art education, conventions, and more.
+
 [Comics Experience](http://www.comicsexperience.com/podcast/) - A bi-monthly podcast all about the comic making process.
 
 [Comix Launch](http://www.comixlaunch.com/) - Amazing resource that primarily focuses on Kickstarter and marketing for comics.

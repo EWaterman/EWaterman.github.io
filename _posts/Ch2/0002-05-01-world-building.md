@@ -14,6 +14,8 @@ categories: ["guide", "Writing"]
 
 [World Building Outline](https://docs.google.com/document/d/1DZHe9EFXWqw_1PGxrOyqBrM5up9Yj4a38FsQ3PxXPGc/edit) (google doc) - massive list of outlining related tips
 
+[Worldbuilding Notes and Resources](https://docs.google.com/document/d/1XXN7DiNmMV7fOZbf2xGeqLvRtRQixOvznSDjOlcY5HQ/edit) (google doc) - Tiffany S
+
 <hr><br>
 So you want to build a world eh?
 

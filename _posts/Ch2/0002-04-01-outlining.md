@@ -97,7 +97,7 @@ Here are some general tips that you’ll want to account for in your outlining p
 
 - **Don’t be afraid to deviate from your outline.** You’ll sometimes get an idea that that doesn’t fit in your story so far. This is normal. Your outline will almost certainly be changing around drastically as you plan things out so if a new idea makes your story better overall you can always just try to shift things around a bit. Make sure to account for it in the rest of the story though! You don’t want any loose ends or unfulfilled promises.
 
-- **If something doesn’t fit in your story just let it go.** I know how hard it can be to cut a scene that you love but if it starts breaking more promises than it fixes or if you have to switch too many other good scenes to make this one fit, it’ll just end up hurting you in the long run. Save that idea for later though! You’ll never know, it could be useful later.
+- **If something doesn’t fit in your story just let it go.** I know how hard it can be to cut a scene that you love but if it starts breaking more promises than it fixes or if you have to switch too many other good scenes to make this one fit, it’ll just end up hurting you in the long run. DON'T ERASE CUT IDEAS COMPLETELY! Things may change with your story and something you cut might work later on. I like to keep a notepad with all my cut content near me when I outline as a potential source of ideas.
 
 - **Start at the end and work backwards.** When I outline, the first thing I like to do is figure out how my stories will end. From there I figure out what caused this final event, then what caused the event that caused the final event… This helps make sure that each element feels like a natural result of the previous one.
 
@@ -105,9 +105,11 @@ Here are some general tips that you’ll want to account for in your outlining p
 
 - **Start a book with a heavier focus on your characters.** Readers can waaaay more easily get attached to specific characters than the world or the plot itself. Starting your story with a ton of exposition will just deter your readers. Hook them in with amazing characters and then they’ll actually be interested in learning more.
 
-- **Each section should be self contained.** Don’t force the reader to remember something that happened previously in the story. As much as possible you want to tell people important info right when they need it so they don't forget. Wait as late as possible to make it an exciting reveal. If you absolutely have to re-hash old information, find an interesting way to remind the reader.
+- **Each section should be self contained.** Don’t force the reader to remember something that happened previously in the story. As much as possible you want to tell people important info right when they need it so they don't forget. Wait as late as possible to make it an exciting reveal. If you absolutely have to rehash old information, find an interesting way to remind the reader.
 
 - **The events that occur in a story are important but what matters more is their effect on the characters.** If the characters aren’t invested in the plot, the reader probably won’t be either (because readers get attached to characters!). As much as possible, give the plot lasting effects on your characters.
+
+- **Always remember your purpose.** [Review the section on your stories purpose]({{ site.baseurl }}{% link _posts/Ch1/0001-03-01-understand-your-purpose.md %}) if you haven't already but essentially your purpose is what you want your story to achieve. Each plot point you insert into your story should serve/reinforce or at least not detract from your purpose(s). I like to have my purposes big and bold at the top of my outline as a constant reminder to myself.
 
 - **Consider the “Yes but…” or “No and...” method.** The purpose of this method is to maintain conflict throughout your story and keep a causal chain of events. In every scene ask yourself, do your characters succeed in what they’re trying to do? Your answer should be one of the following:
     - Yes, but now there’s another problem we’ll have to deal with in the next scene!

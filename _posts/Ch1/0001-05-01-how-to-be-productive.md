@@ -6,7 +6,9 @@ categories: ["guide", "Before You Start"]
 
 ![](/images/guide/prod.jpeg)
 
-Being productive is massively important. If you’re not putting pen to paper (or to tablet) you’re not going to finish your story. 
+Being productive is massively important. If you’re not putting pen to paper (or to tablet) you’re not going to finish your story.
+
+I was invited onto the Comix Launch podcast to talk about how to turn procrastination into productivity. You can [listen to the full episode here](http://www.comixlaunch.com/session133/) if that interests you.
 
 ### General tips
 
