@@ -80,6 +80,6 @@ It’s okay to deviate from your schedule, just be open about it with your follo
 All that said, lots of creators find success in ignoring this advice and instead just updating whenever they have something to share. It takes the pressure off them and allows for a more natural, less forced, flow of content. As always, do what works best for you and the overall purpose you’re trying to achieve.
 
 <br><br><br>
-Also important to remember, is that **while you work on maintaining your existing audience, you don’t want to stop trying to build it up.** Ultimately you’re going to have to strike a balance between attracting potential new followers with exciting and different content and providing a comforting familiarity for your existing followers.
+Also important to remember is that, **while you work on maintaining your existing audience, you don’t want to stop trying to build it up.** Ultimately you’re going to have to strike a balance between attracting potential new followers with exciting and different content and providing a comforting familiarity for your existing followers.
 
-Some of the best marketing strategies I’ve seen achieve both objectives (building and maintaining your audience) at the same time. For example: One approach I took was to post a new piece of art to Twitter, and reward all retweets of that post with a chance to win an 
+Some of the best marketing strategies I’ve seen achieve both objectives (building and maintaining your audience) at the same time. For example: One approach I took was to post a new piece of art to Twitter, and reward all retweets of that post with a chance to win an exclusive, one time only, print copy.

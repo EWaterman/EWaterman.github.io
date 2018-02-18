@@ -4,6 +4,9 @@ title: Gaining A Following
 categories: ["guide", "Marketing"]
 ---
 
+[Growing a Social Following from Nothing](https://www.matthewbarby.com/social-media-strategy/) - Matthew Barby
+
+<hr><br>
 Remember how I said marketing is all about attracting new supporters and maintaining existing ones? Well when you’re first starting out, your focus should be primarily on the former.
 
 **The best way to gather new followers is to share new, interesting content.**

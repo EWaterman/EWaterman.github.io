@@ -1,6 +1,6 @@
 ---
 layout: guidepost
-title: Self Publishing Platforms
+title: Digital Publishing Platforms
 categories: ["guide", "Publishing"]
 ---
 
