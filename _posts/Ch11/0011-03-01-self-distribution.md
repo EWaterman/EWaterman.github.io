@@ -63,7 +63,7 @@ Some people who are frequently packing and shipping comics have invested in thei
 
 ![](/images/guide/label_printer.jpg)
 
-As a bit of a side note, **know your countries rules when it comes to where labels should go on your packaging.** The US doesn’t seem to care, as long as the destination is printed clearly. Canada Post requires the return address in top left and the destination address in the center.
+As a bit of a side note, **know your country's rules when it comes to where labels should go on your packaging.** The US doesn’t seem to care, as long as the destination is printed clearly. Canada Post requires the return address in the top left and the destination address in the center.
 
 <br>
 ### Postage / Stamps
@@ -80,9 +80,9 @@ I shipped More Than Men from Canada Post and USPS because they were the cheapest
 
 As of January 2018, it cost me the following to ship my 32 page, 6.625" x 10.25" comic (all prices in CAD):
 
-Within Canada (Domestic): $4.06 each
-Within US (Domestic): $3.05 each
-From Canada to International: $11.00 each
+- Within Canada (Domestic): $4.06 each
+- Within US (Domestic): $3.05 each
+- From Canada to International: $11.00 each
 
 I believe I was juuuuust over the weight limit for a cheaper shipping tier though so keep that in mind if your comic has fewer pages than mine.
 
