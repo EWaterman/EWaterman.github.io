@@ -17,3 +17,11 @@ Here are a few reasons why you should consider going with black and white:
 - **Black and white comics can have more prominent lighting and shading.** With black and white you can really up the contrast in your pages. This works similarly to the previous point as it can really show off the shapes of things. It can also amplify the emotions of a character or scene. Check out [this video](https://www.youtube.com/watch?v=zND4iSx1P3E) by Strip Panel Naked which explains this point in depth.
 
 - **The art can be melded together.** Without colour, page depth becomes less prominent. The foreground and background start to blend together into a single layer, becoming one, larger image. This results in more abstract or stylized environments. This is super useful when creating more poetic or surreal stories like [Epileptic](https://en.wikipedia.org/wiki/Epileptic_(comics)).
+
+- **It's way cheaper!** I'm not really an advocate for choosing something because it's cheap but printing black and white really does cut down the costs pretty significantly. ESPECIALLY if you're hiring someone to do the colours. Lots of creators start their comics as black and white and colour them later once they've made some money.
+
+If you DO choose to stick to black and white:
+
+- **Make sure your inks are in at least 600 dpi.** Printing in colour only requires 300 dpi minimum since the colours will bleed into each other, slightly blurring the image. This isn't the case with black and white comics so you'll want your art to be even higher resolution to keep it crisp. This isn't a massive deal though so if you're already finished some pages at 300dpi, don't stress about it and try to convert them to 600. Most people won't notice.
+
+- **Stick to true blacks and make sure your K values are at **(or close to)** 100%.** I'll go more into detail about pure vs true blacks later but essentially: when printing, pure blacks use all the tones (CMYK) while true blacks only use K. Because you're printing black and white, you won't have any CMY tones so make sure your art is pure K. Note that your art will be slightly gray because of this (only by combining with those other tones can you get that true black) but this is normal for black and white comics.

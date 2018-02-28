@@ -47,6 +47,6 @@ If it isn’t obvious already, the printer you choose depends on what you want o
 
 Well to keep things really simple:
 
-**If you’re doing a small run** (25-100 copies) **or are taking a POD approach, I suggest you go with a digital printer.**
+**If you’re doing a small run** (25-250 copies) **or are taking a POD approach, I suggest you go with a digital printer.**
 
-**If you need higher quality pages or are doing a larger print runs** (250+ copies) **go with an offset printer.**
+**If you need higher quality pages or are doing a larger print runs** (500+ copies) **go with an offset printer.**
