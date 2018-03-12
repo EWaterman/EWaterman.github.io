@@ -74,7 +74,7 @@ Unfortunately I can’t go into detail about the different types of postage beca
 
 Also of note is **postage prices vary quite a lot between shipping companies.** In Canada, your choices are Canada Post, UPS or FedEx (unless you want to ship with a fulfillment company) but in the US there are a whole lot more.
 
-My suggestion for how to determine which shipping company to go with is to **go to all the local companies with a fully packaged sample of my comic and ask for an estimate.** They’ll tell you exactly what type of postage you’ll have to get and how much it’ll cost you. That way you don’t have to do any guesstimation about your shipping costs.
+When deciding on which company to use, I suggest you **go to all the local companies with a fully packaged sample of your comic and ask for an estimate.** They’ll tell you exactly what type of postage you’ll have to get and how much it’ll cost you. That way you don’t have to do any guesstimation about your shipping costs.
 
 I shipped More Than Men from Canada Post and USPS because they were the cheapest options at the time but make sure to investigate for yourself before choosing any one company.
 
