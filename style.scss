@@ -224,6 +224,7 @@ img {
 //  -PAGE NAVIGATOR
 //  -COLORS
 // HOMEPAGE
+// CONTACT PAGE
 // DEV PAGE
 //  -ABOUT ME
 //  -PROGRESS/SKILLS
@@ -248,7 +249,14 @@ img {
   }
 }
 
-  // ================= PAGE NAVIGATOR =======================
+// ================= PAGE NAVIGATOR =======================
+
+// bootstrap navbar
+.page {
+  padding-top: 60px;
+}
+
+// circle thing with icons
 .menu {
   display:block;
   width:100px;
@@ -473,6 +481,43 @@ img {
   text-decoration: none;
 }
 // ====================== END HOMEPAGE =====================
+
+// =========================================================
+// ================== CONTACT PAGE =========================
+// =========================================================
+#contact-content {
+  background-color: $homepageBg;
+  min-height: 100vh;
+
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+}
+
+.error {
+  color: #7b0000;
+  font-size: 80%;
+}
+
+#contact-container {
+  text-align: left;
+}
+
+#contact-form {
+  margin-bottom: 30px;
+}
+
+.contact-form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form-btn {
+  width: 100%;
+}
+// ====================== END CONTACT ======================
 
 // =========================================================
 // ===================== DEV PAGE ==========================
