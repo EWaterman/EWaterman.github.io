@@ -1,0 +1,91 @@
+---
+layout: page
+title: Contact
+permalink: /contact
+description: Get in touch with Evan Waterman
+---
+
+
+<div id="contact-content">
+
+	<div id="contact-container" class="container-fluid">
+
+		<div class="row">
+			<div class="col-lg-offset-3 col-lg-9">
+				<h1><i class="fa fa-envelope"></i> Contact</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h4>Want to get in touch? Send me an email and I'll make sure to get back to you.</h4>
+
+				<form id="contact-form" action="//formspree.io/evanjwaterman@email.com" method="POST">
+					<!--Overwrite redrect-->
+					<input type="hidden" name="_next" value="http://evanjwaterman.com/#contact">
+
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="contact-form-group">
+								<label for="contact-name">Name</label>
+								<input id="contact-name" class="form-control" type="text" name="name" required placeholder="Name">
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="contact-form-group">
+								<label for="contact-email">Email</label>
+								<input id="contact-email" class="form-control" type="email" name="_replyto" required placeholder="email@address.com">
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-form-group">
+						<label for="contact-message">Message</label>
+						<textarea id="contact-message" class="form-control" name="message" placeholder="Message" required rows="5"></textarea>
+					</div>
+
+					<input class="contact-form-btn homepage-btn" type="submit" value="Send">
+				</form>
+
+				<!-- Hidden message to show if contact is successful. -->
+				<div id="submit-success" class="alert alert-success alert-dismissible collapse" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+					Message received! I'll be in touch.
+				</div>
+
+				<!-- Hidden message to show if user encounters errors. -->
+				<div id="submit-errors" class="alert alert-danger alert-dismissible collapse" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+					It looks like there was an error submitting the form. Please try again later.
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- jquery validation -->
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+<script>
+	$("#contact-form").validate({
+		submitHandler: function(form) {
+			$.ajax({
+				url: "//formspree.io/evanjwaterman@gmail.com",
+				method: "POST",
+				data: {
+					name: $(form).find("input[name='name']").val(),
+					_replyto: $(form).find("input[name='_replyto']").val(),
+					message: $(form).find("textarea[name='message']").val()
+				},
+				dataType: "json",
+				success: function() {
+					$("#submit-success").fadeIn();
+					$("#contact-form").fadeOut();
+				},
+				error: function() {
+					$("#submit-errors").fadeIn();
+				}
+			});
+		}
+	});
+</script>

@@ -12,6 +12,7 @@ $blue: #5bc0de;
 $green: #5cb85c;
 $orange: #f0ad4e;
 $red: #d9534f;
+$pink: #ff1493;
 
 // Grays
 $black: #000;
@@ -27,12 +28,7 @@ $transparent: rgba(0,0,0,0);
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$montserrat: Montserrat,sans-serif;
-//$georgia: Georgia, serif;
-//$monaco: "Lucida Console", Monaco, monospace;
-//$raleway:'Raleway', sans-serif;
-//verlag: 'Verlag A','Verlag B', sans-serif;
+$altedin: 'Lato', Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

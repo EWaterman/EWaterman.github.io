@@ -6,7 +6,7 @@ layout: default
 <div id="homepage-content">
 	<div id="homepage-container">
 		<div id="homepage-title">
-			<h1>Evan Waterman makes many things.</h1>
+			<h1><b class="pink">Evan Waterman</b> makes many things.</h1>
 		</div>
 
 		<div class="container-fluid">
@@ -26,7 +26,12 @@ layout: default
 				</div>
 
 				<!--Right side images-->
-				<div class="homepage-col homepage-image col-lg-6">
+				<div class="homepage-col col-lg-6">
+
+					<!--Draw-->
+					<!--<div id="homepage-draw">-->
+						<!--<canvas id="mySketcher" width="500px" height="500px" style="cursor: crosshair;"></canvas>-->
+					<!--</div>-->
 
 					<!--Main image-->
 					<div id="homepage-main-img-wrapper">
@@ -34,7 +39,7 @@ layout: default
 					</div>
 
 					<!--Doodles-->
-					<div class="hidden-sm hidden-xs hidden-md">
+					<div class="hidden-xs hidden-sm hidden-md">
 						<img class="homepage-doodle" id="comic-doodle" src="/images/home/comic.png">
 						<img class="homepage-doodle" id="guide-doodle" src="/images/home/guide.png">
 						<img class="homepage-doodle" id="twitch-doodle" src="/images/home/twitch.png">
@@ -43,5 +48,27 @@ layout: default
 				</div>
 			</div>
 		</div>
+
+		<!-- Contact button -->
+		<div class="hidden-xs hidden-sm hidden-md">
+			<div id="homepage-contact">
+				<h3><a href="/contact"><i class="fa fa-envelope"></i> Contact</a></h3>
+			</div>
+		</div>
 	</div>
 </div>
+
+<script async>
+	$('.homepage-btn').hover(function() {
+		var target = "#" + $(this).attr('id') + "-doodle";
+		$(target).fadeIn('fast');
+		$(target).siblings("img").finish();
+	}, function() {
+		var target = "#" + $(this).attr('id') + "-doodle";
+		$(target).fadeOut('fast');
+		$(target).siblings("img").finish();
+	});
+</script>
+
+<!--<script src="https://rawgit.com/jakubfiala/atrament.js/master/dist/atrament.min.js"></script>-->
+<!--<script>var sketcher = atrament('#mySketcher', 500, 500);</script>-->
