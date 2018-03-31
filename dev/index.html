@@ -360,6 +360,15 @@ permalink: /dev/
 				</p>
 			</div>
 		</div>
+
+		<script async>
+			$('.prev-work-short').click(function() {
+				var target = "#" + $(this).attr('id') + "-info";
+				$(target).show('fast');
+				$(target).siblings("div").hide('fast');
+			});
+		</script>
+
 	</div>
 
 </div>

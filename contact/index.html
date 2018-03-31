@@ -11,14 +11,14 @@ description: Get in touch with Evan Waterman
 	<div id="contact-container" class="container-fluid">
 
 		<div class="row">
-			<div class="col-lg-9 col-lg-offset-3">
-				<h1>Contact</h1>
+			<div class="col-lg-offset-3 col-lg-9">
+				<h1><i class="fa fa-envelope"></i> Contact</h1>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-lg-6 col-lg-offset-3">
-				<p>Want to get in touch? Send me an email and I'll make sure to get back to you.</p>
+				<h4>Want to get in touch? Send me an email and I'll make sure to get back to you.</h4>
 
 				<form id="contact-form" action="//formspree.io/evanjwaterman@email.com" method="POST">
 					<!--Overwrite redrect-->
@@ -66,4 +66,26 @@ description: Get in touch with Evan Waterman
 
 <!-- jquery validation -->
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
-<script src="/js/contact-validate.js"></script>
+<script>
+	$("#contact-form").validate({
+		submitHandler: function(form) {
+			$.ajax({
+				url: "//formspree.io/evanjwaterman@gmail.com",
+				method: "POST",
+				data: {
+					name: $(form).find("input[name='name']").val(),
+					_replyto: $(form).find("input[name='_replyto']").val(),
+					message: $(form).find("textarea[name='message']").val()
+				},
+				dataType: "json",
+				success: function() {
+					$("#submit-success").fadeIn();
+					$("#contact-form").fadeOut();
+				},
+				error: function() {
+					$("#submit-errors").fadeIn();
+				}
+			});
+		}
+	});
+</script>

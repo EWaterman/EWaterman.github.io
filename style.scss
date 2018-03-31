@@ -23,15 +23,10 @@ html {
   overflow:hidden;
 }
 
-// TODO: pick a font:
-//font-family: 'Alte DIN', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-//font-family: brandon-grotesque, sans-serif;
-//font-family: tablet-gothic-narrow, sans-serif;
-
 body {
   text-align: center;
   background: $homepageBg;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $altedin;
   width: 100%;
   height: 100%;
 }
@@ -43,9 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 20px 0 10px;
   padding: 0;
@@ -62,9 +55,25 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 250%;
+}
+
 
 h3 {
   font-size: 160%;
+}
+
+h4 {
+  font-size: 140%;
+}
+
+h5 {
+  font-size: 125%;
+}
+
+h6 {
+  font-size: 110%;
 }
 
 p {
@@ -135,87 +144,6 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-  height: 100%;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
 // ======================================================
 // ================== START MY STUFF!! ==================
 // ======================================================
@@ -223,6 +151,7 @@ img {
 // GENERAL STUFF
 //  -PAGE NAVIGATOR
 //  -COLORS
+//  -MAILCHIMP
 // HOMEPAGE
 // CONTACT PAGE
 // DEV PAGE
@@ -322,9 +251,21 @@ img {
   cursor:pointer;
 }
 
-.active {
-  background-color: $red;
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
 }
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: $pink;
+}
+
+.navbar-inverse .navbar-nav > #nav-active-link > a {
+  background-color: $pink;
+}
+.navbar-inverse .navbar-nav>#nav-active-link>a:focus, .navbar-inverse .navbar-nav>#nav-active-link>a:hover {
+  color: $black;
+}
+
 // ================== END PAGE NAVIGATOR ==================
 
 // ======================= COLOURS ========================
@@ -343,14 +284,38 @@ img {
 .green  {
   color: $green;
 }
-// ===================== END COLOURS =====================
+
+.pink {
+  color: $pink;
+}
+
+.active {
+  background-color: $blue;
+}
+// ===================== END COLOURS =======================
+
+// =========================================================
+// ==================== MAILCHIMP ==========================
+// =========================================================
+
+#mc_embed_signup {
+  background: $transparent;
+  clear: left;
+
+  .button {
+    background-color: $pink;
+  }
+}
+
+// ===================== END MAILCHIMP =====================
 
 // =========================================================
 // ===================== HOMEPAGE ==========================
 // =========================================================
 #homepage-content {
   height: 100vh;
-  background-color: $black;
+  background-color: $homepageBg;
+  //background-image: url("images/home/css.jpg");
   color: $black;
   overflow: hidden;
 }
@@ -399,11 +364,6 @@ img {
   align-items: center;
 }
 
-#problem-solver {
-  height: 1000px;
-  background-color: $black;
-}
-
 .homepage-buttons {
   overflow-y: auto;
 }
@@ -448,6 +408,22 @@ img {
   }
 }
 
+#homepage-contact {
+  z-index: 100;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+}
+
+//#homepage-pageturn {
+//  max-height: 75px;
+//  max-width: 75px;
+//  z-index: 90;
+//  position: fixed;
+//  top: 0;
+//  right: 0;
+//}
+
 .homepage-btn {
   margin-left: auto;
   margin-right: auto;
@@ -468,7 +444,7 @@ img {
   -moz-appearance: none;
   -webkit-transition: background .4s, color .4s;
   transition: background .4s, color .4s;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 1px black;
 }
 
 .homepage-btn:hover, .homepage-btn:active, .homepage-btn:focus {
@@ -507,6 +483,7 @@ img {
 }
 
 #contact-form {
+  margin-top: 25px;
   margin-bottom: 30px;
 }
 
@@ -703,10 +680,6 @@ img {
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
 }
 
-#comic-sign-up-title {
-  font-size: 200%;
-}
-
 #comic-logline {
   margin-top: 20px;
 }
@@ -730,14 +703,8 @@ img {
   margin-bottom: 20px;
 }
 
-#mc_embed_signup .button {
-  background-color: $green;
-}
-
-#mc_embed_signup{
-  background: $transparent;
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
+#comic-heart {
+  margin-bottom: 5px;
 }
 
 // ===================== END COMIC PAGE ======================
@@ -862,7 +829,7 @@ img {
   -moz-appearance: none;
   -webkit-transition: background .4s, color .4s;
   transition: background .4s, color .4s;
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 1px black;
 }
 
 .guide-btn:hover, .guide-btn:active, .guide-btn:focus {
