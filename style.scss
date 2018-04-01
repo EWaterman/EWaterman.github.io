@@ -178,6 +178,10 @@ img {
   }
 }
 
+.inline {
+  display: inline-block;
+}
+
 // ================= PAGE NAVIGATOR =======================
 
 // bootstrap navbar
@@ -438,6 +442,7 @@ img {
   color: $black;
   letter-spacing: .25em;
   text-decoration: none;
+  text-align: center;
   font-weight: 600;
   text-transform: uppercase;
   -webkit-appearance: none;
@@ -648,8 +653,13 @@ img {
   border-radius: 25px;
 }
 
+#mtm-content {
+  color: $black;
+}
+
 #comic-content {
   color: $black;
+  text-align: left;
 }
 
 #comic-page {
