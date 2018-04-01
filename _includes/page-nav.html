@@ -1,13 +1,35 @@
 <div id="pagenav">
 	{% if page.previous.url %}
-		<a id="pagenav-prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+		<a class="pagenav-prev" href="{{page.previous.url}}"></a>
+		<script>
+			var elems = document.getElementsByClassName('pagenav-prev');
+			var width = window.outerWidth;
+			for(var i = (elems.length - 1); i >= 0; i--) {
+				if (width < 768) {
+					elems[i].innerHTML = "&laquo; Prev";
+				}
+				else {
+					elems[i].innerHTML = "&laquo; {{page.previous.title}}";
+				}
+			}
+		</script>
 	{% endif %}
 
 	{% if page.next.url %}
-		{% if page.next.title == "Overview" %}
-			<a id="pagenav-next" href="{{page.next.url}}">{{page.next.categories[1]}} &raquo;</a>
-		{% else %}
-			<a id="pagenav-next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-		{% endif %}
+		<a class="pagenav-next" href="{{page.next.url}}"></a>
+		<script>
+			var elems = document.getElementsByClassName('pagenav-next');
+			for(var i = (elems.length - 1); i >= 0; i--) {
+				if (width < 768) {
+					elems[i].innerHTML = "Next &raquo;";
+				}
+				else if ("{{page.next.title}}" == "Overview") {
+					elems[i].innerHTML = "{{page.next.categories[1]}} &raquo;";
+				}
+				else {
+					elems[i].innerHTML = "{{page.next.title}} &raquo;";
+				}
+			}
+		</script>
 	{% endif %}
 </div>

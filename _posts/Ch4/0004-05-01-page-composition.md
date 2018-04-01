@@ -33,11 +33,11 @@ Here are some tips to make sure your page layout is fully optimized:
 
 By keeping paired panels in the same tier, we maintain a steady rhythm between them. By splitting them into their own tiers, we allow for a beat/pause in the flow. This point is key for comedy. It's why almost all gag comic that you see in newspapers are a single row. Unfortunately there isn't a golden rule whether or not to allow that pause in the flow so you're going to have to decide which option works best for you. [Here’s a video](https://www.youtube.com/watch?v=x2YTxTSn_qk) that covers this point.
 
-- **Use large panels for establishing shots.**
+- **Use large panels to slow the reader down.**
 
-![](/images/guide/estab.JPG)
+![](/images/guide/estab.jpg)
 
-Big panels take longer to read because there’s more stuff in them. This is useful when changing scenes when you want to reset the pacing.
+Big panels take longer to read because there’s more stuff in them. This is useful when establishing a new scene when you usually want to reset the pacing. Large panels are also used in climactic moments when you have something major to reveal.
 
 - On the flip side, **use more narrow panels to build tension**.
 
@@ -47,6 +47,6 @@ Narrow panels pull the reader quickly through the page. This ramps up the pacing
 
 - **Borderless panels can be used as emphasis or to create a feeling of timelessness.**
 
-![](/images/comic/01-04-l-01.png)
+![](/images/guide/borderless.jpg)
 
 By bleeding a panel to the edges of a page, the reader gets the feeling that it continues beyond the page. This can be used to imply scale, to freeze a moment in time or to amplify an emotional effect such as loneliness.

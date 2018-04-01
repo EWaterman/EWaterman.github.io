@@ -720,11 +720,11 @@ img {
   min-height: 10px;
 }
 
-#pagenav-prev {
+.pagenav-prev {
   float: left;
 }
 
-#pagenav-next {
+.pagenav-next {
   float: right;
 }
 
@@ -745,6 +745,13 @@ img {
 
   h1 {
     border-bottom: 10px solid #2AA198;
+  }
+
+  // sm and over
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 200%;
+    }
   }
 }
 
