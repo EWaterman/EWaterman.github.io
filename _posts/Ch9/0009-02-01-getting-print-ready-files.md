@@ -19,7 +19,7 @@ Some additional things to focus on now are:
 
     - **Your comic’s bleed panels** (borderless panels) **should extend all the way to the edge of the bleed area.** Yes, most of it will get cut but like I said, the trim line shifts around a bit. Filling the page out completely ensures you don’t get a white ring around your page if it’s accidentally cut too wide. 
 
-- **Know if your printer needs CMYK or RGB files.** All printers print in CMYK but some printers (KaBlam for example) do their file formatting in RGB and so need that format to print.
+- **Know if your printer accepts CMYK or RGB files.** All printers print in CMYK but some printers (KaBlam for example) prefer to do their file formatting in RGB. Make sure to talk with your printer about it if it's not posted clearly on their website. (As an aside, I've heard KaBlam actually DOES accept CMYK files and those files turned out more accurate when printing than the RGB ones.)
 
 - **Make sure to include all the required front matter!** The [front matter](http://www.printninja.com/printing-resource-center/file-setup/offset-printing-guidelines/country-of-origin) usually comes on it’s own page at the very start of a book (hence the name) and contains all the important information about your book like copyright details, credits, ISBN, printer details, publisher/distributor info, your contact info… all the fun stuff. You often have a legal obligation to include this stuff so don’t forget to allocate space for it!
 
