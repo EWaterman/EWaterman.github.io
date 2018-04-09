@@ -6,369 +6,182 @@ permalink: /dev/
 <!-- Wrapper for Dev content -->
 <!--TODO: proper switch between screen widths-->
 <div id="dev-content">
-
 	<div class="contentbox">
-		<div class="container-fluid">
-			<div class="row" id="hello">
-				<div class="col-sm-offset-4 col-sm-4">
-					<img src="/images/dev/portrait.jpg" class="img-circle" width="250px" height="auto">
-					<div class="strike">
-						<span>Hello World!</span>
-					</div>
-					<br>
-					<p>
-						I'm <b class="blue">Evan Waterman</b>, a <b class="green">full stack developer</b> with a degree
-						in Computer Science at the University of British Columbia.
-					</p>
-					{% include svg-icons.html %}
-				</div>
-			</div>
-		</div>
-		<i class=" fa fa-angle-down fa-4x"></i>
-	</div>
-
-	<div class="contentbox">
-
-		<h3 id="passion-h">When it comes to <b class="green">code</b>, I have a particular passion for <b class="red">three</b> things:</h3>
-		<hr width="65%">
-
-		<div class="col-sm-offset-1 col-sm-10">
-			<div class="passions col-sm-4">
-				<i class="orange fa fa-code fa-4x"></i>
-				<p>
-					Writing <b class="green">clear, concise code</b> that can easily be picked up by newcomers to a project.
-				</p>
-			</div>
-
-			<div class="passions col-sm-4">
-				<i class="orange fa fa-cogs fa-4x"></i>
-				<p>
-					Designing with <b class="green">unit functionality</b> to create a simple, adaptable framework.
-				</p>
-			</div>
-
-			<div class="passions col-sm-4">
-				<i class="orange fa fa-bolt fa-4x"></i>
-				<p>
-					<b class="green">Optimization!</b> Be efficient and have scalability in mind.
-				</p>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="contentbox">
-		<h1>Skills</h1>
-		<hr width="83%">
-		<br>
-
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-sm-offset-1 col-sm-5">
-					<div class="singleprogress">
-						<h3>Programming Languages</h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-								Python
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								Java
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								C/C++
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								C# with Unity
-							</div>
-						</div>
+				<h2>Making a website is hard.</h2>
+
+				<h5>There are a ton of things to consider, such as:</h5>
+			</div>
+
+			<div class="row dev-row">
+				<div id="dev-three-things">
+					<div class="col-sm-4">
+						<i class="fas fa-mobile-alt fa-4x"></i>
+						<h3>Design</h3>
+						<p>Creating an <b class="pink">eye catching layout</b> that's both consistent and intuitive on all types of devices.</p>
 					</div>
 
-					<div class="singleprogress">
-						<h3>Front End Web Development</h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-								HTML
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-								CSS/SCSS
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								JavaScript (Angular, React)
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-								Bootstrap
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-5">
-					<div class="singleprogress">
-						<h3>Back End Web Development</h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-								Ruby on Rails
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								JavaScript (Node, jQuery)
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-								PHP
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-								SQL
-							</div>
-						</div>
+					<div class="col-sm-4">
+						<i class="fa fa-code fa-4x"></i>
+						<h3>Implementation</h3>
+						<p>Converting the design into a <b class="pink">fully functional site</b> while still considering loading times and SEO.</p>
 					</div>
 
-					<div class="singleprogress">
-						<h3>Everything Else</h3>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								Git, Cmd Window and Linux (CentOS)
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-								Shell
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-								Photoshop
-							</div>
-						</div>
-						<div class="progress">
-							<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-								Testing (Unit, Integration, System)
-							</div>
-						</div>
+					<div class="col-sm-4">
+						<i class="fa fa-cogs fa-4x"></i>
+						<h3>Administration</h3>
+						<p>Managing the <b class="pink">hosting of the site</b>, ensuring once it goes up, it stays up as well as keeping it fully secured at all times.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- TODO: ADD sumstacker (july 2015), cms (jan 2016)-->
-	<div id="previous-work" class="contentbox">
-		<h1>Previous Work</h1>
-		<hr width="83%">
-		<br>
+	<div class="contentbox">
+		<div class="container-fluid">
+			<div class="row dev-row">
+				<h2>But with over 5 years experience in the industry...</h2>
+			</div>
 
-		<!-- Scrollbar with work -->
-		<div class="scrollbar left-col col-sm-offset-1 col-sm-6">
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="rep-the-10">
-						<h3>Represent the 10, charity project</h3>
-						<p>Technologies: <i>HTML, Javascript, CSS/SCSS, Bootstrap</i></p>
+			<div class="row">
+				<div class="col-md-offset-2 col-md-4">
+					<a href="https://www.demonware.net/" target="_blank"><img src="/images/dev/work/demonware.jpg"></a>
+				</div>
+				<div class="col-md-4">
+					<a href="https://www.absolute.com/en" target="_blank"><img src="/images/dev/work/absolute.jpg"></a>
 				</div>
 			</div>
 
-			<hr width="100%">
+			<br>
 
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="hackbd">
-						<h3>Contractor Marketplace</h3>
-						<p>Technologies: <i>HTML, CSS/SCSS, Bootstrap, React.js</i></p>
+			<div class="row">
+				<div class="col-md-offset-2 col-md-4">
+					<a href="https://codethechangeubc.org/" target="_blank"><img src="/images/dev/work/CTC.jpg"></a>
 				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="clutemusic">
-						<h3>Clutemusic.com</h3>
-						<p>Technologies: <i>Wordpress</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="emissions">
-						<h3>Carbon Emissions vs Snow Depth</h3>
-						<p>Technologies: <i>Ruby On Rails</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="demonware">
-						<h3>Demonware - Backend Developer</h3>
-						<p>Technologies: <i>Python, Docker, Shell, C++/C</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="ubc">
-						<h3>UBC Teaching Assistant</h3>
-						<p>Technologies: <i>C++/C</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="drawingcrapp">
-						<h3>DrawingCRapp, Drawing Game</h3>
-						<p>Technologies: <i>Unity/C#</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="business-card">
-						<h3>Business Card designer</h3>
-						<p>Technologies: <i>Photoshop</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="nesception">
-						<h3>NESception</h3>
-						<p>Technologies: <i>Photoshop, GameMaker</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-			<div class="container-fluid">
-				<div class="row prev-work-short" id="sogo">
-						<h3>Cafepress Online Clothing Store</h3>
-					<p>Technologies: <i>Photoshop</i></p>
-				</div>
-			</div>
-
-			<hr width="100%">
-
-		</div>
-
-		<!-- Detailed descriptions of work -->
-		<div class="scrollbar hidden-xs col-sm-4" id="previous-work-image">
-
-			<div class="prev-work-detailed" id="rep-the-10-info">
-				<img src="/images/dev/work/CTC.PNG" alt="CTC">
-				<p>
-					Team lead and full stack developer for Code the Change UBC. Designed and implemented an educational
-					page about the deaf peoples and the deaf communities across Canada. The page also contains
-					a petition requesting better acknowledgement of the rights of these peoples and communities.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="hackbd-info">
-				<img src="/images/dev/work/hackBD2.png" alt="HackBD2" style="max-height:310px;">
-				<p>
-					Full stack developer for the Contractor Marketplace project, designed for the Build Direct Hackathon to
-					simplify and streamline the process of finding contractors for interior design projects. Customers can
-					post their projects to the marketplace where contactors can send them requests to take on the project.
-					Contractors may also recommend changes to designs, which live update the predicted cost of the project,
-					using the products from Build Direct's large library of items.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="clutemusic-info">
-				<img src="/images/dev/work/Clute1.PNG" alt="Clute1" style="max-height: 260px">
-				<p>
-					Designed and implemented a website for the indie rock band CLUTE utilizing a wide variety of themes and
-					plug-ins, including an event planner, e-mail lists and social media integration.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="emissions-info">
-				<img src="/images/dev/work/emission.PNG" alt="Emission" style="max-height: 520px">
-				<p>
-					Full stack developer with focus on database design for a web project that parsed, stored and manipulated
-					data sets from gov.bc to determine any correlation between pollution emission rates and average yearly
-					snow depth in different regions across British Columbia.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="demonware-info">
-				<img src="/images/dev/work/demonware.png" alt="Demonware">
-				<p>
-					Directly involved in the design, implementation, testing and maintenance of networking APIs and web
-					services for AAA game titles such as Call of Duty and Skylanders, managing user data for hundreds of
-					thousands of users.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="ubc-info">
-				<img src="/images/dev/work/UBC.jpeg" alt="UBC" style="max-height:350px;">
-				<p>
-					Lab TA, exam marker and early alert monitor at UBC for a first year programming course in applied science.
-					Prepared and lead multiple lab sections, often resulting in one-on-ones to ensure the content was fully
-					understood by all students.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="drawingcrapp-info">
-				<img src="/images/dev/work/CRapp.png" alt="Drawing CRapp" style="max-height:350px;">
-				<p>
-					Lead asset designer and developer for a telephone-like drawing game. Players alternate drawing
-					and guessing each other's drawings. Points are awarded for
-					accurate guesses and drawings.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="business-card-info">
-				<img src="/images/dev/work/Chris.png" alt="Business Card" style="max-height:350px;">
-				<p>
-					Designed business cards for a local DJ partnered with a number of clubs and venues in downtown Vancouver.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="nesception-info">
-				<img src="/images/dev/work/train.png" alt="Train" style="max-height: 260px">
-				<p>
-					Lead asset designer and developer for NESception, a 2D puzzle platformer based of the movie Inception
-					where players had to mix gunplay and time manipulating mechanics to reach their goal.
-				</p>
-			</div>
-
-			<div class="prev-work-detailed" id="sogo-info">
-				<img src="/images/dev/work/sogo.jpg" alt="Suns Out Guns Out" style="max-height: 390px">
-				<p>
-					Actively managed sales and shop layout for a self run online clothing store as well as maintained
-					constant business by frequently designing new products.
-				</p>
 			</div>
 		</div>
-
-		<script async>
-			$('.prev-work-short').click(function() {
-				var target = "#" + $(this).attr('id') + "-info";
-				$(target).show('fast');
-				$(target).siblings("div").hide('fast');
-			});
-		</script>
-
 	</div>
 
+	<div class="contentbox">
+		<div class="container-fluid">
+			<div class="row dev-row">
+				<h2>In more than a few languages and frameworks...</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/python-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/html-5-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/css3-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/javascript-filled.png">
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/php-logo-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/metro/100/000000/java-coffee-cup-logo.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/ruby-programming-language-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/c-plus-plus-filled.png">
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/unity-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/jquery-filled.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/mysql-logo.png">
+				</div>
+				<div class="col-xs-3">
+					<img src="https://png.icons8.com/ios/100/000000/docker-filled.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--<div class="contentbox">-->
+		<!--<div class="container-fluid">-->
+			<!--<div class="row dev-row">-->
+				<!--<h2>I've learned a thing or two about how to do it properly.</h2>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+
+	<!--<div class="contentbox">-->
+		<!--<div class="container-fluid">-->
+
+			<!--<div class="row dev-row">-->
+				<!--<h2>So whether you need something simple...</h2>-->
+			<!--</div>-->
+
+			<!--<div class="row">-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+
+	<!--<div class="contentbox">-->
+		<!--<div class="container-fluid">-->
+			<!--<h2>Or something more... in depth.</h2>-->
+
+			<!--<div class="row">-->
+
+				<!--<div id="dev-colourbox">-->
+					<!--<div id="dev-colourbox-contents">-->
+						<!--<div id="dev-colourbox-separator"></div>-->
+						<!--<div id="dev-colourbox-frame"></div>-->
+					<!--</div>-->
+				<!--</div>-->
+
+				<!--<script>-->
+					<!--$(document).ready(function() {-->
+						<!--$("#dev-colourbox-contents").mousemove(function() {-->
+							<!--$val = event.clientX;-->
+							<!--//$("#frame").text($val);-->
+							<!--if($val <= 995 && $val >= 0){-->
+
+								<!--$("#dev-colourbox-separator").css("left",$val);-->
+								<!--$("#dev-colourbox-frame").css("width",1000-$val);-->
+							<!--}-->
+						<!--});-->
+
+					<!--});-->
+				<!--</script>-->
+
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+
+	<div class="contentbox">
+		<div class="container-fluid">
+			<div class="row dev-row comic-contact">
+				<img src="/images/dev/portrait.jpg" class="comic-img img-circle" width="250px" height="auto">
+				<h2>I can help you out.</h2>
+
+				<div class="col-md-offset-4 col-md-4">
+					<a class="homepage-btn" href="/contact">Get in touch</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

@@ -490,9 +490,61 @@ img {
 // =========================================================
 // ===================== DEV PAGE ==========================
 // =========================================================
-#dev-content {
-  color: $white;
-  background-color: $darkerGray;
+
+.dev-row {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+#dev-three-things {
+  margin-top: 60px;
+}
+
+#dev-colourbox {
+  position: relative;
+  height: 500px;
+  width: 1000px;
+  top: 0;
+  background-attachment: fixed;
+  box-sizing: content-box;
+  z-index: 4;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+#dev-colourbox-contents {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-size: 20% 20%;
+  background: #faee98 url(http://res.cloudinary.com/trodison/image/upload/v1519051600/blackAndWhite_re9wb7.png) no-repeat fixed 10% 30%;
+}
+
+#dev-colourbox-frame {
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+  right: 0;
+  top: 0;
+  box-sizing: content-box;
+  background-size: 20% 20%;
+  background: #aa88df url(http://res.cloudinary.com/trodison/image/upload/v1519051635/color-bird_yyri8d.png) no-repeat fixed 10% 30%;
+}
+
+#dev-colourbox-separator {
+  height: 500px;
+  width: 5px;
+  background-color: black;
+  position: absolute;
+
+  top: 50%;
+  transform: translatey(-50%);
+  z-index: 800;
+}
+
+#dev-colourbox-separator:hover {
+  cursor: e-resize;
 }
 
 // ====================== ABOUT ME ===========================
@@ -531,14 +583,6 @@ img {
   }
 }
 
-.passions {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-#passion-h {
-  margin-top: 10%;
-}
 // ===================== END ABOUT ME ======================
 
 // ================== PROGRESS/SKILLS ======================
@@ -671,6 +715,12 @@ img {
 .comic-title-col {
   padding-right: 0;
   padding-left: 0;
+}
+
+.comic-contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .comic-sign-up {
