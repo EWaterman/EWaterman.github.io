@@ -26,7 +26,7 @@ html {
 body {
   text-align: center;
   background: $homepageBg;
-  font: 18px/1.4 $altedin;
+  font: 18px/1.4 $lato;
   width: 100%;
   height: 100%;
 }
@@ -173,6 +173,28 @@ img {
 // bootstrap navbar
 .page {
   padding-top: 60px;
+}
+
+// Make navbar collapse early if gets too shrunk
+@media only screen and (max-width: 1049px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-collapse.collapse.in{
+    display:block !important;
+  }
 }
 
 // circle thing with icons
@@ -496,8 +518,39 @@ img {
   margin-bottom: 70px;
 }
 
+// sm and under
+@media only screen and (max-width: 768px) {
+  .dev-col {
+    margin-bottom: 30px;
+  }
+  .dev-col-more {
+    margin-bottom: 60px;
+  }
+}
+
 #dev-three-things {
   margin-top: 60px;
+}
+
+.on-hover-base{
+  vertical-align:top;
+}
+
+.on-hover-hide {
+  width: calc(100% - 30px);
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 15px;
+
+  -webkit-transition: .2s ease-in-out height;
+  -moz-transition: .2s ease-in-out height;
+  -o-transition: .2s ease-in-out height;
+  transition: .2s ease-in-out height;
+}
+.dev-jobs:hover .on-hover-hide {
+  height: 0;
 }
 
 #dev-colourbox {
@@ -797,7 +850,7 @@ img {
     border-bottom: 10px solid #2AA198;
   }
 
-  // sm and over
+  // sm and under
   @media only screen and (max-width: 768px) {
     h1 {
       font-size: 200%;
