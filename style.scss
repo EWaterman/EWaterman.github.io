@@ -172,7 +172,7 @@ img {
 
 // bootstrap navbar
 .page {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 // Make navbar collapse early if gets too shrunk
@@ -530,6 +530,9 @@ img {
 
 #dev-three-things {
   margin-top: 60px;
+  h6 {
+    font-weight: normal;
+  }
 }
 
 .on-hover-base{
@@ -777,13 +780,23 @@ img {
 }
 
 .comic-sign-up {
-  padding-bottom: 30px;
-  padding-top: 20px;
-  margin-bottom: 60px;
-  background-color: #e8e6e6;
-  -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
-  -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
-  box-shadow: 0 0 25px 0 rgba(0,0,0,0.75);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+
+  background-color: whitesmoke;
+  border-radius: 20px;
+
+  -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+
+  // md and over
+  @media only screen and (min-width: 769px) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 
 #comic-logline {
@@ -837,8 +850,12 @@ img {
   background-color: whitesmoke;
   padding: 40px;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
+
+  -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
 
   hr {
     height: 5px;
@@ -855,6 +872,12 @@ img {
     h1 {
       font-size: 200%;
     }
+  }
+
+  // md and over
+  @media only screen and (min-width: 769px) {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 
@@ -897,12 +920,15 @@ img {
   border-bottom: 5px groove;
   background-color: #d2d2d2;
   margin-bottom: 50px;
-}
 
-// md and over
-@media only screen and (min-width: 769px) {
-#guide-toc {
-  border-left: 5px groove;
+  // md and over
+  @media only screen and (min-width: 769px) {
+    border-left: 5px groove;
+  }
+
+  // sm and under
+  @media only screen and (max-width: 768px) {
+    border-top: 5px groove;
   }
 }
 
