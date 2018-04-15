@@ -29,25 +29,26 @@ I also use a similar folder structure to **manage my marketing and kickstarter d
 <hr><br>
 To complement the project folder structure, I suggest using the following naming scheme to **keep your files organized within your folders.**
 
-`<issue number> - <page number> - <roughs/pencils/inks/colours/letters> - <version number>`
 ```
-Ex.
+<issue number> - <page number> - <roughs/pencils/inks/colours/letters> - <version number>
+```
 
-01-01-r-01.tif 	-> rough draft for issue 1 page 1
-01-01-r-02.tif 	-> second version of rough draft for issue 1 page 1
-01-01-i-01.tif	-> inks for issue 1 page 1
-01-02-l-01.tif	-> letters for issue 1 page 2
-02-13-c-05.tif	-> fifth version of colours for issue 2 page 13
+Ex.
+```
+01-01-r-01.tif -> rough draft for issue 1 page 1
+01-01-r-02.tif -> second version of rough draft for issue 1 page 1
+01-01-i-01.tif -> inks for issue 1 page 1
+01-02-l-01.tif -> letters for issue 1 page 2
+02-13-c-05.tif -> fifth version of colours for issue 2 page 13
 ```
 ![](/images/guide/files.jpg)
 
 If you have many projects that you’re working on, you may want to **consider prepending the project name to the front of your file names.**
-```
+
 Ex.
-
-mtm-01-01-r-01.tif 
 ```
-
+mtm-01-01-r-01.tif
+```
 <br>
 
 ### How to Not Lose All Your Files

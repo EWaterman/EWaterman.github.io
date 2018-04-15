@@ -42,7 +42,7 @@ The front matter should include at least the following things:
 Copyright © <insert year of first publication here> by <insert owner of copyright here> All rights reserved.
 ```
 
-- **A Trademark (TM) notice for any content you have a trademark registered for.** An example message is (only include if you actually purchased a trademark!):
+- **A Trademark (TM) notice for any content you have a trademark registered for.** Only include this if you actually purchased a trademark!
 
 ```
 <Insert name of trademarked things here>TM are registered trademarks of <insert owner of trademark here>

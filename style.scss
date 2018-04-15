@@ -161,12 +161,26 @@ img {
 // COMIC PAGE
 // GUIDE PAGE
 // BIO PAGE
-// TRAVEL PAGE
 // FOOTER
 
 // ======================================================
 // =================== GENERAL STUFF ====================
 // ======================================================
+
+.entry {
+  min-height: calc(100vh - 211px); // 161px footer + 50px header
+}
+
+// Overwrite builtin css
+.highlight {
+  background-color: inherit!important;
+  margin: 0!important;
+  overflow: inherit!important;
+}
+
+code {
+  font-family: inherit!important;
+}
 
 // ================= PAGE NAVIGATOR =======================
 
@@ -361,16 +375,6 @@ img {
   }
 }
 
-#ks-promotion {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-#ks-img {
-  float: right;
-}
-
 .vertical-align {
   display: flex;
   align-items: center;
@@ -455,9 +459,12 @@ img {
   text-transform: uppercase;
   -webkit-appearance: none;
   -moz-appearance: none;
-  -webkit-transition: background .4s, color .4s;
-  transition: background .4s, color .4s;
   box-shadow: 0 0 1px black;
+
+  -webkit-transition: background .4s, color .4s;
+  -moz-transition: background .4s, color .4s;
+  -o-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
 }
 
 .homepage-btn:hover, .homepage-btn:active, .homepage-btn:focus {
@@ -476,7 +483,8 @@ img {
 // =========================================================
 #contact-content {
   background-color: $homepageBg;
-  min-height: 100vh;
+  position: relative;
+  min-height: calc(100vh - 211px); // 161px footer + 50px header
 
   label {
     display: inline-block;
@@ -507,6 +515,22 @@ img {
 .contact-form-btn {
   width: 100%;
 }
+
+#contact-img-left, #contact-img-right {
+  position: absolute;
+  max-width: 25%;
+  bottom: -1px;
+  opacity: 0.65;
+}
+
+#contact-img-left {
+  left: 0;
+}
+
+#contact-img-right {
+  right: 0;
+}
+
 // ====================== END CONTACT ======================
 
 // =========================================================
@@ -911,7 +935,6 @@ img {
 
 #guide-content {
   background-color: $homepageBg;
-  min-height: 100vh;
 }
 
 #guide-toc {
@@ -1050,18 +1073,6 @@ img {
   color: black;
 }
 // =================== END GUIDE PAGE ========================
-
-// ===========================================================
-// ========================== TRAVEL =========================
-// ===========================================================
-#travel-content {
-  color: $black;
-}
-
-.entry {
-  color: $black;
-}
-// ======================== END TRAVEL =======================
 
 // ===========================================================
 // ========================= FOOTER ==========================
