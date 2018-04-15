@@ -16,18 +16,15 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" type="text/css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
     <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.min.css" />
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Loader (has to be at top) -->
-    <!--<script src="/js/loader.js"></script>-->
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script async src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -39,13 +36,6 @@
     </div>
     <![endif]-->
 
-    <!-- Loader (has to be at top) -->
-    <!--<div id="loader-wrapper">-->
-      <!--<div id="loader"></div>-->
-      <!--<div class="loader-section section-left"></div>-->
-      <!--<div class="loader-section section-right"></div>-->
-    <!--</div>-->
-
     <!-- Container for page content. The content of each "child" page resides here -->
     <div id="main" role="main">
       {{ content }}
@@ -55,9 +45,16 @@
 
     <!-- SCRIPTS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--<script src="/js/menu.js"></script>-->
     <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="/js/custom-scrollbar.js"></script>
+    <script defer>
+      $(window).on("load",function(){
+        $("#scrollbar-homepage").mCustomScrollbar({
+          theme:"light-thick",
+          autoExpandScrollbar: true,
+          scrollInertia: 100
+        });
+      });
+    </script>
 
     <!-- MailChimp -->
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4891dd4b6333a8007d7249fd3/0665f65523d4d9480ec5b6bec.js");</script>

@@ -35,7 +35,17 @@ layout: default
 
 					<!--Main image-->
 					<div id="homepage-main-img-wrapper">
-						<img id="homepage-main-img" src="/images/home/bgt.png">
+						<img id="homepage-main-img"
+								 sizes="(max-width: 1200px) 100vw,
+								 				(max-width: 1400px) 50vw,
+								 				 2600px"
+								 srcset="/images/home/bgt_200.png 200w,
+					 	 						 /images/home/bgt_705.png 705w,
+												 /images/home/bgt_1024.png 1024w,
+												 /images/home/bgt_1263.png 1263w,
+												 /images/home/bgt_1400.png 1400w,
+												 /images/home/bgt_2600.png 2600w"
+								 src="/images/home/bgt_2600.png">
 					</div>
 
 					<!--Doodles-->
