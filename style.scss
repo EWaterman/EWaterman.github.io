@@ -155,9 +155,6 @@ img {
 // HOMEPAGE
 // CONTACT PAGE
 // DEV PAGE
-//  -ABOUT ME
-//  -PROGRESS/SKILLS
-//  -PREVIOUS WORK
 // COMIC PAGE
 // GUIDE PAGE
 // BIO PAGE
@@ -167,9 +164,15 @@ img {
 // =================== GENERAL STUFF ====================
 // ======================================================
 
+// So we always fill the viewport (no hovering footer)
 .entry {
   min-height: calc(100vh - 211px); // 161px footer + 50px header
   color: black;
+}
+
+// For absolute positioned children
+.relative-container {
+  position: relative;
 }
 
 // Overwrite builtin css
@@ -342,7 +345,6 @@ code {
 #homepage-content {
   height: 100vh;
   background-color: $homepageBg;
-  //background-image: url("images/home/css.jpg");
   color: $black;
   overflow: hidden;
 }
@@ -357,7 +359,7 @@ code {
 }
 
 // sm and under
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   #homepage-title {
     height: 100px;
     h1 {
@@ -367,7 +369,7 @@ code {
 }
 
 // md and over
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 992px) {
   #homepage-title {
     height: 200px;
     h1 {
@@ -432,15 +434,6 @@ code {
   right: 1%;
 }
 
-//#homepage-pageturn {
-//  max-height: 75px;
-//  max-width: 75px;
-//  z-index: 90;
-//  position: fixed;
-//  top: 0;
-//  right: 0;
-//}
-
 .homepage-btn {
   margin-left: auto;
   margin-right: auto;
@@ -466,16 +459,15 @@ code {
   -moz-transition: background .4s, color .4s;
   -o-transition: background .4s, color .4s;
   transition: background .4s, color .4s;
-}
 
-.homepage-btn:hover, .homepage-btn:active, .homepage-btn:focus {
-  background-color: $black;
-  color: $homepageBg;
-  text-decoration: none;
-}
-
-.homepage-btn:visited {
-  text-decoration: none;
+  &:hover, &:active, &:focus {
+    background-color: $black;
+    color: $homepageBg;
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
 }
 // ====================== END HOMEPAGE =====================
 
@@ -544,7 +536,7 @@ code {
 }
 
 // sm and under
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .dev-col {
     margin-bottom: 30px;
   }
@@ -561,7 +553,12 @@ code {
 }
 
 .on-hover-base{
-  vertical-align:top;
+  vertical-align: top;
+
+  background-color: #c1c1c1;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 5px #000000;
 }
 
 .on-hover-hide {
@@ -581,153 +578,36 @@ code {
   height: 0;
 }
 
-#dev-colourbox {
-  position: relative;
-  height: 500px;
-  width: 1000px;
-  top: 0;
-  background-attachment: fixed;
-  box-sizing: content-box;
-  z-index: 4;
-  border: 5px solid black;
-  border-radius: 5px;
+// sm and under
+@media only screen and (max-width: 991px) {
+  #dev-jobs-bg {
+    margin-bottom: 120px;
+  }
 }
 
-#dev-colourbox-contents {
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  background-size: 20% 20%;
-  background: #faee98 url(http://res.cloudinary.com/trodison/image/upload/v1519051600/blackAndWhite_re9wb7.png) no-repeat fixed 10% 30%;
-}
-
-#dev-colourbox-frame {
-  height: 100%;
-  width: 100%;
-
-  position: relative;
-  right: 0;
-  top: 0;
-  box-sizing: content-box;
-  background-size: 20% 20%;
-  background: #aa88df url(http://res.cloudinary.com/trodison/image/upload/v1519051635/color-bird_yyri8d.png) no-repeat fixed 10% 30%;
-}
-
-#dev-colourbox-separator {
-  height: 500px;
-  width: 5px;
-  background-color: black;
-  position: absolute;
-
-  top: 50%;
-  transform: translatey(-50%);
-  z-index: 800;
-}
-
-#dev-colourbox-separator:hover {
-  cursor: e-resize;
-}
-
-// ====================== ABOUT ME ===========================
-#hello {
-  margin-top: 5%;
-}
-
-.strike {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-
-  span {
-    position: relative;
-    display: inline-block;
-    font-size: 150%;
+// md and over
+@media only screen and (min-width: 992px) {
+  #dev-jobs-bg {
+    color: white;
+    background-color: black;
+    text-align: left;
+    padding: 175px 30% 175px 8%;
   }
 
-  span:before {
-    right: 100%;
-    margin-right: 15px;
-  }
-
-  span:after {
-    left: 100%;
-    margin-left: 15px;
-  }
-  span:before, span:after {
-    content: "";
+  #dev-jobs-fg {
     position: absolute;
-    top: 50%;
-    width: 9999px;
-    height: 1px;
-    background: $white;
+    background-color: $elevatedBg;
+    height: calc(100% - 150px);
+    right: 60px;
+    top: 75px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
   }
 }
-
-// ===================== END ABOUT ME ======================
-
-// ================== PROGRESS/SKILLS ======================
-.singleprogress {
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.progress {
-  background-color: $darkerGray;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-}
-
-.progress-bar {
-  padding-left: 20px;
-  text-align: left;
-}
-// ================ END PROGRESS/SKILLS ===================
-
-// =================== PREVIOUS WORK ======================
-#previous-work {
-
-  i {
-    color: $green;
-  }
-
-  h3 {
-    color: $blue;
-  }
-}
-
-.right-col, .right-col h3 {
-  text-align: left;
-}
-
-.left-col {
-  text-align: right;
-}
-
-.prev-work-short {
-  text-align: left;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.prev-work-short:hover {
-  background-color: $darkGray;
-  cursor: pointer;
-
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.prev-work-detailed {
-  display: none;
-}
-
-#previous-work-image {
-  height: 500px;
-}
-// ==================== END PREVIOUS WORK ====================
-
 // ==================== END DEV PAGE =========================
 
 // =========================================================
@@ -773,7 +653,7 @@ code {
   text-align: left;
 
   // sm and under
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 991px) {
     h1, h2, h3, h4, h5, h6 {
       text-align: center;
     }
@@ -818,7 +698,7 @@ code {
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
 
   // md and over
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 992px) {
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -893,14 +773,14 @@ code {
   }
 
   // sm and under
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 991px) {
     h1 {
       font-size: 200%;
     }
   }
 
   // md and over
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 992px) {
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -942,16 +822,16 @@ code {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 5px groove;
-  background-color: #d2d2d2;
+  background-color: $elevatedBg;
   margin-bottom: 50px;
 
   // md and over
-  @media only screen and (min-width: 769px) {
+  @media only screen and (min-width: 992px) {
     border-left: 5px groove;
   }
 
   // sm and under
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 991px) {
     border-top: 5px groove;
   }
 }
@@ -965,7 +845,7 @@ code {
 }
 
 // sm and under
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .guide-btn {
     width: 80%;
   }
@@ -1020,7 +900,7 @@ code {
 }
 
 // md and over
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 992px) {
   #guide-main-right {
     border-left: 5px groove;
   }
