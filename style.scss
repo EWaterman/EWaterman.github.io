@@ -186,9 +186,17 @@ code {
   font-family: inherit!important;
 }
 
+// Allow mobile scrolling with custom navbar
+.mCustomScrollbar,
+.mCustomScrollbar.mCS_touch_action,
+.mCustomScrollbar.mCS_touch_action .mCS-aviva.mCSB_scrollTools {
+  -ms-touch-action: auto!important;
+  touch-action: auto!important;
+}
+
 // ================= PAGE NAVIGATOR =======================
 
-// bootstrap navbar
+// add space for the bootstrap navbar
 .page {
   padding-top: 50px;
 }
