@@ -5,40 +5,66 @@ title: Need help making a website?
 description: Look no further.
 ---
 
+<script async src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
 <!-- Wrapper for Dev content -->
 <div id="dev-content">
-	<div class="contentbox">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-8 hidden-xs hidden-sm dev-col">
-					<img src="/images/dev/title.png">
-				</div>
-				<div class="hidden-md hidden-lg hidden-xl">
-					<i class="fas fa-globe fa-4x"></i>
-					<h2>Making a website is hard.</h2>
-				</div>
+	<div id="dev-header-section" class="container-fluid">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-8 hidden-xs hidden-sm dev-col">
+				<img src="/images/dev/title-p2.png">
 			</div>
+			<div class="hidden-md hidden-lg hidden-xl">
+				<i class="fas fa-globe fa-4x"></i>
+				<h2>Making a website is hard.</h2>
+			</div>
+		</div>
+	</div>
 
-			<h4>There are a ton of things to consider, such as:</h4>
+	<div id="dev-three-things" class="contentbox">
+		<div class="container-fluid">
+			<h2>There are a ton of things to consider, such as:</h2>
 
-			<div class="row dev-row">
-				<div id="dev-three-things">
-					<div class="col-md-4 dev-col-more">
-						<i class="fas fa-mobile-alt fa-4x"></i>
-						<h3>Design</h3>
-						<h6>Creating an <b class="pink">eye catching layout</b> that's both consistent and intuitive on all types of devices.</h6>
+			<div class="row" style="margin-top:60px">
+				<div class="col-md-4 dev-col">
+					<div class="flip">
+						<div class="front">
+							<div>
+								<i class="fas fa-mobile-alt fa-4x"></i>
+								<h3>Design</h3>
+							</div>
+						</div>
+						<div class="back">
+							<h6>Creating an <b class="pink">eye catching layout</b> that's both consistent and intuitive on all types of devices.</h6>
+						</div>
 					</div>
+				</div>
 
-					<div class="col-md-4 dev-col-more">
-						<i class="fa fa-code fa-4x"></i>
-						<h3>Implementation</h3>
-						<h6>Converting the design into a <b class="pink">fully functional site</b> while still considering loading times and SEO.</h6>
+				<div class="col-md-4 dev-col">
+					<div class="flip">
+						<div class="front">
+							<div>
+								<i class="fa fa-code fa-4x"></i>
+								<h3>Implementation</h3>
+							</div>
+						</div>
+						<div class="back">
+							<h6>Converting the design into a <b class="pink">fully functional site</b> while still considering loading times and SEO.</h6>
+						</div>
 					</div>
+				</div>
 
-					<div class="col-md-4">
-						<i class="fa fa-cogs fa-4x"></i>
-						<h3>Administration</h3>
-						<h6>Managing <b class="pink">hosting of the site</b>, ensuring once it goes up, it stays up, as well as keeping it fully secured at all times.</h6>
+				<div class="col-md-4 dev-col">
+					<div class="flip">
+						<div class="front">
+							<div>
+								<i class="fa fa-cogs fa-4x"></i>
+								<h3>Administration</h3>
+							</div>
+						</div>
+						<div class="back">
+							<h6>Managing <b class="pink">hosting of the site</b>, ensuring once it goes up, it stays up, as well as keeping it fully secured at all times.</h6>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -159,6 +185,7 @@ description: Look no further.
 		<div class="container-fluid">
 			<div class="row dev-row comic-contact">
 				<img src="/images/dev/portrait.jpg" class="comic-img img-circle" width="250px" height="auto">
+
 				<h2>I can help you out.</h2>
 
 				<div class="col-md-offset-4 col-md-4">
@@ -168,3 +195,12 @@ description: Look no further.
 		</div>
 	</div>
 </div>
+
+<script>
+	$(function(){
+		$(".flip").flip({
+			trigger: 'hover',
+			autoSize: true
+		});
+	});
+</script>

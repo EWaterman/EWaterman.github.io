@@ -538,6 +538,18 @@ code {
 // ===================== DEV PAGE ==========================
 // =========================================================
 
+#dev-header-section {
+  padding-top:30px;
+  padding-bottom: 200px;
+  background-color: black;
+  color: white;
+
+  // sm and under
+  @media only screen and (max-width: 991px) {
+    padding-bottom: 75px;
+  }
+}
+
 .dev-row {
   margin-top: 30px;
   margin-bottom: 70px;
@@ -554,9 +566,41 @@ code {
 }
 
 #dev-three-things {
-  margin-top: 60px;
   h6 {
     font-weight: normal;
+  }
+
+  // md and over
+  @media only screen and (min-width: 992px) {
+    background-color: $elevatedBg;
+    margin: -175px 60px 60px 60px;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .front {
+    background-color: #f7389f;
+  }
+
+  .back {
+    background-color: whitesmoke;
+  }
+
+  .front, .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 30px;
+
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  }
+
+  .flip {
+    height: 250px;
   }
 }
 
