@@ -223,6 +223,10 @@ code {
   }
 }
 
+#my-navbar {
+  background-color: black;
+}
+
 // circle thing with icons
 .menu {
   display:block;
@@ -565,6 +569,48 @@ code {
   }
 }
 
+.front, .back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.on-hover-hide {
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+
+  -webkit-transition: .2s ease-in-out all;
+  -moz-transition: .2s ease-in-out all;
+  -o-transition: .2s ease-in-out all;
+  transition: .2s ease-in-out all;
+}
+
+#dev-languages {
+  .on-hover-hide {
+    width: 100%;
+    background-color: $homepageBg;
+  }
+
+  .on-hover-base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100px;  // Height of icons
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+  .relative-container:hover .on-hover-hide {
+    opacity: 0;
+  }
+}
+
 #dev-three-things {
   h6 {
     font-weight: normal;
@@ -588,15 +634,8 @@ code {
   }
 
   .front, .back {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 30px;
     padding: 30px;
-
-    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
   }
 
   .flip {
@@ -604,30 +643,23 @@ code {
   }
 }
 
-.on-hover-base{
-  vertical-align: top;
+.dev-jobs {
+  .on-hover-base {
+    vertical-align: top;
 
-  background-color: #c1c1c1;
-  -moz-box-shadow: inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 5px #000000;
-}
+    background-color: #c1c1c1;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 5px #000000;
+  }
+  .on-hover-hide {
+    width: calc(100% - 30px);
+    left: 15px;
 
-.on-hover-hide {
-  width: calc(100% - 30px);
-  height: 100%;
-
-  position: absolute;
-  top: 0;
-  left: 15px;
-
-  -webkit-transition: .2s ease-in-out height;
-  -moz-transition: .2s ease-in-out height;
-  -o-transition: .2s ease-in-out height;
-  transition: .2s ease-in-out height;
-}
-.dev-jobs:hover .on-hover-hide {
-  height: 0;
+  }
+  &:hover .on-hover-hide {
+    height: 0;
+  }
 }
 
 // sm and under
