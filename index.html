@@ -65,7 +65,18 @@ description: Evan Waterman makes many things.
 	</div>
 </div>
 
-<script async>
+<script defer src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script defer>
+	$(window).on("load",function(){
+		$(".my-scrollbar").mCustomScrollbar({
+			theme:"light-thick",
+			autoExpandScrollbar: true,
+			scrollInertia: 100
+		});
+	});
+</script>
+
+<script defer>
 	$('.homepage-btn').hover(function() {
 		var target = "#" + $(this).attr('id') + "-doodle";
 		$(target).fadeIn('fast');

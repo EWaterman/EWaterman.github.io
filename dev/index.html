@@ -336,8 +336,19 @@ description: Look no further.
 	</div>
 </div>
 
-<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-<script>
+<script defer src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script defer>
+	$(window).on("load",function(){
+		$(".my-scrollbar").mCustomScrollbar({
+			theme:"light-thick",
+			autoExpandScrollbar: true,
+			scrollInertia: 100
+		});
+	});
+</script>
+
+<script defer src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<script defer>
 	$(function(){
 		$(".flip").flip({
 			trigger: 'hover',
