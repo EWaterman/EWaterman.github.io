@@ -7,7 +7,8 @@ categories: ["guide", "Printing"]
 [Page Counts For Printing](http://www.printninja.com/printing-resource-center/printing-options/book-services/page-count) - Print Ninja
 
 <hr><br>
-As the previous section states, offset printers use printing plates to print pages. These plates are large and double sided so they can actually fit multiple pages per plate. **The number of pages a printing plate can print is called a signature.**
+As the previous section states, offset printers use printing plates to print pages (if you're printing digital you don't have to worry about any of this). These plates are large and double sided so they can actually fit multiple pages per plate. **The number of pages a printing plate can print is called a signature.**
+
 
 Printers have different signatures and they vary depending on the size of your pages. For a standard sized comic, most printers can fit 8 pages on each side of the plate (so 16 pages per signature).
 

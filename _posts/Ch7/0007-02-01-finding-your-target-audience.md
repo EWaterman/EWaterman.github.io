@@ -106,7 +106,9 @@ Twitter is great for:
 
 Quick Tips:
 
-- **Get big name retweets.** @ people who you think would be willing to help you out by sharing an update with their followers. Just make sure you aren’t pestering people.
+- **Follow and engage with people who tweet similar content to you.** By commenting on someone's tweets, you'll help with their engagement, introduce yourself to their audience and most importantly, potentially make you new friends. Be genuine though and only comment when you actually have something to say. It's really easy to spot the intentions of someone who's chatting with you simply to increase their audience.
+
+- **Once you have friends, ask for retweets on important tweets.** Just launched your kickstarter campaign and want to have a big day one? DM your friends directly and ask (nicely) to help with their retweets. Be VERY careful with this one. Use it sparingly and make sure you're not being a leech by actually engaging with the content of the people you're asking first!
 
 - **Don’t be afraid to repeat yourself.** Because Twitter is so crowded, people will often miss your posts. If you have important information to share, share it again a few days later! Again, just don’t be obnoxious about it.
 

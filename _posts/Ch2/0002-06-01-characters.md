@@ -12,6 +12,8 @@ categories: ["guide", "Writing"]
 
 [Characterization & Character Creation](http://www.springhole.net/writing/characterization.htm) - Springhole
 
+[Characters](http://dirtyoldladies.libsyn.com/episode-8-characters) (podcast) - Dirty Old Ladies
+
 <hr><br>
 Han Solo, Batman, Forrest Gump… Everyone has their favourite. 
 
@@ -98,7 +100,7 @@ So I’ve given you a bunch of tips but how do you make sure you’re following 
 
 In my character bios, I include things like appearance, personal history, personality quirks, flaws and main motivations. I like to keep things simple but your bio can contain absolutely anything you feel is relevant to the story. If you want to flesh your characters out even more, here are a few things you can do:
 
-- **Interview your characters.** Check out this [list of 100 questions](http://www.miniworld.com/adnd/100ThingsAboutUrPCBackGround.html) (Beth Kinderman and Nikki Walker) to ask your characters.
+- **Interview your characters.** What are their desires? What are their fears? What's their motivation for doing what they're doing? By asking yourself questions about your character you can learn a lot about them. Check out this [list of 100 questions](http://www.miniworld.com/adnd/100ThingsAboutUrPCBackGround.html) (Beth Kinderman and Nikki Walker) to ask your characters.
 
 - **Take a personality test for your characters.** Answer as if your character was being asked the questions and see if they fall into a specific category. [This one](https://www.16personalities.com/free-personality-test) is my favourite and it takes less than ten minutes.
 

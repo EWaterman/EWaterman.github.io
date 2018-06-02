@@ -175,6 +175,12 @@ img {
   position: relative;
 }
 
+// Markdown image captions
+img + em {
+  display: block;
+  text-align: center;
+}
+
 // Overwrite builtin css
 .highlight {
   background-color: inherit!important;

@@ -24,6 +24,8 @@ Well...
 
 [Coming Up With Story Ideas: 10 Methods You Can Use](https://www.youtube.com/watch?v=ymYocLTkWEA) (video) - markcrilley
 
+[Where Do You Get Your Ideas](http://dirtyoldladies.libsyn.com/episode-26-where-do-you-get-your-ideas) (podcast) - Dirty Old Ladies
+
 <hr><br>
 Writers often have tons of ideas bouncing around in their heads but here are a few quick tips if you’re struggling to come up with something:
 

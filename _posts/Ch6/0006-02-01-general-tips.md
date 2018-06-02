@@ -16,17 +16,17 @@ Here’s some basic but important technical points that I’ve seen plenty of le
 
 - **Make sure to apply proper [kerning](http://www.blambot.com/_images/_gallery/tips/bl002.jpg) to you letters.** Different combinations of letters have different amounts of space between them. If you don’t manually even out those gaps, your words will have unwanted spaces ([Relevant xkcd](https://xkcd.com/1015/)).
 
-- **Keep the space between the text and the border (AKA the negative space) consistent consistent within the balloon.** This just keeps the balloon clean and makes sure you’re using the space efficiently.
+- **Keep the space between the text and the border (AKA the negative space) consistent consistent within the balloon.** This just keeps the balloon clean and makes sure you’re using the space efficiently. This rule is sometimes intentionally broken by warping the balloon slightly. This is done to create a more stylistic or raw feel.
 
 - Similarly, **keep negative space and font size consistent across balloons.** Different sized text and negative space are used to represent someone whispering or yelling. Make sure to stay consistent across your “normal” balloons so the reader clearly knows when something abnormal is happening.
 
-- Generally, it’s better to **keep you panel borders thicker than your balloon borders.** This is to help maintain the feeling that dialogue is a part of the panel and not sitting on top of it. An exception to this can be if your balloons are popping out of your panels or if your character is yelling.
+- Generally, it’s better to **keep you panel borders thicker than your balloon borders.** This is to help maintain the feeling that dialogue is a part of the panel and not sitting on top of it. Some letterers choose to not even use borders on their balloons. An exception to this rule can be if your balloons are popping out of your panels or if your character is yelling.
 
 - **Point the tail of a balloon to the mouth of the talker.** This guides the eye to the right place. People don’t talk with their chest or their forehead!
 
-- **The length of your balloon tail matters.** Longer balloon tails can be used to show the scale of a scene (this is great for [establishing shots](http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2013/08/TSW_pg_14.jpg)) or for when someone’s yelling. Shorter tails are the opposite and can be used to show someone talking quietly. In general, it’s a good idea to avoid very long balloon tails. They tend to look unnatural (subjective I know but I’ve seen somewhat of a consensus here) and they end up disconnecting the speaker from their words. If you must use a long tail, try making it more dynamic. Here’s [an example](http://imgur.com/a/4kCV3) from my comic.
+- **The length of your balloon tail matters.** Longer balloon tails can be used to show distance or the scale of a scene (this is great for [establishing shots](http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2013/08/TSW_pg_14.jpg)) or for when someone is shouting. Shorter tails are the opposite and can be used to show intimacy or someone talking quietly. In general, it’s a good idea to avoid very long balloon tails. They tend to look unnatural and end up disconnecting the speaker from their words. If you must use a long tail, try making it more dynamic. Here’s [an example](http://imgur.com/a/4kCV3) from my comic.
 
-- **Keep balloon tail width consistent.** They have a similar effect to the length of tails in that wider tails imply a louder noise. This effect should be treated with more subtlety however since it’s easy to make tails look too skinny or bloated.
+- **Keep balloon tail width consistent.** The width of the tail at the point where it touches the balloon should be consistent in size throughout all your balloons. The width of the tail has a similar effect to the length in that wider tails imply a louder noise. This effect should be treated with more subtlety however since it’s easy to make tails look too skinny or bloated.
 
 - **Try not to put your balloons horizontally or vertically parallel to a speaker.** This results in extending tails from the exact sides, top or bottom of balloons and makes the whole thing look static. Non-parallel lines add fluidity and movement to an image.
 
@@ -40,7 +40,7 @@ Here’s some basic but important technical points that I’ve seen plenty of le
 
 - **Don’t put balloons in adjacent panels right next to each other unless you want to reader to move there immediately.** By putting two balloons together, you’re showing the reader the next spot their eye should go too. Often times, adjacent balloons are accidentally placed too close to each other, resulting in the reader skipping over the rest of the panel.
 
-- **Avoid widows and orphans. Weird names I know.** Widows (a single word as the first line of a balloon) and orphans (a single word as the last line) generally make your balloons feel uneven. This can be okay depending on the word but short words like “a”, “I’m” and “the” tend to look weird on their own.
+- **Avoid widows and orphans.** Weird names, I know. Widows (a single word as the first line of a balloon) and orphans (a single word as the last line) generally make your balloons feel uneven. This can be okay depending on the word but short words like “a”, “I’m” and “the” tend to look weird on their own.
 
 - In general, **balloon tails should extend out half the distance from the balloon to the speaker’s mouth.** This isn’t a hard and fast rule but is usually a safe bet. An exception to this is if it violates the following two points.
 

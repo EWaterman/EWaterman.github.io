@@ -114,3 +114,7 @@ Here are some general tips that you’ll want to account for in your outlining p
 - **Consider the “Yes but…” or “No and...” method.** The purpose of this method is to maintain conflict throughout your story and keep a causal chain of events. In every scene ask yourself, do your characters succeed in what they’re trying to do? Your answer should be one of the following:
     - Yes, but now there’s another problem we’ll have to deal with in the next scene!
     - No, and now the problem is even worse!
+
+- **Make sure the story is always moving forward.** If an arc (character, plot or otherwise) stagnates for too long your reader will get bored. Have your characters grow (for better or worse), progress the plot, and add new levels to the conflict. By constantly having things move you'll have the reader always wondering what will happen next. If you absolutely can't progress an open arc, open and close smaller, related arcs in the meantime or consider starting the arc later in the story, closer to where it can be immediately progressed.
+
+- **Establish a status quo early on in your story.** The inciting incident of a story is when things go from normal to abnormal. If you jump straight into the plot, the reader won't have time to ground themselves in the world. We need to know what everyday life is like for your world and characters before we can fully understand how the inciting incident actually changes things.

@@ -4,6 +4,9 @@ title: Self Distribution
 categories: ["guide", "Distribution"]
 ---
 
+[Distribution](http://dirtyoldladies.libsyn.com/episode-14-distrobution) (podcast) - Dirty Old Ladies
+
+<hr><br>
 Maybe fulfillment companies aren’t an option for you, or maybe you’re like me and want to, at least once, try to handle the whole distribution process on your own.
 
 Self distribution is tough work and depending on your situation, it can end up saving or costing you quite a bit of money. As always, I encourage you to explore your options before diving in.

@@ -58,9 +58,9 @@ There are a couple reasons to break out the atoms of a scene:
 
 - **It can help reveal which moments can be merged together and which ones must stand on their own.** (More on this in the “forming panels” section.)
 
-All that said, I found that a lot of this part of the process can be glossed over. It’s not really necessary to break absolutely everything down. It’s just helpful if you’re struggling with organizing a particular scene.
+Now, **you don't need to show absolutely every atom in a scene**. Action scenes are more fast paced and so usually skip showing many atoms to match the speed. Intimate scenes are slow and can afford to show more atoms. Regardless of the pacing, **there's a minimum set of atoms you have to show for a scene to be comprehensible**. Figure out that set of atoms and from there you can add more as needed.
 
-I don't usually include dialogue when I break scenes down like this, but feel free to do so if you find it helpful. Either way, it’s still important to keep in the back of your mind as you break a scene down.
+All that said, I found that a lot of this part of the process can be glossed over. It’s not really necessary to break absolutely everything down. It’s just helpful if you’re struggling with organizing a particular scene.
 
 <br>
 
@@ -161,6 +161,10 @@ Your goal for this section is to take the atoms you have in a page and convert t
 - **Match the pacing with the number of panels in the page.** Larger panels take longer to absorb and lead to a slower moving scene. By adding lots of smaller panels, you can ramp up the pacing of a page. This is why action scenes in comics tend to have lots of panels whereas dialogue heavy ones don’t.
 
 - **Cut unnecessary atoms.** Everything in a panel that doesn’t have a purpose is just a distraction from the things that do have one. This could be as simple as helping to frame the scene for the reader. Just make sure there‘s a reason to put them in.
+
+Here's that scene with the completed art (no dialogue):
+
+![](/images/guide/atoms.jpg)
 
 > Okay okay I get it. Now that I have my panels broken down, how do I formalize it for my artist?
 

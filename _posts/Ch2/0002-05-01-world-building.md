@@ -16,6 +16,8 @@ categories: ["guide", "Writing"]
 
 [Worldbuilding Notes and Resources](https://docs.google.com/document/d/1XXN7DiNmMV7fOZbf2xGeqLvRtRQixOvznSDjOlcY5HQ/edit) (google doc) - Tiffany S
 
+[Worldbuilding](http://dirtyoldladies.libsyn.com/episode-39-worldbuilding) (podcast) - Dirty Old Ladies
+
 <hr><br>
 So you want to build a world eh?
 

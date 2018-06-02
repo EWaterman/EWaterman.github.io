@@ -19,7 +19,7 @@ Here are a few tips to help you stay productive:
 
 - Similarly, **have a designated work spot.** If you work in the same place you sleep and watch cat videos, you’re going to have trouble staying focused on your work. If you take a break, leave your work spot.
 
-- **Block out access to distractions.** Unplug your TV, disconnect from the internet, move your other work out of the room… There are many ways to force yourself to stay on task. You could even download an app blocker like [Cold Turkey](https://getcoldturkey.com/) that shuts you out from certain programs temporarily while you work.
+- **Block out access to distractions.** Unplug your TV, disconnect from the internet, disable social media notifications, clear everything except your work from the room… There are many ways to force yourself to stay on task. You could even download an app blocker like [Cold Turkey](https://getcoldturkey.com/) that shuts you out from certain programs temporarily while you work or [Forest](https://www.forestapp.cc/en/) that grows trees on your phone while you stay productive.
 
 - **Be accountable to someone.** It’s easy to justify to yourself that you can take a week off from writing but when that week turns into a month, you have yourself a problem. Whether it be your mom, your friend, your Twitter followers or a fellow writer, make sure someone other than you knows you’re trying to make a comic. By forcing yourself to give daily or weekly updates to someone about your progress, you’ll feel more obligated to finish your work. If you have one, (and I highly suggest you do) you can use your e-mail list for this purpose. Not only will it help you to maintain progress but it will also provide the opportunity to give updates to your followers.
 

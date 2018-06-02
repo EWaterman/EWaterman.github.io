@@ -6,6 +6,8 @@ categories: ["guide", "Publishing"]
 
 [How to pitch your comic](https://8thwonderpress.com/advice-for-creators/how-to-pitch-your-comic/) - 8th Wonder Press
 
+[Pitches and Submissions](http://dirtyoldladies.libsyn.com/episode-37-pitches-and-submissions) (podcast) - Dirty Old Ladies
+
 <hr><br>
 The future of your comic depends on who is going to publish it so it's important to put effort into your submissions. Here are a few short tips on how to be successful when pitching your comic.
 

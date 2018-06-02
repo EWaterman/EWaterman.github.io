@@ -25,6 +25,8 @@ This isn't always the case however, so once again, make sure to look into each c
 
 Comixology is the single largest digital distributor of comics. They will also build a ["guided view"](https://support.comixology.com/customer/portal/articles/768035-what-is-comixology-s-guided-view%E2%84%A2-technology-) of your comic (for free), allowing readers to view your comic on a panel by panel basis. If you plan on offering digital copies of your book, I recommend you at least consider them as an option.
 
+The Dirty Old Ladies podcast has [an entire episode](http://dirtyoldladies.libsyn.com/episode-24-comixology) dedicated to Comixology.
+
 ### [ComixCentral](https://www.comixcentral.com/)
 
 A new, up and coming competitor to Comixology. They have great payout rates and seem to genuinely care about creators. I use them myself and I'm happy with the choice.

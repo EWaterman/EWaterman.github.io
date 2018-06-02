@@ -20,11 +20,17 @@ Anyways, let’s jump into some quick tips to make sure your scenes are looking 
 
 - **Details matter!** By giving your characters subtle mannerisms, you can reflect their personalities or how they feel about something. Similarly, you can express how the society of your world works through the everyday actions people perform.
 
-![this should be a photo](/images/guide/details.jpg)
+![](/images/guide/details.jpg)
 
 For example, in this scene form More Than Men, a young woman is shown using her powers to help her wait tables at a restauraunt. This subtly shows the reader how mundane powers have become in the world while at the same time serving as a natural pause in the scene.
 
+That said...
+
+- **Only show the essential.** You don't need to show details that add nothing to the story. What does the reader get out of watching your character get in their car and drive the whole way to work? Not to say that a scene like that couldn't work (maybe you're revealing how mundane the character's life is). Just make sure it has an importance to the story.
+
 - **Determine the purpose of your scene and fulfill it.** Read back into the section on [the M.I.C.E. quotient]({{ site.baseurl }}{% link _posts/Ch2/0002-04-01-outlining.md %}#mice-quotient) about the different elements of a story. Each scene should progress at least one of these elements. Figure out which elements (the plot, the characters, the world or the idea) your scene addresses and make sure it develops them in some way.
+
+- **Start each scene with a hook.** Eye catching imagery, exciting action, provocative dialogue, an intriguing mystery, a suspicious question, looming danger. Whatever it is, each scene you write should open with something that will make the reader want to keep reading. This is especially important for your first scene. You want the reader to be enthralled by page one!
 
 - **Set your scene somewhere that reinforces that scene’s purpose.** If your characters are discussing the future of a city, setting that scene on a balcony overlooking the city will add a satisfying visual cue to the reader. A location can also add a lot to the overall tone of a scene. If a character feels alone, setting a scene in an open field will emphasize this. Weather has similar effects. If your character is sad, having it be a dark, rainy day will add another layer of emotion to the scene.
 
