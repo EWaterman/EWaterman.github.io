@@ -18,9 +18,9 @@ If you’re working digital, Print Ninja made [this awesome guide](http://www.pr
 ### Page Dimensions
 
 <hr><br>
-Make sure that before you start drawing, you know what the dimensions of your pages will be.
+Make sure that before you start drawing, you know what [the dimensions of your pages will be](http://www.rinkprinting.com/premium-print/comics/info-templates.html).
 
-**The standard single issue comic is 6.75 inches by 10.25 inches** but by no means do you have to obey that standard. Comics come in all shapes and sizes. Just note that if you use abnormal dimensions, you may run into complications when you go to print your comic.
+**The standard single issue comic is 6.625 x 10.25 inches after trim (6.875 x 10.5 inches full bleed)** but by no means do you have to obey that standard. Comics come in all shapes and sizes. Just note that if you use abnormal dimensions, you may run into complications when you go to print your comic.
 
 Check out this great [comic template](http://ka-blam.com/printing/templates/2010_comic_template.png) by Ka-blam for a visual representation of the standard page format.
 

@@ -4,6 +4,9 @@ title: Writer's Block
 categories: ["guide", "Writing"]
 ---
 
+[How to Beat Writer’s Block](http://www.superheronation.com/2009/04/24/writing-tips-of-the-day-how-to-beat-writers-block/) - B. McKenzie
+
+<hr><br>
 Writer's block.
 
 You sit down to write the next awesome part of your story and... nothing.
