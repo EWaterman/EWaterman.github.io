@@ -744,13 +744,7 @@ code {
 
 #comic-content {
   color: $black;
-
-  // sm and under
-  @media only screen and (max-width: 991px) {
-    h1, h2, h3, h4, h5, h6 {
-      text-align: center;
-    }
-  }
+  text-align: center;
 }
 
 #comic-page {
