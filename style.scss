@@ -55,6 +55,13 @@ h1 {
   }
 }
 
+// sm and under
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 250%;
+  }
+}
+
 h2 {
   font-size: 250%;
 }
@@ -157,7 +164,6 @@ img {
 // DEV PAGE
 // COMIC PAGE
 // GUIDE PAGE
-// BIO PAGE
 // FOOTER
 
 // ======================================================
@@ -233,72 +239,6 @@ code {
   background-color: black;
 }
 
-// circle thing with icons
-.menu {
-  display:block;
-  width:100px;
-  height:100px;
-  background-color:transparent;
-  border-radius:50%;
-  z-index:20;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
-}
-
-.menu {
-  position:fixed;
-  top: 15px;
-  left: 15px;
-}
-
-.menu-button1, .menu-button2, .menu-button3, .menu-button4 {
-  width: 60%;
-  height: 60%;
-  background-color: $gray;
-  border-radius:50%;
-  position: absolute;
-  color: $white;
-  text-align: center;
-  line-height: 70px;
-  top: 25%;
-  left: 25%;
-  z-index: 10;
-
-  a {
-    color: $white;
-  }
-}
-
-.menu-button1 {
-  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
-}
-
-.menu-button2 {
-  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .2s;
-}
-
-.menu-button3 {
-  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .4s;
-}
-
-.menu-button4 {
-  transition: transform 500ms cubic-bezier(0.680, -0.550, 0.265, 1.550) .5s;
-}
-
-.mask {
-  width:100px;
-  height:100px;
-  background: $green;
-  border-radius:50%;
-  position:absolute;
-  z-index:21;
-  color:$white;
-  text-align:center;
-  line-height:120px;
-  cursor:pointer;
-}
-
 .navbar-inverse .navbar-nav>li>a {
   color: white;
 }
@@ -362,38 +302,13 @@ code {
 // =========================================================
 #homepage-content {
   height: 100vh;
-  background-color: $homepageBg;
   color: $black;
-  overflow: hidden;
-}
-
-#homepage-container {
-  background-color: $homepageBg;
 }
 
 #homepage-title h1 {
-  margin-top: 0;
-  padding-top: 20px;
-}
-
-// sm and under
-@media only screen and (max-width: 991px) {
-  #homepage-title {
-    height: 100px;
-    h1 {
-      font-size: 1.5em;
-    }
-  }
-}
-
-// md and over
-@media only screen and (min-width: 992px) {
-  #homepage-title {
-    height: 200px;
-    h1 {
-      font-size: 3.3em;
-    }
-  }
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .vertical-align {
@@ -401,17 +316,8 @@ code {
   align-items: center;
 }
 
-.homepage-buttons {
-  overflow-y: auto;
-}
-
 #homepage-main-img-wrapper {
-  height: 100%;
   overflow-y: hidden;
-}
-
-#homepage-main-img {
-  background-color: $homepageBg;
   position: absolute;
   top: 0;
   left: 0;
@@ -431,9 +337,9 @@ code {
   .homepage-btn {
     width: 80%;
   }
-
-  .homepage-col {
-    max-height: calc(40vh);
+  #homepage-main-img-wrapper {
+    margin-top: 50px;
+    margin-bottom: -30px;
   }
 }
 
@@ -442,6 +348,12 @@ code {
   .homepage-col {
     max-height: calc(1.21489198 * 45vw);
     height: calc(100vh - 200px);
+  }
+  #homepage-title {
+    min-height: 200px;
+  }
+  #homepage-content {
+    overflow: hidden;
   }
 }
 
@@ -460,31 +372,17 @@ code {
   min-height: 58px;
   padding: 0 22px;
   border: 2px solid $black;
-  background: none;
-  font-size: 16px;
   line-height: 52px;
   color: $black;
-  letter-spacing: .25em;
-  text-decoration: none;
+  letter-spacing: .20em;
+  text-decoration: none !important;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  box-shadow: 0 0 1px black;
-
-  -webkit-transition: background .4s, color .4s;
-  -moz-transition: background .4s, color .4s;
-  -o-transition: background .4s, color .4s;
-  transition: background .4s, color .4s;
 
   &:hover, &:active, &:focus {
     background-color: $black;
     color: $homepageBg;
-    text-decoration: none;
-  }
-  &:visited {
-    text-decoration: none;
   }
 }
 // ====================== END HOMEPAGE =====================
@@ -493,9 +391,8 @@ code {
 // ================== CONTACT PAGE =========================
 // =========================================================
 #contact-content {
-  background-color: $homepageBg;
   position: relative;
-  min-height: calc(100vh - 211px); // 161px footer + 50px header
+  min-height: calc(100vh - 151px); // 101px footer + 50px header
 
   label {
     display: inline-block;
@@ -553,26 +450,11 @@ code {
   padding-bottom: 200px;
   background-color: black;
   color: white;
-
-  // sm and under
-  @media only screen and (max-width: 991px) {
-    padding-bottom: 75px;
-  }
 }
 
 .dev-row {
   margin-top: 30px;
   margin-bottom: 70px;
-}
-
-// sm and under
-@media only screen and (max-width: 991px) {
-  .dev-col {
-    margin-bottom: 30px;
-  }
-  .dev-col-more {
-    margin-bottom: 60px;
-  }
 }
 
 .front, .back {
@@ -622,15 +504,6 @@ code {
     font-weight: normal;
   }
 
-  // md and over
-  @media only screen and (min-width: 992px) {
-    background-color: $elevatedBg;
-    margin: -175px 60px 60px 60px;
-    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
-  }
-
   .front {
     background-color: #f7389f;
   }
@@ -670,6 +543,15 @@ code {
 
 // sm and under
 @media only screen and (max-width: 991px) {
+  #dev-header-section {
+    padding-bottom: 75px;
+  }
+  .dev-col {
+    margin-bottom: 30px;
+  }
+  .dev-col-more {
+    margin-bottom: 60px;
+  }
   #dev-jobs-bg {
     margin-bottom: 120px;
   }
@@ -683,7 +565,6 @@ code {
     text-align: left;
     padding: 175px 30% 175px 8%;
   }
-
   #dev-jobs-fg {
     position: absolute;
     background-color: $elevatedBg;
@@ -697,30 +578,15 @@ code {
     -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
   }
+  #dev-three-things {
+    background-color: $elevatedBg;
+    margin: -175px 60px 60px 60px;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  }
 }
 // ==================== END DEV PAGE =========================
-
-// =========================================================
-// ===================== BIO PAGE ==========================
-// =========================================================
-#bio-content {
-  background-color: $homepageBg;
-  color: $black;
-  overflow-y: hidden;
-  height: 600px;
-}
-
-.bio-col {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.bio-link {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-// ==================== END BIO PAGE =========================
 
 // =========================================================
 // ===================== COMIC PAGE ==========================
@@ -857,13 +723,6 @@ code {
 
   h1 {
     border-bottom: 10px solid #2AA198;
-  }
-
-  // sm and under
-  @media only screen and (max-width: 991px) {
-    h1 {
-      font-size: 200%;
-    }
   }
 
   // md and over
@@ -1047,12 +906,12 @@ code {
 // ===========================================================
 .wrapper-footer {
   position: relative;
-  background: $gray url("/images/dark_texture.jpg") repeat;
+  background: black;
 }
 
 footer {
   color: #6d6d6d;
-  padding: 20px 0;
+  padding: 20px 0 10px;
   text-align: center;
 }
 // ======================= END FOOTER ========================

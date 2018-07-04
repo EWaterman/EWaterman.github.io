@@ -6,61 +6,54 @@ description: Evan Waterman makes many things.
 
 <!-- Wrapper for Homepage content -->
 <div id="homepage-content">
-	<div id="homepage-container">
-		<div id="homepage-title">
-			<h1><b class="pink">Evan Waterman</b> makes many things.</h1>
-		</div>
 
-		<div class="container-fluid">
-			<div class="row">
+	<div id="homepage-title">
+		<h1><b class="pink">Evan Waterman</b> makes many things.</h1>
+	</div>
 
-				<!--Left side buttons-->
-				<div class="my-scrollbar homepage-col homepage-buttons col-lg-offset-1 col-lg-4">
-					<a id="comic" href="/comic/" class="homepage-btn">Comics</a>
-					<a id="guide" href="/guide/" class="homepage-btn">Guide Books</a>
-					<a id="dev" href="/dev/" class="homepage-btn">Websites</a>
-					<a id="youtube" href="https://www.youtube.com/channel/UCn8L3Ehx8nrpfF8L3Bq2K5w/videos" class="homepage-btn">Video Tutorials</a>
+	<div class="container-fluid">
+		<div class="row">
+
+			<!--Left side buttons-->
+			<div class="my-scrollbar homepage-col col-lg-offset-1 col-lg-4">
+				<a id="comic" href="/comic/" class="homepage-btn">Comics</a>
+				<a id="guide" href="/guide/" class="homepage-btn">Guide Books</a>
+				<a id="dev" href="/dev/" class="homepage-btn">Websites</a>
+				<!--<a id="youtube" href="https://www.youtube.com/channel/UCn8L3Ehx8nrpfF8L3Bq2K5w/videos" class="homepage-btn">Video Tutorials</a>-->
+			</div>
+
+			<!--Right side images-->
+			<div class="homepage-col col-lg-6">
+
+				<!--Main image-->
+				<div id="homepage-main-img-wrapper">
+					<img sizes="(max-width: 1200px) 100vw,
+											(max-width: 1400px) 50vw,
+											 2600px"
+							 srcset="/images/home/bgt_200.png 200w,
+											 /images/home/bgt_705.png 705w,
+											 /images/home/bgt_1024.png 1024w,
+											 /images/home/bgt_1263.png 1263w,
+											 /images/home/bgt_1400.png 1400w,
+											 /images/home/bgt_2600.png 2600w"
+							 src="/images/home/bgt_2600.png">
 				</div>
 
-				<!--Down arrow-->
-				<div class="hidden-lg">
-					<i class="fa fa-angle-down fa-4x"></i>
-				</div>
-
-				<!--Right side images-->
-				<div class="homepage-col col-lg-6">
-
-					<!--Main image-->
-					<div id="homepage-main-img-wrapper">
-						<img id="homepage-main-img"
-								 sizes="(max-width: 1200px) 100vw,
-								 				(max-width: 1400px) 50vw,
-								 				 2600px"
-								 srcset="/images/home/bgt_200.png 200w,
-					 	 						 /images/home/bgt_705.png 705w,
-												 /images/home/bgt_1024.png 1024w,
-												 /images/home/bgt_1263.png 1263w,
-												 /images/home/bgt_1400.png 1400w,
-												 /images/home/bgt_2600.png 2600w"
-								 src="/images/home/bgt_2600.png">
-					</div>
-
-					<!--Doodles-->
-					<div class="hidden-xs hidden-sm hidden-md">
-						<img class="homepage-doodle" id="comic-doodle" src="/images/home/comic.png">
-						<img class="homepage-doodle" id="guide-doodle" src="/images/home/guide.png">
-						<img class="homepage-doodle" id="dev-doodle" src="/images/home/dev.png">
-						<img class="homepage-doodle" id="youtube-doodle" src="/images/home/youtube.png">
-					</div>
+				<!--Doodles-->
+				<div class=" hidden-xs hidden-sm hidden-md">
+					<img class="homepage-doodle" id="comic-doodle" src="/images/home/comic.png">
+					<img class="homepage-doodle" id="guide-doodle" src="/images/home/guide.png">
+					<img class="homepage-doodle" id="dev-doodle" src="/images/home/dev.png">
+					<img class="homepage-doodle" id="youtube-doodle" src="/images/home/youtube.png">
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- Contact button -->
-		<div class="hidden-xs hidden-sm hidden-md">
-			<div id="homepage-contact">
-				<h3><a href="/contact/"><i class="fa fa-envelope"></i> Contact</a></h3>
-			</div>
+	<!-- Contact button -->
+	<div class="hidden-xs hidden-sm hidden-md">
+		<div id="homepage-contact">
+			<h3><a href="/contact/"><i class="fa fa-envelope"></i> Contact</a></h3>
 		</div>
 	</div>
 </div>
