@@ -172,7 +172,7 @@ img {
 
 // So we always fill the viewport (no hovering footer)
 .entry {
-  min-height: calc(100vh - 211px); // 161px footer + 50px header
+  min-height: calc(100vh - 151px); // 101px footer + 50px header
   color: black;
 }
 
@@ -185,6 +185,13 @@ img {
 img + em {
   display: block;
   text-align: center;
+}
+
+hr {
+  color: black; /* old IE */
+  background-color: black; /* Modern Browsers */
+  border-color: black;
+  height: 1px;
 }
 
 // Overwrite builtin css
@@ -600,14 +607,6 @@ code {
   border-radius: 25px;
 }
 
-#mtm-content {
-  color: $black;
-
-  .comic-sign-up {
-    padding: 30px 20px;
-  }
-}
-
 #comic-content {
   color: $black;
   text-align: center;
@@ -617,18 +616,79 @@ code {
   background-color: $homepageBg;
 }
 
-.comic-row {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
 #comic-title {
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .comic-title-col {
   padding-right: 0;
   padding-left: 0;
+}
+
+.divider {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  max-width: 60%;
+}
+
+.logo-divider {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.comic-main-desc {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px
+}
+
+#mtm-main-img {
+  border-bottom: solid black;
+  box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 10px 8px -5px rgba(0, 0, 0, 0.35);
+
+  padding-top: 20px;
+}
+
+.comic-main-img-container {
+  overflow: hidden;
+  position: relative;
+
+  img {
+    vertical-align: bottom;
+  }
+}
+
+.comic-main-img-bg {
+  animation: slide 180s linear infinite;
+  background: url("/images/comic/carson-bg-low-op.jpg") repeat-y;
+  background-size: 100% auto;
+  height: 9999px; // Just has to be bigger than container (aka carson.png) height
+  left: 0;
+  //opacity: 0.4; // Already using low op image
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(0, -9000px);
+    -webkit-transform: translate(0, -9000px);
+    -moz-transform: translate(0, -9000px);
+    -o-transform: translate(0, -9000px);
+    -ms-transform: translate(0, -9000px);
+  }
 }
 
 .comic-contact {
@@ -638,23 +698,14 @@ code {
 }
 
 .comic-sign-up {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 60px;
+  padding: 30px 20px 50px 20px;
   margin-bottom: 20px;
 
   background-color: whitesmoke;
-  border-radius: 20px;
 
   -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
   -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
-
-  // md and over
-  @media only screen and (min-width: 992px) {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
 }
 
 #comic-logline {
@@ -682,6 +733,18 @@ code {
 
 #comic-heart {
   margin-bottom: 5px;
+}
+
+// md and over
+@media only screen and (min-width: 992px) {
+  #comic-title {
+    width: 50%;
+  }
+
+  .comic-sign-up {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
 
 // ===================== END COMIC PAGE ======================
@@ -717,8 +780,6 @@ code {
 
   hr {
     height: 5px;
-    color: black; /* old IE */
-    background-color: black; /* Modern Browsers */
   }
 
   h1 {
@@ -747,10 +808,6 @@ code {
 
   p {
     margin: 30px 0;
-  }
-
-  hr {
-    height: 1px;
   }
 
   img {
