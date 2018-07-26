@@ -19,6 +19,8 @@ The following is a collection of all the resources that don’t fit into any par
 
 [Collection of useful writing related resources](https://docs.google.com/document/d/1vdcXNZa0nKHQafsXRi3yXnU8eyrOA62bXlGfL2ThXJw) by my fellow writer Jerenda :)
 
+[Kids Guide to Making Movies](https://seatup.com/blog/kids-guide-to-making-movies) - Guide by Ely covering the "Movie-Making Basics". Also has links to resources relevant for comics.
+
 <br>
 
 ### Books
