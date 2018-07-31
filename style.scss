@@ -701,8 +701,6 @@ code {
 
 .comic-sign-up {
   padding: 30px 20px 50px 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 
   background-color: whitesmoke;
 
@@ -772,6 +770,12 @@ code {
   float: right;
 }
 
+.guidepost {
+  .comic-sign-up {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+}
 
 #guidepost-content-box {
   text-align: left;
