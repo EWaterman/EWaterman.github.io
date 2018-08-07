@@ -31,51 +31,65 @@ Most people ship their comics in either Flat Mailers or Bubble Mailers (pictured
 
 That said, the packaging you choose will depend on what exactly you’re shipping. If your product doesn’t fit in a small mailer (most comics should), you might be required to ship in boxes, which will significantly increase your costs.
 
-**Also important to keep in mind is how protective the packaging is.** From personal experience, in order of least to most protective: flat mailers < bubble mailers < boxes. Unfortunately this is also in order of increasing prices. You’re going to have to decide for yourself what you’re willing to invest in.
+**Also important to keep in mind is how protective the packaging is.** From personal experience, in order of least to most protective: flat mailers < bubble mailers < boxes. Unfortunately, this is also in order of increasing prices. You’re going to have to decide for yourself what you’re willing to invest in.
 
 ![](/images/guide/board.jpg)
 
-**You might also choose to bag and board your comics**, especially if they’re single issues. Most comic shops sell these in bulk but you can also get them online quite easily. Bags and boards are relatively cheap and add another layer of protection as well as a degree of professionalism to your comic.
+**You might also choose to bag and board your comics**, especially if they’re single issues. Most comic shops sell these supplies in bulk, but you can also get them online quite easily. Bags and boards are relatively cheap and add another layer of protection as well as a degree of professionalism to your comic.
 
 Now, This might go without saying but **make sure your comic actually fits in the packaging!** I’ve heard a few horror stories of people ordering packaging for hundreds of comics just to find out their book doesn’t fit. This is especially important to keep in mind if you plan on shipping multiple items together. Make sure the packaging can actually contain everything.
 
-You can find packaging in a number of places including Amazon, Staples, -- or even directly from postal services like USPS or Canada Post (though they tend to be more expensive).
+You can find packaging in a number of places including Amazon, Staples, or even directly from postal services like USPS or Canada Post (though they tend to be more expensive).
 
-For More Than Men, (which was a 32 page, 6.625" x 10.25" comic), I used the [Pratt MJ-3 Self-Seal Stay Flat Mailer, White, 9" x 11 1/2"](https://smile.amazon.com/dp/B00AI62400/ref=cm_cr_ryp_prd_ttl_sol_0) which I found on Amazon.
-
-They were cheap and seemed to do the job but I did hear from a few people that the packaging was slightly damaged on arrival (though the books themselves were fine because I had bagged and boarded them).
+For More Than Men, (which was a 32 page, 6.625" x 10.25" comic), I used the [Pratt MJ-3 Self-Seal Stay Flat Mailer, White, 9" x 11 1/2"](https://smile.amazon.com/dp/B00AI62400/ref=cm_cr_ryp_prd_ttl_sol_0) which I found on Amazon. They were cheap and seemed to do the job, but I did hear from a few people that the packaging was slightly damaged on arrival (though the books themselves were fine because I had bagged and boarded them).
 
 <br>
 ### Labels
 
 ![](/images/guide/labels.jpg)
 
-**Labels are really useful for streamlining the shipping process.** While you may be able to get away with writing out addresses manually onto your packages if your audience is small, eventually this approach becomes much less feasible.
+When shipping a package, **you are required to have both the destination address and the return address (your address) printed clearly on the package**. Labels are really useful for streamlining this process. While you may be able to get away with writing out addresses manually on each package if your audience is small, eventually this approach becomes much less feasible. Good luck writing out 500 different addresses and return addresses by yourself...
 
-Fortunately, printing labels is easy!
-
-**[Avery](https://www.avery.ca/design-and-print-online/) provides a free, easy to use online tool for customizing shipping labels.** The tool lets you print your own labels or you can get Avery to print and ship them to you (for a price). I used this tool for More Than Men and it saved me a TON of time. 
+**[Avery](https://www.avery.ca/design-and-print-online/) provides a free, easy to use online tool for customizing shipping labels.** The tool lets you print your own labels or you can get Avery to print and ship them to you (for a price).
 
 If you want to print your own labels, you can buy blank labels all over the place (Staples, Amazon, Stamps.com, Avery, as well as direct from some postal services). Just make sure that the labels you buy are the same size as your template.
 
-For More Than Men I used the [2" x 4" (10 per sheet) Avery labels](https://www.avery.ca/avery-shipping-labels-with-trueblock-technology-for-inkjet-printers-2inch-x-4inch-8923-rectangle-white.html) which I bought directly from Staples.
+For my first Kickstarter, I used the [2" x 4" (10 per sheet) Avery labels](https://www.avery.ca/avery-shipping-labels-with-trueblock-technology-for-inkjet-printers-2inch-x-4inch-8923-rectangle-white.html) which I bought directly from Staples. **Make sure to get the right type of paper for your printer** (laser vs inkjet).
 
-**Make sure to get the right type of paper for your printer** (laser vs inkjet).
-
-Some people who are frequently packing and shipping comics have invested in their own label printers but personally I haven’t found a need for one yet.
-
-![](/images/guide/label_printer.jpg)
-
-As a bit of a side note, **know your country's rules when it comes to where labels should go on your packaging.** The US doesn’t seem to care, as long as the destination is printed clearly. Canada Post requires the return address in the top left and the destination address in the center.
+Before you buy and place your labels, **know your country's rules when it comes to where labels should go on your packaging.** The US doesn’t seem to care where you put the label, as long as the destination is printed clearly. (In fact, I've heard from people that sometimes you're not even required to include one as long as you have the proper postage.) Canada Post requires the return address in the top left and the destination address in the center of all their packages.
 
 <br>
 ### Postage / Stamps
 
-**Postage is essentially what shipping companies use to determine your shipping costs.** Like I said before, the type of postage you’ll require largely depends on the size and weight of your parcel, but also what exactly you’re shipping.
+While adding a shipping label allows you to skip having to write your address on each package manually, you'll still have to get a postage label for each individual package. Fortunately, there's a way to skip that process as well. First, let me explain exactly what postage is...
 
-Unfortunately I can’t go into detail about the different types of postage because they change so often and vary drastically from country to country. Priority Mail, Media Mail, Super Deluxe Express Mail… there are a lot of different options but you can usually check the websites of your local shipping companies for price estimates on each type.
+![](/images/guide/postage.jpg)
 
-Also of note is **postage prices vary quite a lot between shipping companies.** In Canada, your choices are Canada Post, UPS or FedEx (unless you want to ship with a fulfillment company) but in the US there are a whole lot more.
+**Postage is what shipping companies use to determine, and prove that you've paid for, your shipping costs.** The type of postage you’ll require largely depends on the size and weight of your parcel, but also what exactly you’re shipping. Unfortunately I can’t go into detail about the different types of postage because they change so often and vary drastically from country to country. Priority Mail, Media Mail, Super Deluxe Express Mail… there are a lot of different options but you can usually check the websites of your local shipping companies for price estimates on each type.
+
+> So how do I get postage for my packages?
+
+You have two options for generating your postage: First, **you can get your postage done at the post office directly**. This is a totally feasible option when you're only shipping a few packages, but as I said before, when you're shipping hundreds of books at once, going through each package one at a time just isn't realistic.
+
+Your second option is to **generate and print your own postage**. While slightly more complicated, printing your own labels allows you to avoid the ENTIRE procedure at the postal office. You show up, drop off your packages, and leave.
+
+Generating postage yourself will save you a TON of time in the long run but requires a bit more work initially as well as some knowledge of the different postage types. Whether or not to do so is entirely up to you, but make sure to factor the size of your audience into your decision.
+
+If you DO want to generate your own postage, most postal services as well as some online companies provide a method of doing so for your products. Here are a few that I found: [USPS](https://www.usps.com/ship/online-shipping.htm), [PayPal](https://www.paypal.com/ca/smarthelp/article/how-do-i-create-and-print-shipping-labels-using-paypal-faq3852), [Stamps.com](https://www.youtube.com/watch?v=84-KUfY4hsY), [WooCommerce](https://www.youtube.com/watch?v=DSydwkaAjiA), [Canada Post](https://www.canadapost.ca/web/en/kb/details.page?article=print_shipping_label&cattype=kb&cat=sending&subcat=generalinformation).
+
+> Do I need to do anything special if I'm printing my own postage?
+
+If you're generating your own postage, you CAN print your labels on normal paper (and then tape them to your packages), but regular paper is more likely to tear or get water damage during the shipping process.
+
+Alternatively, you might **consider investing in a label printer**.
+
+![](/images/guide/label_printer.jpg)
+
+Label printers will allow you to simply peel and stick your labels onto your packages, making it a safer and MUCH faster procedure.
+
+> Okay, but what company should I ship with?
+
+When sorting out your postage, note that **postage prices vary quite a lot between shipping companies.** In Canada, your choices are Canada Post, UPS or FedEx (unless you want to ship with a fulfillment company) but in the US there are a whole lot more.
 
 When deciding on which company to use, I suggest you **go to all the local companies with a fully packaged sample of your comic and ask for an estimate.** They’ll tell you exactly what type of postage you’ll have to get and how much it’ll cost you. That way you don’t have to do any guesstimation about your shipping costs.
 

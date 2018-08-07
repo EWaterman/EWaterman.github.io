@@ -4,6 +4,8 @@ title: Conventions
 categories: ["guide", "Distribution"]
 ---
 
+![](/images/guide/cons.jpg)
+
 [Conosaurus](https://www.conosaurus.com/) - Large database of upcoming conventions, filterable by region and type.
 
 [Prepping For Your First Convention](https://toddtevlin.com/prepping-first-convention-prints-banners/) - Todd Telvin
@@ -80,13 +82,21 @@ Also, **prepare to have all of your stuff ready at least a week in advance of th
 
 - **A price list.** I talk about how to set specific prices in a later section, but whatever your price is, you want some way for guests to easily identify how much your products costs. I like to have laminated pictures of each book with the genre/age rating on them. I leave space on the card so I can write the price in with erasable marker. This allows me to change the price later if I want (which I sometimes do).
 
-- **Stands for your business cards and books.** These will make your table less flat, putting your stuff directly in the line of sight of people walking by. Get collapsible stands if possible to save space when packing your supplies.
+- **Stands for your business cards and books.**
+
+![](/images/guide/bookstand.jpg)
+
+These will make your table less flat, putting your stuff directly in the line of sight of people walking by. Get collapsible stands if possible to save space when packing your supplies.
 
 - **A table cloth.** It makes your area prettier and lets you secretly store things behind your table. Make sure the colours and design meld well with your overall setup.
 
 - **A banner.** Banners are eye catching because they can be placed at or above eye level, allowing your booth to be spotted over the crowd. If you have a banner, make sure you have a stand or bring enough string to tie it up!
 
-- **Business cards**. There’s some level of debate as to the usefulness of business cards at cons. I’ve had more than a few customers ask for them specifically and they’re relatively cheap to make so I’m inclined to always have some on me at cons. Make sure your business cards have links to your social media accounts, contact information and website. Some people like to turn their business cards into mini comics to make them more interesting and to show off their style. I get my cards made through [Vistaprint](https://www.vistaprint.ca/).
+- **Business cards**.
+
+![](/images/guide/buscard.jpg)
+
+There’s some level of debate as to the usefulness of business cards at cons. I’ve had more than a few customers ask for them specifically and they’re relatively cheap to make so I’m inclined to always have some on me at cons. Make sure your business cards have links to your social media accounts, contact information and website. Some people like to turn their business cards into mini comics to make them more interesting and to show off their style. I get my cards made through [Vistaprint](https://www.vistaprint.ca/business-cards).
 
 - **Lunch, snacks and a water bottle.** Con days are long so make sure to pack enough food and drink to get you through each day.
 
@@ -94,6 +104,9 @@ Also, **prepare to have all of your stuff ready at least a week in advance of th
 
 <br>
 ### Table Setup
+
+![](/images/guide/contable.jpg)
+*[Cloudscape comics](https://www.cloudscapecomics.com/) table setup*
 
 Your table layout might not seem like a big deal, but a good setup can mean the difference between someone checking out your table or just walking past it.
 
@@ -118,7 +131,7 @@ Now that your table is designed to attract people, you also have to set things u
 
     - **Don’t make your setup too neat.** Similar to the previous point, if everything on your table is perfectly straight, people will be afraid to touch anything. Obviously you don’t want things looking messy, just don’t worry about making perfect lines of everything. For example, I like to tilt the top book in all my piles slightly, as well as put a small, mixed up pile of business cards in front of my card holder.
 
-- **Keep adult books out of reach of kids.** My first time at a con, I had a kid walk up and grab one of my mature books off the table when I wasn’t looking. By the time I had realized what was going on, he had turned to his mom and said, “This book has bad words in it.” I’ve never seen people leave a table so fast. To avoid that situation, I try to organize my books by age range, putting the adult comics further in the back so kids can’t snag them by accident. I also like to **add an age warning near the adult stuff, just to be safe.**
+- **Keep adult books out of reach of kids.** My first time at a con, I had a kid walk up and grab one of my mature books off the table when I wasn’t looking. By the time I had realized what was going on, he had turned to his mom and said, “This book has bad words in it.” I’ve never seen people leave a table so fast. To avoid that situation, I try to organize my books by age range, putting the adult comics further in the back so kids can’t snag them by accident. I also like to **add an age warning near the adult stuff**, just to be safe.
 
 <br>
 ### Pricing Your Merch
@@ -164,15 +177,15 @@ Alright, so you’re all set up at the table. You’ve got your books, snacks an
 
     - While you want your pitch to really nail down the core concepts of your story, **pitches can also be fluid**. If I’m pitching to someone with kids, I’ll be more explicit in saying the intended audience (adults). If someone has already told me they like mystery stories, I’ll tweak the pitch to emphasize the elements of mystery that are in my books. The best pitches are ones that relate directly to your customer’s interests (which is why it’s useful to open your discussion by asking them a question). I never lie though. If someone says they like body horror, I’m not going to pretend they’ll find that in my stories.
 
-    - **Great pitches contain multiple interests points that you can narrow in on.** If my pitch is: “It’s manly men adventure story”, the customer won’t be hooked in if they aren’t into that. I could instead phrase it like: “It’s a knucklehead adventure story with lighthearted action and some romance mixed in.” That way, if they like romance, I talk talk more about those aspects but if they like fun action scenes, I can zero in on that too. By including multiple points of interest, you give the customer multiple places to latch onto. This is especially useful if you’re unsure of what your customer’s interests are.
+    - **Great pitches contain multiple interests points that you can narrow in on.** If my pitch is: “It’s a manly men adventure story”, the customer won’t be hooked in if they aren’t into that. I could instead phrase it like: “It’s a knucklehead adventure story with lighthearted action and some romance mixed in.” That way, if they like romance, I talk talk more about those aspects but if they like fun action scenes, I can zero in on that too. By including multiple points of interest, you give the customer multiple places to latch onto. This is especially useful if you’re unsure of what your customer’s interests are.
 
 - **Get the book in their hands.** This is hugely important and should be your main goal when pitching to a potential customer. Once someone has something in their hands, they’re way more likely to want to keep it, so if someone shows interest in a book, encourage them to flip through it. You can even hand it to them if they’re hesitant to disturb your table setup. I like to start this step early. I try to pick up the book and hold it in front of them while I’m giving my pitch. This allows them to grab it right away if they’re interested.
 
 - **Slow down if they’re uninterested or intimidated.** While your goal may be to hook people in, if your potential customer is becoming more quiet or even defensive, it’s probably because you’re coming on too strong. There’s nothing wrong with giving them a little space to explore your table for a while. Just make sure to let them know you’re there if they have any questions.
 
-- Once they really seem interested in a book, **start digging into the details.** Expand on your pitch (specifically the elements that the persona has shown interest in) by talking more about your characters, the plot and the setting. Feel free to also talk about your goals and/or personal reasons for creating your book at this point. People like knowing there’s a passionate creator behind a story because it makes the purchase more intimate and personal. They feel like they’re supporting you directly and not some massive corporation. By the way, this idea extends beyond just books. I once bought a pin-up from a guy after he told me about his emotional reasons for drawing that particular piece.
+- Once they really seem interested in a book, **start digging into the details.** Expand on your pitch (specifically the elements that the person has shown interest in) by talking more about your characters, the plot and the setting. Feel free to also talk about your goals and/or personal reasons for creating your book at this point. People like knowing there’s a passionate creator behind a story because it makes the purchase more intimate and personal. They feel like they’re supporting you directly and not some massive corporation. By the way, this idea extends beyond just books. I once bought a pin-up from a guy after he told me about his emotional reasons for drawing that particular piece.
 
-- **Close the sale.** Once you’ve shared some details about your story, it’s time to seal the deal. “I think you’ll really love this story. Can I pack this one up for you?” or “Are you interested in grabbing this one?”. This approach works best for indecisive buyers as it forces a decision out of them but can also be dangerous in that it could just as easily push them the wrong way. Make sure they’re leaning towards a “yes” before you go for it. I personally don’t attempt this step very often because it makes me uncomfortable to force a purchase on someone. I just prefer to let sales happen organically. That said, I know a lot of creators who have had success with this method.
+- **Close the sale.** Once you’ve shared some details about your story, it’s time to seal the deal. “I think you’ll really love this story. Can I pack this one up for you?” or “Are you interested in grabbing this one?” This approach works best for indecisive buyers as it forces a decision out of them but can also be dangerous in that it could just as easily push them the wrong way. Make sure they’re leaning towards a “yes” before you go for it. I personally don’t attempt this step very often because it makes me uncomfortable to force a purchase on someone. I just prefer to let sales happen organically. That said, I know a lot of creators who have had success with this method.
 
 - **Don’t be afraid to upsale.** If someone is already buying one of your comics, they’re more likely to be willing to say yes to adding something else onto their purchase. That’s why fast food places always ask “do you want to make it a meal?” Introduce buyers to any deals you’re giving out or about another of your books that’s similar to the one they’re already getting. If possible, phrase it as a question they can answer “yes” to. Ex. “I have another book I think you’d enjoy. <Insert one sentence pitch that relates to why they’re buying the other book>. Would you be interested in grabbing that too?”
 
