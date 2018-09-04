@@ -176,6 +176,11 @@ img {
   color: black;
 }
 
+// custom column offset width. Half of 1.
+.col-md-offset-half {
+  margin-left: 4.166665%;
+}
+
 // For absolute positioned children
 .relative-container {
   position: relative;
@@ -377,7 +382,8 @@ code {
   border: 2px solid $black;
   line-height: 52px;
   color: $black;
-  letter-spacing: .20em;
+  letter-spacing: 0.12em;
+  word-spacing: 0.2em;
   text-decoration: none !important;
   text-align: center;
   font-weight: 600;
@@ -629,10 +635,15 @@ code {
   padding-left: 0;
 }
 
-.divider {
-  margin-top: 75px;
-  margin-bottom: 50px;
-  max-width: 60%;
+.comic-divider {
+  border-top: solid black 2px;
+}
+
+// sm and under
+@media only screen and (max-width: 991px) {
+  .comic-divider-mobile {
+    border-top: solid black 2px;
+  }
 }
 
 .logo-divider {
@@ -641,16 +652,10 @@ code {
 }
 
 .comic-main-desc {
-  padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px
+  padding: 40px;
 }
 
 #mtm-main-img {
-  box-shadow: 0 8px 6px -6px black;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-
   padding-top: 20px;
 }
 
@@ -724,6 +729,38 @@ code {
   margin-bottom: 30px;
 }
 
+.comic-book-row {
+  padding: 75px 0;
+}
+
+.comic-shorts-col {
+  background-color: whitesmoke;
+  padding: 25px;
+  min-height: 400px;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+
+  text-decoration: none !important;
+
+  -webkit-transition: .2s ease-in-out all;
+  -moz-transition: .2s ease-in-out all;
+  -o-transition: .2s ease-in-out all;
+  transition: .2s ease-in-out all;
+}
+
+#kids-ttp-section {
+  background-color: bisque;
+}
+
+#comic-octra-section {
+  background-color: #170723;
+  color: white;
+  //-webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,1);
+  //-moz-box-shadow: 0 0 25px 1px rgba(0,0,0,1);
+  //box-shadow: 0 0 25px 1px rgba(0,0,0,1);
+}
+
 .comic-img {
   border: 3px solid $black;
 }
@@ -742,6 +779,12 @@ code {
     margin-left: -10px;
   }
 
+  .divider {
+    max-width: 60%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+
   #comic-title {
     width: 50%;
   }
@@ -749,6 +792,11 @@ code {
   .comic-sign-up {
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  .comic-shorts-col:hover {
+    background-color: red;
+    color: white;
   }
 }
 
@@ -777,12 +825,16 @@ code {
   }
 }
 
+.guidepost-top-btn {
+  margin-top: 20px;
+}
+
 #guidepost-content-box {
   text-align: left;
   background-color: whitesmoke;
   padding: 40px;
   border-radius: 20px;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 20px;
 
   -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
@@ -878,7 +930,8 @@ code {
   font-size: 16px;
   line-height: 52px;
   color: $black;
-  letter-spacing: .18em;
+  letter-spacing: .12em;
+  word-spacing: 0.2em;
   text-decoration: none;
   font-weight: 600;
   text-transform: uppercase;
