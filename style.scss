@@ -932,24 +932,18 @@ code {
   color: $black;
   letter-spacing: .12em;
   word-spacing: 0.2em;
-  text-decoration: none;
+  text-decoration: none!important;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -webkit-transition: background .4s, color .4s;
-  transition: background .4s, color .4s;
-  box-shadow: 0 0 1px black;
+  -moz-transition: all .4s;
+  -o-transition: all .4s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 
 .guide-btn:hover, .guide-btn:active, .guide-btn:focus {
   background-color: $black;
   color: $homepageBg;
-  text-decoration: none;
-}
-
-.guide-btn:visited {
-  text-decoration: none;
 }
 
 #guide-links {

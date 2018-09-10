@@ -21,29 +21,54 @@ It’s important to remember that thumbnails are experimental in nature. They ar
 
 Here are some tips to make sure your page layout is fully optimized:
 
-- **Make sure your panels have a natural reading order.** People read in “Z” order (left to right, top to bottom). If you disrupt that order without properly guiding the reader you risk [throwing off the flow](https://cms-assets.tutsplus.com/uploads/users/833/posts/24179/image/comic-reading-order.png) of your page. [Here’s the result](http://2.bp.blogspot.com/-3Hyfo1pWUp0/VQHQo8k_75I/AAAAAAAADF8/sYce3LHtS5s/s1600/nc2_blockage.jpg) of an actual study to reflect this point.
+- **Make sure your panels have a natural reading order.**
 
-- **Use smaller gutters in between panels that are read together.** [This picture](http://comicsalliance.com/files/2011/08/akiratoriyama-dragonballz-02.jpg) expresses the point well (though it could be argued it goes a bit too far). Larger gutters are used to split up the page into sections. This is so the reader doesn’t accidently move to the next tier before reading all the panels.
+![](/images/guide/comic-reading-order.png)
+
+People read in “Z” order (left to right, top to bottom). If you disrupt that order without properly guiding the reader, you risk throwing off the flow of your page.
+
+Here’s the result of an actual study to reflect this point:
+
+![](/images/guide/nc2_blockage.jpg)
+*[Visual Language Lab](http://visuallanguagelab.com)*
+
+- **Use smaller gutters in between panels that you want to be read together.** Remember, a large part of page composition is about guiding the eye to the correct next panel. When reading something, the eye naturally wants to jump to nearby panels before going to ones that are further away. By increasing the size of the gutter in between panels, you can split up a page into sections of grouped panels.
+
+![](/images/guide/dbz.jpg)
+
+These pages from Dragon Ball Z express the point well (though it could be argued it goes a bit too far). The divide between tiers is extremely clear, making it very obvious which panels are associated with each other. There's little confusion as to where the reader should look next.
 
 - Unless you’re going for a specific effect, or are pairing panels like the previous point states, **keep your gutters the same size throughout your pages**. This just makes it easier for the reader to get through your pages and know what panel comes next.
 
-- **Consider the rhythmic flow of your panels.**
+- **Consider the rhythmic flow of your panels.** The size and placement of panels within a page can have a great effect on how the page is read. There are a few factors that determine the flow of a page:
 
-![](/images/guide/flow.JPG)
+    - **Know when to pair panels on the same tier and when to split them up.**
 
-By keeping paired panels in the same tier, we maintain a steady rhythm between them. By splitting them into their own tiers, we allow for a beat/pause in the flow. This point is key for comedy. It's why almost all gag comic that you see in newspapers are a single row. Unfortunately there isn't a golden rule whether or not to allow that pause in the flow so you're going to have to decide which option works best for you. [Here’s a video](https://www.youtube.com/watch?v=x2YTxTSn_qk) that covers this point.
+    ![](/images/guide/flow.JPG)
+    
+    By keeping panels in the same tier, we maintain a steady rhythm between them. The only pause is the time the eye takes to cross the gutter between the panels. By splitting panels into their own tiers, the eye has a much longer distance to cover to get to the next panel. This introduces a beat/pause in the flow of reading. A new tier can be introduced if a significant amount of time passes between two panels, or if you want to add a dramatic or comedic pause between them. [Here’s a video](https://www.youtube.com/watch?v=x2YTxTSn_qk) that covers this point.
+    
+    - **Use large panels to slow the reader down.** Big panels take longer to read because there’s more stuff in them. This is useful when establishing a new scene when you usually want to reset the pacing. Large panels are also used in climactic moments when you have something major to reveal.
+    
+    ![](/images/guide/scene-trans.jpg)
+    *[Towards Eden](https://www.towardsedencomic.com) - Lo Vicente*
+    
+    There’s a scene change that occurs between these two pages. The large first panel on the second page not only helps establish setting, it also resets the pacing established by the previous page and eases us into the next chapter of the story.
+    
+    - On the flip side, **use more narrow panels to build tension**.
+    
+    ![](/images/guide/tension.JPG)
+    
+    Narrow panels pull the reader quickly through the page. This ramps up the pacing similar to how movies make lots of jump cuts in action scenes.
 
-- **Use large panels to slow the reader down.**
+    - Also, you can **use similarly sized panels to maintain a steady flow.** Similarly sized panels take a similar amount of time to read. Having a series of these panels in a row can reflect a constant, unfaltering rhythm. This can be used to show a multitude of things: The monotony of a boring day job, ticking on, and on. A character dancing with perfect consistency. Two or more characters working together in complete uniform... The six, nine and twelve panel grid page layouts frequently take advantage of this idea. [Here's a great video](https://www.youtube.com/watch?v=cm_T82EMjBw) on the topic. If you want more info about how and why the nine panel grid is used, [check out this video](https://www.youtube.com/watch?v=KQzXcFmf98I) and [this one](https://www.youtube.com/watch?v=abwi_DiDL7c). [Here's one](https://www.youtube.com/watch?v=4_TlTR-k0SM) on the twelve panel grid.
 
-![](/images/guide/estab.jpg)
-
-Big panels take longer to read because there’s more stuff in them. This is useful when establishing a new scene when you usually want to reset the pacing. Large panels are also used in climactic moments when you have something major to reveal.
-
-- On the flip side, **use more narrow panels to build tension**.
-
-![](/images/guide/tension.JPG)
-
-Narrow panels pull the reader quickly through the page. This ramps up the pacing similar to how movies make lots of jump cuts in action scenes.
+    - Conversely, **varying the size and structure of your panels makes a page feel more dynamic.**
+    
+    ![](/images/guide/dynamic.JPG)
+    *[Drama Kingdom](https://tapas.io/series/DramaKingdom) - [Nick Talbert](https://www.instagram.com/ninjablahblah/)*
+    
+    Changing up what kinds of panels you use allows for some moments to last longer than others and forces the reader to play a more active role in in story, as their eye is constantly searching for where to look next on the page. A highly varied panel structure is often used in action scenes to show things being more chaotic.
 
 - **Borderless panels can be used as emphasis or to create a feeling of timelessness.**
 
