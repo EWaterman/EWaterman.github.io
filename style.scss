@@ -177,8 +177,10 @@ img {
 }
 
 // custom column offset width. Half of 1.
-.col-md-offset-half {
-  margin-left: 4.166665%;
+@media only screen and (min-width: 1200px) {
+  .col-md-offset-half {
+    margin-left: 4.166665%;
+  }
 }
 
 // For absolute positioned children
@@ -222,7 +224,7 @@ code {
 }
 
 // Make navbar collapse early if gets too shrunk
-@media only screen and (max-width: 1049px) {
+@media only screen and (max-width: 1120px) {
   .navbar-header {
     float: none;
   }
@@ -355,10 +357,10 @@ code {
 @media only screen and (min-width: 1200px) {
   .homepage-col {
     max-height: calc(1.21489198 * 45vw);
-    height: calc(100vh - 200px);
+    height: calc(100vh - 150px);
   }
   #homepage-title {
-    min-height: 200px;
+    min-height: 150px;
   }
   #homepage-content {
     overflow: hidden;
@@ -749,16 +751,9 @@ code {
   transition: .2s ease-in-out all;
 }
 
-#kids-ttp-section {
-  background-color: bisque;
-}
-
 #comic-octra-section {
   background-color: #170723;
   color: white;
-  //-webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,1);
-  //-moz-box-shadow: 0 0 25px 1px rgba(0,0,0,1);
-  //box-shadow: 0 0 25px 1px rgba(0,0,0,1);
 }
 
 .comic-img {
@@ -801,6 +796,25 @@ code {
 }
 
 // ===================== END COMIC PAGE ======================
+
+// ===========================================================
+// ===================== KIDS PAGE ===========================
+// ===========================================================
+
+#kids-ttp-section {
+  background-color: bisque;
+  background-image: url("/images/kids/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.kids-buy-btn {
+  border: solid 3px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+// ==================== END KIDS PAGE ========================
 
 // ===========================================================
 // ======================== GUIDE PAGE =======================

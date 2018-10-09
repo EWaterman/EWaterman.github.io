@@ -21,6 +21,8 @@ The following is a collection of all the resources that don’t fit into any par
 
 [Kids Guide to Making Movies](https://seatup.com/blog/kids-guide-to-making-movies) - Guide by Ely covering the "Movie-Making Basics". Also has links to resources relevant for comics.
 
+[How To Break Into Comics and Survive Once You’re There](http://www.comicsbeat.com/resources/information-on-how-to-get-into-comics-and-survive-once-youre-there/) - A resource list by Comics Beat full of articles and blogs containing comic making tips and tutorials
+
 <br>
 
 ### Books
@@ -57,6 +59,8 @@ The following is a collection of all the resources that don’t fit into any par
 
 [Comics Manifest](http://comicsmanifest.com/) - "Interviews with influential people in the world of comics."
 
+[Make It Then Tell Everybody](http://makeitthentelleverybody.com/) - Art tutorials and podcasts all about the comics craft
+
 <br>
 
 ### YouTube channels
@@ -70,7 +74,7 @@ The following is a collection of all the resources that don’t fit into any par
 
 [Jonathan Rector](https://www.youtube.com/channel/UCIwM7XnDFaw33oEWN0iZCmw) - Lineart and colour tutorials with a focus on Manga Studio
 
-[Coffee Table Comics](https://www.youtube.com/channel/UCfMrl0S6VFZGbu35Yb7v5xw) -  Tips for inking, colouring, crowdfunding and more
+[McKay & Gray](https://www.youtube.com/user/Darkenedavo/videos) - Plotting, character design, art tutorials and more!
 
 <br>
 

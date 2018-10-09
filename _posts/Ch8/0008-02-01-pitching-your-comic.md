@@ -8,6 +8,8 @@ categories: ["guide", "Publishing"]
 
 [Pitches and Submissions](http://dirtyoldladies.libsyn.com/episode-37-pitches-and-submissions) (podcast) - Dirty Old Ladies
 
+[Here Comes The Pitch](http://www.jimzub.com/here-comes-the-pitch-part-two/) - Jim Zub
+
 <hr><br>
 The future of your comic depends on who is going to publish it so it's important to put effort into your submissions. Here are a few short tips on how to be successful when pitching your comic.
 

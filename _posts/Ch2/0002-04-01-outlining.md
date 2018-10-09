@@ -10,6 +10,8 @@ categories: ["guide", "Writing"]
 
 [How to outline your novel](https://www.youtube.com/watch?v=Hwv2SKayUPo) (video) - Jenna Moreci
 
+[How to Plot a Comic From Start to Finish!](https://www.youtube.com/watch?v=CPi8oLKEFEU) (video) - McKay & Gray
+
 <hr><br>
 First off, even if you’re not an outliner, I encourage you to read this section. There are a whole bunch of tips that will transfer completely to the revision process (which is really just outlining in retrospective).
 

@@ -12,6 +12,8 @@ categories: ["guide", "Distribution"]
 
 [2015 Convention Exhibitor Survey](http://devastatorpress.com/downloads/Survey_2015.pdf) - An in depth survey detailing how much was earned by creators at different conventions.
 
+[Webcomic Alliance: Conventions](http://webcomicalliance.com/category/conventions/) - Archive of podcast episodes all about conventions 
+
 <hr><br>
 Ah conventions. For a majority of creators, myself included, attending conventions is the most intimidating step in the comics making process. Having to stand in front of a large mob of rabid comic readers to try to sell them a book just doesn’t sound like a fun time. However, attending conventions is a key way of making money off your stories and for many people, it’s the primary reason they’re able to stay afloat as full time artists.
 

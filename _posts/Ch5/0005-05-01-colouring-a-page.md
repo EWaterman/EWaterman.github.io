@@ -33,6 +33,6 @@ Not only does it make your art more visually pleasing but it also clarifies thin
 
 ![](/images/guide/haze.jpeg)
 
-Notice how the mountains in the back are more faded than the ones in the front? This effect can be achieved by desaturating the colours of far away objects and can be enhanced with color holds.
+Notice how the mountains in the back are more faded than the ones in the front? This effect can be achieved by desaturating the colours of far away objects and can be enhanced with [colour holds](http://nathanfairbairn.tumblr.com/post/177262143624/color-holds).
 
 - **Consider the meaning of your colours.** Over time, our society has assigned an emotion or symbol to each of the main colours. Because of this, people will often have a subconscious reaction when seeing a specific colour. This meaning varies between cultures (and I warn you to be weary of stereotypes) but one possible assignment is well summarized [here](http://www.color-wheel-pro.com/color-meaning.html).
