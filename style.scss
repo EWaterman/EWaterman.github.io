@@ -737,6 +737,7 @@ code {
 .comic-shorts-col {
   background-color: whitesmoke;
   padding: 25px;
+  margin-bottom: 30px;
   min-height: 400px;
   -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
   -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
@@ -795,6 +796,20 @@ code {
 }
 
 // ===================== END COMIC PAGE ======================
+
+// ===========================================================
+// ====================== SHORTS PAGE ========================
+// ===========================================================
+
+#rebirth-content {
+  background-color: black;
+}
+
+#buck-content {
+  background-color: white;
+}
+
+// ==================== END SHORTS PAGE ======================
 
 // ===========================================================
 // ===================== KIDS PAGE ===========================
