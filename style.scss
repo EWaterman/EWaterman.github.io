@@ -819,9 +819,54 @@ code {
 // ===================== KIDS PAGE ===========================
 // ===========================================================
 
+#kids-ttp-section, #kids-ttp-section-2, #kids-ttp-section-3, #kids-ttp-section-4, #kids-ttp-section-5 {
+    b {
+    color: #9e2745;
+  }
+}
+
 #kids-ttp-section {
   background-color: bisque;
   background-image: url("/images/kids/background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#kids-ttp-section-2 {
+  background-image: linear-gradient(141deg, #8ac9ec 0%, #84d5de 51%, #83cbe6 75%);
+  background-color: #8ac9ec;
+}
+
+#kids-ttp-section-3 {
+  background-color: #fcebda;
+  text-align: left;
+}
+
+#kids-ttp-section-4 {
+  background-color: #84d5de;
+  text-align: left;
+
+  #tilt-img {
+    float: right;
+    max-width: 200%;
+    margin-top: -300px;
+  }
+}
+
+.ttp-non-top-elem {
+  margin-top: 50px;
+}
+
+.mini-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#kids-ttp-section-5 {
+  background-color: #f9e9d8;
+  background-image: url("/images/kids/background-2.jpg");
   background-position: center;
   background-size: cover;
 }
