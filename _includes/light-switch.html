@@ -1,0 +1,32 @@
+<!-- Light Switch logic-->
+<div class="d-none d-md-block">
+	<script>
+		var isLight = 1;
+
+		var audio = document.createElement("audio");
+  		audio.src = "/audio/pull-chain.mp3";
+
+		function swapLighting(){
+			audio.play();
+
+			if (isLight) {
+				$('.short-comic-content-dark').show();
+				$('.short-comic-content-light').hide();
+				$('.short-comic-container').css('background-color', 'black');
+				isLight = 0;
+			}
+
+			else {
+				$('.short-comic-content-light').show();
+				$('.short-comic-content-dark').hide();
+				$('.short-comic-container').css('background-color', 'white');
+				isLight = 1;
+			}
+	    }
+	</script>
+
+	<!-- Light Switch -->
+	<div class="light-switch hover-emphasis">
+		<img src="/images/comic/lightbulb.png" onclick="swapLighting()">
+	</div>
+</div>

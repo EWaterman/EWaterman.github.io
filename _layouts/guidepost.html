@@ -5,12 +5,11 @@ description: A collection of everything to do with the comic making process.
 ---
 
 <article class="guidepost">
-
-  <div class="container-fluid">
-    <div class="row">
+	<div class="container-fluid">
+	    <div class="row">
 
 			<!-- Main Content Section -->
-      <div class="col-md-9">
+			<div class="col-md-9">
 				<div id="guidepost-content-box">
 					{% include page-nav.html %}
 					<hr>
@@ -22,7 +21,7 @@ description: A collection of everything to do with the comic making process.
 					{% endif %}
 
 					<div id="guidepost-content">
-        		{{ content }}
+				{{ content }}
 					</div>
 					<hr>
 					{% include page-nav.html %}
@@ -31,11 +30,11 @@ description: A collection of everything to do with the comic making process.
 				<a id="bookmark-this" href="#" title="Bookmark This Page"><i class="far fa-bookmark fa-4x"></i></a>
 
 				<!-- E-mail list sign up -->
-				<div class="container-fluid comic-sign-up">
-					<div class="row comic-row">
+				<div class="comic-sign-up">
 
-						<h2>Want a FREE comic?</h2>
+					<h2>Want a FREE comic?</h2>
 
+					<div class="row align-items-center">
 						<div class="col-md-6">
 							<img src="/images/comic/mock-up.png" width="auto" height="auto">
 						</div>
@@ -45,10 +44,10 @@ description: A collection of everything to do with the comic making process.
 						</div>
 					</div>
 				</div>
-      </div>
+			</div>
 
 			<!-- Table of Contents Section-->
-      <div id="guide-toc" class="col-md-3">
+			<div id="guide-toc" class="col-md-3">
 
 				<h3 id="toc-title">Table of Contents</h3>
 
@@ -75,10 +74,9 @@ description: A collection of everything to do with the comic making process.
 
 					{% endunless %}
 				{% endfor %}
-      </div>
-    </div>
-  </div>
-
+			</div>
+		</div>
+	</div>
 </article>
 
 <script async src="/js/addtohomescreen.min.js"></script>

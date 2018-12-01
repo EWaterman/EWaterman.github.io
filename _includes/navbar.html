@@ -1,44 +1,41 @@
 <!-- Navbar -->
-<nav id="my-navbar" class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" rel="home" href="/">
-				Evan Waterman
-			</a>
-		</div>
-		<div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav">
-				<li><a href="/comic/">COMICS</a></li>
-				<li><a href="/kids/">KIDS BOOKS</a></li>
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
 
-				<!--TODO: figure this out-->
-				<!--<li class="nav-item dropdown">-->
-					<!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BOOKS</a>-->
-					<!--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
-						<!--<a class="dropdown-item" href="/comic/">COMICS</a>-->
-						<!--<a class="dropdown-item" href="https://www.kickstarter.com/projects/624640087/1686892456?ref=561569&token=be3b1403">KIDS BOOKS</a>-->
-					<!--</div>-->
-				<!--</li>-->
+  <a class="navbar-brand" href="/">Evan Waterman</a>
 
-				<li><a href="/guide">COMIC GUIDE</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/dev/">NEED A WEBSITE?</a></li>
-				<li id="nav-active-link">
-					<a href="/freecomic">
-						<span>WANT A FREE COMIC?</span>
-					</a></li>
-				<li>
-					<a href="/contact/">
-						<i class="fa fa-envelope"></i> CONTACT
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars fa-lg py-1 text-white"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BOOKS</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/comic/">COMICS</a>
+            <a class="dropdown-item" href="/kids/">KIDS BOOKS</a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/guide/">COMIC GUIDE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://gumroad.com/ewaterman">SHOP</a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+    	<li class="nav-item">
+    		<a class="nav-link" href="/dev/">NEED A WEBSITE?</a>
+    	</li>
+    	<li class="nav-item active">
+    		<a class="nav-link" href="/freecomic"><span>WANT A FREE COMIC?</span></a>
+    	</li>
+    	<li class="nav-item">
+    		<a class="nav-link" href="/contact/"><i class="fa fa-envelope"></i> CONTACT</a>
+    	</li>
+    </ul>
+  </div>
 </nav>

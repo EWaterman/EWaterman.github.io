@@ -6,7 +6,7 @@
 // Colors
 $lightBlue: #66fcf1;
 
-$homepageBg: #bec2c3;
+$homepageBg: #bec2c3; // could do #e0e0e0
 $elevatedBg: #d2d2d2;
 
 $blue: #5bc0de;
@@ -24,12 +24,19 @@ $lightGray: #bfbfbf;
 $lighterGray: #eee;
 $white: #fff;
 
-// Transparent
-$transparent: rgba(0,0,0,0);
-
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: "Aloja-Light";
+  src: url('/fonts/Aloja-Light.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Aloja-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Aloja-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Aloja-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/Aloja-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Aloja-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 $lato: 'Lato', Helvetica, Arial, sans-serif;
+$aloja: "Aloja-Light", 'Lato', Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

@@ -177,8 +177,8 @@ img {
 }
 
 // custom column offset width. Half of 1.
-@media only screen and (min-width: 1200px) {
-  .col-md-offset-half {
+@media only screen and (min-width: 992px) {
+  .offset-md-half {
     margin-left: 4.166665%;
   }
 }
@@ -216,6 +216,24 @@ code {
   overflow-y: auto;
 }
 
+.emphasis, .hover-emphasis:hover {
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+}
+
+.extra-hover-emphasis {
+    -webkit-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05) rotate(3deg);
+      -ms-transform: scale(1.05) rotate(3deg);
+      -webkit-transform: scale(1.05) rotate(3deg);
+    } 
+}
+
 // ================= PAGE NAVIGATOR =======================
 
 // add space for the bootstrap navbar
@@ -223,45 +241,63 @@ code {
   padding-top: 50px;
 }
 
-// Make navbar collapse early if gets too shrunk
-@media only screen and (max-width: 1120px) {
-  .navbar-header {
-    float: none;
-  }
-  .navbar-toggle {
-    display: block;
-  }
-  .navbar-collapse.collapse {
-    display: none!important;
-  }
-  .navbar-nav {
-    float: none!important;
-  }
-  .navbar-nav>li {
-    float: none;
-  }
-  .navbar-collapse.collapse.in{
-    display:block !important;
-  }
-}
-
-#my-navbar {
+// overwrite navbar styles
+.navbar-custom {
   background-color: black;
-}
 
-.navbar-inverse .navbar-nav>li>a {
-  color: white;
-}
+  /* change the link color */
+  .navbar-nav .nav-link {
+    color: white;
+  }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  color: $pink;
-}
+  /* for dropdown only - change the color of dropdown section */
+  .dropdown-menu {
+    background-color: $darkGray;
+  }
 
-.navbar-inverse .navbar-nav > #nav-active-link > a {
-  background-color: $pink;
-}
-.navbar-inverse .navbar-nav>#nav-active-link>a:focus, .navbar-inverse .navbar-nav>#nav-active-link>a:hover {
-  color: $black;
+  .dropdown-item {
+    color: white;
+    text-align: center;
+  }
+
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    color: black;
+    background-color: $pink;
+  }
+
+  .navbar-brand {
+    font-family: $aloja;
+  }
+
+  /* change the brand and text color */
+  .navbar-brand,
+  .navbar-text {
+      color: white;
+
+      &:hover {
+        color: $pink;
+      }
+  }
+
+  /* change the color of hovered links */
+  .nav-item:hover .nav-link,
+  .nav-item:focus .nav-link {
+      color: $pink;
+  }
+
+  .nav-item.active {
+    background-color: $pink;
+
+    .nav-link:hover,
+    .nav-link:focus {
+      color: $black;
+    }
+  }
+
+  ul {
+    margin: 0 0;
+  }
 }
 
 // ================== END PAGE NAVIGATOR ==================
@@ -286,10 +322,6 @@ code {
 .pink {
   color: $pink;
 }
-
-.active {
-  background-color: $blue;
-}
 // ===================== END COLOURS =======================
 
 // =========================================================
@@ -297,7 +329,7 @@ code {
 // =========================================================
 
 #mc_embed_signup {
-  background: $transparent;
+  background: rgba(0,0,0,0);
   clear: left;
 
   .button {
@@ -577,6 +609,26 @@ code {
 
 // md and over
 @media only screen and (min-width: 992px) {
+  #dev-header-title {
+    -webkit-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+
+    transform: rotate(16deg);
+    -ms-transform: rotate(16deg);
+    -webkit-transform: rotate(16deg);
+
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;
+
+    &:hover {
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+    } 
+  }
+
   #dev-jobs-bg {
     color: white;
     background-color: black;
@@ -596,7 +648,11 @@ code {
     -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
   }
+
   #dev-three-things {
+    position: relative;
+    z-index: 100;
+
     background-color: $elevatedBg;
     margin: -175px 60px 60px 60px;
     -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
@@ -661,13 +717,8 @@ code {
   padding-top: 20px;
 }
 
-.comic-main-img-container {
-  overflow: hidden;
-  position: relative;
-
-  img {
-    vertical-align: bottom;
-  }
+.comic-main-img {
+  vertical-align: bottom;
 }
 
 .comic-main-img-bg {
@@ -716,6 +767,10 @@ code {
   box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
 }
 
+.comic-book-row {
+    padding: 75px 0;
+}
+
 #comic-logline {
   margin-top: 20px;
 }
@@ -730,30 +785,56 @@ code {
   margin-bottom: 30px;
 }
 
-.comic-book-row {
-  padding: 75px 0;
-}
-
-.comic-shorts-col {
-  background-color: whitesmoke;
-  padding: 25px;
-  margin-bottom: 30px;
-  min-height: 400px;
-  -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
-  -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
-  box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
-
+.comic-shorts-row {
+  overflow: hidden;
   text-decoration: none !important;
-
-  -webkit-transition: .2s ease-in-out all;
-  -moz-transition: .2s ease-in-out all;
-  -o-transition: .2s ease-in-out all;
-  transition: .2s ease-in-out all;
 }
 
 #comic-octra-section {
   background-color: #170723;
   color: white;
+  padding-top: 50px;
+}
+
+#comic-horror-section {
+  padding-top: 75px;
+  background-color: white;
+
+  h1 {
+    font-family: $aloja;
+    word-spacing: 0.4em;
+  }
+
+  .horror-card {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: -120%;
+    margin-top: 30px;
+  }
+
+  #buck-card {
+    transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+  }
+
+  #rebirth-card {
+    transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+  }
+
+  #oysters-card {
+    transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+  }
+
+  .horror-paint-container {
+    margin-bottom: 75px;
+    text-align: left;
+  }
 }
 
 .comic-img {
@@ -788,29 +869,37 @@ code {
     margin-left: 40px;
     margin-right: 40px;
   }
-
-  .comic-shorts-col:hover {
-    background-color: red;
-    color: white;
-  }
 }
 
 // ===================== END COMIC PAGE ======================
 
 // ===========================================================
-// ====================== SHORTS PAGE ========================
+// ====================== SHORTS PAGES =======================
 // ===========================================================
 
-#rebirth-content {
-  background-color: black;
+.short-comic-content-dark {
+  font-family: $aloja;
+  color: white;
+  display: none;
 }
 
-#buck-content {
+.short-comic-content-light {
+  font-family: $aloja;
+  color: black;
+}
+
+.short-comic-container {
   background-color: white;
 }
 
-#oysters-content {
-  background-color: white;
+.light-switch {
+  position: fixed;
+  right: 5%;
+  max-width: 8%; // has to be less than 2/12 columns AKA 16.6%
+}
+
+.short-comic-btn {
+  border: 4px solid white;
 }
 
 // ==================== END SHORTS PAGE ======================
@@ -839,17 +928,28 @@ code {
 
 #kids-ttp-section-3 {
   background-color: #fcebda;
-  text-align: left;
 }
 
 #kids-ttp-section-4 {
   background-color: #84d5de;
-  text-align: left;
 
   #tilt-img {
     float: right;
     max-width: 200%;
-    margin-top: -300px;
+    margin-top: -125px;
+  }
+}
+
+// md and over
+@media only screen and (min-width: 992px) {
+  #kids-ttp-section-3, #kids-ttp-section-4 {
+    text-align: left;
+  }
+
+  #kids-ttp-section-4 {
+    #tilt-img {
+      margin-top: -300px;
+    }
   }
 }
 

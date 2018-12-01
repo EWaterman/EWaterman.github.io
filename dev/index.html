@@ -5,14 +5,24 @@ title: Need help making a website?
 description: Look no further.
 ---
 
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<script>
+	$(function(){
+		$(".flip").flip({
+			trigger: 'hover',
+			autoSize: true
+		});
+	});
+</script>
+
 <!-- Wrapper for Dev content -->
 <div id="dev-content">
 	<div id="dev-header-section" class="container-fluid">
 		<div class="row">
-			<div class="col-md-offset-2 col-md-8 hidden-xs hidden-sm dev-col">
-				<img src="/images/dev/title-w.png">
+			<div class="offset-md-2 col-md-8 dev-col d-none d-md-block">
+				<img id="dev-header-title" src="/images/dev/title-w.png">
 			</div>
-			<div class="hidden-md hidden-lg hidden-xl">
+			<div class="d-md-none">
 				<i class="fas fa-globe fa-4x"></i>
 				<h2>Making a website is hard.</h2>
 			</div>
@@ -77,7 +87,7 @@ description: Look no further.
 
 			<div id="dev-jobs-fg" class="my-scrollbar col-md-6">
 				<div class="row">
-					<div class="col-md-offset-1 col-md-5 dev-col">
+					<div class="offset-md-1 col-md-5 dev-col">
 						<div class="dev-jobs">
 							<img class="on-hover-base" src="/images/dev/work/ea-desc.png">
 							<img class="on-hover-hide" src="/images/dev/work/ea.jpg">
@@ -94,7 +104,7 @@ description: Look no further.
 				<br>
 
 				<div class="row">
-					<div class="col-md-offset-1 col-md-5 dev-col">
+					<div class="offset-md-1 col-md-5 dev-col">
 						<div class="dev-jobs">
 							<img class="on-hover-base" src="/images/dev/work/demonware-desc.png">
 							<img class="on-hover-hide" src="/images/dev/work/demonware.jpg">
@@ -111,7 +121,7 @@ description: Look no further.
 				<br>
 
 				<div class="row">
-					<div class="col-md-offset-1 col-md-5  dev-col">
+					<div class="offset-md-1 col-md-5  dev-col">
 						<div class="dev-jobs">
 							<img class="on-hover-base" src="/images/dev/work/ubc-desc.png">
 							<img class="on-hover-hide" src="/images/dev/work/ubc.jpg">
@@ -135,7 +145,7 @@ description: Look no further.
 		</div>
 
 		<div class="row">
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-python-filled.svg">
@@ -146,7 +156,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-html-5-filled.svg">
@@ -157,23 +167,23 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-javascript-filled.svg">
 					</div>
 					<div class="on-hover-base">
-						<div class="hidden-xs hidden-sm">
+						<div class="d-none d-md-block">
 							<h2 class="pink">JavaScript</h2>
 						</div>
-						<div class="hidden-md hidden-lg hidden-xl">
+						<div class="d-md-none">
 							<h2 class="pink">JS</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-jquery-filled.svg">
@@ -184,7 +194,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-css3-filled.svg">
@@ -195,7 +205,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-php-logo-filled.svg">
@@ -206,7 +216,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-ruby-programming-language-filled.svg">
@@ -217,7 +227,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-java.svg">
@@ -228,7 +238,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-c++-filled.svg">
@@ -239,7 +249,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-unity-filled.svg">
@@ -250,7 +260,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-git-filled.svg">
@@ -261,7 +271,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-mysql-logo-filled.svg">
@@ -272,7 +282,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/mongo_db.png">
@@ -283,7 +293,7 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-docker-filled.svg">
@@ -294,55 +304,55 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/kubernetes.png">
 					</div>
 					<div class="on-hover-base">
-						<div class="hidden-xs hidden-sm">
+						<div class="d-none d-md-block">
 							<h2 class="pink">Kubernetes</h2>
 						</div>
-						<div class="hidden-md hidden-lg hidden-xl">
+						<div class="d-md-none">
 							<h2 class="pink">Kube</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-wordpress-filled.svg">
 					</div>
 					<div class="on-hover-base">
-						<div class="hidden-xs hidden-sm">
+						<div class="d-none d-md-block">
 							<h2 class="pink">Wordpress</h2>
 						</div>
-						<div class="hidden-md hidden-lg hidden-xl">
+						<div class="d-md-none">
 							<h2 class="pink">WP</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/rabbitmq.png">
 					</div>
 					<div class="on-hover-base">
-						<div class="hidden-xs hidden-sm">
+						<div class="d-none d-md-block">
 							<h2 class="pink">RabbitMQ</h2>
 						</div>
-						<div class="hidden-md hidden-lg hidden-xl">
+						<div class="d-md-none">
 							<h2 class="pink">RMQ</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/icons8-jenkins-filled.svg">
@@ -353,23 +363,23 @@ description: Look no further.
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/perforce.png">
 					</div>
 					<div class="on-hover-base">
-						<div class="hidden-xs hidden-sm">
+						<div class="d-none d-md-block">
 						<h2 class="pink">Perforce</h2>
 						</div>
-						<div class="hidden-md hidden-lg hidden-xl">
+						<div class="d-md-none">
 							<h2 class="pink">P4</h2>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-xs-6 col-sm-4 col-md-3">
+			<div class="col-6 col-sm-4 col-md-3">
 				<div class="relative-container">
 					<div class="on-hover-hide">
 						<img src="/images/dev/rancher.png">
@@ -382,27 +392,15 @@ description: Look no further.
 		</div>
 	</div>
 
-	<div class="contentbox">
-		<div class="container-fluid">
-			<div class="row dev-row comic-contact">
-				<img src="/images/dev/portrait-min.jpg" class="comic-img img-circle">
+	<div class="contentbox comic-contact dev-row">
+		<a href="/contact/">
+			<img src="/images/dev/portrait-min.jpg" class="comic-img rounded-circle hover-emphasis">
+		</a>
 
-				<h2>I can help you out.</h2>
+		<h2>I can help you out.</h2>
 
-				<div class="col-md-offset-4 col-md-4">
-					<a class="homepage-btn" href="/contact/">Get in touch</a>
-				</div>
-			</div>
+		<div class="offset-md-4 col-md-4">
+			<a class="homepage-btn" href="/contact/">Get in touch</a>
 		</div>
 	</div>
 </div>
-
-<script defer src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-<script defer>
-	$(function(){
-		$(".flip").flip({
-			trigger: 'hover',
-			autoSize: true
-		});
-	});
-</script>
