@@ -6,9 +6,9 @@ categories: ["guide", "Writing"]
 
 Okay so you have your scenes written out, now it’s time to really start building your script by breaking things down into pages and panels.
 
-Again, I suggest you **write your first draft freely before trying to follow all these tips**. Let it come out naturally at least once.
+Again, I suggest you **write your first draft freely**. Let your story come out naturally at least once before you start a deep dive analysis on it.
 
-After I finish writing a scene, I like to analyse what I've written so far by breaking the scene down into its components. I do this in three steps:
+That said, it seems that every story I write has at least one scene I just can't seem break down. I might have a general idea of what I want to have happen in the scene, but when I actually go to script it out, the words don't come out right, or the panel structure is all wrong. If I'm really struggling to script out a scene, I use the following formula to help break the scene down into its components:
 
 - First, I **split apart the individual actions of the scene**
 
@@ -18,7 +18,7 @@ After I finish writing a scene, I like to analyse what I've written so far by br
 
 Each step has its own explicit purpose and by following them, I can create a solid, in depth script of each scene.
 
-As I rearrange and rewrite scenes, I frequently jump back and forth between these three steps so don’t feel like you have to complete each one fully before moving forward.
+As I rearrange and rewrite scenes, I frequently jump back and forth between these three steps, so don’t feel like you have to complete each one fully before moving forward.
 
 <br>
 
@@ -27,17 +27,15 @@ As I rearrange and rewrite scenes, I frequently jump back and forth between thes
 <hr><br>
 The first thing I do when breaking down a scene is to take my notes and split them up into atoms.
 
-[Mastering Comics](https://www.amazon.ca/Mastering-Comics-Drawing-Pictures-Continued/dp/1596436174/ref=pd_sim_14_1?_encoding=UTF8&psc=1&refRID=717HW3NH9NTRCSMXJVJ2) by Jessica Abel and Matt Madden has an excellent section on this that I encourage you to check out.
-
 > So… what’s an atom?
 
-*Atoms are the elementary actions of a scene.* Snapshots in time, comprising of a single action or state change. A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into.
+[Mastering Comics](https://www.amazon.ca/Mastering-Comics-Drawing-Pictures-Continued/dp/1596436174/ref=pd_sim_14_1?_encoding=UTF8&psc=1&refRID=717HW3NH9NTRCSMXJVJ2) by Jessica Abel and Matt Madden has an excellent section on atoms that I encourage you to check out but in an attempt to summarize: **atoms are the elementary actions of a scene.**
 
-Any time something moves from one state to another, no matter how small the change, it can be considered as an atomic change.
+Atoms are snapshots in time, comprising of a single action or state change. A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into. Any time something moves from one state to another, no matter how small the change, it can be considered as an atomic action.
 
 Here’s an example scene from my comic:
 
-`Carson shoots fire at the drug dealer’s car. James shoots frost at the car to put out the fire. As the fire dissipates the car takes off. One of the drug dealers spots Faith in the road in front of them, pulls out a gun and shoots at Faith.`
+`Carson shoots fire at the drug dealer’s car. James shoots frost at the car to put out the fire. As the fire dissipates the car takes off. One of the drug dealers in the car spots Faith in the road in front of them, pulls out a gun and shoots at Faith.`
 
 That scene broken into atoms might look like the following:
 
@@ -50,15 +48,21 @@ That scene broken into atoms might look like the following:
 - The drug dealer pulls out a gun.
 - The drug dealer shoots at Faith.
 
-Each atom contains a single action, independent from the fact that some of those actions could be done in parallel to each other. By breaking things down into atoms, we can easily identify every time something changes in a scene.
+Each of the above lines contains a single action.
 
 There are a couple reasons to break out the atoms of a scene:
 
 - **It’s a good way to determine the length of a scene.** The more actions you have to show, the longer the scene will be. Pulling out the atoms also makes it much easier to split up the story into pages (see the next section).
 
-- **It can help reveal which moments can be merged together and which ones must stand on their own.** (More on this in the “forming panels” section.)
+- **It can help reveal which moments can be merged together and which ones must stand on their own.** Atoms that can occur at the same time are called parallelizable atoms. Combining such atoms is often a useful tool for condensing your story and making panels more interesting. (More on this in the “forming panels” section.)
 
-Now, **you don't need to show absolutely every atom in a scene**. Action scenes are more fast paced and so usually skip showing many atoms to match the speed. Intimate scenes are slow and can afford to show more atoms. Regardless of the pacing, **there's a minimum set of atoms you have to show for a scene to be comprehensible**. Figure out that set of atoms and from there you can add more as needed.
+#### The Minimum Set of Atoms
+
+Now, **you don't need to show absolutely every atom in a scene**. A guy picks up a cup. He takes a drink. He puts down the cup. He picks up the newspaper... You can imagine how showing every single atom can get extremely boring for the reader. (Another tool that can be used intentionally by the way!)
+
+What's important is that **there's a minimum set of atoms you have to show for a scene to be comprehensible**. If you have one panel with two people greeting each other, and the next panel is one guy dead on the floor... you've missed an important atom in the middle explaining what just happened. Think of your minimum set as the fewest number of atoms needed for a reader to reasonably be able to fill the gaps in between each element. These are the points you MUST hit when paneling the scene.
+
+Once you have that minimum set of atoms, you can **add more atoms as needed to enhance the pacing and mood of the story**. Action scenes are fast paced, and so are usually written with fewer supplementary/non-essential atoms to match the high speed of the moment. Intimate scenes are slow, and can afford to add some more, non-essential, atoms.
 
 All that said, I found that a lot of this part of the process can be glossed over. It’s not really necessary to break absolutely everything down. It’s just helpful if you’re struggling with organizing a particular scene.
 
@@ -67,17 +71,24 @@ All that said, I found that a lot of this part of the process can be glossed ove
 ### Grouping Atoms Into Pages
 
 <hr><br>
-Once I have all my atoms I start dividing them up into pages. Here are a few tips to determine the best places to split pages:
+Once I have all my atoms, I start dividing them up into pages. Here are a few tips to determine the best places to split pages:
 
-- **Avoid having too many or too few atoms in a page.** Having too many atoms will result in cluttered pages. Too few will be a waste of space (unless an important action is taking place). This is more important when considering the actual panels of a page but since panels are built up of atoms, it’s good to catch any problems early on.
+- **Avoid having too many or too few atoms in a page.** Having too many atoms will result in cluttered pages. Too few will be a waste of space (unless an important action is taking place). This is more important when considering the actual panels of a page, but since panels are built up of atoms, it’s good to catch any potential problems early on.
 
-- **Pages should achieve something.**  In the previous section I mentioned that each scene should have a purpose. That same thing holds true for each page, just on a smaller scale. Whether it's furthering the plot, revealing something about the characters or simply reinforcing the tone, each page should feel like it's added something to your story.
+- **Match the pacing of a page with the number of atoms you have.** By adding lots of atoms/panels to a page, you can ramp up the pacing of that page. The more atoms/panels in a page, the less complex they have to be and so the faster the reader can get through them. For the reader this gives the illusion of a faster paced scene. This is why action pages in comics tend to have a high number of low complexity panels whereas slower paced pages opt for fewer, more detailed panels.
 
-- **Match natural pauses in dialogue and new scenes with page turns.** It takes time to turn the page. This interrupts the pacing of a scene and is thus a good place to put quick breaks in your story. Avoid having jokes or conversations carry over through a page turn or changing scenes mid page (it can be done but it’s hard to get right). Of course this requires knowing what pages will be followed by page turns. Comics usually start with the first page on it’s own, pages two and three together, four and five together and so on but this isn’t a requirement.
+- **Every page should achieve something.**  In the previous section I mentioned that each scene should have a purpose. The same holds true for each page, just on a smaller scale. Whether it's furthering the plot, revealing something about the characters, or simply reinforcing the tone, each page should feel like it has added something to your story.
 
-- Similarly, **hide reveals behind page turns.** When readers see two pages together, they can’t help but glance forward at both pages, spoiling any secrets you have in those pages. By placing reveals behind page turns, they will be more impactful for the reader.
+- **Match page turns with natural pauses in dialogue and new scenes.** It takes the reader time to turn the page. This interrupts the pacing of a scene, and is thus a good place to put quick breaks in your story. Avoid having jokes or conversations carry over through a page turn, and try not to change scenes mid page (it can be done, but it’s hard to get right).
 
-- As much as possible, **end every page with a mystery that urges the reader to turn the page.** You want to be constantly pulling your reader through your story. By adding a hook at the end of your pages, your reader will be more engaged and it will make for a smoother read. It doesn’t have to be a massive mystery, just something that makes us wonder what’s on the other side.
+![](/images/guide/page-split.jpg)
+*[The Buck]({{ site.baseurl }}/comic/buck/) - Evan Waterman, [Dillon Snook](https://www.instagram.com/dillon.snook/)*
+
+Of course planning page turns requires knowing what pages will be followed by such turns. Comics usually put odd pages on the right side of the book since books tend to start with the first page on it’s own. From there, pages two and three are together, four and five together, and so on. This isn’t a requirement however. Just know which pages (odd or even) will be before page turns, and time your page breaks accordingly.
+
+- Similarly, **hide reveals behind page turns.** When readers see two pages together, they can’t help but glance forward at both pages, spoiling any secrets you may have in those pages. By placing reveals behind page turns, they will be more impactful for the reader.
+
+- As much as possible, **end every page with a mystery that urges the reader to turn the page.** As a writer, you want to be constantly pulling your reader through your story. By adding a hook at the end of your pages (which can be as simple as a leading line of dialogue), your reader will be more engaged and it will make for a smoother read. It doesn’t have to be a massive mystery, just something that makes us wonder what’s on the other side of the page.
 
 Here’s the previous scene split into pages:
 
@@ -93,11 +104,11 @@ Page 2
 - The drug dealer pulls out a gun.
 - The drug dealer shoots at Faith.
 
-Notice how the final atom acts as a sort of cliffhanger for each page. How will the heroes respond to the car escaping? Where is it going? Does Faith get shot? These questions make us (hopefully) want to turn the page to find the answers.
+Notice how the final atom acts as a sort of cliffhanger for each page. How will the heroes respond to the car escaping and where is it going? Does Faith get shot? These questions make us (hopefully) want to turn the page to find the answers.
 
 At the same time though, each page feels like it achieves something. Carson shoots at the car, it drives away in response. The plot has progressed. Faith is standing in the road, the driver reacts by shooting at her. The tension grows.
 
-Also notice how I divided the atoms here. I chose to split them up evenly, four per page. With that number I can get a better idea about whether or not everything is going to fit in the pages. Now, you don’t have to keep exactly the same number of atoms per page throughout your story, I just did so because I wanted to maintain the same pacing across the two pages. 
+Also notice how I divided the atoms here. I chose to split them up evenly, four per page. With that number, I can get a better idea about how everything is going to fit in the pages. Now, you don’t have to keep exactly the same number of atoms per page throughout your story, I just did so here because I wanted to maintain the same pacing across the two pages. 
 
 <br>
 
@@ -114,15 +125,11 @@ Sometimes a panel will contain many different atoms and sometimes a single atom 
 
 <br>
 
-#### <u>Parallelizable Atoms</u>
+#### Parallelizable Atoms
 
-This concept of “parallelizable atoms” is very important to grasp so I pulled it into it’s own sub-section.
+This concept of “parallelizable atoms” is very important to grasp, so I pulled it into its own sub-section.
 
-**Two atoms can be said to be parallelizable if you can show them both happening together.**
-
-Let’s simplify things a bit: I want you to imagine a person alone, in an empty room.
-
-The two atoms "the person smiles" and "the person opens the door" can be shown together. It is physically possible to draw the person opening the door while smiling.
+**Two atoms can be said to be parallelizable if you can show them both happening together.** Let’s simplify things a bit. I want you to imagine a person alone, in an empty room. The two atoms "the person smiles" and "the person opens the door" can be shown together. They're parallelizable because it is physically possible to draw the person opening the door while smiling.
 
 However the atoms "the person opens the door" and "the person closes the door" are not parallelizable. No matter how hard you try, it’s pretty much impossible to show both the opening and closing of a door in one drawing, at least in a readable way.
 
@@ -132,37 +139,68 @@ Unfortunately, things get a little more complicated when you add more characters
 
 I said earlier that “a panel is a snapshot in time” but that’s not always true. In fact, **panels can actually be used to show the progression of time.** A series of snapshots can exist, all within the same panel.
 
-[This panel](https://theperiodicfable.files.wordpress.com/2011/11/mp-understanding-comics-1.jpg) from Scott McCloud’s Understanding Comics emphasizes this point perfectly.
+![](/images/guide/understanding-comics.jpg)
+*[Understanding Comics](https://en.wikipedia.org/wiki/Understanding_Comics) - [Scott McCloud](http://scottmccloud.com/)*
 
-As you read through the panel from left to right, time moves forward. The characters on the right side of the panel are at a later spot in time than those on the left. Here’s that same panel now [split into different panels](https://theperiodicfable.files.wordpress.com/2011/11/mp-understanding-comics-2.jpg). It functions very similarly.
+The above panel emphasizes this point perfectly.
 
-This effect can even be achieved with a single character as seen in the second panel of [this Daredevil comic](https://retconpunchdotcom.files.wordpress.com/2014/05/daredevil-1-pulling-a-spider-man1.jpg).
+As you read through the panel from left to right, time moves forward. The characters on the right side of the panel are at a later spot in time than those on the left. Here’s that same panel now split into different panels to make the time progression more obvious:
+
+![](/images/guide/understanding-comics-2.jpg)
+*[Understanding Comics](https://en.wikipedia.org/wiki/Understanding_Comics) - [Scott McCloud](http://scottmccloud.com/)*
+
+This effect can even be achieved in one panel with a single character:
+
+![](/images/guide/dd.jpg)
+*[Daredevil](https://www.amazon.com/Daredevil-1-Devil-at-Bay/dp/0785154116) - [Mark Waid](http://markwaid.com/), [Chris Samnee](http://www.chrissamnee.com/), [Peter Krause](https://www.marvel.com/comics/creators/12504/peter_krause)*
 
 What really makes this effect work is the progression of the eye through the page. Just as people assume time is progressing forwards from one panel to the next, **by constantly moving the reader forward within a panel, the reader will naturally assume time is moving forward as well**.
 
-This is why most writers stick to a single exchange per panel. Character 1 says something, character 2 responds. Time moves forward.
+This is why most writers stick to a single exchange per panel. Character one says something, character two responds. The eye moves forward, time moves forward. Sometimes that exchange is even stretched across multiple panels.
 
-Including a counter-response by character 1 can often mess with the natural flow of time because it forces the reader backwards in the panel. It can work if done right but it’s hard to pull off cleanly. [Here’s an example](http://unrealitymag.com/wp-content/uploads/2010/07/picfncy2-2.jpg) From Y the Last Man of it working fine.
+![](/images/guide/mnemo.jpg)
+*[Mnemo Hacker](http://zero-explanations.tumblr.com/) - [Hobo](https://www.behance.net/artbyhobo)*
 
-Having more than one exchange usually only works if the counter-response is spoken in the same tone as the original statement and if that character’s expression wouldn’t have changed much.
+Including a back and forth between two characters in a single panel can often mess with the natural flow of time because it forces the reader backwards in the panel. It can work if done right but it’s hard to pull off cleanly. Having more than one exchange in a panel usually only works if the counter-response is spoken in the same tone as the original statement and if that character’s expression wouldn’t have changed much since their original line.
+
+![](/images/guide/y-exchange.jpg)
+*[Y the Last Man](https://www.amazon.ca/Y-Last-Man-Book-One/dp/140125151X) - [Brian K. Vaughan](http://bkvcomics.com/), [Pia Guerra](http://hellkitty.com/pia-guerra/), [Jose Marzan Jr.](http://josemarzan.com/)*
+
+All this is to say that deciding when to merge parallelizable atoms together is a tough decision to have to make. After all, just because you CAN shove two actions together in a single panel, doesn't mean you should. The answer to which atoms should go together depends on a bunch of different factors and is more complex than a simple yes/no answer.
+
+Which brings me to...
 
 <br>
 
 #### <u>Merging Atoms Into Panels</u>
 
-Now that you have a better understanding of atoms and the progression of time within a panel, it’s time to start building them. For real this time!
+Now that you have a better understanding of atoms and the progression of time within a panel, it’s time to start building those panels. For real this time!
 
-Your goal for this section is to take the atoms you have in a page and convert them into panels. Here are a few tips for how to do that:
+My goal for this section (and remember I only get this granular when I'm struggling to break things down), is to take the atoms I have in a page, and convert them into panels.
 
-- **Consider putting parallelizable atoms together.** If you haven’t read back into the previous section on parallel atoms. Merging them together will help optimize the space on the page. Now, just because two atoms are parallelizable, doesn’t mean you SHOULD put them together...
+Here are a few tips for how to do that:
 
-- **Isolate essential atoms in their own panel to heighten their impact.** Check out [this panel](http://images2.fanpop.com/image/photos/11000000/Y-The-Last-Man-Hero-Yorick-y-the-last-man-11008520-500-251.jpg) from Y the Last Man. There’s just one action: Yorick pointing the gun. No dialogue, no other characters. It makes the moment way more powerful. Some might even choose to stretch an atom like this across multiple panels.
+- **Isolate essential atoms in their own panel to heighten their impact.** Check out this panel from Y the Last Man:
 
-- **Match the pacing with the number of panels in the page.** Larger panels take longer to absorb and lead to a slower moving scene. By adding lots of smaller panels, you can ramp up the pacing of a page. This is why action scenes in comics tend to have lots of panels whereas dialogue heavy ones don’t.
+![](/images/guide/y-sister.jpg)
+*[Y the Last Man](https://www.amazon.ca/Y-Last-Man-Book-One/dp/140125151X) - [Brian K. Vaughan](http://bkvcomics.com/), [Pia Guerra](http://hellkitty.com/pia-guerra/), [Jose Marzan Jr.](http://josemarzan.com/)*
 
-- **Cut unnecessary atoms.** Everything in a panel that doesn’t have a purpose is just a distraction from the things that do have one. This could be as simple as helping to frame the scene for the reader. Just make sure there‘s a reason to put them in.
+There’s just one action: Yorick pointing the gun. No dialogue. No other characters. That's what makes the moment so more powerful. Some might even choose to stretch an atom like this across multiple panels.
 
-Here's that scene with the completed art (no dialogue):
+- **The faster the pace of a scene, the fewer the atoms you want per panel.** While adding more atoms/panels to a page speeds up the pacing of that page (because the individual panels within that page must become smaller and thus, simpler), the opposite is true for within a single panel. The more actions/atoms occurring in a panel, the more detailed that panel must be to show them all clearly. Because more details means more time required for the reader to absorb it all, more complex panels are often perceived by the reader as slower paced. This is great for quiet, intimate scenes, but less so for intense battle scenes. (Unless you're trying to show scale or pause for a big crescendo.) If you want the panel to seem fast paced, it's a good idea to try and simplify it into one or two atoms. By the way, that's not to say that ALL single atom panels are fast paced. Just take a look at the above photo from Y the Last Man again. It's a single atom but the moment is slowed way down. It's almost frozen in time, like it could last forever.
+
+- **Cut unnecessary atoms and panels.** Every atom that doesn’t have a purpose would be a waste of space to include in or as a panel. Ask yourself what each atom achieves. Also ask yourself whether or not a previous atom already achieves that purpose. If you already have a panel showing your character is thirsty, do you really need that second one showing the same thing? Maybe you do, maybe you don't. Either way, it's worth thinking about. And remember that not every panel and atom needs to have a grandiose purpose. Your reasoning could be as simple as the panel helps to frame the scene for the reader, or reinforces the tone of the scene. Just make sure that, whatever it is, there‘s a reason behind each panel.
+
+Here's that scene from earlier with the atoms merged into panels (no dialogue). Remember the atoms:
+
+- Carson shoots fire at the drug dealer’s car.
+- James shoots frost at the car to put out the fire.
+- The fire dissipates.
+- The car takes off.
+- One of the drug dealers spots Faith in the road.
+- The drug dealer reaches into the glove box.
+- The drug dealer pulls out a gun.
+- The drug dealer shoots at Faith.
 
 ![](/images/guide/atoms.jpg)
 

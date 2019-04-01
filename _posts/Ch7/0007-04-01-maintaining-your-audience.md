@@ -10,9 +10,9 @@ From what I’ve seen, **a majority of creators who have a massive following on 
 
 The major difference between creators with just a following and those with a full on community is the degree of passion in their followers.
 
-A community consists of people who are genuinely interested in the subject matter being posted. It's that “loyal audience” I talked about in previous sections.
+A community consists of people who are genuinely interested in the subject matter being posted. It's that “loyal audience” I talked about in previous sections, the ones whose purpose aligns with yours.
 
-<br><br><br>
+<br><br>
 In my experience, **the number one way to turn your followers into an actual community is by getting them directly involved in your stuff.**
 
 Like I said before, the more time people spend directly engaging with you and your content, the more invested they’ll become. If people start feeling like their participation has an actual impact, they’ll feel like they matter as a member of your community. It doesn’t matter how small the contribution, they’ll want to see your project succeed because they put effort into it themselves.
@@ -25,9 +25,9 @@ There are a ton of ways to get followers involved and engaged:
 
 - **Retweet and comment on their stuff.** It can’t always be about you, you know. Think about how great it feels to have people share and comment on your posts (assuming they’re saying nice things). It makes you appreciate that person more. By engaging with other people’s content, they’re more likely to want to return the favour.
 
-**You also want to make it as easy as possible for people to get involved.** The more they have to navigate through web pages or type long responses, the less incentive there is to participate. Each additional step you require will result in a drop off in responses. The best example I’ve seen as of late is the Twitter polls. Lots of big name creators are creating simple polls that get great engagement because they require only a single click to complete.
+- **You also want to make it as easy as possible for people to get involved.** The more they have to navigate through web pages or type long responses, the less incentive there is to participate. Each additional step you require will result in a drop off in responses. The best example I’ve seen as of late is the Twitter polls. Lots of big name creators are creating simple polls that get great engagement because they require only a single click to complete.
 
-<br><br><br>
+<br><br>
 **Another major factor in maintaining an audience is consistency of tone and content.**
 
 People follow things for a specific reason. If someone follows you because you posted an amazing painting, they’re going to expect you to post more paintings in the future.

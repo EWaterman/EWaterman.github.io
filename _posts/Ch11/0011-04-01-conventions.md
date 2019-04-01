@@ -6,13 +6,13 @@ categories: ["guide", "Distribution"]
 
 ![](/images/guide/cons.jpg)
 
-[Conosaurus](https://www.conosaurus.com/) - Large database of upcoming conventions, filterable by region and type.
+[Conosaurus](https://www.conosaurus.com/) (website) - Large database of upcoming conventions, filterable by region and type.
 
-[Prepping For Your First Convention](https://toddtevlin.com/prepping-first-convention-prints-banners/) - Todd Telvin
+[Prepping For Your First Convention](https://toddtevlin.com/prepping-first-convention-prints-banners/) (article) - Todd Telvin
 
-[2015 Convention Exhibitor Survey](http://devastatorpress.com/downloads/Survey_2015.pdf) - An in depth survey detailing how much was earned by creators at different conventions.
+[2015 Convention Exhibitor Survey](http://devastatorpress.com/downloads/Survey_2015.pdf) (PDF) - An in depth survey detailing how much was earned by creators at different conventions.
 
-[Webcomic Alliance: Conventions](http://webcomicalliance.com/category/conventions/) - Archive of podcast episodes all about conventions 
+[Webcomic Alliance: Conventions](http://webcomicalliance.com/category/conventions/) (podcast) - Archive of podcast episodes all about conventions 
 
 <hr><br>
 Ah conventions. For a majority of creators, myself included, attending conventions is the most intimidating step in the comics making process. Having to stand in front of a large mob of rabid comic readers to try to sell them a book just doesn’t sound like a fun time. However, attending conventions is a key way of making money off your stories and for many people, it’s the primary reason they’re able to stay afloat as full time artists.
@@ -36,7 +36,7 @@ That said, in an attempt to provide at least some helpful advice, here are some 
 
 - **Have a goal in mind for how much money you want to end the con with.** This is the total PROFIT you’ll make from the con (total amount of cash you’ll make, minus all your expenses). Maybe your goal is simply to break even. Maybe you need at least $500 profit for the con to be worth it to you. The number is entirely up to you but you should come up with one so you can know whether or not each con will provide enough value to you. How do you know how much you’ll profit from a con? Well you’ll have to factor in each of the following points to your calculations:
 
-- **How many attendees will there be?** In general, more people means more sales. (Really, it’s more complicated than that but I’ll explain later.) A zine fest probably won’t bring that many people out but a fan expo could have thousands of guests walking past your table.
+- **How many attendees will there be?** In general, more people means more sales. (Really, it’s more complicated than that but I’ll explain later.) A zine fest probably won’t bring that many people out, but a fan expo could have thousands of guests walking past your table.
 
 - **What kind of merch are you bringing?** Buttons and stickers are popular with kids (and some adult collectors). Posters and mini-prints are popular all around but especially at the more all purpose, “fan expo” type shows. Fan art sells like crazy no matter what show you’re at. (Make sure to check if the show allows fan art though!) Trade paperbacks and graphic novels tend to make more money compared to single issue floppies because the profit margin of each book sold is larger. Con attendees also seem more interested in buying longer form stories from my experience. Having multiple books to sell is also a plus, as it add credibility as well as more options for attendees. However, as I said before, bringing a ton of books won’t guarantee success at a con. It’s also important to consider...
 
@@ -46,7 +46,7 @@ That said, in an attempt to provide at least some helpful advice, here are some 
 
 - **What are your expenses?** Table costs, gas/bus/plane tickets, shipping for your comics (to AND from the event), hotels... Attending a con comes with a lot of hidden costs that people tend to forget about. Even things like eating out every day can really add a number to your expenses. Each expense will take away from your total profits so make sure to factor them in so you can ensure you’re still getting enough  value out of the con (see my first bullet point). If the cost of a table is too much for you or you don’t have enough stuff to fill it, consider finding someone to share a table with.
 
-- **How many copies of your books/prints will you need?** This ties into the previous point, but the more copies of everything you need to print and ship to the con, the more you’ll need to sell to break even. Unless you already have your products printed and ready to go, you’ll need to consider the cost that you’ll face in doing so. (See my previous section on printing comics.) In the worst case, you’ll have some spare books to sell at the next con you attend, but you’ll need to bring whatever you don’t sell back with you from the con. Make sure to budget properly for that scenario.
+- **How many copies of your books/prints will you need?** This ties into the previous point, but the more copies of everything you need to print and ship to the con, the more you’ll need to sell to break even. Unless you already have your products printed and ready to go, you’ll need to consider the cost that you’ll face in doing so. (See my [previous section on printing comics]({{ site.baseurl }}{% link _posts/Ch9/0009-01-01-overview.md %}).) In the worst case, you’ll have some spare books to sell at the next con you attend, but you’ll need to bring whatever you don’t sell back with you from the con. Make sure to budget properly for that scenario.
 
 <br>
 ### Pre-show TODOs
@@ -80,9 +80,9 @@ Also, **prepare to have all of your stuff ready at least a week in advance of th
 
 - **Your Square card reader.** I talk about this in the previous section but if you don’t have a Square reader (or some other kind of credit card reader), make sure to get one! Some people print a little sign for their table to show passersby that they accept credit and debit cards.
 
-- **Hand sanitizer.** A lot of germs get passed around at cons. Make sure to keep sanitary to avoid getting the infamous [“con flu”](https://geekandsundry.com/hold-76-tips-for-avoiding-con-flu/).
+- **Hand sanitizer.** A lot of germs get passed around at cons. Make sure to keep sanitary to avoid getting the infamous “con flu” (for which Geek and Sundry wrote [an entire article](https://geekandsundry.com/hold-76-tips-for-avoiding-con-flu/) on how to prevent).
 
-- **A price list.** I talk about how to set specific prices in a later section, but whatever your price is, you want some way for guests to easily identify how much your products costs. I like to have laminated pictures of each book with the genre/age rating on them. I leave space on the card so I can write the price in with erasable marker. This allows me to change the price later if I want (which I sometimes do).
+- **A price list.** I talk about how to set specific prices in a later section, but whatever your price is, you want some way for guests to easily identify how much your products costs. I like to have laminated pictures of each book with the genre/age rating on them. I leave space on the card so I can write the price in with erasable marker. This allows me to tailor the price of each book for each convention, or offer discounts on slow days (aka Sundays).
 
 - **Stands for your business cards and books.**
 
@@ -98,11 +98,11 @@ These will make your table less flat, putting your stuff directly in the line of
 
 ![](/images/guide/buscard.jpg)
 
-There’s some level of debate as to the usefulness of business cards at cons. I’ve had more than a few customers ask for them specifically and they’re relatively cheap to make so I’m inclined to always have some on me at cons. Make sure your business cards have links to your social media accounts, contact information and website. Some people like to turn their business cards into mini comics to make them more interesting and to show off their style. I get my cards made through [Vistaprint](https://www.vistaprint.ca/business-cards).
+There’s some level of debate as to the usefulness of business cards at cons. I’ve had more than a few customers ask for them specifically and they’re relatively cheap to make, so I’m inclined to always have some on me at cons. Make sure your business cards have links to your social media accounts, contact information and website. Some people like to turn their business cards into mini comics to make them more interesting and to show off their style. I get my cards made through [Vistaprint](https://www.vistaprint.ca/business-cards).
 
 - **Lunch, snacks and a water bottle.** Con days are long so make sure to pack enough food and drink to get you through each day.
 
-- **An email list subscribe form.** I like to offer people who buy my comics the opportunity to subscribe to my email list at cons. Having a tablet directly open to your subscription form is ideal, but if that’s not an option you can always stick to pen and paper.
+- **An email list subscribe form.** I like to offer people who buy my comics the opportunity to subscribe to my email list at cons. Having a tablet directly open to your subscription form is ideal, but if that’s not an option you can always stick to pen and paper. Also, consider ways you can award new subscribers. Maybe you have a piece of art that you'll only make available to those who subscribe at the con. Maybe you're offering a discount on your online store to those subscribers.
 
 <br>
 ### Table Setup
@@ -120,7 +120,7 @@ When you’re preparing for your convention, your first goal should be to **desi
 
 - **Get vertical with your merch.** If everything is laid out flat on your table, no one will be able to see your books unless they’re directly in front of it. That’s no good if you can’t attract people to the table in the first place! Get yourself some bookstands so your books directly face anyone who glances at your table. If you can get racks to hang posters or other stuff, even better. Showing off an awesome print is a fantastic way to grab people’s attention.
 
-- **Vary the direction your displays face.** If all your displays point straight ahead, people will only be able to see your stuff when they’re directly in front of you. Remember your goal is to attract people to your table. Instead, point some of your racks outward/inward so people approaching can get a glimpse of your stuff early on.
+- **Vary the direction your displays face.** If all your displays point straight ahead, people will only be able to see your stuff when they’re directly in front of you. Remember your goal is to attract people to your table. Instead, point some of your racks outward/inward so people from all directions can get a glimpse of your stuff early on.
 
 <br>
 Now that your table is designed to attract people, you also have to set things up so that your table **focuses people on places where they can see or better yet, pick up, your best stuff.**
@@ -160,9 +160,9 @@ Even factors like the size of the con and how passionate the attendees are will 
 <br>
 ### Making Sales At The Convention
 
-[How To Practice Your Pitch For Comic Conventions](https://toddtevlin.com/practice-your-pitch-for-comic-conventions/) - Todd Telvin
+[How To Practice Your Pitch For Comic Conventions](https://toddtevlin.com/practice-your-pitch-for-comic-conventions/) (article) - Todd Telvin
 
-[Understanding People Who Attend Comic Cons](https://toddtevlin.com/understanding-people-who-attend-comic-cons/) - Todd Telvin
+[Understanding People Who Attend Comic Cons](https://toddtevlin.com/understanding-people-who-attend-comic-cons/) (article) - Todd Telvin
 
 <hr><br>
 Alright, so you’re all set up at the table. You’ve got your books, snacks and moneybox on hand as you look up to see the first wave of guests pouring into the con hall. It’s time to sell some comics!
@@ -180,6 +180,8 @@ Alright, so you’re all set up at the table. You’ve got your books, snacks an
     - While you want your pitch to really nail down the core concepts of your story, **pitches can also be fluid**. If I’m pitching to someone with kids, I’ll be more explicit in saying the intended audience (adults). If someone has already told me they like mystery stories, I’ll tweak the pitch to emphasize the elements of mystery that are in my books. The best pitches are ones that relate directly to your customer’s interests (which is why it’s useful to open your discussion by asking them a question). I never lie though. If someone says they like body horror, I’m not going to pretend they’ll find that in my stories.
 
     - **Great pitches contain multiple interests points that you can narrow in on.** If my pitch is: “It’s a manly men adventure story”, the customer won’t be hooked in if they aren’t into that. I could instead phrase it like: “It’s a knucklehead adventure story with lighthearted action and some romance mixed in.” That way, if they like romance, I talk talk more about those aspects but if they like fun action scenes, I can zero in on that too. By including multiple points of interest, you give the customer multiple places to latch onto. This is especially useful if you’re unsure of what your customer’s interests are.
+
+    - Tying into the above point, **memorize a few interesting pages in your stories that you can flip to if needed**. If the customer shows interest in comedy, flip to a section with a funny gag. If they like action, find them your best fight scene. By proving to someone you book has what they're looking for, they'll be more convinced to buy it. Again, don't lie. If your story doesn't contain what they want, that's fine. Just move on to something else.
 
 - **Get the book in their hands.** This is hugely important and should be your main goal when pitching to a potential customer. Once someone has something in their hands, they’re way more likely to want to keep it, so if someone shows interest in a book, encourage them to flip through it. You can even hand it to them if they’re hesitant to disturb your table setup. I like to start this step early. I try to pick up the book and hold it in front of them while I’m giving my pitch. This allows them to grab it right away if they’re interested.
 
@@ -202,7 +204,7 @@ Alright, so you’re all set up at the table. You’ve got your books, snacks an
 
 It’s over! After a few straight days of hard work, you’re back home with all your stuff. All that’s left to do now is some final housekeeping tasks:
 
-- **Send a personalized follow up email to your new subscribers.** If you had an email list sign up sheet at your table, make sure to send out an email thanking any newcomers for visiting your booth and potentially give them some sort of reward for signing up. It could be as simple as a digital drawing or a behind the scenes shot of your next comic. You just want to make sure they’re immediately gratified for joining your list.
+- **Send a personalized follow up email to your new subscribers.** If you had an email list sign up sheet at your table, make sure to send out an email thanking any newcomers for visiting your booth and try to give them some sort of reward for signing up. It could be as simple as a digital drawing or a behind the scenes shot of your next comic. You just want to make sure they’re immediately gratified for joining your list.
 
 - **Get in touch with any other creators you met at the show.** If you bonded with any fellow artists, send them a follow up message or email. Remind them of what you were chatting about at the con and continue developing that friendship. A lot of the time, being successful in comics is about who you know, so don’t be afraid to build up your network. At the same time, you don’t want to pester anyone. Sometimes just following someone on social media and liking/sharing their stuff is a big enough first step. Know your boundaries and be respectful.
 

@@ -6,11 +6,11 @@ categories: ["guide", "Writing"]
 
 ![](/images/guide/characters.jpg)
 
-[Resource Dump: Creating Characters](http://bookandslugclub.tumblr.com/post/124011497252/resource-dump-creating-characters-primary) - Massive collection of character creation articles
+[Resource Dump: Creating Characters](http://bookandslugclub.tumblr.com/post/124011497252/resource-dump-creating-characters-primary) (articles) - Massive collection of character creation articles
 
 [Establishing Characters \| Plutona (2015)](https://www.youtube.com/watch?v=cw-QPyBtbGc) (video) - Strip Panel Naked 
 
-[Characterization & Character Creation](http://www.springhole.net/writing/characterization.htm) - Springhole
+[Characterization & Character Creation](http://www.springhole.net/writing/characterization.htm) (articles) - Springhole
 
 [Characters](http://dirtyoldladies.libsyn.com/episode-8-characters) (podcast) - Dirty Old Ladies
 
@@ -27,7 +27,7 @@ So listen up!
 
 ### Creating a Character
 
-[How to get your reader to root for your protagonist](http://www.binge-writing.com/home/how-to-get-your-reader-to-root-for-your-protagonist) - Binge Writing
+[How to get your reader to root for your protagonist](http://www.binge-writing.com/home/how-to-get-your-reader-to-root-for-your-protagonist) (article) - Binge Writing
 
 [5 ways to make a character more likable](https://www.youtube.com/watch?v=hHSTa7XPeHc) (video) - Brookes Eggleston
 
@@ -38,9 +38,9 @@ So you want to make amazing characters. Good! Here are some quick tips on how to
 
 Even though you're writing a fictional story (and if you're not, this point is even MORE important), you still want your characters to be believable.
 
-- **Have your characters behave in a consistent way.** If one of your characters is an impatient jerk in one scene then suddenly starts behaving like a posh Englishman, your readers will be confused. Unless you're writing about someone with multiple personality disorder, give your characters a specific attitude and way of talking. Note that they can still act differently around different people and when they’re in different moods, but they should still have a consistent undertone throughout the story.
+- **Have your characters behave in a consistent way.** If one of your characters is an impatient jerk in one scene then suddenly starts behaving like a posh Englishman, your readers will be confused. Unless you're writing about someone with multiple split personalities (and even then, there's probably going to be some consistencies), give your characters a specific attitude and way of talking. Note that they can still act differently around different people and when they’re in different moods, however they should still have a consistent undertone throughout the story.
 
-- **Let your characters change as things happen to them.** Imagine what a soldier is like before and after going to war. Maybe they've become desensitized and are now unable to relate to other people. Maybe it completely demoralized them. Maybe it actually strengthened their core beliefs, making them a more confident person. Either way, they've probably come out of the situation changed. People are constantly growing and developing and so too should your characters. This doesn't mean that characters have to ALWAYS be changing. Many light hearted shows like The Office, Friends or How I Met Your Mother have much more subtle character changes throughout the story. Most kids shows have no major personality changes in their characters (though it's arguable whether or not this is actually a good thing). 
+- **Let your characters change as things happen to them.** Imagine what a soldier is like before and after going to war. Maybe they've become desensitized and are now unable to relate to other people. Maybe it completely demoralized them. Maybe it strengthened their core beliefs, making them a more confident person. Either way, they've probably come out of the situation changed. People are constantly growing and developing, and so too should your characters. This doesn't mean that characters have to ALWAYS be changing. Many light hearted shows like The Office, Friends or How I Met Your Mother have much more subtle character changes throughout the story. Most kids shows have no major personality changes in their characters (though it's arguable whether or not this is actually a good thing). 
 
 - **Give your characters a clear, traceable arc.** This relates to the previous point and falls back onto the idea that you should treat characters as a kind of plot arch in themselves. When designing the arcs of your characters, ask yourself: What are they like at the start of the story and who do they become at the end? More importantly, is that evolution satisfying?
 
@@ -50,13 +50,13 @@ Characters, like ordinary people, are complicated. There are a lot of different 
 
 I've tried to break down these "engaging qualities" into three categories: relatability, likability and interestingness.
 
-I'll be the first to admit that these categories aren't perfect but I think having things broken down helps make them more understandable and easier to identify in your characters. As always, do what works best for you. Feel free to build your own categories or do away with them entirely.
+I'll be the first to admit that these categories aren't perfect, but I think having things broken down helps make them more understandable and easier to identify in your characters. As always, do what works best for you. Feel free to build your own categories or do away with them entirely.
 
 I want to make it very clear that I absolutely believe **your characters don't need to have all of these qualities**. Many of the greatest characters only have two or even a single quality that makes them enjoyable to read about (think Darth Vader in episode 4). Take each of the following points simply as one of many possible directions you can take your characters.
 
 <br>
 
-**Relatable** characters are those that we can see ourselves in. They're the every-man, struggling with the same conflicts that we do every day. Luke Skywalker, Harry Potter and Jim Halpert are all relatable characters.
+**Relatable** characters are those that we can see ourselves in. They're the every-person, struggling with the same conflicts that we do every day. Luke Skywalker, Harry Potter and Jim Halpert are all relatable characters.
 
 - **Have your characters struggle with the same things we do or react in a similar way that we would.** Maybe they have a jerk boss at a job they hate. Maybe they feel overwhelmed after having been plucked out of their normal lives and thrown into the middle of a massive conflict between good and evil (almost all Hero's Journey stories have relatable, "fish out of water" main characters). By having your characters respond to situations the way the reader would, they feel "ordinary" and thus become more relatable. This is a dangerous road to tread however. Average is often synonymous with boring when it comes to story writing. Make sure to give your characters some sort of attribute that helps them stand out.
 
@@ -70,7 +70,7 @@ I want to make it very clear that I absolutely believe **your characters don't n
 
 Being **likable** doesn't require something to be relatable. After all, Superman is hardly a relatable character but we still like him. Likable characters are engaging in and of themselves because we enjoy spending time with them.
 
-- **Make them fun.** Think of all the characters who bring a smile to your face whenever you see them. Kronk from Emperor's New Groove, Peter Venkman in Ghostbusters, Will Ferrell in... everything. You just enjoy their presence. Unfortunately, there's no magic formula for making a fun character but there are a lot of paths you can take. Clever wit, complete stupidity, dry sarcasm, extreme passion... it really depends on the story you're telling. Note that characters don't have to be "good" to be fun. Ever heard of the "likable villain"? For a lot of people, it's genuinely amusing to see a crazy supervillain unleash their kooky master plan to take over the world (Doctor Evil or Loki).
+- **Make them fun.** Think of all the characters who bring a smile to your face whenever you see them. Kronk from Emperor's New Groove, Peter Venkman in Ghostbusters. You simply enjoy their presence. Unfortunately, there's no magic formula for making a fun character, but there are a lot of paths you can take. Clever wit, complete stupidity, dry sarcasm, extreme passion... it really depends on the story you're telling. Note that characters don't have to be "good" to be fun. Ever heard of the "likable villain"? For a lot of people, it's genuinely amusing to see a crazy supervillain unleash their kooky master plan to take over the world (Doctor Evil or Loki).
 
 - **Make them care about others or have others care about them.** Humans are often quick to believe in what others tell them. Monkey see, monkey do. Having people care for your character (not like crazy fan-girl love but genuine caring) will make us inclined to feel the same. It's why character deaths are more impactful when you have another character crying out in sadness for them. The exception to this rule is having a character who you want explicitly outcast from the rest of the world.
 
@@ -82,9 +82,9 @@ Being **likable** doesn't require something to be relatable. After all, Superman
 
 If your characters aren't likable or relatable, they must at least be **interesting**. Think of Rorschach from Watchmen. Despite not being particularly likable, his unfaltering belief in absolute good and evil and his crooked pursuit of justice make him interesting to follow. A character may not be "fun" to read about but they could definitely still be engaging if you give them some interesting qualities.
 
-- **Avoid flat characters.** People are more complex than just a single personality quirk. The jock, the nerd, the dumb blond. If your characters can boil down just to these traits, you don’t have characters, you have a collection of stereotypes. Of course, there are exceptions to the rule, and giving a character a single trait can be used for comedic purposes.
+- **Avoid flat characters.** People are more complex than just a single personality quirk. The jock, the nerd, the dumb blond. If your characters can boil down just to these traits, you don’t have characters, you have a collection of stereotypes. Of course, there are exceptions to the rule, and giving a character a single trait can often be used for comedic purposes.
 
-- **Characters should be aspiring to something.** What is the one thing your character really wants? Give your character one or more goals and then give them flaws that hinder their progress towards those goals.
+- **Characters should be aspiring to something.** What is the one thing your character really wants? If your character doesn't have a motivation, they're stagnant. Boring. Give your character one or more goals, and on top of that, give them flaws that hinder their progress towards those goals.
 
 - You generally want to **avoid passive characters**. These are characters who have stuff happen to them as opposed to ones who take action. Instead, you want your characters to drive the plot for themselves. Go-getters are more engaging to read about so have your characters do something that has lasting effects on your story.
 
@@ -112,9 +112,9 @@ In my character bios, I include things like appearance, personal history, person
 
 [How to Name Your Book Characters](https://www.youtube.com/watch?v=-RXYx7unhPM) (video) - Jenna Moreci
 
-[20000 names from around the world](http://www.20000-names.com/) - 20000 names broken down by region
+[20000 names from around the world](http://www.20000-names.com/) (website) - 20000 names broken down by region
 
-[Naming Languages, Part I: Why names in fantasy often suck](http://rassaku.livejournal.com/2183.html) - rassaku
+[Naming Languages, Part I: Why names in fantasy often suck](http://rassaku.livejournal.com/2183.html) (article) - rassaku
 
 <hr><br>
 Some people think the names of your characters don’t really matter but they actually have more impact than you may believe. Here are some tips to make sure your characters names have the right kind of impact:
@@ -127,9 +127,9 @@ Some people think the names of your characters don’t really matter but they ac
 
 - **Harsh sounds like “v”, “ch”, “ck”, “d” and “x” make for a meaner sounding character.** Softer, more flowy sounds have the opposite effect. Neville Longbottom vs Darth Vader.
 
-- **Make sure your name is appropriate for the time period of your story and the ethnic background of your character.** Naming a modern day character Mildred will make the character seem like they don’t fit into your world (this can be done intentionally!). Google is your friend!
+- **Make sure your name is appropriate for the time period of your story and the ethnic background of your character.** "Mildred" is an uncommon name in the modern day west, and will make the character seem different/out of place from all the other characters. Of course this can be used intentionally as well to make your character stand out. Google is your friend!
 
-- **Consider naming a character based on the symbolism behind the name.** This adds depth to your character and creates a cool easter egg for your readers. [Behind the Name](https://www.behindthename.com/) is a cool site that provides the etymology and history of first names.
+- **Consider naming a character based on the symbolism behind the name.** This adds depth to your character and creates a cool easter egg for your readers. [Behind the Name](https://www.behindthename.com/) is an interesting site that provides the etymology and history of first names.
 
 A quick Wikipedia search for my name gives the following:
 
@@ -137,4 +137,4 @@ A quick Wikipedia search for my name gives the following:
 
 - If you’re stuck, you can **combine two ordinary names together to create a unique one.** For example, Cole + Brendan = Brolen.
 
-- **Don’t have multiple characters names start with the same letter.** Naming your main characters David, Dan and Daryll will be confusing to your readers. That said, this could be used intentionally for [comedic purposes](https://en.wikipedia.org/wiki/Ed,_Edd_n_Eddy).
+- **Avoid having multiple characters with names that start with the same letter.** Naming your main characters David, Dan and Daryll will be confusing to your readers. That said, this could be used intentionally for [comedic purposes](https://en.wikipedia.org/wiki/Ed,_Edd_n_Eddy).

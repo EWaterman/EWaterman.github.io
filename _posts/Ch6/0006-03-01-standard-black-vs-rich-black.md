@@ -4,7 +4,7 @@ title: Standard Black vs Rich Black
 categories: ["guide", "Lettering"]
 ---
 
-[Standard Black vs Rich Black](http://www.printninja.com/printing-resource-center/file-setup/offset-printing-guidelines/offset-color-requirements/standard-black-vs-rich-black) - Print Ninja
+[Standard Black vs Rich Black](http://www.printninja.com/printing-resource-center/file-setup/offset-printing-guidelines/offset-color-requirements/standard-black-vs-rich-black) (article) - Print Ninja
 
 <hr><br>
 I mentioned this briefly in the section on colouring but I think it’s especially important when it comes to lettering.

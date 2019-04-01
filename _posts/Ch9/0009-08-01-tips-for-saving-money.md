@@ -4,7 +4,7 @@ title: Tips For Saving Money
 categories: ["guide", "Printing"]
 ---
 
-Comic printing can be really expensive and when self publishing it’s important to save money whenever you can. Here are some tips to save some cash without cutting corners in the process.
+Comic printing can be really expensive and when self publishing it’s important to save money whenever you can. Here are some tips to save some cash without having to cut any corners.
 
 - **Request split binding when printing multiple cover types.** (Offset printing only.) Split binding is when you reuse printing plates to print the same image on pages with different binding methods. This is great if you’re printing soft and hardcover copies of your book at the same time. Producing both together reuses plates and avoids duplicate work down the line.
 

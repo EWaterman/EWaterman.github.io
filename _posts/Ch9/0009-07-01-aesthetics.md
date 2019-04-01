@@ -6,13 +6,13 @@ categories: ["guide", "Printing"]
 
 **Quality matters.** A book that looks and feels good is a lot easier to sell than one made at home with your personal printer. This is subjective of course so I encourage you to put thought into it and choose the option that work best for your story.
 
-<u>Disclaimer:</u> This one’s a doozy. It has some really important information though so stick with it and I’ll try my best to make it somewhat comprehensible.
+<u>Warning:</u> This one’s a doozy. It has some really important information though so stick with it and I’ll try my best to make it somewhat comprehensible.
 
 <br>
 
 ### Paper Weight
 
-[Paper Weight Comparisons](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/weight) - Print Ninja
+[Paper Weight Comparisons](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/weight) (article) - Print Ninja
 
 <hr><br>
 First off, **when I say paper weight or paper stock, I’m talking about its thickness**. 
@@ -60,7 +60,7 @@ The price difference between these two options is pretty insignificant (roughly 
 <hr><br>
 **Paper coating is applied during the manufacturing process.** This means your ink goes on top of whatever coating you choose.
 
-Print Ninja describes pretty much all you need to know about the different coatings [here](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/coating) but to be brief, in comics there are three main paper coating types:
+Print Ninja describes pretty much all you need to know about the different coatings [here](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/coating) but to summarize, in comics there are three main paper coating types:
 
 - **Gloss coating** will give your pages a reflective shine. This is the choice of most modern day saddle-stitched comics.
 
@@ -72,7 +72,7 @@ Print Ninja describes pretty much all you need to know about the different coati
 
 ### Paper Finish
 
-[Paper Finish: Varnish, Laminated and None Explained](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/finishes) - Print Ninja
+[Paper Finish: Varnish, Laminated and None Explained](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/finishes) (article) - Print Ninja
 
 <hr><br>
 Unlike paper coating, **paper finish is applied after the printing process**. This means it will go overtop of your inked pages.
@@ -97,7 +97,7 @@ Of course no finish is an option as well, just be weary that you’re leaving yo
 <hr><br>
 Everyone wants their book to stand out in a crowd and sometimes specialty printing options are the way to do it.
 
-Want a raised surface to add texture to your cover? Maybe a foil or spot varnish to make your book shine? Want it to glow in the dark? (That’s seriously an option.)
+Want a raised surface to add texture to your cover? Maybe a foil or spot varnish to make your book shine? Want it to glow in the dark? (That’s seriously an option for some printers.)
 
 Check out [this section](http://www.printninja.com/printing-resource-center/printing-options/popular-add-ons) by Print Ninja describing all the fun stuff you can add to your comic.
 

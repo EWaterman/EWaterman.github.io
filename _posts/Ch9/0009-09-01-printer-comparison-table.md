@@ -11,11 +11,9 @@ Armed with the knowledge from the previous sections, it’s time to pick your pr
 
 **If you’re only printing in very small numbers** (25 or less) **your best option price wise is probably a local printer.** That would most likely entail some additional setup however since most local printers aren’t set up for comics.
 
-**If you’re doing a major run** (250+ copies), **you’ll probably save money by going with a larger printer.**
+**If you’re doing a major run** (250+ copies), **you’ll probably save money by going with a larger printer.** To help you out [I’ve amassed a list of printers with their estimates](https://docs.google.com/document/d/1mdNTBiC3UrBuoelf-tuUUWjCRUcIyp8KmGB_AWjaHPw/edit?usp=sharing).
 
-To help you out I’ve amassed a list of printers with their estimates. I couldn't embed the table nicely in the webpage but you can check it out on google docs [here](https://docs.google.com/document/d/1mdNTBiC3UrBuoelf-tuUUWjCRUcIyp8KmGB_AWjaHPw/edit?usp=sharing).
-
-All price estimates are in USD and are based off the specs for my personal comic which are:
+All price estimates in my document are in USD and are based off the specs for the comic I was making at the time which were:
 
 - **32 pages** (not including cover)
 - **Gloss coating** (interior pages and cover)

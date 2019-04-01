@@ -10,7 +10,7 @@ categories: ["guide", "Colouring"]
 Before you start any colour work **it’s important to know which colour gamut you’re going to be working in**.
 
 
-> Wait what’s a colour gamut?
+> Wait, what’s a colour gamut?
 
 A colour gamut is essentially just a range of colours. The colour systems we use on computer screens or for printing are limited in their gamut. They can’t create every combination of colours that we can see with the naked eye.
 
@@ -37,9 +37,9 @@ Now this is a bit of a generalization. While most large scale comic printers pri
 
 Not necessarily.
 
-Converting between the two systems is possible but it can lead to distorted colours. [Here are](https://pbs.twimg.com/media/C8rMzR2XUAAKrtF.jpg) a [couple examples](https://pbs.twimg.com/media/C8rRJEkW0AEXnPf.jpg) of the differences between the two. As you can see, certain colours are affected more by the transformation (deep greens, blueish purples and reds).
+Converting between the two systems is possible but it can lead to distorted colours. [Here are](https://pbs.twimg.com/media/C8rMzR2XUAAKrtF.jpg) a [couple examples](https://pbs.twimg.com/media/C8rRJEkW0AEXnPf.jpg) of the differences between the two. Certain colours are affected more by the transformation from RGB to CMYK (deep greens, blueish purples and reds).
 
-I won’t go into details about how to convert your files but there are plenty of in depth tutorials you can lookup.
+I won’t go into details about how to convert your files but there are plenty of in depth tutorials you can lookup online.
 
 Ultimately my major suggestion is to plan for the future. Preparing your comic for print in advance (even if you don’t expect to ever get it printed) could save you a major headache in the future.
 

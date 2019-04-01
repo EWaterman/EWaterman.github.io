@@ -8,7 +8,7 @@ categories: ["guide", "Writing"]
 
 [How to Title Your Book](https://www.youtube.com/watch?v=-zp-Y-h9KKA&t=386s) (video) - Jenna Moreci
 
-[What’s In a Name? Choosing an Effective Title For Your Webcomic](http://www.makingcomics.com/2014/08/09/whats-in-a-name-choosing-a-title-for-webcomic/) - Sarah Driffill
+[What’s In a Name? Choosing an Effective Title For Your Webcomic](http://www.makingcomics.com/2014/08/09/whats-in-a-name-choosing-a-title-for-webcomic/) (article) - Sarah Driffill
 
 <hr><br>
 Your title, along with the [cover art]({{ site.baseurl }}{% link _posts/Ch4/0004-07-01-cover-art.md %}), is the first thing people will see when looking at your comic. Because of this, a good title will often be the deciding factor for whether or not someone will pick up your book.
@@ -23,10 +23,8 @@ When choosing a title you want to consider the following:
 
     - In general, the longer something is, the harder it is for people to remember it. Because of this, **shorter titles are usually better**. There are of course exceptions ([The Strange Talent of Luther Strode](https://en.wikipedia.org/wiki/The_Strange_Talent_of_Luther_Strode))
 
-    - **Alliteration** ([V for Vendetta](https://en.wikipedia.org/wiki/V_for_Vendetta), **irony** ([Cyanide and Happiness](http://explosm.net/)), **puns** ([Locke and Key](https://en.wikipedia.org/wiki/Locke_%26_Key)). All these things contribute to a more memorable title. Be careful though, you don’t want to overdo it or misrepresent the tone.
+    - **Alliteration** ([V for Vendetta](https://en.wikipedia.org/wiki/V_for_Vendetta), **irony** ([Cyanide and Happiness](http://explosm.net/)), **puns** ([Locke and Key](https://en.wikipedia.org/wiki/Locke_%26_Key)). All these things contribute to a more memorable title. Be careful though, you don’t want to overdo it or misrepresent the tone of your story.
 
-- **Your title should reflect main themes of story.** As much as possible you want to give the reader a taste of what your comic is about. If you had to summarize your story in four words or less what words would you choose? Are there recurring objects or symbols in your story? Is there any imagery you could draw upon? Sometimes this can be as simple as a variation on your main character’s name (every superhero comic ever) or the location of the story.
+- **Your title should reflect the main themes of your story.** As much as possible you want to give the reader a taste of what your comic is about. If you had to summarize your story in four words or less, what words would you choose? Are there recurring objects or symbols in your story? Is there any imagery you could draw upon? Sometimes this can be as simple as a variation on your main character’s name (every superhero comic ever) or the location of the story.
 
 - **Your title should match the tone of your story.** Make sure to promise what you will provide. If you title your gorefest horror story “Sunshine and Rainbows” you’ll be giving off the wrong vibe to your readers.
-
-The title of my first comic is “More Than Men”. How well do you think it holds up?

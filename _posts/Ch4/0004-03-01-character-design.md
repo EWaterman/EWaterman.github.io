@@ -14,16 +14,16 @@ categories: ["guide", "Drawing"]
 
 [Figures: They Speak For Themselves](http://dresdencodak.tumblr.com/post/3583964949/figures-they-speak-for-themselves-mildly-nsfw) (NSFW at end) - Aaron Diaz
 
-[Cartoon Fundamentals: How to Draw a Cartoon Body](https://design.tutsplus.com/articles/cartoon-fundamentals-how-to-draw-a-cartoon-body--vector-18651) - Carlos Gomes Cabral
+[Cartoon Fundamentals: How to Draw a Cartoon Body](https://design.tutsplus.com/articles/cartoon-fundamentals-how-to-draw-a-cartoon-body--vector-18651) (article) - Carlos Gomes Cabral
 
-[How a Character’s Choice of Clothing Benefits the Story](http://its-a-writer-thing.tumblr.com/post/123597982752/how-a-characters-choice-of-clothing-benefits-the) - It's a Writer Thing
+[How a Character’s Choice of Clothing Benefits the Story](http://its-a-writer-thing.tumblr.com/post/123597982752/how-a-characters-choice-of-clothing-benefits-the) (article) - It's a Writer Thing
 
 <hr><br>
-When designing characters you have a ton of factors to tweak. Things like race, body type, hair style, facial features and posture all play an important role in how readers will perceive your characters. 
+When designing character, you have a ton of factors that you can tweak. Things like race, body type, hair style, facial features and posture, all play an important role in how readers will perceive your characters. 
 
 - Even if you're drawing monsters or other fictional creatures, it's important that you **get familiar with the anatomy of the body.** While your characters may not share our human features, knowing how anatomy works will help your drawings become consistently proportionate, and thus feel more alive and believable. I've provided many links about drawing characters in the above section but here are some quick tips:
 
-    - **The average man is seven heads tall while the average woman is six and a half heads tall.** This just means that if you stacked seven heads on top of each other, you'd get the height of the average guy. That's not to say that all your characters have to be average height! Instead treat it as a base point to build your characters from.
+    - **The average man is seven heads tall while the average woman is six and a half heads tall.** This just means that if you stacked seven heads on top of each other, you'd get the height of the average guy. That's not to say that all your characters have to be average height! (In fact they shouldn't be. That would be boring.) Instead treat it as a base point to build your characters from.
 
     - **Compile a resource folder.** If what you're drawing involves a lot of women bodybuilders, look up websites with photos of women bodybuilders. The more photos you can collect of different people in different poses, the less you'll have to draw from memory. The same applies to anything you're drawing, whether it's people, animals or cars. If you can't find any photos online of your subject, go out and take some yourself! Many artists will use themselves or a close friend as a model for their drawings. If all else fails, you can always get a mirror and make the poses yourself. Don't worry, no one will be there to judge you.
 
@@ -44,7 +44,7 @@ When designing characters you have a ton of factors to tweak. Things like race, 
 ### Character stereotypes and whether or not to use them
 
 <hr><br>
-Regardless of their truth, our society has grown to associate certain looks with certain personality types. Someone who stands tall is confident. A guy with scrawny arms and big glasses is a nerd. A girl with short hair and piercings is a rebel and probably gay. If and how you choose to take advantage of these stereotypes is up to you but there are a few options you can take:
+Regardless of their truth, our society has grown to associate certain looks with certain personality types. Someone who stands tall is confident. A guy with scrawny arms and big glasses is a nerd. A girl with short hair and piercings is a rebel. If and how you choose to take advantage of these stereotypes is up to you but there are a few options you can take:
 
 The first and easiest choice is to **give your characters a look that matches how you want your reader to feel about them**. Big and strong characters come off as angry and intimidating. If someone dresses quirky, we see them as outsiders or “different”. Features like this are immediately recognizable and can quickly help establish a character.
 
@@ -52,4 +52,4 @@ There are drawbacks to this approach however. Since these ideas all stem from we
 
 Another option is to flip the stereotype on its head and **give your characters the look that matches least with their personality**. The burly pacifist. The aggressive short man. These looks reverse our expectations and are often used for comedic purposes. They can also be used as internal conflicts for your characters, having the world perceive them a certain way when really it isn't true.
 
-Personally, I would encourage you to try to **break stereotypes with your characters**. Not every woman with short hair is gay after all. Similarly, I encourage you to **avoid the default look**. Not every woman needs to be in perfect physical shape with long legs and gorgeous features. People come in all shapes and sizes and while it may take some tweaking in your style, avoiding the default look makes your characters more unique and can add a lot of depth to your story.
+Personally, I would encourage you to try to **break stereotypes with your characters**. Not every big glasses wearer is a nerd, and not every buff guy is a meathead. Similarly, I encourage you to **avoid the default look**. Not every woman needs to be in perfect physical shape with long legs and gorgeous features. People come in all shapes and sizes and while it may take some tweaking in your style, avoiding the default look makes your characters more unique and can add a lot of depth to your story.

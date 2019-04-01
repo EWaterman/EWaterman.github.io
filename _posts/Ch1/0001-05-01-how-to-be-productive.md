@@ -27,16 +27,18 @@ Here are a few tips to help you stay productive:
 
 - **Create a to-do list and break your project into workable chunks.** Making a comic can seem like a daunting task. By breaking things down into workable chunks (ink page 1, apply to Marvel, sort out budget...) you can make sure you’re always progressing towards your goal. Some digital lists that you can get on your phone and computer are [Todoist](https://en.todoist.com/), [Wunderlist](https://www.wunderlist.com/) or [Workflowy](https://workflowy.com/) (or [Omnifocus](https://www.omnigroup.com/omnifocus) if you have mac or iPhone). If you’re looking for a more fun approach, try turning your list into a real life role playing game with [Habitica](https://habitica.com/static/front).
 
+I HIGHLY recommend you check out [this spreadsheet](https://docs.google.com/spreadsheets/d/1ArKWureJZTxmlK2XQF7kuGbEnN7d07Ib6RBudZKmSbM/edit) by [Reed Black](http://reedblackcomics.com/) that breaks down the process of writing, drawing, colouring and lettering a comic into one big todo list.
+
 - Don’t just give yourself one big deadline, **give your to-do items deadlines too.** By setting a specific done date for each task, you can pace yourself throughout the entire process, making sure you are setup to be constantly progressing without having to stress about that final looming due date.
 
-- **Reward yourself with breaks.** If you're trying to become less of a procrastinator, you can't expect to be able to just jump into a schedule. You need to take it one step at a time, rewarding yourself to each amount of progress that you make. When I first started, I worked half an hour on, five minutes off. In those five minutes I rewarded myself by watching a short YouTube video and by doing so, I built an association in my head between being productive and getting to relax. Once I got that down consistently, I quickly started desiring more work because I knew it meant more relaxation time! I then began to gradually increased the intervals and now I work about two hours on, fifteen minutes off without issue.
+- **Reward yourself with breaks.** If you're trying to become less of a procrastinator, you can't expect to be able to just jump into a schedule. You need to take it one step at a time, rewarding yourself for each bit of progress that you make. When I first started, I worked half an hour on, five minutes off. In those five minutes I rewarded myself by watching a short YouTube video, and by doing so, I built an association in my head between being productive and getting to relax. Once I got that down consistently, I quickly started desiring more work because I knew it meant more relaxation time! I then began to gradually increase the intervals, and now I work about two hours on, fifteen minutes off, without issue.
 
 ### Approaches to productivity
 
 <hr><br>
 ![](/images/guide/todo.jpg)
 
-Okay you've set yourself up properly and broken down your tasks, it's time to start working. I've tested out two different approaches to tackling to-do items and I found that each had their benefits and drawbacks:
+Okay you've set yourself up properly and broken down your tasks. Now it's time to start actually working on them! I've tested out two different approaches to tackling to-do items and I found that each had their benefits and drawbacks:
 
 The first approach I attempted was to **assign each to-do item to a day**.
 
@@ -52,8 +54,6 @@ I decided that I would work every weekday from 7 PM until midnight no matter how
 
 Unfortunately, this approach meant that I was less sure of what I’d end up completing each day. It also required more discipline as I was no longer working against a specific deadline for each to-do item.
 
-**If you don't know where to start, start with the first approach as I did.** I forces you to be productive, which I found essential when first starting. I do encourage you to test out both approaches however and stick with whichever works best for you.
+**If you don't know where to start, start with the first approach, as I did.** I forces you to be productive, which I found essential when first starting out. I do encourage you to test out both approaches however, and stick with whichever combination of the two works best for you (and of course if you find an alternate approach that works better, go for it).
 
-Of course everyone is different and if you have an alternate approach, go for it (though please let me know about it in the comments).
-
-Also know that **productivity isn't something you can master right away**. It takes time to train yourself into the mindset so don't be discouraged if it doesn't work immediately. Start small, reward yourself for your successes and you'll gradually start seeing improvements.
+It's important to remember that **productivity isn't something you can master right away**. It takes time to train yourself into the right mindset, so don't be discouraged if you don't get immediate results. Start small and reward yourself for your successes. You'll get there.

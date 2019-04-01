@@ -4,11 +4,11 @@ title: Pitching Your Comic
 categories: ["guide", "Publishing"]
 ---
 
-[How to pitch your comic](https://8thwonderpress.com/advice-for-creators/how-to-pitch-your-comic/) - 8th Wonder Press
+[How to pitch your comic](https://8thwonderpress.com/advice-for-creators/how-to-pitch-your-comic/) (article) - 8th Wonder Press
 
 [Pitches and Submissions](http://dirtyoldladies.libsyn.com/episode-37-pitches-and-submissions) (podcast) - Dirty Old Ladies
 
-[Here Comes The Pitch](http://www.jimzub.com/here-comes-the-pitch-part-two/) - Jim Zub
+[Here Comes The Pitch](http://www.jimzub.com/here-comes-the-pitch-part-two/) (article) - Jim Zub
 
 <hr><br>
 The future of your comic depends on who is going to publish it so it's important to put effort into your submissions. Here are a few short tips on how to be successful when pitching your comic.
@@ -17,9 +17,9 @@ The future of your comic depends on who is going to publish it so it's important
 
 - **Personalize your pitch.** Publishers receive a ton of submissions so the cookie cutter "Dear \<insert publisher name here\>" pitches won't stand out among the crowd. Do the heavy lifting for them and include some reasons for why they'd want to produce your work. What's so special about your comic? Why does it fit in with that publisher specifically? How is it similar to books that publisher has previously published? How is it different? How does it appeal to that publisher's audience?
 
-- **Give them something to look at.** Whether it's character designs or the entire completed comic, you should include at least some visual piece to go with your pitch. This is mainly to help you stand out as most publishers will get bored if all you provide is a script. That said...
+- **Give them something to look at.** Whether it's character designs, photos of your previous work, or a link to the entire completed comic, you should include at least some visual piece to go with your pitch. This is mainly to help you stand out, as most publishers will get bored if all you provide is a script. That said...
  
-- **Follow the publisher's submission guidelines.** This is the most important step when submitting to a publisher. The fastest way of getting ignored by a publisher is by not following their guidelines. By obeying them, you're showing the publisher that you're responsible and know how to listen to requirements. If all they want is a script, give them a script. Some publishers want to receive very specific things so again make sure to read their guidelines thoroughly before submitting.
+- **Follow the publisher's submission guidelines.** This is the most important step when submitting to a publisher. The fastest way of getting ignored is by not following a publisher's guidelines. By obeying them, you're showing the publisher that you're responsible and know how to listen to instructions. If all they want is a script, give them a script. Some publishers want to receive very specific things so again make sure to read their guidelines thoroughly before submitting.
  
 ### List of Publishers
 

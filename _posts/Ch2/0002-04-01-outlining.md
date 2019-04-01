@@ -6,7 +6,7 @@ categories: ["guide", "Writing"]
 
 ![](/images/guide/outline.jpg)
 
-[8 ways to outline a novel](https://litreactor.com/columns/8-ways-to-outline-a-novel) - Robbie Blair
+[8 ways to outline a novel](https://litreactor.com/columns/8-ways-to-outline-a-novel) (article) - Robbie Blair
 
 [How to outline your novel](https://www.youtube.com/watch?v=Hwv2SKayUPo) (video) - Jenna Moreci
 
@@ -28,14 +28,14 @@ I’ve put outlining before [world building]({{ site.baseurl }}{% link _posts/Ch
 <hr><br>
 There are two extremes when it comes to outlining:
 
-- **Plotting** absolutely everything out before you write and
-- Flying by the seat of your pants (hence the name **pantsing**) by winging it
+- **Plotting** absolutely everything out before you write.
+- Flying by the seat of your pants (hence the name **pantsing**) by discovery writing as you go.
 
-I believe **outlining is a spectrum, with all writers falling somewhere between these two extremes**. Personally, I prefer to outline my stories in depth but I encourage you to figure out your own path.
+I believe **outlining is a spectrum, with all writers falling somewhere between these two extremes**. Personally, I prefer to outline my stories in depth, but I encourage you to figure out your own path.
 
-The common understanding is that each approach has it’s benefits.
+The common understanding is that each approach has its benefits.
 
-**Ploting:**
+**Plotting:**
 - Easier to fulfill your promises (more on this later)
 - Stronger ending
 - Less revision
@@ -47,11 +47,9 @@ The common understanding is that each approach has it’s benefits.
 - Story tends to flow better from one scene to another
 
 
-I agree with this to an extent. When heavily outlining, the focus tends to be the plot. This often results in unnatural characters that only exist to serve the story itself. When discovery writing, there isn’t a path in place for the story and so the endings tend to be underwhelming. We often see these outcomes as unavoidable but this doesn’t have to be the case!
+I agree with this to an extent. When heavily outlining, the focus tends to be the plot. This often results in unnatural characters that only exist to serve the story itself. When discovery writing, there isn’t a path in place for the story and so the endings tend to be underwhelming. This isn't always true though. **The approach I take to writing is an attempt to gain the benefits from both approaches.**
 
-**What if I told you there was a way to gain the benefits from both approaches?**
-
-Well, first let me tell you about...
+Before I explain my approach though, first let me tell you about...
 
 <br>
 
@@ -77,6 +75,8 @@ If you introduce a conflict (Godzilla is attacking the city!) that conflict must
 
 **Any arc, whether it be concerning the world, ideas, characters or plot, that is not completed by the end of your story will result in unsatisfied readers.**
 
+If I had to give just one tip on outlining, it would be this one. Always, always, always close your arcs. You don’t have to outright answer every question you raise, and your characters don’t have to succeed in their struggles. What you DO have to do is address those things in a satisfying way for the reader.
+
 My outlining method plays with this concept, and helps me ensure that I fulfill all my promises that I establish in my story.
 
 <br>
@@ -93,30 +93,36 @@ My method is just too complicated to explain through text so I’m going to make
 <hr><br>
 Here are some general tips that you’ll want to account for in your outlining process:
 
-- **Fulfill your promises.** If I had to give just one tip on outlining, it would be this one. Always, always, always close your arcs. You don’t have to outright answer every question you raise and your characters don’t have to succeed in their struggles. What you DO have to do is address those things in a satisfying way. Check the previous section on the M.I.C.E. quotient if you haven’t done so yet.
+- **Fill gaps in your narrative and make sure everything flows from one scene to another.** Find the missing piece between plot points that ties them together. If your character is a happy-go-lucky fellow in one scene and a crazy murderer in the next… well you’re probably going to need a scene somewhere in there that explains the sudden decline of your character.
 
-- **Fill gaps in your narrative.** Find the missing piece between plot points that ties them together. If your character is a happy-go-lucky fellow in one scene and a crazy murderer in the next… well you’re probably going to need a scene in the middle to explain the decline of your character.
+- **Don’t be afraid to deviate from your outline.** While outlining, you’ll sometimes get an idea that doesn’t fit in the plot you've laid out so far for your story. This is normal. Your outline will almost certainly be changing around drastically as you plan things out, so if a new idea makes your story better overall, don't be afraid to shift things around a bit. Make sure to account for those changes in the rest of the story though! You don’t want any loose ends, an unnatural flow, or unfulfilled promises.
 
-- **Don’t be afraid to deviate from your outline.** You’ll sometimes get an idea that that doesn’t fit in your story so far. This is normal. Your outline will almost certainly be changing around drastically as you plan things out so if a new idea makes your story better overall you can always just try to shift things around a bit. Make sure to account for it in the rest of the story though! You don’t want any loose ends or unfulfilled promises.
+- **If something doesn’t fit in your story just let it go.** I know how hard it can be to cut a scene that you love but if it starts breaking more promises than it fixes, or if you have to switch too many other good scenes to make this one fit, it’ll just end up hurting you in the long run. At the same time...
 
-- **If something doesn’t fit in your story just let it go.** I know how hard it can be to cut a scene that you love but if it starts breaking more promises than it fixes or if you have to switch too many other good scenes to make this one fit, it’ll just end up hurting you in the long run. DON'T ERASE CUT IDEAS COMPLETELY! Things may change with your story and something you cut might work later on. I like to keep a notepad with all my cut content near me when I outline as a potential source of ideas.
+- **DON'T ERASE/DELETE CUT PLOT POINTS!** While something may not fit now, as your story changes, you might find out that something you once cut now works in a different place in the story. Don't let ideas go to waste. They might even be useful for other stories you may write. I like to keep a notepad with all my cut content near me when I outline as a potential source of ideas.
 
-- **Start at the end and work backwards.** When I outline, the first thing I like to do is figure out how my stories will end. From there I figure out what caused this final event, then what caused the event that caused the final event… This helps make sure that each element feels like a natural result of the previous one.
+- **Start at the end and work backwards.** Not everyone likes this method, but when I outline, the first thing I like to do is figure out how my stories will end. From there I figure out what caused this final event, then what caused the event that caused the final event… This helps make sure that each element feels like a natural result of the previous one, and results in a planned and satisfying ending.
 
-- **Each scene must have a purpose.** Ask yourself what you’re trying to achieve? Maybe you want to get an emotional reaction from your readers, a change in your character or a development in your plot. Usually you want your scene to serve multiple purposes but you always need at least one.
+- **Each scene must have a purpose.** An big action scene makes for a good hook, but gets boring quick unless we are given a reason to care. Ask yourself what you’re trying to achieve with each scene you write. Maybe you want to get an emotional reaction from your readers, show development in your characters, or advance your plot. Usually you want your scene to serve multiple purposes (this tends to make them more interesting), but you always need at least one reason to have the scene.
 
-- **Start a book with a heavier focus on your characters.** Readers can waaaay more easily get attached to specific characters than the world or the plot itself. Starting your story with a ton of exposition will just deter your readers. Hook them in with amazing characters and then they’ll actually be interested in learning more.
+- **Consider merging scenes together to make them more interesting.** If you need to have a discussion between characters and also need to get your characters from point A to point B, why not have them talk along the way instead of dragging it out for two scenes? Merging parallelizable scenes together helps streamline your story, and fills dead space that would otherwise be boring to read.
 
-- **Each section should be self contained.** Don’t force the reader to remember something that happened previously in the story. As much as possible you want to tell people important info right when they need it so they don't forget. Wait as late as possible to make it an exciting reveal. If you absolutely have to rehash old information, find an interesting way to remind the reader.
+- Similarly, **make your scenes dynamic.** If all your scenes consist of a group of characters standing around and talking, your readers will get bored. Don't be afraid to mix things up. Have that discussion between characters happen while out for a walk in the woods, or running from goblins, or jumping out of an exploding plane. That said, if ALL your scenes are set in a speeding train, that could be just as boring for the reader. Variety is key and keeps things fresh for your audience.
 
-- **The events that occur in a story are important but what matters more is their effect on the characters.** If the characters aren’t invested in the plot, the reader probably won’t be either (because readers get attached to characters!). As much as possible, give the plot lasting effects on your characters.
+- **Start a book with a heavier focus on your characters.** Most readers get way more attached to characters than they do to the world or the plot itself. Starting your story with a ton of exposition will just bore and potentially scare away your readers. Hook them in with amazing characters and then they’ll actually be interested in learning more later on.
 
-- **Always remember your purpose.** [Review the section on your stories purpose]({{ site.baseurl }}{% link _posts/Ch1/0001-03-01-understand-your-purpose.md %}) if you haven't already but essentially your purpose is what you want your story to achieve. Each plot point you insert into your story should serve/reinforce or at least not detract from your purpose(s). I like to have my purposes big and bold at the top of my outline as a constant reminder to myself.
+- **Each section of your story should be self contained.** Don’t force the reader to remember something that happened fifty pages ago, because they probably won't unless it was significant to the story. As much as possible you want to tell people important info right when they need it, so they don't forget. Wait as late as possible to make it an exciting reveal. If you absolutely have to rehash old information, find an interesting way to remind the reader.
+
+- **The events that occur in a story are important but what matters more is their effect on the characters.** What does it mean to your main character that the king was assassinated? If the characters aren’t invested in something, there's a good change the reader won’t be either. (Remember, readers get attached to characters!) As much as possible, focus on the things that affect your characters. The more characters are directly impacted by and involved in the story, the more the reader will be drawn in.
+
+- **Always remember your purpose.** [Review the section on your story's purpose]({{ site.baseurl }}{% link _posts/Ch1/0001-03-01-understand-your-purpose.md %}) if you haven't already, but essentially your purpose is what you want your story to achieve. Each plot point you insert into your story should serve/reinforce or at least not detract from your purpose(s). I like to have my purposes big and bold at the top of my outline as a constant reminder to myself.
 
 - **Consider the “Yes but…” or “No and...” method.** The purpose of this method is to maintain conflict throughout your story and keep a causal chain of events. In every scene ask yourself, do your characters succeed in what they’re trying to do? Your answer should be one of the following:
     - Yes, but now there’s another problem we’ll have to deal with in the next scene!
     - No, and now the problem is even worse!
 
-- **Make sure the story is always moving forward.** If an arc (character, plot or otherwise) stagnates for too long your reader will get bored. Have your characters grow (for better or worse), progress the plot, and add new levels to the conflict. By constantly having things move you'll have the reader always wondering what will happen next. If you absolutely can't progress an open arc, open and close smaller, related arcs in the meantime or consider starting the arc later in the story, closer to where it can be immediately progressed.
+- **Make sure the story is always moving forward.** If an arc (character, plot or otherwise) stagnates for too long your reader will get bored. Have your characters grow (for better or worse), progress the plot, and add new levels to the conflict. By constantly having things move, you'll have the reader always wondering what will happen next. If you absolutely can't progress an open arc, open and close smaller, related arcs in the meantime or consider starting the arc later in the story, closer to where it can be immediately progressed.
+
+- **Make your arcs last an appropriate amount of time.** Figure out how important each arc is to the main arc of the story. The more essential the story element, the longer it should take to resolve. If your main character's entire motivation is driven by revenge, closing that arc too early by letting them, in the second chapter, kill the guy who murdered their sensei, will lead to a stagnation of the character. That was their entire motivation for the story! What are they supposed to do now? On the flip side, if your main arc is about a good guy who needs to stop a bad guy before the world is destroyed, you probably shouldn't stretch their decision about what to eat for breakfast out over the whole story (unless you can somehow tie that decision into the main arc of the story). Of course your characters are allowed to be more than one dimensional, having multiple sources of motivation and multiple arcs within them, but usually there's an underlying theme that affects your characters and/or plot that should carry throughout the story. The usual rule of thumb is that the main arc of the story is the first one to be introduced, and last one to be resolved, with smaller arcs opening and closing in between it to keep things interesting.
 
 - **Establish a status quo early on in your story.** The inciting incident of a story is when things go from normal to abnormal. If you jump straight into the plot, the reader won't have time to ground themselves in the world. We need to know what everyday life is like for your world and characters before we can fully understand how the inciting incident actually changes things.

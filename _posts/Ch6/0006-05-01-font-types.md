@@ -4,7 +4,7 @@ title: Font Types
 categories: ["guide", "Lettering"]
 ---
 
-Surprisingly (or maybe not) not only are there different fonts to choose from, there are also quite a few font TYPES to be aware of. As a quick overview:
+Surprisingly (or maybe not), not only are there different fonts to choose from, there are also quite a few font TYPES to be aware of. As a quick overview:
 
 #### Type1
 
@@ -12,7 +12,7 @@ Surprisingly (or maybe not) not only are there different fonts to choose from, t
 
 - Low number of allowed characters/glyphs
 
-- Still universally supported though it’s outdated by OpenType 
+- Still universally supported, though it’s been widely replaced by OpenType 
 
 #### [TrueType](https://en.wikipedia.org/wiki/TrueType)
 

@@ -4,9 +4,7 @@ title: Choosing A Font
 categories: ["guide", "Lettering"]
 ---
 
-A big part of the lettering process is actually choosing what font to use.
-
-Before we do so, I want to discuss a question that I see come up a lot when it comes to lettering:
+A big part of the lettering process is actually choosing what font to use, but before we do so, I want to discuss a question that I see come up a lot when it comes to lettering:
 
 ### Should lettering be invisible?
 

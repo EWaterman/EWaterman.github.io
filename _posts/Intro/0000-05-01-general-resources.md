@@ -10,7 +10,7 @@ The following is a collection of all the resources that don’t fit into any par
 
 <br>
 
-### Links and Articles
+### Links, Blogs and Articles
 
 <hr><br>
 [Making Comics](http://www.makingcomics.com/) - Collection of articles pertaining to all aspects of comics
@@ -22,6 +22,12 @@ The following is a collection of all the resources that don’t fit into any par
 [Kids Guide to Making Movies](https://seatup.com/blog/kids-guide-to-making-movies) - Guide by Ely covering the "Movie-Making Basics". Also has links to resources relevant for comics.
 
 [How To Break Into Comics and Survive Once You’re There](http://www.comicsbeat.com/resources/information-on-how-to-get-into-comics-and-survive-once-youre-there/) - A resource list by Comics Beat full of articles and blogs containing comic making tips and tutorials
+
+[Paper Cat Press](https://papercatpress.com/) - A curated community board for freelance illustrators and comic creators. Weekly roundups that contain a ton of information on upcoming projects and anthologies.
+
+[Creator Resource](http://www.creatorresource.com) - Comic book freelancing tools and resources
+
+[Making Money From Webcomics](http://sarjakuvakeskus.fi/blogi/1097-webcomics) - Amazing, amazing PDF produced by the Finnish Comic Society covering many aspects of the comic making process including tips on crowdfunding, conventions, marketing and much more.
 
 <br>
 
@@ -82,3 +88,5 @@ The following is a collection of all the resources that don’t fit into any par
 
 <hr><br>
 [How to Make a Comic Book](https://www.coursera.org/learn/make-comic-books) - A project-centered course where you create an original four page minicomic designed around a short story of your choosing. The full course material is available for free.
+
+[Pixar in a Box](https://www.khanacademy.org/partner-content/pixar/storytelling) - Pixar and Khan Academy course all about what goes into making a Pixar film. While not comics centered, still has plenty of good info about topics including story telling, camera angles and color theory.

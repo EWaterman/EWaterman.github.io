@@ -4,7 +4,7 @@ title: Copyright
 categories: ["guide", "Publishing"]
 ---
 
-[How to Copyright Your Comic Creations](http://info.legalzoom.com/copyright-comic-creations-27168.html) - Victoria McGrath
+[How to Copyright Your Comic Creations](http://info.legalzoom.com/copyright-comic-creations-27168.html) (article) - Victoria McGrath
 
 [Bound By Law?](http://www.thepublicdomain.org/wp-content/uploads/2009/04/bound-by-law-duke-edition.pdf) (comic, PDF) - Keith Aoki, James Boyle, Jennifer Jenkins
 
@@ -27,26 +27,22 @@ Also of note, trademarks are NOT automatic (phrase, book title, team name) and m
 
 ### Front Matter / Copyright Page
 
-[Self-Publishing Basics: The Copyright Page](https://www.thebookdesigner.com/2009/10/self-publishing-basics-the-copyright-page/) - Joel Friedlander
+[Self-Publishing Basics: The Copyright Page](https://www.thebookdesigner.com/2009/10/self-publishing-basics-the-copyright-page/) (article) - Joel Friedlander
 
 <hr><br>
 You know the page(s) in a book with all the fine print about publication information? That's called the **front matter** (or back matter if it's in the back).
 
-If you're self publishing your own book, this front matter isn't strictly required though I highly encourage you to include it.
+If you're self publishing your own book, this front matter isn't strictly required (though I highly encourage you to include it).
 
-The front matter should include at least the following things:
+The front matter of a book should include at least the following information:
 
 - **A copyright notice for your product.** While in some countries copyright is free and automatic, it's still important to mention it in writing.
 
-```
-Copyright © <insert year of first publication here> by <insert owner of copyright here> All rights reserved.
-```
+> Copyright © \<insert year of first publication here\> by \<insert owner of copyright here\> All rights reserved.
 
 - **A Trademark (TM) notice for any content you have a trademark registered for.** Only include this if you actually purchased a trademark!
 
-```
-<Insert name of trademarked things here>TM are registered trademarks of <insert owner of trademark here>
-```
+> \<Insert name of trademarked things here\>TM are registered trademarks of \<insert owner of trademark here\>
 
 - **Publisher information.** If the comic is produced through a publisher, they'll want to include their name and potentially some order information. Don't worry about this as the publisher should handle it themselves.
 
@@ -54,37 +50,23 @@ Copyright © <insert year of first publication here> by <insert owner of copyrig
 
 If you don't want to allow redistribution of your comic (which is what you want in most cases), you can use [this template](https://www.thebookdesigner.com/2010/01/copyright-page-samples-you-can-copy-and-paste-into-your-book/) provided by Joel Friedlander or the variation that I use:
 
-```
-No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, [except for short excerpts for review purposes] without the express written permission of <insert owner here>.
-```
+> No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, [except for short excerpts for review purposes] without the express written permission of \<insert owner here\>.
 
 If you want your comic to be free to distribute, you can use [this website](https://creativecommons.org/choose/) to generate a creative commons license. You can choose the degree to which you want to allow redistribution.
 
-- **The country of printing.** I'm not sure exactly why this is included but it's probably for customs related purposes.
+- **The country of printing.** I'm not sure exactly why this is included but it's probably for customs and tax related purposes.
 
-```
-Printed in <insert country here>.
-```
+> Printed in \<insert country here\>.
 
 - **A fiction Disclaimer.** I don't include this myself but I see it in many books.
 
-```
-This is a work of fiction. Names, characters, businesses, places, events and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events, without satiric intent, is purely coincidental.
-```
+> This is a work of fiction. Names, characters, businesses, places, events and incidents are either the products of the author's imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events, without satiric intent, is purely coincidental.
 
 - **Your contact Information.** Optional but you may want to include a means of contact.
 
-```
-For permission requests, contact <insert e-mail or phone number here> or write to the address below.
 
-Imaginary Press
-1233 Pennsylvania Avenue
-San Francisco, CA 94909
-www.imaginarypress.com
-```
+> For permission requests, contact \<insert e-mail or phone number here\> or write to the address below. \<actually insert your address below\>
 
 - **The ISBN or UPC number (not the whole barcode) of your book.**
 
-```
-ISBN: <insert number here>
-```
+> ISBN: \<insert number here\>

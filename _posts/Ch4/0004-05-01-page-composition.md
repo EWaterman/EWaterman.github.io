@@ -4,20 +4,22 @@ title: Page Composition
 categories: ["guide", "Drawing"]
 ---
 
-[Comic Book Paper](http://comicbookpaper.com/) - You pick the number of panels in your page and it provides a whole bunch sample page layouts. Really, really cool.
+[Comic Book Paper](http://comicbookpaper.com/) (webapp) - You pick the number of panels in your page and it provides a whole bunch sample page layouts. Really, really cool.
 
-[Advanced Layouts: Paneling Outside the Box](http://dresdencodak.tumblr.com/post/841119890/advanced-layouts-paneling-outside-the-box) - Aaron Diaz
+[Advanced Layouts: Paneling Outside the Box](http://dresdencodak.tumblr.com/post/841119890/advanced-layouts-paneling-outside-the-box) (article) - Aaron Diaz
 
-[Panel Layout: The Golden Ratio](http://www.makingcomics.com/2014/05/07/panel-layout-golden-ratio/) - Making Comics
+[Panel Layout: The Golden Ratio](http://www.makingcomics.com/2014/05/07/panel-layout-golden-ratio/) (article) - Making Comics
+
+[Power through Composition](https://www.youtube.com/watch?v=fBqwYqgWx8I) (video) - Strip Panel Naked
 
 <hr><br>
 Your first focus when designing a page should be it's composition: **how the panels fit together on the page**. One of the best and most efficient methods of doing so is through what we call **thumbnails**.
 
 ![](/images/guide/thumbs.JPG)
 
-For many artists, thumbnails are an essential first step to the drawing process. By very quickly sketching out a page, **an artist can determine the key aspects of the page as well as the elements that do and don’t work**. The rough nature of them also allows the artist to **go through a bunch of designs in a short period of time**.
+For many artists, thumbnails are an essential first step to the drawing process. By very quickly sketching out a page, **an artist can determine the key aspects of the page as well as the elements that do and don’t work**. The rough nature of the thumbnails also allows the artist to go through a bunch of designs in a short period of time.
 
-It’s important to remember that thumbnails are experimental in nature. They are most definitely not meant to be perfect and so you should expect to be throwing out a lot of your designs as you go along. Do yourself a favour and **don’t spend an hour filling in all the details of your thumbnails**. Save that hard work for the penciling stage.
+It’s important to remember that thumbnails are experimental. They are most definitely not meant to be perfect because you should expect to be throwing out a lot of your designs as you go along. Do yourself a favour and **don’t spend an hour filling in all the details of your thumbnails**. Save that hard work for the penciling stage.
 
 Here are some tips to make sure your page layout is fully optimized:
 
@@ -36,9 +38,11 @@ Here’s the result of an actual study to reflect this point:
 
 ![](/images/guide/dbz.jpg)
 
-These pages from Dragon Ball Z express the point well (though it could be argued it goes a bit too far). The divide between tiers is extremely clear, making it very obvious which panels are associated with each other. There's little confusion as to where the reader should look next.
+These pages from Dragon Ball Z express the point well (though you could probably get away with a more subtle approach). The divide between tiers is extremely clear, making it very obvious which panels are associated with each other. There's little confusion as to where the reader should look next.
 
 - Unless you’re going for a specific effect, or are pairing panels like the previous point states, **keep your gutters the same size throughout your pages**. This just makes it easier for the reader to get through your pages and know what panel comes next.
+
+- **Vary panel structure.** Mixing up panel size, placement, and count, helps keeps things fresh and interesting to look at for the reader. [Even 9 and 6 panel grids differ from time to time.](https://www.youtube.com/watch?v=Gx1DZg7ACoc)
 
 - **Consider the rhythmic flow of your panels.** The size and placement of panels within a page can have a great effect on how the page is read. There are a few factors that determine the flow of a page:
 
@@ -74,4 +78,4 @@ These pages from Dragon Ball Z express the point well (though it could be argued
 
 ![](/images/guide/borderless.jpg)
 
-By bleeding a panel to the edges of a page, the reader gets the feeling that it continues beyond the page. This can be used to imply scale, to freeze a moment in time or to amplify an emotional effect such as loneliness.
+By bleeding a panel to the edges of a page, the reader gets the feeling that it continues beyond the page. This can be used to imply scale, to freeze a moment in time, or to amplify an emotional effect such as loneliness.

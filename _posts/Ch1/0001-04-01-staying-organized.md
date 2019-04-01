@@ -9,7 +9,7 @@ categories: ["guide", "Before You Start"]
 ### <a name="project-folder"></a>Project folder
 
 <hr><br>
-With scripts, art, marketing supplies and more, you’re going to have A LOT of files to deal with. Without a plan for where to store all your files it’s easy for your project folder to become a complete mess. **A good folder structure will save you a lot of headaches searching for your files.**
+With scripts, art, marketing supplies and more, you’re going to have A LOT of files to deal with. Without a plan for where to store all your files, it’s easy for your project folder to become a complete mess. **A good folder structure will save you a lot of headaches searching for your files.**
 
 If you want to use the same folder structure that I do, follow these steps:
 

@@ -15,6 +15,8 @@ It's important to note that **even if you plan on self publishing digital copies
 <hr><br>
 Digital distribution companies host digital copies of your full comic on their sites where readers can purchase them, granting you a percentage of profits.
 
+While many platforms charge a fee or a commission from every sale, many come with a strong pre-established audience that can help bring new readers to your stories that otherwise wouldn't have found you.
+
 When choosing platforms, note that **the payouts each company offers can differ significantly** so I encourage you to look into each companies guidelines before submitting.
 
 Fortunately, most digital distributors don't have any requirements regarding exclusivity of digital distribution so you're usually free to put your comic on multiple platforms.
@@ -37,6 +39,8 @@ Integrates well with Createspace if you're using them for physical copies.
 
 ### [Itunes](https://kdp.amazon.com/en_US?ref_=kdpgp_p_ca_psg_gt_ad4)
 
+While not super common, I have heard of a few people publishing their books on Itunes
+
 ### [Indyplanet](http://www.indyplanet.us/)
 
 **Note:** You have to print at least one physical copy with Indyplanet before using their digital distribution platform.
@@ -56,7 +60,7 @@ Drive Thru also offers printing and distribution for physical copies.
 <hr><br>
 If you have your own website, you may choose to sell your comics directly from there. This grants you the freedom to sell however you want, but also requires you to manage the store yourself. Fortunately there are many of online stores that you can embed directly into your site without having to touch much of the code.
 
-Also, **there's no reason you can't host your comic on BOTH a distribution platform as well as your site.** The more places your comic is available at, the more chances people have of coming across it.
+Hosting your comics or store directly on your site grants you more personalization, but doesn't come with the built in fan base and automatic ad revenue of established hosting sites. That said, **there's no reason you can't host your comic on a distribution platform as well as your site.** The more places your comic is available at, the more chances people have of coming across it. Again, just make sure this doesn't violate any exclusive publishing rights contracts you may have signed.
 
 ### [Gumroad](https://gumroad.com/)
 

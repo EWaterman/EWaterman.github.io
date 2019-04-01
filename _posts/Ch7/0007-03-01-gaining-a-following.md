@@ -4,7 +4,7 @@ title: Gaining A Following
 categories: ["guide", "Marketing"]
 ---
 
-[Growing a Social Following from Nothing](https://www.matthewbarby.com/social-media-strategy/) - Matthew Barby
+[Growing a Social Following from Nothing](https://www.matthewbarby.com/social-media-strategy/) (article) - Matthew Barby
 
 <hr><br>
 Remember how I said marketing is all about attracting new supporters and maintaining existing ones? Well when you’re first starting out, your focus should be primarily on the former.
@@ -29,9 +29,7 @@ Even if you have absolutely no art to post at all, **you can still spice up a te
 
 While you may think these things aren’t significant enough to post about, just showing them off to your audience can reveal to them that you’re actually making progress and that eventually you’ll have something really cool to show off if they stick around. Lots of projects end up not going anywhere so **by posting about your progress, you’ll be able to earn a degree of confidence in your product from your followers**. Plus there are plenty of people out there who are genuinely interested in seeing the full comic making process, so don’t be afraid to share! Just make sure you don’t post too much that you overwhelm or annoy your followers.
 
-I also found that posting rough work was a good opportunity to engage directly with my supporters.
-
-I would do things like post multiple versions of our main logo to Facebook and get people to vote with their “likes” for their favourite design.
+I also found that posting rough work was a good opportunity to engage directly with my supporters. I would do things like post multiple versions of our main logo to Facebook and get people to vote with their “likes” for their favourite design.
 
 We’ll talk more about this later, but **some of the best marketing campaigns focus on engaging the audience**. By getting your followers directly involved in the process, they’ll start becoming more invested in your product because they feel like they played a part in its creation. It doesn’t matter how small the contribution, they’ll want to see your project succeed because they put effort into it themselves.
 

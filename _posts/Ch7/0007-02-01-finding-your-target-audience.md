@@ -108,21 +108,29 @@ Quick Tips:
 
 - **Follow and engage with people who tweet similar content to you.** By commenting on someone's tweets, you'll help with their engagement, introduce yourself to their audience and most importantly, potentially make you new friends. Be genuine though and only comment when you actually have something to say. It's really easy to spot the intentions of someone who's chatting with you simply to increase their audience.
 
-- **Once you have friends, ask for retweets on important tweets.** Just launched your kickstarter campaign and want to have a big day one? DM your friends directly and ask (nicely) to help with their retweets. Be VERY careful with this one. Use it sparingly and make sure you're not being a leech by actually engaging with the content of the people you're asking first!
+- **Don't bulk follow random people.** Following 10,000 randoms in the hope that they follow you back is a waste of time. Even if they do follow you back, unless their purpose aligns with your brand and purpose, they won't ever be engaging with your content. It also looks really bad to see an account that follows so many people.
 
-- **Don’t be afraid to repeat yourself.** Because Twitter is so crowded, people will often miss your posts. If you have important information to share, share it again a few days later! Again, just don’t be obnoxious about it.
+- **Don’t be afraid to repeat yourself.** Because Twitter is so crowded, people will often miss your posts. If you have important information to share, retweet it again the next day! Again, just don’t be obnoxious about it.
 
 - **Use those hashtags!** Using hashtags like #indiecomics, #comics, #webcomics… will help your posts be discovered by more people.
+
+- **Pin important posts to your page.** Got a Kickstarter running or a new piece of art to sell? Pinning key posts will stick them to the top of your page, ensuring more people see them when they click on your profile. Many people use their pinned post as a showcase of their art, often linking to other social media accounts, or websites where people can buy their products.
+
+- **Make polls.** Twitter polls are a great way to engage with your audience since they take a low amount of effort to participate in.
+
+- **Examine the posts of successful accounts.** Accounts with thousands of followers have them for a reason. By looking into their posts, you can hopefully learn a few strategies that you can implement in your own posts. Also...
+
+- **Examine the followers of those successful accounts.** Twitter lets you see the followers of other people. Go to the pages of successful accounts that align with your brand and purpose. What's common about their followers? How can you appeal to them as well?
 
 <br>
 #### **Tumblr**
 
-I haven't used Tumblr much but I know a few creators who use it to post art or weekly strips. Some even use it to host their webcomics.
+I haven't used Tumblr much (and I hear it’s been on the downhill lately) but I know a few creators who use it to post art or weekly strips. Some even use it to host their webcomics.
 
 <br>
 #### **Instagram**
 
-Another platform I have little experience with. Even more than Tumblr, Instagram is focused on visual art and so is less useful for pure writers. That said, I have heard of a few writers having success there.
+Another platform I have little experience with. Instagram is (from what I've heard) one of the better social media platforms out there for artists. Instagram is heavily focused on visual art so is less useful for pure writers (unless you can get creative). That said, I have heard of a few writers having success there.
 
 <br>
 #### **Reddit**
@@ -131,7 +139,7 @@ Reddit is a giant message board with a bunch of sections (subreddits) designated
 
 - **[Comic Book Collabs](https://www.reddit.com/r/ComicBookCollabs/)**: Reddit forums primarily for finding collaborators and getting feedback but also a great community for help gathering new followers.
 
-- **[FreeEBOOKS](https://www.reddit.com/r/FreeEBOOKS/)** and **[eFreebies](https://www.reddit.com/r/eFreebies/)**: Great for gaining new followers if you are willing to share a free copy of one of your stories (I link to my email list signup form where people can trade their email for issue 1 of More Than Men). I post here every month or so and get 20-50 new subscribers to my email list every time.
+- **[FreeEBOOKS](https://www.reddit.com/r/FreeEBOOKS/)** and **[eFreebies](https://www.reddit.com/r/eFreebies/)**: Great for gaining new followers if you are willing to share a free copy of one of your stories (I link to my email list signup form where people can trade their email for issue 1 of More Than Men).
 
 There’s also **[altcomix](https://www.reddit.com/r/altcomix/)**, **[comicbooks](https://www.reddit.com/r/comicbooks/)**, **[ComicCrits](https://www.reddit.com/r/comic_crits/)**, **[ComicWriting](https://www.reddit.com/r/ComicWriting/)**, **[makecomics](https://www.reddit.com/r/makecomics/)**, **[Newbwriters](https://www.reddit.com/r/Newbwriters/)**, **[selfpublish](https://www.reddit.com/r/selfpublish/)**, **[webcomics](https://www.reddit.com/r/webcomics/)** and more!
 
@@ -144,9 +152,13 @@ There’s also **[altcomix](https://www.reddit.com/r/altcomix/)**, **[comicbooks
 
 - **[Digital Webbing](http://www.digitalwebbing.com/forums/)**: Long lasting and still quite active comic forums for writers, artists, letterers and other creators. FANTASTIC for finding collaborators.
 
+- **[ComixCentral](https://www.comixcentral.com/forum/)**: A quite new digital comic publishing platform with their own dedicated forums.
+
 <br>
 #### **Others**
 
 **[Wattpad](https://www.wattpad.com/)**: “The world’s largest community for readers and writers” (according to them at least).
 
-**[DeviantArt](http://www.deviantart.com/ )**: Not specific to comics but houses a massive collection of artists. Also has writers though they are less common.
+**[DeviantArt](http://www.deviantart.com/)**: Not specific to comics but houses a massive collection of artists. Also has writers though they are less common.
+
+**[Mastodon](https://mastodon.social)**: Social media site with curated news feeds dedicated to a single topic like art or writing.
