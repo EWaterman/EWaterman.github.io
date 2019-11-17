@@ -8,7 +8,11 @@ Here’s some basic but important technical points that I’ve seen plenty of le
 
 - Generally, it’s better to **keep you panel borders thicker than your balloon borders.** The panel is what divides up the sections of your page, and thus it should have the most dominant lines. This is to help maintain the feeling that dialogue is a part of the panel and not sitting on top of it. Some letterers choose to not even use borders on their balloons. That said, **many artists choose to make their panel and balloon borders the same size**. This works as well, as it allows the balloons and borders to blend into each other in interesting ways. Sound effects or especially loud dialogue can be an exception to this rule if you want them to be more prominent or have the 3D effect of bursting out of the page.
 
-- **Don’t letter in serif fonts.** No explanation here, it’s just universally accepted as a big no-no.
+- **Be weary of using serif fonts.**
+
+![](/images/guide/serif.png)
+
+While serif fonts are fine for prose books, using them in comic lettering, which is often printed small with little line spacing, can result in dialogue that's hard to read. This isn't to say you can't ever use serif fonts in your comics, just be weary of readability if you do.
 
 - **Only use the crossbar “I” if it’s at the start of a proper-noun or the word “I”, otherwise use the non-crossbar version** (the one that looks like a lowercase "L"). This was originally done to save space on the page but it has become a standard in comics. Nate Piekos has a [good example](http://www.blambot.com/_images/_gallery/tips/bl001.jpg) of this. An easy solution for this is to turn auto-ligatures on in your lettering software (if your font supports it).
 
