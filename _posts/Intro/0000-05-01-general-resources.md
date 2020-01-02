@@ -29,6 +29,8 @@ The following is a collection of all the resources that don’t fit into any par
 
 [Making Money From Webcomics](http://sarjakuvakeskus.fi/blogi/1097-webcomics) - Amazing, amazing PDF produced by the Finnish Comic Society covering many aspects of the comic making process including tips on crowdfunding, conventions, marketing and much more.
 
+[Writing Careers: The Business Behind Becoming an Author](https://www.zenbusiness.com/info/writing-careers/) - Various tips for those interested in a professional career in writing. (Thanks Anna!)
+
 <br>
 
 ### Books
