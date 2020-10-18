@@ -159,6 +159,7 @@ img {
 //  -PAGE NAVIGATOR
 //  -COLORS
 //  -MAILCHIMP
+//  -GUMROAD
 // HOMEPAGE
 // CONTACT PAGE
 // DEV PAGE
@@ -346,6 +347,17 @@ code {
 }
 
 // ===================== END MAILCHIMP =====================
+
+// =========================================================
+// ====================== GUMROAD ==========================
+// =========================================================
+
+// Fixes overlays getting shot off screen for some reason
+.gumroad-overlay-iframe {
+  position: relative!important;
+}
+
+// ===================== END GUMROAD =======================
 
 // =========================================================
 // ===================== HOMEPAGE ==========================
