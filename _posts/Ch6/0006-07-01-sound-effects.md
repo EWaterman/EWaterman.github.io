@@ -23,4 +23,4 @@ There’s a lot that goes into getting them right, so here are some tips to help
 
 - **The shape of sound effects changes how we feel about them.** Jagged lines make for a harsher sound. This is good for words like “Krak”. Rounded lines make for a more fluid sound. Think “Whoosh”.
 
-- **Consider not using sound effects at all.** There are plenty of creators who never use sound effects in their comics. By choosing to not using sound effects your moments can stand alone. This can make them feel surreal or frozen in time. Limiting your use of effects also increases the impact when you actually end up using them later in your story.
+- **Consider not using sound effects at all.** There are plenty of creators who never use sound effects in their comics. By choosing to not use sound effects, your moments can stand alone. This can make them feel surreal or frozen in time. Limiting your use of effects also increases the impact when you actually end up using them later in your story.

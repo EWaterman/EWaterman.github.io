@@ -69,11 +69,11 @@ As a reader, which style would you prefer?
 
 Posting consistently, whether they be actual pages from your webcomic or just social media updates, helps your community learn to anticipate your updates and will get them in a rhythm of checking in on you frequently.
 
-I’ve recently started doing a weekly Twitter updates where I post a single comic making lesson every wednesday evening.
+I’ve recently started doing weekly Twitter updates where I post a single comic making lesson every wednesday evening.
 
 Once you’ve developed a kind of schedule for your posts, try to stick to it as much as possible.
 
-There are many apps you can use to schedule social media posts so they are sent at the exact time you want. [Hootsuite](https://hootsuite.com/) is a good site for managing and scheduling all your social media profiles. Both Facebook and Twitter also have a built in post schedulers.
+There are many apps you can use to schedule social media posts so they are sent at the exact time you want. [Hootsuite](https://hootsuite.com/) is a good site for managing and scheduling all your social media profiles. Both Facebook and Twitter also have built in post schedulers.
 
 It’s okay to deviate from your schedule, just be open about it with your followers. I’ve found people to be very forgiving if you simply explain to them why something is late. I’ve also found them to be ruthless if you blow past your deadlines without acknowledging it. ESPECIALLY on Kickstarter.
 

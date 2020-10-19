@@ -84,7 +84,7 @@ If your characters aren't likable or relatable, they must at least be **interest
 
 - **Avoid flat characters.** People are more complex than just a single personality quirk. The jock, the nerd, the dumb blond. If your characters can boil down just to these traits, you don’t have characters, you have a collection of stereotypes. Of course, there are exceptions to the rule, and giving a character a single trait can often be used for comedic purposes.
 
-- **Characters should be aspiring to something.** What is the one thing your character really wants? If your character doesn't have a motivation, they're stagnant. Boring. Give your character one or more goals, and on top of that, give them flaws that hinder their progress towards those goals.
+- **Characters should be aspiring to something.** What is the one thing your character really wants? If your character doesn't have motivation, they're stagnant. Boring. Give your character one or more goals, and on top of that, give them flaws that hinder their progress towards those goals.
 
 - You generally want to **avoid passive characters**. These are characters who have stuff happen to them as opposed to ones who take action. Instead, you want your characters to drive the plot for themselves. Go-getters are more engaging to read about so have your characters do something that has lasting effects on your story.
 
@@ -125,7 +125,7 @@ Some people think the names of your characters don’t really matter but they ac
 
 - **Using alliteration in a name makes the character stand out.** Clark Kent, Lois Lane, Peter Parker, Reed Richards, Severus Snape. Be careful with this one. There’s a fine line between memorable and cheesy.
 
-- **Harsh sounds like “v”, “ch”, “ck”, “d” and “x” make for a meaner sounding character.** Softer, more flowy sounds have the opposite effect. Neville Longbottom vs Darth Vader.
+- **In the western world, harsh sounds like “v”, “ch”, “ck”, “d” and “x” tend to make for a meaner sounding character.** Softer, more flowy sounds have the opposite effect. Neville Longbottom vs Darth Vader. Note that I specified the western world here. In many other languages and nationalities, the opposite effect can be true. Make sure to properly research the culture of the characters you're naming. 
 
 - **Make sure your name is appropriate for the time period of your story and the ethnic background of your character.** "Mildred" is an uncommon name in the modern day west, and will make the character seem different/out of place from all the other characters. Of course this can be used intentionally as well to make your character stand out. Google is your friend!
 

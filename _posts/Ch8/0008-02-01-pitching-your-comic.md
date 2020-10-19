@@ -15,7 +15,7 @@ The future of your comic depends on who is going to publish it so it's important
 
 - **Research the publisher.** Don't just blindly submit to every publisher. Know each one's guidelines and what kind of content they produce. Find the publishers that will be most interested in your work and target those. Similarly...
 
-- **Personalize your pitch.** Publishers receive a ton of submissions so the cookie cutter "Dear \<insert publisher name here\>" pitches won't stand out among the crowd. Do the heavy lifting for them and include some reasons for why they'd want to produce your work. What's so special about your comic? Why does it fit in with that publisher specifically? How is it similar to books that publisher has previously published? How is it different? How does it appeal to that publisher's audience?
+- **Personalize your pitch.** Publishers receive a ton of submissions so the cookie cutter "Dear \<insert publisher name here\>" pitches won't stand out among the crowd. Do the heavy lifting for them and include some reasons for why they'd want to produce your work. What's so special about your comic? Why does it fit in with that publisher specifically? How is it similar to books that the publisher has previously published? How is it different? How does it appeal to that publisher's audience?
 
 - **Give them something to look at.** Whether it's character designs, photos of your previous work, or a link to the entire completed comic, you should include at least some visual piece to go with your pitch. This is mainly to help you stand out, as most publishers will get bored if all you provide is a script. That said...
  
@@ -24,7 +24,7 @@ The future of your comic depends on who is going to publish it so it's important
 ### List of Publishers
 
 <hr><br>
-While [this list by Jason Thibault](https://jasonthibault.com/definitive-list-comic-publisher-submission-guidelines/) hasn't been updated for a while, it still covers a vast number of publishers and their submission guidelines. It should be enough to at least get your started on your search.
+While [this list by Jason Thibault](https://jasonthibault.com/definitive-list-comic-publisher-submission-guidelines/) hasn't been updated for a while, it still covers a vast number of publishers and their submission guidelines. It should be enough to at least get you started on your search.
 
 If you just want a straight up list, [Wikipedia is your friend](https://en.wikipedia.org/wiki/List_of_comics_publishing_companies).
 

@@ -12,7 +12,7 @@ Primarily used for single issue comics. Floppies can vary in length but they’r
 
 [Perfect Binding](http://www.printninja.com/printing-resource-center/printing-options/book-services/binding/softcover-perfect-binding) - AKA softcover binding
 
-Used for longer projects like graphic novels or to collect of a number of single issues (trade paperback). KaBlam’s page range for perfectly bound books is 24-550 pages. If you want to print anything on the spine of the book they require a minimum of 80 pages.
+Used for longer projects like graphic novels or to collect a number of single issues (trade paperback). KaBlam’s page range for perfectly bound books is 24-550 pages. If you want to print anything on the spine of the book they require a minimum of 80 pages.
 
 [Case Binding](http://www.printninja.com/printing-resource-center/printing-options/book-services/binding/casebound-hardcover) - AKA hardcover binding
 

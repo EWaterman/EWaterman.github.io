@@ -19,7 +19,7 @@ categories: ["guide", "Drawing"]
 [How a Character’s Choice of Clothing Benefits the Story](http://its-a-writer-thing.tumblr.com/post/123597982752/how-a-characters-choice-of-clothing-benefits-the) (article) - It's a Writer Thing
 
 <hr><br>
-When designing character, you have a ton of factors that you can tweak. Things like race, body type, hair style, facial features and posture, all play an important role in how readers will perceive your characters. 
+When designing a character, you have a ton of factors that you can tweak. Things like race, body type, hair style, facial features and posture, all play an important role in how readers will perceive your characters. 
 
 - Even if you're drawing monsters or other fictional creatures, it's important that you **get familiar with the anatomy of the body.** While your characters may not share our human features, knowing how anatomy works will help your drawings become consistently proportionate, and thus feel more alive and believable. I've provided many links about drawing characters in the above section but here are some quick tips:
 

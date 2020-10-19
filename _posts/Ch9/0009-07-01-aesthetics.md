@@ -4,7 +4,7 @@ title: Aesthetics
 categories: ["guide", "Printing"]
 ---
 
-**Quality matters.** A book that looks and feels good is a lot easier to sell than one made at home with your personal printer. This is subjective of course so I encourage you to put thought into it and choose the option that work best for your story.
+**Quality matters.** A book that looks and feels good is a lot easier to sell than one made at home with your personal printer. This is subjective of course so I encourage you to put thought into it and choose the option that works best for your story.
 
 <u>Warning:</u> This one’s a doozy. It has some really important information though so stick with it and I’ll try my best to make it somewhat comprehensible.
 
@@ -43,7 +43,7 @@ In general, **the more interior pages your book has, the thicker the pages shoul
 
 When it comes to covers, there are two types: self cover and plus covers.
 
-- **Self covers are printed on the same stock as the interior pages.** For example, a 28 page comic with 80 lb interior pages and a 80 lb cover can also be referred as a 32 page self covered comic. Self covers are only really ever used on saddle-stitched comics (floppies).
+- **Self covers are printed on the same stock as the interior pages.** For example, a 28 page comic with 80 lb interior pages and a 80 lb cover can also be referred to as a 32 page self covered comic. Self covers are only really ever used on saddle-stitched comics (floppies).
 
 - **Plus covers are covers that are printed on thicker paper stock than the interior pages.** A 28 page comic with 80 lb interior pages and a 100 lb cover is still a 28 page comic.
 

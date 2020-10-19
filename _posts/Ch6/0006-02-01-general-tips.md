@@ -6,7 +6,7 @@ categories: ["guide", "Lettering"]
 
 Here’s some basic but important technical points that I’ve seen plenty of letterers mess up on:
 
-- Generally, it’s better to **keep you panel borders thicker than your balloon borders.** The panel is what divides up the sections of your page, and thus it should have the most dominant lines. This is to help maintain the feeling that dialogue is a part of the panel and not sitting on top of it. Some letterers choose to not even use borders on their balloons. That said, **many artists choose to make their panel and balloon borders the same size**. This works as well, as it allows the balloons and borders to blend into each other in interesting ways. Sound effects or especially loud dialogue can be an exception to this rule if you want them to be more prominent or have the 3D effect of bursting out of the page.
+- Generally, it’s better to **keep your panel borders thicker than your balloon borders.** The panel is what divides up the sections of your page, and thus it should have the most dominant lines. This is to help maintain the feeling that dialogue is a part of the panel and not sitting on top of it. Some letterers choose to not even use borders on their balloons. That said, **many artists choose to make their panel and balloon borders the same size**. This works as well, as it allows the balloons and borders to blend into each other in interesting ways. Sound effects or especially loud dialogue can be an exception to this rule if you want them to be more prominent or have the 3D effect of bursting out of the page.
 
 - **Be weary of using serif fonts.**
 
@@ -18,11 +18,11 @@ While serif fonts are fine for prose books, using them in comic lettering, which
 
 - **Text within a bubble should be [diamond shaped](https://i0.wp.com/chrisoatley.com/wp-content/uploads/2012/07/football.png?resize=560%2C297).** Keep the widest parts in the middle to maximize the use of the balloon and maintain even spacing.
 
-- **Make sure to apply proper [kerning](http://www.blambot.com/_images/_gallery/tips/bl002.jpg) to you letters.** Different combinations of letters have different amounts of space between them. For example, the space between the letters in "AV" can be much smaller than in the letters "AM". Some fonts don't account for this, and so if you don’t manually even out those gaps, your words will end up have strange spaces between their letters. ([Relevant xkcd](https://xkcd.com/1015/)).
+- **Make sure to apply proper [kerning](http://www.blambot.com/_images/_gallery/tips/bl002.jpg) to your letters.** Different combinations of letters have different amounts of space between them. For example, the space between the letters in "AV" can be much smaller than in the letters "AM". Some fonts don't account for this, and so if you don’t manually even out those gaps, your words will end up having strange spaces between their letters. ([Relevant xkcd](https://xkcd.com/1015/)).
 
 - **Keep the space between the text and the border (AKA the negative space) consistent around the entirety of each balloon.** This keeps the balloon clean and balanced, and makes sure you’re using the space efficiently. This rule is sometimes intentionally broken by warping the balloon slightly. This is done to create a more stylistic or raw feel.
 
-- Similarly, **keep negative space and font size consistent across balloons.** Different sized text and negative space are used to represent someone whispering or yelling. When someone is whispering, their text is often smaller, and the negative space in the balloon made larger as emphasis. The inverse is true for shouting. Make sure to stay consistent across your “normal” balloons so the reader clearly knows when something abnormal is happening.
+- Similarly, **keep negative space and font size consistent across balloons.** Different sized text and negative space are used to represent someone whispering or yelling. When someone is whispering, their text is often smaller, and the negative space in the balloon is made larger as emphasis. The inverse is true for shouting. Make sure to stay consistent across your “normal” balloons so the reader clearly knows when something abnormal is happening.
 
 - **Point the tail of a balloon to the mouth of the talker.** This guides the eye to the right place. People don’t talk with their chest or their forehead!
 
@@ -36,13 +36,13 @@ While serif fonts are fine for prose books, using them in comic lettering, which
 
 - **[Don't cross balloon tails](https://pbs.twimg.com/media/C-7O6e4XsAElfkj.jpg).** It’s just confusing for the reader. I’d argue that this could be done on purpose to show a loud, jumbled scene.
 
-- **Avoid [tangent lines](http://www.blambot.com/_images/grammar_tangents.jpg).** Like in the line art, tangent lines on dialogue balloons and tails can make them seem attatched to things when they shouldn’t be. Avoid them whenever possible.
+- **Avoid [tangent lines](http://www.blambot.com/_images/grammar_tangents.jpg).** Like in the line art, tangent lines on dialogue balloons and tails can make them seem attached  to things when they shouldn’t be. Avoid them whenever possible.
 
 - **Extend the tail of the balloon from it’s center.** This makes the balloon feel properly weighted. If you are connecting multiple balloons together with a single tail, the tail should go through the center of all of them.
 
 - **The closer balloons are together, the faster they’ll be read in succession.** As the reader’s eye travels through a panel, they get the illusion of time passing. If you put balloons closer together, they’ll seem like they occur within a smaller amount of time. Butting balloons up against each other shows that one is said immediately after the other. This often implies one character interrupting another. This takes me to my next point:
 
-- **Don’t put balloons in adjacent panels right next to each other unless you want to reader to move there immediately.** By putting two balloons close together, you’re associating the two for the reader, implying that you want them to look at the second balloon right after the first. Often times adjacent balloons are placed too close to each other, resulting in the reader skipping over the rest of the panel.
+- **Don’t put balloons in adjacent panels right next to each other unless you want the reader to move there immediately.** By putting two balloons close together, you’re associating the two for the reader, implying that you want them to look at the second balloon right after the first. Oftentimes adjacent balloons are placed too close to each other, resulting in the reader skipping over the rest of the panel.
 
 - **Avoid widows and orphans.** Weird names, I know. Widows (using just a single word as the first line of a dialogue balloon) and orphans (using a single word on the last line) generally make your balloons feel uneven. This can be okay depending on the word, but short words like “a”, “I’m” and “the” tend to look weird on their own.
 

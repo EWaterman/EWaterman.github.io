@@ -57,7 +57,7 @@ If the purpose of your story is to teach others about astronomy, trying to sell 
 
 It may seem straightforward but I found that it’s easy to lose track of who your audience is.
 
-> Okay, but where do I even find these so called “loyal supporters”?
+> Okay, but where do I even find these so-called “loyal supporters”?
 
 <br>
 
@@ -66,7 +66,7 @@ It may seem straightforward but I found that it’s easy to lose track of who yo
 <hr><br>
 #### **Facebook**
 
-Facebook was very important for me when I was first began promoting my comic.
+Facebook was very important for me when I first began promoting my comic.
 
 Most of your Facebook contacts are probably your friends and family. Those are the exact people you want to target when first starting out because they’re the ones who are going to support you no matter what you create. They’ll be the easiest people to convince to follow your stuff. When I created my Facebook page for my comic, almost all of my initial followers were friends and family.
 
@@ -112,9 +112,9 @@ Quick Tips:
 
 - **Don’t be afraid to repeat yourself.** Because Twitter is so crowded, people will often miss your posts. If you have important information to share, retweet it again the next day! Again, just don’t be obnoxious about it.
 
-- **Use those hashtags!** Using hashtags like #indiecomics, #comics, #webcomics… will help your posts be discovered by more people.
+- **Use those hashtags!** Using hashtags like #indiecomics, #comics, #webcomics… will help your posts be discovered by more people. Avoid clogging up a tweet with them though, or Twitter might think you’re spamming and lower the score of your post.
 
-- **Pin important posts to your page.** Got a Kickstarter running or a new piece of art to sell? Pinning key posts will stick them to the top of your page, ensuring more people see them when they click on your profile. Many people use their pinned post as a showcase of their art, often linking to other social media accounts, or websites where people can buy their products.
+- **Pin important posts to your page.** Got a Kickstarter running or a new piece of art to sell? Pinning key posts will stick them to the top of your page, ensuring more people see them when they click on your profile. Many people use their pinned post as a mini portfolio, often linking to other social media accounts, or websites where people can buy their products.
 
 - **Make polls.** Twitter polls are a great way to engage with your audience since they take a low amount of effort to participate in.
 

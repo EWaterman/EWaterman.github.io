@@ -15,9 +15,9 @@ Post pages or even specific panels that you’re really proud of, time lapses of
 
 The key here is to get people excited in your project. You want people to look at your stuff and want to see more.
 
-There are a lot of different techniques that can help you achieve this but basically, you want your posts to both stand out from the crowd, and be immediately eye catching. Because of this, **the more visually engaging you can make your posts, the better the response will be**. Posting a colourful painting of your characters in action will probably get you more engagement than simply making a generic text post about it. Wall of text post tend to just get scrolled past unless the message is short and interesting.
+There are a lot of different techniques that can help you achieve this but basically, you want your posts to both stand out from the crowd, and be immediately eye catching. Because of this, **the more visually engaging you can make your posts, the better the response will be**. Posting a colourful painting of your characters in action will probably get you more engagement than simply making a generic text post about it. Wall of text posts tend to get scrolled past unless the message is short and interesting.
 
-Also, **vary your content when possible**. Posting the same type of thing over and over is boring and besides, different people like different things. Some want to see more line work while others want to see character profiles. By varying the content you product, you'll be able to stay fresh as well as attract different people to your profile.
+Also, **vary your content when possible**. Posting the same promotional art over and over is boring. Show off line work, your character art, drawing time lapses, etc... By mixing up the content you produce, you'll be able to stay fresh as well as attract different people to your profile.
 
 > But I’m just starting out! I don’t even have any finished art yet!
 
@@ -33,7 +33,7 @@ I also found that posting rough work was a good opportunity to engage directly w
 
 We’ll talk more about this later, but **some of the best marketing campaigns focus on engaging the audience**. By getting your followers directly involved in the process, they’ll start becoming more invested in your product because they feel like they played a part in its creation. It doesn’t matter how small the contribution, they’ll want to see your project succeed because they put effort into it themselves.
 
-It’s also a nice way to get some extra feedback as to what works for your audience and what doesn’t, which is always nice little bonus.
+It’s also a good way to get some extra feedback as to what works for your audience and what doesn’t, which is always a nice little bonus.
 
 <br>
 Oh, and **don't try and boost your numbers by going on Twitter and mass following a bunch of random people**. While you may get some people following you back, those numbers won’t actually mean anything. In fact, they could actually be detrimental to your campaign!

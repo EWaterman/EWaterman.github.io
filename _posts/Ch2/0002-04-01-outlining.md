@@ -17,7 +17,7 @@ First off, even if you’re not an outliner, I encourage you to read this sectio
 
 Okay, so outlining!
 
-This is where you figure out all the major plot elements and the order they go in. You don’t need to sort out out all the little details yet (save that for the actual writing of the scenes), just the general idea of what happens within each scene.
+This is where you figure out all the major plot elements and the order they go in. You don’t need to sort out all the little details yet (save that for the actual writing of the scenes), just the general idea of what happens within each scene.
 
 I’ve put outlining before [world building]({{ site.baseurl }}{% link _posts/Ch2/0002-05-01-world-building.md %}) and [characters]({{ site.baseurl }}{% link _posts/Ch2/0002-06-01-characters.md %}) but these steps are really all intertwined.
 
@@ -99,11 +99,11 @@ Here are some general tips that you’ll want to account for in your outlining p
 
 - **If something doesn’t fit in your story just let it go.** I know how hard it can be to cut a scene that you love but if it starts breaking more promises than it fixes, or if you have to switch too many other good scenes to make this one fit, it’ll just end up hurting you in the long run. At the same time...
 
-- **DON'T ERASE/DELETE CUT PLOT POINTS!** While something may not fit now, as your story changes, you might find out that something you once cut now works in a different place in the story. Don't let ideas go to waste. They might even be useful for other stories you may write. I like to keep a notepad with all my cut content near me when I outline as a potential source of ideas.
+- **DON'T ERASE/DELETE CUT PLOT POINTS!** While something may not fit now, as your story changes, you might find out that something you once cut now works in a different place in the story. Don't let ideas go to waste. They might even be useful for other stories you may write. I like to keep a notepad with all my cut content near me when I outline, as a potential source of ideas.
 
 - **Start at the end and work backwards.** Not everyone likes this method, but when I outline, the first thing I like to do is figure out how my stories will end. From there I figure out what caused this final event, then what caused the event that caused the final event… This helps make sure that each element feels like a natural result of the previous one, and results in a planned and satisfying ending.
 
-- **Each scene must have a purpose.** An big action scene makes for a good hook, but gets boring quick unless we are given a reason to care. Ask yourself what you’re trying to achieve with each scene you write. Maybe you want to get an emotional reaction from your readers, show development in your characters, or advance your plot. Usually you want your scene to serve multiple purposes (this tends to make them more interesting), but you always need at least one reason to have the scene.
+- **Each scene must have a purpose.** A big action scene makes for a good hook, but gets boring quick unless we are given a reason to care. Ask yourself what you’re trying to achieve with each scene you write. Maybe you want to get an emotional reaction from your readers, show development in your characters, or advance your plot. Usually you want your scene to serve multiple purposes (this tends to make them more interesting), but you always need at least one reason to have the scene.
 
 - **Consider merging scenes together to make them more interesting.** If you need to have a discussion between characters and also need to get your characters from point A to point B, why not have them talk along the way instead of dragging it out for two scenes? Merging parallelizable scenes together helps streamline your story, and fills dead space that would otherwise be boring to read.
 

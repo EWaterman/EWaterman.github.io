@@ -9,7 +9,7 @@ categories: ["guide", "Writing"]
 [Writing The Perfect Scene](http://www.advancedfictionwriting.com/articles/writing-the-perfect-scene/) (article) - Randy Ingermanson
 
 <hr><br>
-So you have your outline with a bunch of basic scenes scattered all over it. Now it’s time to actually go a write those scenes!
+So you have your outline with a bunch of basic scenes scattered all over it. Now it’s time to actually go and write those scenes!
 
 Before you start, I recommend you **read through the following rules, but avoid applying them line-by-line as you write your first draft**. I of course try to keep the below tips in my head as I write, but I prefer to blurt out all my ideas in a big jumbled mess, and then go back and evaluate them in retrospect. I found that this lets me keep things fresh and helps the story flow more naturally since I don't have to keep stopping my writing to check if I'm doing everything exactly right. As always, feel free to experiment. You have to decide what method works best for you.
 
@@ -36,7 +36,7 @@ That said...
 
 - **Include only the characters that are essential to the scene.** Who would be most affected by the result of the scene? Who has the most at stake? By narrowing the focus of a scene to just the important characters you can make key moments in a scene more impactful.
 
-- **Make sure your scenes transition well into each other.** Consider the location, time and tonal differences of your locations and what it means to go from one to the other. Abruptly changing from one scene to another without wrapping up the first scene or setting up the reader for the shift, can often result in a jarring experience (one that can be created intentionally if that's the tone you're trying to convey). As much as possible, make your scene ends and starts clear, and give the reader a definitive transition between them.
+- **Make sure your scenes transition well into each other.** Consider the location, time and tonal differences of your locations and what it means to go from one to the other. Abruptly changing from one scene to another without wrapping up the first scene or setting up the reader for the shift, can often result in a jarring experience (one that can be created intentionally if that's the tone you're trying to convey). As much as possible, give your scenes a definitive end and start, and give the reader a clear transition between them. Note that an abrupt scene change can be done intentionally to cause a jarring experience for the reader or for comedic purposes.
 
 <br>
 

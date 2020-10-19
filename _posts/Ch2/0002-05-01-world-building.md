@@ -60,18 +60,18 @@ As a bit of a side note, while creating your world, I encourage you to **look be
 
 There’s so much out there to draw inspiration from, so why not diversify your influences?
 
-That said, when dealing with cultures and perspectives you’re unfamiliar with, it’s easy to run into unintentional stereotypes. Make sure to do your proper research as to avoid any misrepresentation, and that leads me straight into...
+That said, when dealing with cultures and perspectives you’re unfamiliar with, it’s easy to run into unintentional stereotypes. Make sure to do your proper research to avoid any misrepresentation, and that leads me straight into...
 
 <br>
 
 ### <a name="research"></a>Research
 
 <hr><br>
-**The research phase is for the parts of your story that exist in the real world or have already been previously created.** This is an important distinction to make. Even though elves don’t exist in the real world, there’s still countless amount of information written about them. If you’re including something in your story that people could have prior knowledge about, it’s important to do your research to make sure you represent it correctly. (Though life I said before, I’d argue having a generic “elf” race in your story is very overused and boring. Spice it up a bit! How can you twist the common understanding of what an elf is to make it interesting?)
+**The research phase is for the parts of your story that exist in the real world or have already been previously created.** This is an important distinction to make. Even though elves don’t exist in the real world, there’s still countless amounts of information written about them. If you’re including something in your story that people could have prior knowledge about, it’s important to do your research to make sure you represent it correctly. (Though like I said before, I’d argue having a generic “elf” race in your story is very overused and boring. Spice it up a bit! How can you twist the common understanding of what an elf is to make it interesting?)
 
 Research on a subject can be conducted in many ways:
 
-- **Read about your subject.** If your story is set during World War One, look for articles online or checkout a book from your library (yes those still exist and you should use them).
+- **Read about your subject.** If your story is set during World War One, look for articles online or check out a book from your library (yes those still exist and you should use them).
 
 - **Talk to experts or those who have experience in the subject.** This could range anywhere from experts in a field to a person of a specific ethnic group. If your story has rocket launchers, talk to someone knowledgeable with them so you don’t make mistakes when you include them in your story. If your main character is a woman but you’re a man, consider getting some female beta readers to examine your world (and your whole plot for that matter) to make sure you’re not accidentally being a sexist prick.
 

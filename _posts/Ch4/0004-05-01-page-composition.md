@@ -4,7 +4,7 @@ title: Page Composition
 categories: ["guide", "Drawing"]
 ---
 
-[Comic Book Paper](http://comicbookpaper.com/) (webapp) - You pick the number of panels in your page and it provides a whole bunch sample page layouts. Really, really cool.
+[Comic Book Paper](http://comicbookpaper.com/) (webapp) - You pick the number of panels in your page and it provides a whole bunch of sample page layouts. Really, really cool.
 
 [Advanced Layouts: Paneling Outside the Box](http://dresdencodak.tumblr.com/post/841119890/advanced-layouts-paneling-outside-the-box) (article) - Aaron Diaz
 
@@ -72,7 +72,7 @@ These pages from Dragon Ball Z express the point well (though you could probably
     ![](/images/guide/dynamic.JPG)
     *[Drama Kingdom](https://tapas.io/series/DramaKingdom) - [Nick Talbert](https://www.instagram.com/ninjablahblah/)*
     
-    Changing up what kinds of panels you use allows for some moments to last longer than others and forces the reader to play a more active role in in story, as their eye is constantly searching for where to look next on the page. A highly varied panel structure is often used in action scenes to show things being more chaotic.
+    Changing up what kinds of panels you use allows for some moments to last longer than others and forces the reader to play a more active role in the story, as their eye is constantly searching for where to look next on the page. A highly varied panel structure is often used in action scenes to show things being more chaotic.
 
 - **Borderless panels can be used as emphasis or to create a feeling of timelessness.**
 

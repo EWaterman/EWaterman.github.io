@@ -22,9 +22,9 @@ There's so much you can do with lettering:
 
 - Lettering can [directly interact with the art](https://www.instagram.com/p/Bi9tar6Br1D/) to reinforce the tone of the book or add emphasis to key moments.
 
-- It can be used to as a physical barrier between characters to show division.
+- It can be used as a physical barrier between characters to show division.
 
-- It can be [big and bold](https://www.instagram.com/p/BcXb-qpFnaa/) to amplify action scenes. But at the same time it can be jarring and pull the reader out of the story if done incorrectly.
+- It can be [big and bold](https://www.instagram.com/p/BcXb-qpFnaa/) to amplify action scenes. But at the same time it can be jarring, and end up pulling the reader out of the story if done incorrectly.
 
 To sum it all up: **When in doubt, keep the lettering simple, but don't be afraid of letting it shine through when it has something to add.**
 

@@ -8,7 +8,7 @@ categories: ["guide", "Colouring"]
 
 Contrary to common belief, **modern day comics don’t have to be in colour to be “good”**. Like everything, deciding whether or not your comics should be in colour involves a number of trade-offs to consider.
 
-Often times, black and white is seen in darker, more gritty comics but this is not always the case. The action comedy [Scott Pilgrim](https://en.wikipedia.org/wiki/Scott_Pilgrim) had major success in black and white (though a colour version was later released).
+Oftentimes, black and white is seen in darker, more gritty comics but this is not always the case. The action comedy [Scott Pilgrim](https://en.wikipedia.org/wiki/Scott_Pilgrim) had major success in black and white (though a colour version was later released).
 
 Here are a few reasons why you should consider going with black and white:
 
@@ -18,7 +18,7 @@ Here are a few reasons why you should consider going with black and white:
 
 - **The art can be melded together.** Without colour, page depth becomes less prominent. The foreground and background start to blend together into a single layer, becoming one, larger image. This results in more abstract or stylized environments. This is super useful when creating more poetic or surreal stories like [Epileptic](https://en.wikipedia.org/wiki/Epileptic_(comics)).
 
-- **It's way cheaper!** I'm not really an advocate for choosing something because it's cheap but printing black and white really does cut down the costs pretty significantly. ESPECIALLY if would have had to hire someone to do the colours. Lots of creators start their comics as black and white, and colour them later once they've made some money.
+- **It's way cheaper!** I'm not really an advocate for choosing something because it's the cheap option, but printing black and white really does cut down the costs pretty significantly. ESPECIALLY if you would have had to hire someone else to do the colours. Lots of creators start their comics as black and white, and colour them later once they've made some money.
 
 If you DO choose to stick to black and white:
 

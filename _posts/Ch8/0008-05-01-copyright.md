@@ -9,7 +9,7 @@ categories: ["guide", "Publishing"]
 [Bound By Law?](http://www.thepublicdomain.org/wp-content/uploads/2009/04/bound-by-law-duke-edition.pdf) (comic, PDF) - Keith Aoki, James Boyle, Jennifer Jenkins
 
 <hr><br>
-Mandatory disclaimer number two: **I'm not a copyright lawyer!** Also, the rules I'm stating are for US and Canada. Make sure to check your local laws before you make any decisions. When in doubt talk to a professional.
+Mandatory disclaimer number two: **I'm not a copyright lawyer!** Also, the rules I'm stating are for the US and Canada. Make sure to check your local laws before you make any decisions. When in doubt talk to a professional.
 
 In the US and Canada, Copyright is free and automatic once a project is created. No registration is required. What you pay for when you DO register your product is a “filing fee”. The government takes your documents and stores them for future use.
 

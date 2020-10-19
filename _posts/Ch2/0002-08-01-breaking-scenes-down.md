@@ -8,7 +8,7 @@ Okay so you have your scenes written out, now it’s time to really start buildi
 
 Again, I suggest you **write your first draft freely**. Let your story come out naturally at least once before you start a deep dive analysis on it.
 
-That said, it seems that every story I write has at least one scene I just can't seem break down. I might have a general idea of what I want to have happen in the scene, but when I actually go to script it out, the words don't come out right, or the panel structure is all wrong. If I'm really struggling to script out a scene, I use the following formula to help break the scene down into its components:
+That said, it seems that every story I write has at least one scene I just can't seem to break down. I might have a general idea of what I want to have happen in the scene, but when I actually go to script it out, the words don't come out right, or the panel structure is all wrong. If I'm really struggling to script out a scene, I use the following formula to help break the scene down into its components:
 
 - First, I **split apart the individual actions of the scene**
 
@@ -31,7 +31,7 @@ The first thing I do when breaking down a scene is to take my notes and split th
 
 [Mastering Comics](https://www.amazon.ca/Mastering-Comics-Drawing-Pictures-Continued/dp/1596436174/ref=pd_sim_14_1?_encoding=UTF8&psc=1&refRID=717HW3NH9NTRCSMXJVJ2) by Jessica Abel and Matt Madden has an excellent section on atoms that I encourage you to check out but in an attempt to summarize: **atoms are the elementary actions of a scene.**
 
-Atoms are snapshots in time, comprising of a single action or state change. A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into. Any time something moves from one state to another, no matter how small the change, it can be considered as an atomic action.
+Atoms are snapshots in time, consisting of a single action or state change. A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into. Any time something moves from one state to another, no matter how small the change, it can be considered as an atomic action.
 
 Here’s an example scene from my comic:
 
