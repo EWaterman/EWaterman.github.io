@@ -2,5 +2,5 @@
 
 ####built with Jekyll using Bootstrap and JQuery.
 
-###live at ewaterman.github.io
+###live at evanjwaterman.com
 

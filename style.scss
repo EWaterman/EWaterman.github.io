@@ -308,6 +308,19 @@ code {
 // ================== END PAGE NAVIGATOR ==================
 
 // ======================= COLOURS ========================
+.base {
+  color: $pink;
+}
+
+.hilight {
+  color: $pink;
+}
+
+.active {
+  background-color: $blue;
+}
+
+// Don't use these colours anymore. It's an antipattern. Use above
 .orange {
   color: $orange;
 }
@@ -326,10 +339,6 @@ code {
 
 .pink {
   color: $pink;
-}
-
-.active {
-  background-color: $blue;
 }
 // ===================== END COLOURS =======================
 
