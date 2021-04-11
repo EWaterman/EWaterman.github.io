@@ -164,12 +164,6 @@ img {
   }
 }
 
-@media only screen and (max-width: $smAndUnder) {
-  .stylized-btn {
-    width:80%;
-  }
-}
-
 // For absolute positioned children
 .relative-container {
   position: relative;
@@ -479,10 +473,13 @@ code {
   }
 }
 
-#homepage-btns-container {
-  display: flex;
+#homepage-btns-desk {
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+#homepage-btns-mobile {
+  width: 100%;
 }
 
 #homepage-btn-2 {
@@ -1162,12 +1159,6 @@ code {
   font-size: 8em;
 }
 
-@media only screen and (max-width: $smAndUnder) {
-  .guide-btn {
-    width: 80%;
-  }
-}
-
 .guide-btn {
   margin-left: auto;
   margin-right: auto;
@@ -1190,11 +1181,11 @@ code {
   -o-transition: all .4s;
   -webkit-transition: all .4s;
   transition: all .4s;
-}
 
-.guide-btn:hover, .guide-btn:active, .guide-btn:focus {
-  background-color: $black;
-  color: $white;
+  &:hover, &:active, &:focus {
+    background-color: $black;
+    color: $white;
+}
 }
 
 #guide-links {
