@@ -4,11 +4,10 @@
 //
 
 // Colors
-$lightBlue: #66fcf1;
-
 $homepageBg: #bec2c3; // could do #e0e0e0 or #f7f7f7
 $elevatedBg: #d2d2d2;
 
+$lightBlue: #66fcf1;
 $blue: #5bc0de; // #08d1d5
 $green: #5cb85c;
 $orange: #f0ad4e;
@@ -38,9 +37,16 @@ $white: #fff;
 $lato: 'Lato', Helvetica, Arial, sans-serif;
 $aloja: "Aloja-Light", 'Lato', Helvetica, Arial, sans-serif;
 
+// Bootstrap sizes
+$smAndUnder: 767px;
+$mdAndOver: 768px;
+$mdAndUnder: 991px;
+$lgAndOver: 992px;
+$lgAndUnder: 1199px;
+
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: $smAndUnder) {
     @content;
   }
 }

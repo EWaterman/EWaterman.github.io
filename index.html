@@ -4,31 +4,41 @@ title: Evan Waterman
 description: Evan Waterman makes many things.
 ---
 
-<!-- Wrapper for Homepage content -->
 <div id="homepage-content">
-	<div id="homepage-title"> 
-		<h1><b class="pink">Evan Waterman</b> makes many things.</h1>
-	</div>
+	<div id="homepage-non-mobile">
+		<!--Text at top-->
+		<div id="homepage-text-wrapper-desk" class="homepage-text-wrapper d-none d-md-block">
+			<h1><b>Evan Waterman</b> makes&nbsp;</h1>
 
-	<div class="container-fluid">
-		<div class="row">
+			<div id="homepage-variable-text-wrapper">
+				<!--Needed to center the text-->
+				<h1 style="visibility: hidden;">many things.</h1>
 
-			<!--Left side buttons-->
-			<div class="my-scrollbar homepage-col offset-lg-1 col-lg-4">
-				<a id="comic" href="/comic/" class="homepage-btn">Comics</a>
-				<a id="kids" href="/kids/" class="homepage-btn">Kids Books</a>
-				<a id="guide" href="/guide/" class="homepage-btn">Guide Books</a>
-				<a id="dev" href="/dev/" class="homepage-btn">Websites</a>
+				<!--Displays when nothing is hovered on-->
+				<h1 class="homepage-text" id="default-text">many things.</h1>
+
+				<!--Text on Hover-->
+				<h1 class="homepage-text" id="comic-text" style="display: none;">comics.</h1>
+				<h1 class="homepage-text" id="guide-text" style="display: none;">tutorials.</h1>
+				<h1 class="homepage-text" id="dev-text" style="display: none;">websites.</h1>
 			</div>
+		</div>
+		<div id="homepage-text-wrapper-mobile" class="homepage-text-wrapper d-md-none">
+			<h1><b>Evan Waterman</b> makes many things.</h1>
+		</div>
 
-			<!--Right side images-->
-			<div class="homepage-col col-lg-6">
+		<!-- Image and button content -->
+		<div class="container-fluid">
+			<div class="row">
 
-				<!--Main image-->
-				<div id="homepage-main-img-wrapper">
-					<img sizes="(max-width: 1200px) 100vw,
-											(max-width: 1400px) 50vw,
-											 2600px"
+				<!--Left side-->
+				<div class="homepage-main-img-col col-md-6 d-none d-md-block bottom-align-imgs">
+					<!--Main image-->
+					<div id="homepage-main-img-wrapper">
+						<img class="homepage-desk-img"
+						     sizes="(max-width: 1200px) 100vw,
+												(max-width: 1400px) 50vw,
+												 2600px"
 							 srcset="/images/home/bgt_200.png 200w,
 											 /images/home/bgt_705.png 705w,
 											 /images/home/bgt_1024.png 1024w,
@@ -36,37 +46,109 @@ description: Evan Waterman makes many things.
 											 /images/home/bgt_1400.png 1400w,
 											 /images/home/bgt_2600.png 2600w"
 							 src="/images/home/bgt_2600.png">
+					</div>
+
+					<!--Doodles-->
+					<div class="d-none d-md-block">
+						<img class="homepage-doodle homepage-desk-img" id="comic-doodle" src="/images/home/comic.png">
+						<img class="homepage-doodle homepage-desk-img" id="guide-doodle" src="/images/home/guide.png">
+						<img class="homepage-doodle homepage-desk-img" id="dev-doodle" src="/images/home/dev.png">
+					</div>
 				</div>
 
-				<!--Doodles-->
-				<div class="d-none d-lg-block">
-					<img class="homepage-doodle" id="comic-doodle" src="/images/home/comic.png">
-					<img class="homepage-doodle" id="guide-doodle" src="/images/home/guide.png">
-					<img class="homepage-doodle" id="dev-doodle" src="/images/home/dev.png">
-					<img class="homepage-doodle" id="kids-doodle" src="/images/home/kids.png">
-					<img class="homepage-doodle" id="youtube-doodle" src="/images/home/youtube.png">
+				<!--Right side -->
+				<div id="homepage-btns-container" class="col-md-4 align-self-center">
+					<div id="homepage-btn-1" class="homepage-btn-wrapper">
+						<a id="comic" href="/comic/" class="homepage-btn"><i class="far fa-comment fa-8x"></i></a>
+					</div>
+					<div id="homepage-btn-2" class="homepage-btn-wrapper">
+						<a id="guide" href="/guide/" class="homepage-btn"><i class="fas fa-book fa-8x"></i></a>
+					</div>
+					<div id="homepage-btn-3" class="homepage-btn-wrapper">
+						<a id="dev" href="/dev/" class="homepage-btn"><i class="fas fa-code fa-8x"></i></a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- Main image mobile (hidden on md and larger) -->
+		<div id="mobile-homepage-main-img-wrapper" class="d-md-none bottom-align-imgs">
+			<img src="/images/home/bgt_mobile.png">
+		</div>
+
 	<!-- Contact button -->
-	<div class="d-none d-lg-block">
+	<div class="d-none d-md-block">
 		<div id="homepage-contact">
 			<h3><a href="/contact/"><i class="fa fa-envelope"></i> Contact</a></h3>
 		</div>
 	</div>
 </div>
 
-<script defer>
+<!-- Dynamic fixing of desktop photo sizing. -->
+<script>
+	// Only checks once we're done resizing the window
+	var waitForFinalEvent = (function () {
+	  var timers = {};
+	  return function (callback, ms, uniqueId) {
+	    if (!uniqueId) {
+	      uniqueId = "Don't call this twice without a uniqueId";
+	    }
+	    if (timers[uniqueId]) {
+	      clearTimeout (timers[uniqueId]);
+	    }
+	    timers[uniqueId] = setTimeout(callback, ms);
+	  };
+	})();
+
+    // If left image is taller than the column containing it, make it overflow, else glue it to the bottom of the screen
+	function repositionImg() {
+		if ($('.homepage-desk-img').height() >= $('.homepage-main-img-col').height()) {
+	    	$('.homepage-desk-img').removeClass('homepage-desk-img-short').addClass('homepage-desk-img-tall');
+		} else {
+	    	$('.homepage-desk-img').removeClass('homepage-desk-img-tall').addClass('homepage-desk-img-short');
+	    }
+	}
+	
+	 // Call it once on load then on any time we resize the window..
+	$(function() {
+		repositionImg();
+	});
+	$(window).resize(function () {
+	    waitForFinalEvent(function(){
+	    	repositionImg();
+	    }, 50, "homepage-desk-img-resizer");
+	});
+
+</script>
+
+<!-- Display doodles and alter text on hover -->
+<script>
 	$('.homepage-btn').hover(
 	function() { // on mouse over
 		var target = "#" + $(this).attr('id') + "-doodle";
 		$(target).fadeIn('fast');
 		$(target).siblings("img").finish();
-	}, function() { // on mouse out
+
+		$("#" + $(this).attr('id') + "-text").show();
+		$('#default-text').hide();
+	},
+	function() { // on mouse out
 		var target = "#" + $(this).attr('id') + "-doodle";
 		$(target).fadeOut('fast');
 		$(target).siblings("img").finish();
+
+		$("#" + $(this).attr('id') + "-text").hide();
+		$('#default-text').show();
+	});
+</script>
+
+<!--Mobile. Move me down on click. -->
+<script>
+	$('#mobile-homepage-main-img-wrapper').click(function() {
+	    $('#mobile-homepage-main-img-wrapper').animate({marginTop: '+=1000'}, 1000, function() {
+		    // And after a while, move me back up.
+		    $('#mobile-homepage-main-img-wrapper').delay(1000).animate({marginTop: '-=1000'}, 1000);
+		});
 	});
 </script>
