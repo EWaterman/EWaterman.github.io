@@ -455,9 +455,15 @@ code {
   }
 
   .homepage-main-img-col {
-    //max-height: calc(1.21489198 * 45vw);
     height: calc(100vh - 150px); // Text height
   }
+}
+
+// Uses apect ratio of bgt_mobile.png (1116/1769) to determine height.
+// Assumes the image takes the full page width on mobile
+#mobile-homepage-main-img-wrapper {
+    height: calc(0.630864895 * 100vw - 1px);
+    overflow: hidden;
 }
 
 #homepage-contact {

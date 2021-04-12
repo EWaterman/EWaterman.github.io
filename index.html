@@ -79,7 +79,7 @@ description: Evan Waterman makes many things.
 
 	<!-- Main image mobile (hidden on md and larger) -->
 		<div id="mobile-homepage-main-img-wrapper" class="d-md-none bottom-align-imgs">
-			<img src="/images/home/bgt_mobile.png">
+			<img id="mobile-homepage-main-img" src="/images/home/bgt_mobile.png">
 		</div>
 
 	<!-- Contact button -->
@@ -150,10 +150,10 @@ description: Evan Waterman makes many things.
 
 <!--Mobile. Move me down on click. -->
 <script>
-	$('#mobile-homepage-main-img-wrapper').click(function() {
-	    $('#mobile-homepage-main-img-wrapper').animate({marginTop: '+=1000'}, 1000, function() {
+	$('#mobile-homepage-main-img').click(function() {
+	    $('#mobile-homepage-main-img').animate({marginTop: '+=1000'}, 1000, function() {
 		    // And after a while, move me back up.
-		    $('#mobile-homepage-main-img-wrapper').delay(1000).animate({marginTop: '-=1000'}, 1000);
+		    $('#mobile-homepage-main-img').delay(1000).animate({marginTop: '-=1000'}, 1000);
 		});
 	});
 </script>
