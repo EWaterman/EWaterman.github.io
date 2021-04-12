@@ -13,10 +13,11 @@ description: More Than Men, OCTRA and more.
 	<!--MORE THAN MEN-->
 	<div class="container-fluid">
 		<div class="row comic-shorts-row">
-			<div id="mtm-main-img" class="col-md-6 align-self-end long-bg">
-				<img src="/images/comic/carson.png" class="comic-main-img">
-				<div class="comic-main-img-bg">
-				</div>
+			<div id="mtm-main-img-wrapper" class="col-md-6 align-self-end long-bg">
+				<!-- Two images, one hidden for height, the other for placing in front of bg -->
+				<div class="comic-main-img-bg"></div>
+				<img src="/images/comic/carson.png" style="visibility: hidden;">
+				<img src="/images/comic/carson.png" id="mtm-main-img">
 			</div>
 
 			<div class="col-md-6 comic-main-desc align-self-center comic-divider-mobile">

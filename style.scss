@@ -25,10 +25,14 @@ html {
 
 body {
   text-align: center;
-  background: $homepageBg;
+  background: $black;
   font: 18px/1.4 $lato;
   width: 100%;
   height: 100%;
+}
+
+#main {
+  background: $homepageBg;
 }
 
 .container {
@@ -392,7 +396,7 @@ code {
 // Sets the min height of the page minus the mobile image to be: total view height - height of the top bit of the image
 // The height of the image is calculated by: x == 100vw ; y/x == A ; y == A * x
 #homepage-non-mobile {
-  min-height: calc(100vh - (0.630864895 * 100vw) - 20px);  // 20px is from the text top margin
+  min-height: calc(100vh - (0.630864895 * 100vw));
 }
 
 #homepage-main-img-wrapper {
@@ -421,7 +425,7 @@ code {
 }
 
 .homepage-text-wrapper {
-  margin-top: 20px;
+  padding-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
   min-height: 150px;
@@ -455,14 +459,14 @@ code {
   }
 
   .homepage-main-img-col {
-    height: calc(100vh - 150px); // Text height
+    height: calc(100vh - 150px);
   }
 }
 
 // Uses apect ratio of bgt_mobile.png (1116/1769) to determine height.
 // Assumes the image takes the full page width on mobile
 #mobile-homepage-main-img-wrapper {
-    height: calc(0.630864895 * 100vw - 1px);
+    height: calc(0.630864895 * 100vw);
     overflow: hidden;
 }
 
@@ -800,25 +804,24 @@ code {
   padding: 40px;
 }
 
-#mtm-main-img {
+#mtm-main-img-wrapper {
   padding-top: 20px;
 }
 
-.comic-main-img {
-  vertical-align: bottom;
+#mtm-main-img {
+  position: absolute;
+  left: 0;
 }
 
 .comic-main-img-bg {
   animation: slide 180s linear infinite;
   background: url("/images/comic/carson-bg-low-op.jpg") repeat-y;
   background-size: 100% auto;
-  height: 9999px; // Just has to be bigger than container (aka carson.png) height
+  height: 4000px; // Just has to be bigger than container (aka carson.png) height
   left: 0;
-  //opacity: 0.4; // Already using low op image
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: -1;
 }
 
 @keyframes slide {
@@ -938,7 +941,7 @@ code {
 }
 
 @media only screen and (min-width: $mdAndOver) {
-  #mtm-main-img {
+  #mtm-main-img-wrapper {
     margin-left: -10px;
   }
 
