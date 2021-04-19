@@ -21,6 +21,7 @@ $darkGray: #333;
 $gray: #666;
 $lightGray: #bfbfbf;
 $lighterGray: #eee;
+$offWhite: #f5f5f5;
 $white: #fff;
 
 // Font stacks
@@ -46,7 +47,7 @@ $lgAndUnder: 1199px;
 
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: $smAndUnder) {
+  @media (max-width: $smAndUnder), (orientation: portrait) {
     @content;
   }
 }

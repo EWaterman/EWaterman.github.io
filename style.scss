@@ -10,6 +10,24 @@
 @import "loader";
 // Syntax highlighting @import is at the bottom of this file
 
+// ======================================================
+// ======================== TOC =========================
+// ======================================================
+
+// BASE RULES (not my stuff)
+// GENERAL STUFF
+//  -PAGE NAVIGATOR
+//  -COLORS
+//  -MAILCHIMP
+//  -GUMROAD
+// HOMEPAGE
+// FREE COMIC PAGE
+// CONTACT PAGE
+// DEV PAGE
+// COMIC PAGE
+// GUIDE PAGE
+// FOOTER
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -136,22 +154,6 @@ img {
 }
 
 // ======================================================
-// ================== START MY STUFF!! ==================
-// ======================================================
-
-// GENERAL STUFF
-//  -PAGE NAVIGATOR
-//  -COLORS
-//  -MAILCHIMP
-//  -GUMROAD
-// HOMEPAGE
-// CONTACT PAGE
-// DEV PAGE
-// COMIC PAGE
-// GUIDE PAGE
-// FOOTER
-
-// ======================================================
 // =================== GENERAL STUFF ====================
 // ======================================================
 
@@ -161,8 +163,35 @@ img {
   color: black;
 }
 
+// Overriding bootstrap columns so they also factor in display orientation.
+// Essentially cancel md and higher settings if screen is longer than it is wide.
+// Note this also prevents us from setting multiple column sizes per element (ie can't do col-6 col-sm-4 col-md-3 anymore).
+@media (orientation: portrait) {
+
+  // Assume if we are applying a display setting, the mobile behaviour is to hide.
+  div[class^='d-md-block'], div[class*='d-md-block'],
+  div[class^='d-md-flex'], div[class*='d-md-flex']
+  {
+    display: none!important;
+  }
+  div[class^='d-md-none'], div[class*='d-md-none']
+  {
+    display: unset!important;
+  }
+
+  div[class^='col-md'], div[class*='col-md'] {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  div[class^='offset-md'], div[class*='offset-md'] {
+    margin-left: 0;
+  }
+}
+
 // custom column offset width. Half of 1.
-@media only screen and (min-width: $mdAndOver) {
+@media (min-width: $mdAndOver) and (orientation: landscape) {
   .offset-md-half {
     margin-left: 4.166665%;
   }
@@ -256,7 +285,7 @@ code {
 
   &:hover, &:active, &:focus {
     background-color: $black;
-    color: $white;
+    color: $offWhite;
   }
 }
 
@@ -446,13 +475,13 @@ code {
   left: 0;
 }
 
-@media only screen and (max-width: $lgAndUnder) {
+@media (max-width: $lgAndUnder) {
   #homepage-content h1 {
     font-size: 250%; // Shrink the text down so it doesn't wrap weird before we get to mobile version.
   }
 }
 
-@media only screen and (min-width: $mdAndOver) {
+@media (min-width: $mdAndOver) and (orientation: landscape) {
   #homepage-content {
     height: 100vh;
     overflow: hidden;
@@ -523,6 +552,25 @@ code {
   to   { transform: translate(0, -12px); }
 }
 // ====================== END HOMEPAGE =====================
+
+// =========================================================
+// ================= FREE COMIC PAGE =======================
+// =========================================================
+
+@media (min-width: $mdAndOver) and (orientation: landscape) {
+  #mock-up-wrapper {
+    min-height: calc(100vh - 151px); // stretch to the full screen width. Not sure why the extra pixel.
+  }
+}
+
+#mock-up-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#mock-up-img {
+  z-index: 10;
+}
 
 // =========================================================
 // ================== CONTACT PAGE =========================
@@ -631,8 +679,31 @@ code {
     margin-bottom: 50px;
     overflow: hidden;
   }
+  
   .relative-container:hover .on-hover-hide {
     opacity: 0;
+  }
+
+  [class^="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .front {
+    background-color: $elevatedBg;
+  }
+
+  .back {
+    background-color: $offWhite;
+  }
+
+  .front, .back {
+    border-radius: 30px;
+    padding: 30px;
   }
 }
 
@@ -641,12 +712,16 @@ code {
     font-weight: normal;
   }
 
+  h3, h6 {
+    margin: 0;
+  }
+
   .front {
     background-color: #f7389f;
   }
 
   .back {
-    background-color: whitesmoke;
+    background-color: $offWhite;
   }
 
   .front, .back {
@@ -657,6 +732,10 @@ code {
   .flip {
     height: 250px;
   }
+}
+
+.dev-three-things-ico {
+  margin-bottom: 15px;
 }
 
 .dev-jobs {
@@ -678,7 +757,7 @@ code {
   }
 }
 
-@media only screen and (max-width: $smAndUnder) {
+@media (max-width: $smAndUnder), (orientation: portrait) {
   #dev-header-section {
     padding-bottom: 75px;
   }
@@ -698,9 +777,14 @@ code {
   #dev-jobs-fg {
     padding: 50px 20px 100px 20px;
   }
+
+  #dev-contact {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
 }
 
-@media only screen and (min-width: $mdAndOver) {
+@media (min-width: $mdAndOver) and (orientation: landscape) {
   #dev-header-title {
     -webkit-transition: all .8s ease-in-out;
     -ms-transition: all .8s ease-in-out;
@@ -752,11 +836,34 @@ code {
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
   }
 }
+
+.portrait {
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.7);
+}
+
 // ==================== END DEV PAGE =========================
 
 // =========================================================
 // ===================== COMIC PAGE ==========================
 // =========================================================
+
+@media (min-width: $mdAndOver) and (orientation: landscape) {
+  #mtm-main-img-wrapper {
+    margin-left: 10px;
+  }
+
+  #mtm-text-wrapper {
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: $smAndUnder), (orientation: portrait) {
+  .comic-divider-mobile {
+    border-top: solid black 2px;
+  }
+}
 
 .venue {
   margin: 20px;
@@ -785,16 +892,6 @@ code {
   padding-left: 0;
 }
 
-.comic-divider {
-  border-top: solid black 2px;
-}
-
-@media only screen and (max-width: $smAndUnder) {
-  .comic-divider-mobile {
-    border-top: solid black 2px;
-  }
-}
-
 .logo-divider {
   margin-top: 10px;
   margin-bottom: 50px;
@@ -805,23 +902,25 @@ code {
 }
 
 #mtm-main-img-wrapper {
-  padding-top: 20px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 #mtm-main-img {
-  position: absolute;
-  left: 0;
+  z-index: 10;
 }
 
 .comic-main-img-bg {
   animation: slide 180s linear infinite;
   background: url("/images/comic/carson-bg-low-op.jpg") repeat-y;
   background-size: 100% auto;
-  height: 4000px; // Just has to be bigger than container (aka carson.png) height
+  height: 9999px; // Just has to be bigger than container (aka carson.png) height
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 @keyframes slide {
@@ -841,16 +940,10 @@ code {
   }
 }
 
-.comic-contact {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
 .comic-sign-up {
   padding: 30px 20px 50px 20px;
 
-  background-color: whitesmoke;
+  background-color: $offWhite;
 
   -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
   -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
@@ -877,7 +970,6 @@ code {
 
 .comic-shorts-row {
   overflow: hidden;
-  text-decoration: none !important;
 }
 
 #comic-octra-section {
@@ -887,8 +979,12 @@ code {
   padding-top: 50px;
 }
 
+#horror-bg {
+  width: 75%
+}
+
 #comic-horror-section {
-  padding-top: 75px;
+  padding-top: 30px;
   background-color: white;
 
   h1 {
@@ -929,7 +1025,7 @@ code {
 }
 
 .comic-img {
-  border: 3px solid $black;
+  box-shadow: 16px 16px black;
 }
 
 #comic-know-more {
@@ -940,11 +1036,7 @@ code {
   margin-bottom: 5px;
 }
 
-@media only screen and (min-width: $mdAndOver) {
-  #mtm-main-img-wrapper {
-    margin-left: -10px;
-  }
-
+@media (min-width: $mdAndOver) and (orientation: landscape) {
   .divider {
     max-width: 60%;
     margin-top: 75px;
@@ -1030,7 +1122,7 @@ code {
   }
 }
 
-@media only screen and (min-width: $mdAndOver) {
+@media (min-width: $mdAndOver) and (orientation: landscape) {
   #kids-ttp-section-3, #kids-ttp-section-4 {
     text-align: left;
   }
@@ -1071,6 +1163,50 @@ code {
 // ===========================================================
 // ======================== GUIDE PAGE =======================
 // ===========================================================
+#guide-separator-wrapper {
+  position: relative;
+  height: calc(50vw * 0.5625); // assumes a column 6. Uses image aspect ratio (1152 / 2048)
+  //width: 100%;   
+  //top: 0%;
+  //background-attachment: fixed;
+  //box-sizing: content-box;
+  //z-index: 1;
+}
+
+#guide-separator-left { 
+  background-image: url("/images/guide/guide-cover-bw.jpg");
+    height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 10% 30%;
+  background-attachment: fixed;
+}
+
+#guide-separator-right {
+  position: absolute;
+  right: 0;
+  //top: 0;
+  //box-sizing: content-box;
+  background-image: url("/images/guide/guide-cover-colour.jpg");
+    height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 10% 30%;
+  background-attachment: fixed;
+}
+
+
+#guide-separator {
+  height: 100%;
+  width: 5px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  z-index: 10;
+}
 
 #pagenav {
   min-height: 10px;
@@ -1094,7 +1230,7 @@ code {
 
 #guidepost-content-box {
   text-align: left;
-  background-color: whitesmoke;
+  background-color: $offWhite;
   padding: 40px;
   border-radius: 20px;
   margin-top: 20px;
@@ -1112,7 +1248,7 @@ code {
     border-bottom: 10px solid #2AA198;
   }
 
-@media only screen and (min-width: $mdAndOver) {
+@media (min-width: $mdAndOver) and (orientation: landscape) {
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -1151,11 +1287,11 @@ code {
   padding-bottom: 20px;
   background-color: $elevatedBg;
 
-  @media only screen and (min-width: $mdAndOver) {
+  @media (min-width: $mdAndOver) and (orientation: landscape) {
     border-left: 5px groove;
   }
 
-  @media only screen and (max-width: $smAndUnder) {
+  @media (max-width: $smAndUnder), (orientation: portrait) {
     border-top: 5px groove;
   }
 }
@@ -1193,8 +1329,8 @@ code {
 
   &:hover, &:active, &:focus {
     background-color: $black;
-    color: $white;
-}
+    color: $offWhite;
+  }
 }
 
 #guide-links {
@@ -1203,7 +1339,7 @@ code {
 
 #guide-main-left {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #guide-main-right {
@@ -1211,7 +1347,7 @@ code {
   padding-bottom: 50px;
 }
 
-@media only screen and (min-width: $mdAndOver) {
+@media (min-width: $mdAndOver) and (orientation: landscape) {
   #guide-main-right {
     border-left: 5px groove;
   }
