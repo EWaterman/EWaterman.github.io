@@ -197,11 +197,6 @@ img {
   }
 }
 
-// For absolute positioned children
-.relative-container {
-  position: relative;
-}
-
 // Markdown image captions
 img + em {
   display: block;
@@ -368,27 +363,6 @@ code {
 
 .active {
   background-color: $blue;
-}
-
-// Don't use these colours anymore. It's an antipattern. Use above
-.orange {
-  color: $orange;
-}
-
-.blue {
-  color: $blue;
-}
-
-.red {
-  color: $red;
-}
-
-.green  {
-  color: $green;
-}
-
-.pink {
-  color: $pink;
 }
 // ===================== END COLOURS =======================
 
@@ -721,18 +695,10 @@ code {
     margin-bottom: 50px;
     overflow: hidden;
   }
-  
-  .relative-container:hover .on-hover-hide {
-    opacity: 0;
-  }
 
   [class^="col-"] {
     padding-top: 15px;
     padding-bottom: 15px;
-  }
-
-  h2 {
-    margin: 0;
   }
 
   .front {
@@ -799,25 +765,25 @@ code {
   }
 }
 
+#dev-jobs-container {
+  color: white;
+}
+
 @media (max-width: $smAndUnder), (orientation: portrait) {
   #dev-header-section {
     padding-bottom: 75px;
   }
+
   .dev-col {
     margin-bottom: 30px;
   }
-  .dev-col-more {
-    margin-bottom: 60px;
-  }
+
   #dev-jobs-container {
-    color: white;
     background-color: black;
   }
-  #dev-jobs-bg {
-    padding: 100px 20px 50px 20px;
-  }
-  #dev-jobs-fg {
-    padding: 50px 20px 100px 20px;
+
+  #dev-jobs-bg, #dev-jobs-fg {
+    padding: 50px 20px;
   }
 
   #dev-contact {
@@ -848,20 +814,23 @@ code {
   }
 
   #dev-jobs-bg {
-    color: white;
+    z-index: 1;
     background-color: black;
     text-align: left;
-    padding: 175px 30% 175px 8%;
+    display: flex;
+    align-items: center;
+    padding: 30px 30% 30px 8%;
   }
-  #dev-jobs-fg {
-    position: absolute;
-    background-color: $elevatedBg;
-    height: calc(100% - 150px);
-    right: 60px;
-    top: 75px;
-    padding-top: 60px;
-    padding-bottom: 60px;
 
+  #dev-jobs-fg {
+    z-index: 10;
+    background-color: $elevatedBg;
+    display: flex;
+    align-items: center;
+    margin-left: calc(-16.666667% - 60px); // width of 8-6=2 columns plus 60px margin width of above 3 things section
+    padding: 60px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
     -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
