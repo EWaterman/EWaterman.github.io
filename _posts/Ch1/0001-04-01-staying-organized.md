@@ -17,7 +17,7 @@ If you want to use the same folder structure that I do, follow these steps:
 
 2) Click the download icon 
 
-3) You should now have a “art-template.zip” folder in your Downloads. Extract/unzip that folder (how-to guide for the non technical people: [Windows](https://support.microsoft.com/en-ca/help/14200/windows-compress-uncompress-zip-files), [Mac](http://support.topspinmedia.com/hc/en-us/articles/204262713-How-to-extract-a-zip-file-on-a-Mac)).
+3) You should now have an “art-template.zip” folder in your Downloads. Extract/unzip that folder (how-to guide for the non technical people: [Windows](https://support.microsoft.com/en-ca/help/14200/windows-compress-uncompress-zip-files), [Mac](http://support.topspinmedia.com/hc/en-us/articles/204262713-How-to-extract-a-zip-file-on-a-Mac)).
 
 
 I also use a similar folder structure to **manage my marketing and kickstarter data**. This structure is designed by the folks at ComixTribe. Check that out [HERE](http://ComixLaunch.com/organize) (you’ll have to subscribe to the ComixTribe e-mail list).
@@ -30,7 +30,7 @@ I also use a similar folder structure to **manage my marketing and kickstarter d
 To complement the project folder structure, I suggest using the following naming scheme to **keep your files organized within your folders.**
 
 ```
-<issue number> - <page number> - <roughs/pencils/inks/colours/letters> - <version number>
+<issue/chapter number> - <page number> - <roughs/pencils/inks/colours/letters> - <version number>
 ```
 
 Ex.
@@ -58,4 +58,4 @@ Imagine getting all your scripts done, your pages and pages of art all organized
 
 My personal motto is to **keep any important files stored in at least two places** (your computer, a USB, the cloud…) to avoid that horror story.
 
-I like to keep a copy of my [project folder](#project-folder) in both [OneDrive](https://onedrive.live.com/) and [Google Docs](https://www.google.ca/docs/about/) (can’t be too safe!).
+I like to keep a copy of my [project folder](#project-folder) in both [OneDrive](https://onedrive.live.com/) and [Google Docs](https://www.google.ca/docs/about/). (You can’t be too safe!)

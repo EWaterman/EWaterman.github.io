@@ -4,7 +4,7 @@ title: When To Bold Text
 categories: ["guide", "Lettering"]
 ---
 
-This is a point of contention among creators so I decided to break it out into it’s own section. 
+This is a point of contention among creators so I decided to break it out into its own section. 
 
 **Some letterers believe bolding should be used to emphasize key points in dialogue.** The idea is that you should be able to read just the bolded points and still get a clear understanding of what’s going on.
 

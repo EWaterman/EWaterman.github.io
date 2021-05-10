@@ -26,9 +26,9 @@ Equally important, **by understanding the purpose of your story, you won't blind
 
 Yeah I know, your comic may still be a long way from completion, but it’s purpose is something you have to understand from the outset if you want to get it right.
 
-Imagine watching a rom-com where everything is going normally but in the final act of the movie, it turns into a high intensity action sequence. Or imagine watching the trailer for a supposedly gore-tastic horror movie but the actual movie plays out more like an episode of My Little Pony. It's like setting up your audience for one movie but giving them another.
+Imagine watching a high intensity action movie where everything is going normally but in the final act of the movie, the action completely stops and it turns into a romantic drama. Or imagine watching the trailer for a supposedly gore-tastic horror movie but the actual movie plays out more like an episode of VeggieTales. It's like setting up your audience for one movie but giving them another.
 
-I'm sure some of you think those examples sound like awesome movies, but try to imagine all the viewers who would feel alienated because they were wanting to see a normal rom-com and got something else entirely.
+Of course, I'm sure some of you think those examples sound like awesome movies (myself included), but try to imagine all the viewers who would feel alienated because they were wanting to see one type of movie and got something else entirely.
 
 That said, there are plenty of stories with shocking reversals that totally work, you just have to make sure you set them up properly (which requires you to understand your story's ultimate purpose). Be very careful when attempting this kind of thing though because doing it wrong can be disastrous. After all, you're lying to your audience about what they're going to get. It's the difference between a Game of Thrones shocker and a Shyamalan twist.
 
@@ -36,6 +36,6 @@ That said, there are plenty of stories with shocking reversals that totally work
 
 First off, it’s not your choice whether or not to have a purpose. **Every story has a purpose. All you can do is choose what that purpose is.** If you don’t clearly identify your purpose, you risk alienating your readers and will ultimately make your comic appeal to no one.
 
-Secondly, **there is absolutely no way that your story will appeal to every type of comic reader.** This goes back to readers having a specific purpose as well. When marketing your story, **you’re way better off targeting the audience that matches your specific purpose.** Sure it may be a smaller audience but it will be a far more passionate one. Those are the kinds of people who will share your story around and the people who will ultimately buy book when it comes to market.
+Secondly, **there is absolutely no way that your story will appeal to every type of comic reader.** This goes back to readers having a specific purpose as well. When marketing your story, **you’re way better off targeting the audience that matches your specific purpose.** Sure it may be a more narrow audience but it will be a far more passionate one. Those are the kinds of people who will share your story around and the people who will ultimately buy your book when it comes to market.
 
 Every good story has a clear, attainable purpose, so what’s yours?

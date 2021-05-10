@@ -148,8 +148,6 @@ There’s also **[altcomix](https://www.reddit.com/r/altcomix/)**, **[comicbooks
 
 - **[Zwol](http://www.zwol.org/forum/index.php)**: An old forum that has recently started regaining steam. Gets a solid amount of eyes.
 
-- **[Comic Book Hour](http://comicbookhour.com/)**: One of the newer forums. Lots of collaboration going on here.
-
 - **[Digital Webbing](http://www.digitalwebbing.com/forums/)**: Long lasting and still quite active comic forums for writers, artists, letterers and other creators. FANTASTIC for finding collaborators.
 
 - **[ComixCentral](https://www.comixcentral.com/forum/)**: A quite new digital comic publishing platform with their own dedicated forums.

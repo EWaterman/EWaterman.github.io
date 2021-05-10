@@ -42,7 +42,11 @@ These pages from Dragon Ball Z express the point well (though you could probably
 
 - Unless you’re going for a specific effect, or are pairing panels like the previous point states, **keep your gutters the same size throughout your pages**. This just makes it easier for the reader to get through your pages and know what panel comes next.
 
-- **Vary panel structure.** Mixing up panel size, placement, and count, helps keeps things fresh and interesting to look at for the reader. [Even 9 and 6 panel grids differ from time to time.](https://www.youtube.com/watch?v=Gx1DZg7ACoc)
+- On a similar note, you may find it useful to **build guidelines for things you want to be consistent art wise in your comics**. Gutter size, whether or not you want to use SFX, any colour scheme restrictions you’re imposing, whether or not you want to use borderless panels... You can check every page you make against these guidelines to help give them a consistent style. You can also choose to break these rules intentionally at certain points to add special emphasis to certain pages.
+
+- **Vary panel structure.** Mixing up panel size, placement, and count, helps keep things fresh and interesting to look at for the reader. [Even 9 and 6 panel grids differ from time to time.](https://www.youtube.com/watch?v=Gx1DZg7ACoc)
+
+- Very similarly, **avoid overusing any one particular technique**. If every single page in your book is a splash page, then none of them are. The fewer times you use a trick, the more impactful it is when you actually end up using it.
 
 - **Consider the rhythmic flow of your panels.** The size and placement of panels within a page can have a great effect on how the page is read. There are a few factors that determine the flow of a page:
 

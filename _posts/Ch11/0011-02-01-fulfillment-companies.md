@@ -19,20 +19,6 @@ Of course, these benefits come with a cost. You’re going to have to pay for th
 It’s a tradeoff between time and price and ultimately a decision you’ll have to make for yourself. Either way, make sure to research each of your options thoroughly so you can make a smart decision about which is best for you.
 
 <br>
-### List of Fulfillment Companies
-
-**DISCLAIMER:** I’ve never used a fulfillment company myself, so I can’t speak to the authenticity of any of these companies.
-
-That said, here’s my list of companies that I’ve come across:
-
-- **[Black Box](https://www.blackbox.cool/)**
-- **[Easy Ship](https://www.easyship.com/worldwide-crowdfunding-shipping )**
-- **[Flo Ship](https://www.floship.com/get-a-quote/)**
-- **[Fulfillrite](https://fulfillrite.com/crowdfunding)**
-- **[Riley Life](https://www.rileylife.com/kickstarter )**
-- **[Ship Wire](https://www.shipwire.com/w/support/kickstarter-fulfillment-shipping-rewards/)**
-- **[Whiplash](https://www.whiplashmerch.com/kickstarter )**
-
 There are also some comic printers that offer their own fulfillment plans:
 
 - **[Kablam](https://ka-blam.com/main/kickstarter-reward-fulfillment-at-no-extra-cost-yep/)**

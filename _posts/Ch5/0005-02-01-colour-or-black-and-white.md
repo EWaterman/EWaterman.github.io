@@ -18,11 +18,11 @@ Here are a few reasons why you should consider going with black and white:
 
 - **The art can be melded together.** Without colour, page depth becomes less prominent. The foreground and background start to blend together into a single layer, becoming one, larger image. This results in more abstract or stylized environments. This is super useful when creating more poetic or surreal stories like [Epileptic](https://en.wikipedia.org/wiki/Epileptic_(comics)).
 
-- **It's way cheaper!** I'm not really an advocate for choosing something because it's the cheap option, but printing black and white really does cut down the costs pretty significantly. ESPECIALLY if you would have had to hire someone else to do the colours. Lots of creators start their comics as black and white, and colour them later once they've made some money.
+- **It's way cheaper!** I'm not really an advocate for choosing something because it's the cheap option, but printing black and white really does cut down the costs pretty significantly.
 
 If you DO choose to stick to black and white:
 
-- **Make sure your inks are in at least 600 dpi.** Printing in colour usually (depends on the printer) requires a maximum of 300 dpi pages. This is because on printed pages the colours will bleed into each other, slightly blurring the image so printing at a higher dpi wouldn't produce better results. This isn't the case with black and white comics (which only print with a single colour), so you'll want your art to be even higher resolution to keep it crisp. This isn't a massive deal though so if you're already finished some pages at 300dpi, don't stress about it and try to convert them to 600. Most people won't notice.
+- **Make sure your inks are in at least 600 DPI.** Printing in colour usually (depends on the printer) requires a maximum of 300 dpi pages. This is because on printed pages the colours will bleed into each other, slightly blurring the image so printing at a higher dpi wouldn't produce better results. This isn't the case with black and white comics (which only print with a single colour), so you'll want your art to be even higher resolution to keep it crisp. This isn't a massive deal though so if you're already finished some pages at 300 DPI, don't stress about it. Most people won't notice.
 
 - **Ensure your whites are true white.** A lot of the time if a comic page isn't colour corrected before going to print, the white sections of the page can come out as slightly gray. This is especially true for physical, scanned in pages. Make sure your whites are true whites by setting their CMYK or RGB values to zero before printing your pages. This holds true for coloured pages as well, but is more noticeable in black and white.
 

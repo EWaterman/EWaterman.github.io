@@ -26,17 +26,17 @@ For example, in this scene from More Than Men, a young woman is shown using her 
 
 That said...
 
-- **Only show the essential.** You don't need to show details that add nothing to the story. What does the reader get out of watching your character get in their car and drive the whole way to work? Not to say that a scene like that couldn't work (maybe you're revealing how mundane the character's life is). Just make sure it has an importance to the story.
+- **Only show the essential actions.** You don't need to show details that add nothing to the story. What does the reader get out of watching your character get in their car and drive the whole way to work? Not to say that a scene like that couldn't work (maybe you're revealing how mundane the character's life is). Just make sure it has an importance to the story.
 
 - **Determine the purpose of your scene and fulfill it.** Read back into the section on [the M.I.C.E. quotient]({{ site.baseurl }}{% link _posts/Ch2/0002-04-01-outlining.md %}#mice-quotient) about the different elements of a story. Each scene should progress at least one of these elements. Figure out which elements (the plot, the characters, the world or the idea) your scene addresses and make sure it develops them in some way.
 
 - **Start each scene with a hook.** Eye catching imagery, exciting action, provocative dialogue, an intriguing mystery, a suspicious question, looming danger. It doesn't need to be big and bold (subtly works just as well, if not better) but each scene you write should open with something that will make the reader want to keep reading. This is especially important for your first scene. You want the reader to be enthralled by page one!
 
-- **Set your scene somewhere that reinforces that scene’s purpose.** If your characters are discussing the future of a city, setting that scene on a balcony overlooking the city will add a satisfying visual cue to the reader. A location can also add a lot to the overall tone of a scene. If a character feels alone, setting a scene in an open field will emphasize this. Weather has similar effects. If your character is sad, having it be a dark, rainy day will add another layer of emotion to the scene.
+- **Set your scene somewhere that reinforces that scene’s purpose.** If your characters are discussing the future of a city, setting that scene on a balcony overlooking the city will add a satisfying visual cue to the reader. A location can also add a lot to the overall tone of a scene. If a character feels alone, setting a scene in an open field will emphasize this. Weather has similar effects. If your character is sad, having it be a dark, rainy day will add another layer of emotion to the scene. **Putting your setting in direct contrast to the tone can work just as well.** A funeral during a beautiful sunny day can [result in some incredible imagery](https://www.youtube.com/watch?v=7kQukPQDSag) (spoilers for Full Metal Alchemist).
 
 - **Include only the characters that are essential to the scene.** Who would be most affected by the result of the scene? Who has the most at stake? By narrowing the focus of a scene to just the important characters you can make key moments in a scene more impactful.
 
-- **Make sure your scenes transition well into each other.** Consider the location, time and tonal differences of your locations and what it means to go from one to the other. Abruptly changing from one scene to another without wrapping up the first scene or setting up the reader for the shift, can often result in a jarring experience (one that can be created intentionally if that's the tone you're trying to convey). As much as possible, give your scenes a definitive end and start, and give the reader a clear transition between them. Note that an abrupt scene change can be done intentionally to cause a jarring experience for the reader or for comedic purposes.
+- **Make sure your scenes transition well into each other.** Consider the location, time and tonal differences of your locations and what it means to go from one to the other. Abruptly changing from one scene to another without wrapping up the first scene or setting up the reader for the shift, can often result in a jarring experience (one that can be created intentionally if that's the tone you're trying to convey). As much as possible, give your scenes a definitive end and start, and give the reader a clear transition between them.
 
 <br>
 
@@ -59,8 +59,6 @@ In general, layout of a scene can often be broken down into the following sequen
 
 - **A Consequence:** An (often bad) event occurs as the result of that choice.
 
-By including these elements in your scene, you can ensure that each moment naturally follows from the previous one and that the scene ends in a satisfying way.
+By spotting which of these elements occur in your scene, you can ensure that each moment naturally follows from the previous one and that the scene ends in a satisfying way. It also ensures that things are constantly changing and your characters are making active decisions that progress your plot.
 
-It also ensures that things are constantly changing and your characters are making active decisions that progress your plot.
-
-Now, you don’t have to go through all the above steps in that order for every scene in your book. I know I sure don't. In fact, I encourage you NOT to do so, for the sake of keeping your story unpredictable. These are simply the elements that are common to most scenes. It’s up to you to decide when and where, but most importantly "if", they should be applied to a scene.
+Now, you don’t have to go through all the above steps in that order for every scene in your book. I know I sure don't. In fact, I encourage you NOT to do so for the sake of keeping your story unpredictable. These are simply the elements that are common to most scenes. It’s up to you to decide when and where, but most importantly "if", they should be applied to a scene.

@@ -37,7 +37,7 @@ With that said, I like to make sure my contract answers the following questions:
 
 - **Who has the right to sell the work?** Decide if your team members will be able to sell their own copies or if you or someone else will be handling the sales.
 
-- **What are your deadlines?** When does the project have to be completed? How many pages should be done per week?
+- **What are your deadlines?** When does the project have to be completed?
 
 - **How will you show attribution for the work?** This usually entails something like adding the artist's name to any of their work you post online.
 

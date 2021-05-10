@@ -54,7 +54,7 @@ There are a couple reasons to break out the atoms of a scene:
 
 - **It’s a good way to determine the length of a scene.** The more actions you have to show, the longer the scene will be. Pulling out the atoms also makes it much easier to split up the story into pages (see the next section).
 
-- **It can help reveal which moments can be merged together and which ones must stand on their own.** Atoms that can occur at the same time are called parallelizable atoms. Combining such atoms is often a useful tool for condensing your story and making panels more interesting. (More on this in the “forming panels” section.)
+- **It can help reveal which moments can be merged together and which ones must stand on their own.** A woman opening a door and saying hello can be shown at the same time. A man unholstering a gun, firing it, then re-holstering it cannot. (Not easily at least.) Atoms that can occur at the same time are called parallelizable atoms. Combining such atoms is often a useful tool for condensing your story and making panels more interesting. (More on this in the “forming panels” section.)
 
 #### The Minimum Set of Atoms
 
@@ -88,7 +88,7 @@ Of course planning page turns requires knowing what pages will be followed by su
 
 - Similarly, **hide reveals behind page turns.** When readers see two pages together, they can’t help but glance forward at both pages, spoiling any secrets you may have in those pages. By placing reveals behind page turns, they will be more impactful for the reader.
 
-- As much as possible, **end every page with a mystery that urges the reader to turn the page.** As a writer, you want to be constantly pulling your reader through your story. By adding a hook at the end of your pages (which can be as simple as a leading line of dialogue), your reader will be more engaged and it will make for a smoother read. It doesn’t have to be a massive mystery, just something that makes us wonder what’s on the other side of the page.
+- As much as possible, **end every page with a mystery that urges the reader to turn the page.** As a writer, you want to be constantly pulling your reader through your story. By adding a hook at the end of your pages (which can be as simple as a leading line of dialogue), your reader will be more engaged and it will make for a smoother read. It doesn’t have to be a massive mystery, just something that makes us wonder what’s on the other side of the page. It’s also useful for helping one page flow to another. Obviously you won’t always be able to do this, so don’t stress too much if it doesn’t work in any particular situation.
 
 Here’s the previous scene split into pages:
 
@@ -156,12 +156,12 @@ This effect can even be achieved in one panel with a single character:
 
 What really makes this effect work is the progression of the eye through the page. Just as people assume time is progressing forwards from one panel to the next, **by constantly moving the reader forward within a panel, the reader will naturally assume time is moving forward as well**.
 
-This is why most writers stick to a single exchange per panel. Character one says something, character two responds. The eye moves forward, time moves forward. Sometimes that exchange is even stretched across multiple panels.
-
 ![](/images/guide/mnemo.jpg)
 *[Mnemo Hacker](http://zero-explanations.tumblr.com/) - [Hobo](https://www.behance.net/artbyhobo)*
 
-Including a back and forth between two characters in a single panel can often mess with the natural flow of time because it forces the reader backwards in the panel. It can work if done right but it’s hard to pull off cleanly. Having more than one exchange in a panel usually only works if the counter-response is spoken in the same tone as the original statement and if that character’s expression wouldn’t have changed much since their original line.
+This is why most writers stick to a single exchange per panel. Character one says something, character two responds. The eye moves forward, time moves forward. Sometimes that exchange is even stretched across multiple panels.
+
+Including a full back and forth between two characters in a single panel can often mess with the natural flow of time because it forces the reader backwards in the panel. It can work if done right but it’s hard to pull off cleanly. Having more than one exchange in a panel usually only works if the counter-response is spoken in the same tone as the original statement and if that character’s expression wouldn’t have changed much since their original line.
 
 ![](/images/guide/y-exchange.jpg)
 *[Y the Last Man](https://www.amazon.ca/Y-Last-Man-Book-One/dp/140125151X) - [Brian K. Vaughan](http://bkvcomics.com/), [Pia Guerra](http://hellkitty.com/pia-guerra/), [Jose Marzan Jr.](http://josemarzan.com/)*
@@ -191,7 +191,7 @@ There’s just one action: Yorick pointing the gun. No dialogue. No other charac
 
 - **Cut unnecessary atoms and panels.** Every atom that doesn’t have a purpose would be a waste of space to include in or as a panel. Ask yourself what each atom achieves. Also ask yourself whether or not a previous atom already achieves that purpose. If you already have a panel showing your character is thirsty, do you really need that second one showing the same thing? Maybe you do, maybe you don't. Either way, it's worth thinking about. And remember that not every panel and atom needs to have a grandiose purpose. Your reasoning could be as simple as the panel helps to frame the scene for the reader, or reinforces the tone of the scene. Just make sure that, whatever it is, there‘s a reason behind each panel.
 
-Here's that scene from earlier with the atoms merged into panels (no dialogue). Remember the atoms:
+Here's that scene from earlier with the atoms merged into panels (with dialogue removed). Remember the atoms:
 
 - Carson shoots fire at the drug dealer’s car.
 - James shoots frost at the car to put out the fire.

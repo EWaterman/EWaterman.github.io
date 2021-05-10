@@ -22,7 +22,7 @@ Make sure that before you start drawing, you know what [the dimensions of your p
 
 **The standard single issue comic is 6.625 x 10.25 inches after trim (6.875 x 10.5 inches full bleed)**. Check out this great [comic template](http://ka-blam.com/printing/templates/2010_comic_template.png) by Ka-blam for a visual representation of the standard page format.
 
-While that format is the established norm, by no means do you have to obey that standard. Comics come in all shapes and sizes. Just note that not all printers support all page dimensions. Make sure to take that into consideration when reaching out to printers.
+While that format is the established norm, by no means do you have to obey that standard. Comics come in all shapes and sizes. My preferred sizing for graphic novels is 6 x 9 inches but really you can do whatever size you want. Just note that not all printers support all page dimensions. Make sure to take that into consideration when reaching out to printers.
 
 Something to note is that **many artists like to draw at much higher sizes and scale their images down for printing**. This is so the shrunk down files look more crisp, and so the artist can have the option of printing larger images for things like posters.
 
@@ -45,4 +45,4 @@ The resolution is essentially how high quality your images and prints are. **Mos
 
 Important to note, is that **for black and white comics, 300 DPI is often too low resolution and will result in blurred lines.** Many artists that work in black and white will set their files to 600 DPI or higher to get the most crisp art.
 
-Also important: Believe it or not, **computers have a much lower resolution than printed books**. My laptop is 118 PPI (pixels per inch). Just because something looks good on your computer doesn’t mean it will in print, so make sure your images are at high enough resolution!
+Also important: Believe it or not, **computers have a much lower resolution than printed books**. My laptop is 118 PPI (pixels per inch) and many say that a “high enough” resolution for digital only files is 72 DPI. Just because something looks good on your computer doesn’t mean it will in print, so make sure your images are at high enough resolution!

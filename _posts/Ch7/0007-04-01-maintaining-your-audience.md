@@ -38,7 +38,7 @@ Now, it can be debated whether or not this is actually a good thing, but unless 
 
 Imagine a Twitter account that has gathered a following over the years by posting exclusively 4 panel gag comics. It would be pretty safe to say that their audience would, over time, become primary people who like short gag comics. And those people would be more receptive to that content as well because they’re getting exactly what they signed up for. 
 
-Now imagine if that same Twitter account all of a sudden started posting extreme political commentary instead of comics. It’s pretty easy to see how they would annoy and probably lose a majority of their followers.
+Now imagine if that same Twitter account all of a sudden started posting exclusively about their favourite type of rocks instead of comics. It’s pretty easy to see how they would annoy and probably lose a majority of their followers.
 
 Again, I don’t want to make a statement about whether or not this “narrowing of your audience” is a good or bad thing, but the more you choose to take advantage of it, the more you develop a consistent tone in the content you produce, the more your audience will grow to respond positively to it.
 

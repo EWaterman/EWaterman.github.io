@@ -15,7 +15,7 @@ categories: ["guide", "Writing"]
 [Characters](http://dirtyoldladies.libsyn.com/episode-8-characters) (podcast) - Dirty Old Ladies
 
 <hr><br>
-Han Solo, Batman, Forrest Gump… Everyone has their favourite. 
+Han Solo, Ripley, Spider-Man, Wallace Wells, Forrest Gump… Everyone has their favourite. 
 
 **Characters are the lifeblood of your story.** Without strong, likable characters there is very little chance your readers will be interested in your comic.
 
@@ -38,9 +38,11 @@ So you want to make amazing characters. Good! Here are some quick tips on how to
 
 Even though you're writing a fictional story (and if you're not, this point is even MORE important), you still want your characters to be believable.
 
-- **Have your characters behave in a consistent way.** If one of your characters is an impatient jerk in one scene then suddenly starts behaving like a posh Englishman, your readers will be confused. Unless you're writing about someone with multiple split personalities (and even then, there's probably going to be some consistencies), give your characters a specific attitude and way of talking. Note that they can still act differently around different people and when they’re in different moods, however they should still have a consistent undertone throughout the story.
+- **Have your characters behave in a consistent way.** If one of your characters is an impatient jerk in one scene then suddenly starts behaving like a posh Englishman, your readers will be confused. Unless you're writing about someone with multiple split personalities (and even then, there's probably going to be some consistencies), give your characters a specific attitude and way of talking. Note that they can still act differently around different people and when they’re in different moods, however they should still have a consistent undertone throughout the story. I like to make bullet point reminders for my characters. Short notes about how they act, any accents or mannerisms they have, what their main motivations are... I frequently check my writing against these notes to ensure sure I’m keeping the characters consistent.
 
-- **Let your characters change as things happen to them.** Imagine what a soldier is like before and after going to war. Maybe they've become desensitized and are now unable to relate to other people. Maybe it completely demoralized them. Maybe it strengthened their core beliefs, making them a more confident person. Either way, they've probably come out of the situation changed. People are constantly growing and developing, and so too should your characters. This doesn't mean that characters have to ALWAYS be changing. Many light hearted shows like The Office, Friends or How I Met Your Mother have much more subtle character changes throughout the story. Most kids shows have no major personality changes in their characters (though it's arguable whether or not this is actually a good thing). 
+- Conversely, **having your characters do something out of the ordinary can help add emphasis to an in important moment**. If one of your characters is obsessively logical and never shows their emotions, having them react with a sudden flourish of rage when something especially bad happens to them will signify to the reader that this moment has great importance.
+
+- Similarly, **let your characters change as things happen to them.** Imagine what a soldier is like before and after going to war. Maybe they've become desensitized and are now unable to relate to other people. Maybe it completely demoralized them. Maybe it strengthened their core beliefs, making them a more confident person. Either way, they've probably come out of the situation changed. People are constantly growing and developing, and so too should your characters. This doesn't mean that characters have to ALWAYS be changing. Many episodic shows like The Office or Star Trek have much more subtle character changes throughout the story, with few changes happening episode to episode. 
 
 - **Give your characters a clear, traceable arc.** This relates to the previous point and falls back onto the idea that you should treat characters as a kind of plot arch in themselves. When designing the arcs of your characters, ask yourself: What are they like at the start of the story and who do they become at the end? More importantly, is that evolution satisfying?
 
@@ -56,7 +58,7 @@ I want to make it very clear that I absolutely believe **your characters don't n
 
 <br>
 
-**Relatable** characters are those that we can see ourselves in. They're the every-person, struggling with the same conflicts that we do every day. Luke Skywalker, Harry Potter and Jim Halpert are all relatable characters.
+**Relatable** characters are those that we can see ourselves in. They're the every-person, struggling with the same conflicts that we do every day. Luke Skywalker, Miles Morales, Sam and Frodo, and Jim Halpert are all relatable characters.
 
 - **Have your characters struggle with the same things we do or react in a similar way that we would.** Maybe they have a jerk boss at a job they hate. Maybe they feel overwhelmed after having been plucked out of their normal lives and thrown into the middle of a massive conflict between good and evil (almost all Hero's Journey stories have relatable, "fish out of water" main characters). By having your characters respond to situations the way the reader would, they feel "ordinary" and thus become more relatable. This is a dangerous road to tread however. Average is often synonymous with boring when it comes to story writing. Make sure to give your characters some sort of attribute that helps them stand out.
 
@@ -64,15 +66,15 @@ I want to make it very clear that I absolutely believe **your characters don't n
 
 - **Giving a character moments of genuinity makes them feel more real to us.** Everyone has an opinion. What are your characters passionate about? Once you know that, ask yourself: **How does your character express their passions to the outside world?** Maybe they’re very intimate and personal with them, hiding their true selves to all but their closest friends. Maybe they have nothing to hide and will express themselves freely in front of anyone.
 
-- **Consider showing your characters in a vulnerable state.** Vulnerability generates sympathy. If you have a character who never reveals their emotions, when you finally have them break down in a moment of weakness, the reader will immediately become attached.
+- **Consider showing your characters in a vulnerable state.** Vulnerability generates sympathy. If you have a character who never reveals their emotions, when you finally have them break down in a moment of vulnerability, the reader will immediately become attached.
 
 <br>
 
-Being **likable** doesn't require something to be relatable. After all, Superman is hardly a relatable character but we still like him. Likable characters are engaging in and of themselves because we enjoy spending time with them.
+Being **likable** doesn't require someone to be relatable. After all, Superman is hardly a relatable character but we still like him. Likable characters are engaging in and of themselves because we enjoy spending time with them.
 
 - **Make them fun.** Think of all the characters who bring a smile to your face whenever you see them. Kronk from Emperor's New Groove, Peter Venkman in Ghostbusters. You simply enjoy their presence. Unfortunately, there's no magic formula for making a fun character, but there are a lot of paths you can take. Clever wit, complete stupidity, dry sarcasm, extreme passion... it really depends on the story you're telling. Note that characters don't have to be "good" to be fun. Ever heard of the "likable villain"? For a lot of people, it's genuinely amusing to see a crazy supervillain unleash their kooky master plan to take over the world (Doctor Evil or Loki).
 
-- **Make them care about others or have others care about them.** Humans are often quick to believe in what others tell them. Monkey see, monkey do. Having people care for your character (not like crazy fan-girl love but genuine caring) will make us inclined to feel the same. It's why character deaths are more impactful when you have another character crying out in sadness for them. The exception to this rule is having a character who you want explicitly outcast from the rest of the world.
+- **Make them care about others or have others care about them.** Humans are often quick to believe in what others tell them. Monkey see, monkey do. Having people genuinely care for your character will make us inclined to feel the same. It's why character deaths are more impactful when you have another character crying out in sadness for them. The exception to this rule is having a character who you want explicitly outcast from the rest of the world.
 
 - **Make us want to BE them.** Like I said before, no one can really relate to Superman and the inner struggles he goes through but many people wish they could BE Superman. Why? Because Superman has all the attributes we wish we had. He's powerful, yet selfless. He's passionate, yet calm. Understand the desires of your readers and make those traits of your characters. Remember to avoid the Mary Sues though!
 
@@ -80,7 +82,7 @@ Being **likable** doesn't require something to be relatable. After all, Superman
 
 <br>
 
-If your characters aren't likable or relatable, they must at least be **interesting**. Think of Rorschach from Watchmen. Despite not being particularly likable, his unfaltering belief in absolute good and evil and his crooked pursuit of justice make him interesting to follow. A character may not be "fun" to read about but they could definitely still be engaging if you give them some interesting qualities.
+If your characters aren't likable or relatable, they must at least be **interesting**. Think of Rorschach from Watchmen. Despite not being particularly likable, his unfaltering belief in absolute good and evil and his crooked (and quite flawed) pursuit of justice make him interesting to follow. A character may not be "fun" to read about but they could definitely still be engaging if you give them some interesting qualities.
 
 - **Avoid flat characters.** People are more complex than just a single personality quirk. The jock, the nerd, the dumb blond. If your characters can boil down just to these traits, you don’t have characters, you have a collection of stereotypes. Of course, there are exceptions to the rule, and giving a character a single trait can often be used for comedic purposes.
 
@@ -90,19 +92,19 @@ If your characters aren't likable or relatable, they must at least be **interest
 
 - **Characters can have multiple desires that may conflict with each other.** Maybe your character wants to go out and explore the world but they would have to leave the family they love behind. Internal conflicts are just as important as external ones. 
 
-- Similarly, **creating situations that question the beliefs or mindsets of a character can consequently make them interesting to engage with.** This is the basis of the character of Rorschach. Over the course of the story, his beliefs are put to the test, constantly being questioned by those around him and ultimately resulting in a final confrontation. By examining the complex rational and eventual consequences of his beliefs through use of other characters and situations, Rorchach himself becomes an interesting character to follow.
+- Similarly, **creating situations that question the beliefs or mindsets of a character can consequently make them interesting to engage with.** This is the basis of the character of Rorschach. Over the course of the story, his beliefs are put to the test, constantly being questioned by those around him and ultimately resulting in a final confrontation. By examining the consequences of his beliefs through use of other characters and situations, Rorchach himself becomes an interesting character to follow.
 
 <br>
 
 So I’ve given you a bunch of tips but how do you make sure you’re following them?
 
-**Write a character bio.** This is just a place where you’ll write down the key information of your characters. It’s something you can refer back to when your character comes up in a scene and it’s a nice way to keep them consistent throughout your story.
+**Write a character bio.** I mentioned this briefly already, but I find it useful to write down the key information of your characters. It’s something you can refer back to when your character comes up in a scene and it’s a nice way to keep them consistent throughout your story.
 
 In my character bios, I include things like appearance, personal history, personality quirks, flaws and main motivations. I like to keep things simple but your bio can contain absolutely anything you feel is relevant to the story. If you want to flesh your characters out even more, here are a few things you can do:
 
 - **Interview your characters.** What are their desires? What are their fears? What's their motivation for doing what they're doing? By asking yourself questions about your character you can learn a lot about them. Check out this [list of 100 questions](http://www.miniworld.com/adnd/100ThingsAboutUrPCBackGround.html) (Beth Kinderman and Nikki Walker) to ask your characters.
 
-- **Take a personality test for your characters.** Answer as if your character was being asked the questions and see if they fall into a specific category. [This one](https://www.16personalities.com/free-personality-test) is my favourite and it takes less than ten minutes.
+- **Take a personality test for your characters.** Answer as if your character was being asked the questions and see if they fall into a specific category. [This one](https://www.16personalities.com/free-personality-test) is my favourite and it takes less than ten minutes. More than anything, it’s a fun way to help you realize how your characters think. 
 
 <br>
 
@@ -119,9 +121,9 @@ In my character bios, I include things like appearance, personal history, person
 <hr><br>
 Some people think the names of your characters don’t really matter but they actually have more impact than you may believe. Here are some tips to make sure your characters names have the right kind of impact:
 
-- **It’s generally a good idea to make character names easy to pronounce.** You can test this by reading the name out loud. Nghzz’aa Bkl’epp may seem cool at first but your reader isn’t going to want to read that a hundred times.
+- **It’s generally a good idea to make character names easy to pronounce.** You can test this by reading the name out loud. Nghzz’aa Bkl’epp may seem cool at first but your reader isn’t going to want to read that a hundred times. Obviously what’s easy to pronounce is going to depend on individual cultures and languages, so try your best to be welcoming to other cultures and names.
 
-- **Make sure there aren’t multiple ways to pronounce a given name.** Hermione could be read as both “her-my-o-nee” and “her-me-own”. This is a bad choice in my opinion as it ends up confusing your readers.
+- **Make sure there aren’t multiple ways to pronounce a given name.** Hermione could be read as both “her-my-o-nee” and “her-me-own”. This isn't the greatest choice in my opinion as it ends up confusing your readers.
 
 - **Using alliteration in a name makes the character stand out.** Clark Kent, Lois Lane, Peter Parker, Reed Richards, Severus Snape. Be careful with this one. There’s a fine line between memorable and cheesy.
 

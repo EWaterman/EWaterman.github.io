@@ -21,11 +21,11 @@ The two common colour systems we use are:
 
 > So what’s the difference?
 
-**RGB is [additive](https://bpiinc.files.wordpress.com/2011/11/rgb.png).** You start with nothing (black) and add combinations of red, green and blue to get all the colours, maxing out at white. RGB also has the larger gamut compared to CMYK (it has a wider range of possible colours).
+**RGB is [additive](https://bpiinc.files.wordpress.com/2011/11/rgb.png).** You start with nothing (black) and add combinations of red, green and blue to get all the colours, maxing out at white. RGB also has a larger gamut compared to CMYK (it has a wider range of possible colours).
 
 **CMYK is [subtractive](http://d85fd144eb6d904e1307-ee0389f939f121fe3a9bfdd4a2fec20f.r35.cf2.rackcdn.com/images/resource-pages/cmyk-illustration.jpg).** You start with all the colours (a white sheet of paper for example) and subtract colours from each other, eventually reaching black. CMYK is better at displaying cyan, magenta and yellow, as the name suggests.
 
-Don’t worry if you find this confusing. All you need to know is that **each system has different gamuts that it can construct**. Here’s [a simplified visualization](http://www.okidata.com/images/site/resource/gamuts.jpg) of the two gamuts compared to what the human eye can detect.
+Don’t worry if you find this confusing. All you need to know is that **each system constructs colours differently**. Here’s [a simplified visualization](http://www.okidata.com/images/site/resource/gamuts.jpg) of the two gamuts compared to what the human eye can detect.
 
 > Okay so which do I choose?
 
@@ -39,7 +39,7 @@ Not necessarily.
 
 Converting between the two systems is possible but it can lead to distorted colours. [Here are](https://pbs.twimg.com/media/C8rMzR2XUAAKrtF.jpg) a [couple examples](https://pbs.twimg.com/media/C8rRJEkW0AEXnPf.jpg) of the differences between the two. Certain colours are affected more by the transformation from RGB to CMYK (deep greens, blueish purples and reds).
 
-I won’t go into details about how to convert your files but there are plenty of in depth tutorials you can lookup online.
+I won’t go into details about how to convert your files but there are plenty of in-depth tutorials you can look up online.
 
 Ultimately my major suggestion is to plan for the future. Preparing your comic for print in advance (even if you don’t expect to ever get it printed) could save you a major headache in the future.
 
