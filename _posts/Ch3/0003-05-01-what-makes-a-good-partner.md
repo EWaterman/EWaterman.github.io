@@ -25,9 +25,11 @@ For example, if the artist charges $100 per page and your comic is 28 pages, you
 
 Also, **make sure you know what currency the artist's page rate is in**! This got confusing for me when I was looking at both Canadian and US artists.
 
-Depending on the person, **page rate can be negotiable, but remember that you get what you pay for**. Don’t set any expectations if you only plan on paying someone $40 a page to ink and colour your comic. (Side note, that’s waaay to low of a page rate. That's significantly less than minimum wage!)
+**Remember that you get what you pay for**.  Don’t set any expectations if you only plan on paying someone $40 a page to ink and colour your comic. (Side note, that’s way too low of a page rate. Given the amount of time it takes to make just one page, that's likely significantly less than minimum wage!)
 
 Remember that artists are people too! They’ve spent years honing their skills, and it takes many, many, many hours to complete even a single page of a comic. Artists have bills to pay and mouths to feed just like everyone else so make sure they’re getting a fair wage.
+
+If you can't afford a decent wage for your artist, you might be better off simply hiring them to make an 8 page teaser to pitch to publishers with.
 
 <br>
 
@@ -51,7 +53,7 @@ You put a lot of effort into writing your comic and so I’m sure you want it lo
 
 Not only should you be looking at the overall quality of the art, but also the artist's knowledge of comic making rules and techniques. Don’t know how to analyse the quality of a piece of work? Check out the chapters on [drawing]({{ site.baseurl }}{% link _posts/Ch4/0004-01-01-overview.md %}), [coloring]({{ site.baseurl }}{% link _posts/Ch5/0005-01-01-overview.md %}) and [lettering]({{ site.baseurl }}{% link _posts/Ch6/0006-01-01-overview.md %}) and see if it follows those tips.
 
-Of course if you’re paying your team a below average rate, you should expect applications from less experienced creators. If you want better quality work, you’ll have to pay a proper wage for your artists.
+Of course if you’re paying your team a below average rate, you should expect applications from less experienced creators. Again, if you want better quality work, you’ll have to pay a proper wage for your artists.
 
 <br>
 
@@ -62,6 +64,7 @@ This one may take a few exchanges for you to figure out but there are some quick
 
 - **Do they respond to you in a timely manner?** Good communication is really important when working collaboratively, and being able to rely on someone is key when you have project deadlines to hit. You don’t want a publisher getting mad at you because they needed your pages inked a week ago and your artist is still MIA. That said, things do come up, and sometimes delays are unavoidable. If someone tells me they need a week off to deal with family situations or burnout, I always try my best to be understanding. The only thing I don’t like is being suddenly ghosted for a month with no explanation. It makes working with that person very hard.
 
+When I’m having an email exchange with someone, I try to at the very least acknowledge emails I get from them within two days after receiving it. If I don’t have time for a full reply, I’ll usually say something along the lines of "Thanks so much for the update, I'll take a look at this by the end of the week." A simple update like that keeps them from worrying whether or not you received the email, and lets them know a firm time when to expect your reply. Really it’s about respecting the other person’s time.
 
 - **Are they professional?** It's good to have a friendly relationship with your art team (and I absolutely encourage you to do so), but if they can't take the job seriously and professionally, it should raise some warning signs as to their legitimacy as a job partner.
 
