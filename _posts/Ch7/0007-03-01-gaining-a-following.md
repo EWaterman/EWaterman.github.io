@@ -111,7 +111,8 @@ Reddit is a giant message board with a bunch of sections (subreddits) designated
 
 Reddit is also useful for finding more specific fandoms. If you’re making a western horror comic, be on the lookout for both and western subreddits who’s readers you can market to. The more specific subreddit you can find, the more likely the readers there will overlap with your ideal audience.
 
-Twitch / YouTube
+<br>
+#### **Twitch / YouTube**
 
 Many artists find success by streaming their work on Twitch and/or YouTube. While I’ve made a few videos, I consider myself more of a professional YouTube watcher than producer. Still, I’ve still picked up on a few techniques you can use.
 
@@ -237,7 +238,7 @@ Ultimately it’s up to you what you want to do with your social accounts. Yes, 
 
 <br>
 
-### Strategies For Increasing Your Audience
+### Common Mistakes
 
 <hr><br>
 Like I previously mentioned, **don't try and boost your follower numbers by going on Twitter and mass following a bunch of random people**. While you may get some people following you back, those numbers won’t actually mean much. In fact, they could actually be detrimental to your campaign!
