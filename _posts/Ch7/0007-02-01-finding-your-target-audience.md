@@ -10,13 +10,13 @@ When I was first starting out, I absolutely hated the whole process. Marketing m
 
 Even worse, despite the many, many hours I spent writing all kinds of promotional posts, I got nothing but crickets. I would post on as many different platforms as I could find but nothing really got any attention.
 
-It was really demoralizing. Not only was I doing something I strongly disliked, but it wasn’t even giving me results.
+It was really demoralising. Not only was I doing something I strongly disliked, but it wasn’t even giving me results.
 
 Then, one day, something changed. I was posting a promotional update to a subreddit that I frequented. The update itself was nothing special but to my surprise, I was all of a sudden getting replies. Not only that, people were saying they were super excited for the comic! Admittedly, it was a tiny group of people at first, just two or three, but at least they seemed genuinely interested in my story.
 
 From then on, they would reply to all my posts and we would talk about the details of the story and all the topics the comic addressed. That's when things started becoming enjoyable for me because I was actually getting people frequently replying to my posts. It was primarily that same little group I started with, but I didn’t care, people we’re engaging with my content!
 
-After a while, I began writing all my promotional material as if I was writing it for them specifically. That’s when things really started taking off. Those people bagan sharing my posts with their friends because they liked them so much, and I found I was gaining supporters at a more rapid pace than I was before.
+After a while, I began writing all my promotional material as if I was writing it for them specifically. That’s when things really started taking off. Those people began sharing my posts with their friends because they liked them so much, and I found I was gaining supporters at a more rapid pace than I was before.
 
 I’m not going to pretend like this led to massive success for me, but I still think there’s a major lesson to take away from my experience. I found that **to have a successful marketing campaign, I had to find my target audience**. I had to seek out the people who were just as passionate as I was about my comic.
 

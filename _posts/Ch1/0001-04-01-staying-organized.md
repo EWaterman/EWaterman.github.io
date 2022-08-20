@@ -13,14 +13,11 @@ With scripts, art, marketing supplies and more, you’re going to have A LOT of 
 
 If you want to use the same folder structure that I do, follow these steps:
 
-1) Check out my personal folder structure [HERE](https://drive.google.com/file/d/0BzXFj1TaWVQcS0FkUHY0azczWkU/view?usp=sharing). 
+1) [Check out my personal folder structure](https://drive.google.com/file/d/0BzXFj1TaWVQcS0FkUHY0azczWkU/view?usp=sharing&resourcekey=0-ZWcD5uj2iYMgRNQDlt3jRg). 
 
 2) Click the download icon 
 
 3) You should now have an “art-template.zip” folder in your Downloads. Extract/unzip that folder (how-to guide for the non technical people: [Windows](https://support.microsoft.com/en-ca/help/14200/windows-compress-uncompress-zip-files), [Mac](http://support.topspinmedia.com/hc/en-us/articles/204262713-How-to-extract-a-zip-file-on-a-Mac)).
-
-
-I also use a similar folder structure to **manage my marketing and kickstarter data**. This structure is designed by the folks at ComixTribe. Check that out [HERE](http://ComixLaunch.com/organize) (you’ll have to subscribe to the ComixTribe e-mail list).
 
 <br>
 

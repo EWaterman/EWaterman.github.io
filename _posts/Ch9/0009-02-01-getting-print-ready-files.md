@@ -8,8 +8,6 @@ categories: ["guide", "Printing"]
 
 [Prepress](http://dirtyoldladies.libsyn.com/episode-15-prepress) (podcast) - Dirty Old Ladies
 
-[Preparing Comic Files For Offset Printing - Tips & tricks](https://www.youtube.com/watch?v=yiffOuHQh4Q) (video) - Jason Brubaker
-
 <hr><br>
 I covered a lot of this already in the [section on file setup]({{ site.baseurl }}{% link _posts/Ch4/0004-02-01-file-setup.md %}) so check that out if you haven’t already. 
 

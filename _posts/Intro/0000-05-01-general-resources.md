@@ -31,7 +31,7 @@ The following is a collection of all the resources that don’t fit into any par
 
 [Writing Careers: The Business Behind Becoming an Author](https://www.zenbusiness.com/info/writing-careers/) - Various tips for those interested in a professional career in writing. (Thanks to Anna for sharing!)
 
-[A Writer's Guide to Healthy Writsts and Hands](https://www.wristco.com/wristband-articles/a-writer-s-guide-to-healthy-wrists-and-hands/) - Tips for taking care of your hands and wrists while you write and draw. (Thanks to Hailey for sharing!)
+[A Writer's Guide to Healthy Wrists and Hands](https://www.wristco.com/wristband-articles/a-writer-s-guide-to-healthy-wrists-and-hands/) - Tips for taking care of your hands and wrists while you write and draw. (Thanks to Hailey for sharing!)
 
 <br>
 

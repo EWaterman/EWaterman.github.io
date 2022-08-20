@@ -7,7 +7,7 @@ categories: ["guide", "Distribution"]
 [Distribution](http://dirtyoldladies.libsyn.com/episode-14-distrobution) (podcast) - Dirty Old Ladies
 
 <hr><br>
-Maybe fulfillment companies aren’t an option for you, or maybe you’re like me and want to, at least once, try to handle the whole distribution process on your own.
+Maybe fulfilment companies aren’t an option for you, or maybe you’re like me and want to, at least once, try to handle the whole distribution process on your own.
 
 Self distribution is tough work, and depending on your situation, it can end up saving or costing you quite a bit of money. As always, I encourage you to explore your options before diving in.
 
@@ -74,7 +74,7 @@ Label printers will allow you to simply peel and stick your labels onto your pac
 
 > Okay, but what company should I ship with?
 
-When sorting out your postage, note that **postage prices vary quite a lot between shipping companies.** In Canada, your choices are Canada Post, UPS or FedEx (unless you want to ship with a fulfillment company) but in the US there are a whole lot more.
+When sorting out your postage, note that **postage prices vary quite a lot between shipping companies.** In Canada, your choices are Canada Post, UPS or FedEx (unless you want to ship with a fulfilment company) but in the US there are a whole lot more.
 
 When deciding on which company to use, I suggest you **go to all the local companies with a fully packaged sample of your comic and ask for an estimate.** They’ll tell you exactly what type of postage you’ll have to get and how much it’ll cost you. That way you don’t have to do any guesstimation about your shipping costs.
 

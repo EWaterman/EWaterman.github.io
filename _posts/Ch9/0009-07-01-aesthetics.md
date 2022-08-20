@@ -19,7 +19,7 @@ First off, **when I say paper weight or paper stock, I’m talking about its thi
 
 In comics, there are three main types of weights to watch out for:
 
-- **Text weight** is thinner and used for interior pages and floppy covers. It’s measured in lb. (lb is sometimes referred to with the ‘#’ symbol and is just a unit of measurement like millimeters or centimeters. The specifics behind it don’t matter but you can see [here](http://www.oki.com/us/printing/support/understanding-paper-weight/index.html) if you insist on knowing all the gory details.)
+- **Text weight** is thinner and used for interior pages and floppy covers. It’s measured in lb. (lb is sometimes referred to with the ‘#’ symbol and is just a unit of measurement like millimetres or centimetres. The specifics behind it don’t matter but you can see [here](http://www.oki.com/us/printing/support/understanding-paper-weight/index.html) if you insist on knowing all the gory details.)
 
 - **Cover weight** is thicker and used for things like soft covers. It’s also measured in lb. From what I’ve seen, most comic printers don’t measure in cover weight and instead use...
 
@@ -29,7 +29,7 @@ Confused yet?
 
 The important take away here is to **make sure you know which weight type(s) your printer references**. 85 lb text stock is NOT the same as 85 lb cover stock and definitely not the same as 85 pt.
 
-[Here’s a table](http://www.paper-paper.com/weight.html) to help you understand the differences. The columns you should care about are offset text and point (and cover if your printer measures that way). You can compare them to their equivalent thickness in millimeters as well if you’d like.
+[Here’s a table](http://www.paper-paper.com/weight.html) to help you understand the differences. The columns you should care about are offset text and point (and cover if your printer measures that way). You can compare them to their equivalent thickness in millimetres as well if you’d like.
 
 For your sanity, all the page weights I’ll be referencing from now on are either text weight (measured in lb) or point weight (measured in pt). Just ignore cover weight unless your printer uses it explicitly.
 
@@ -60,7 +60,7 @@ The price difference between these two options is pretty insignificant (roughly 
 <hr><br>
 **Paper coating is applied during the manufacturing process.** This means your ink goes on top of whatever coating you choose.
 
-Print Ninja describes pretty much all you need to know about the different coatings [here](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/coating) but to summarize, in comics there are three main paper coating types:
+Print Ninja describes pretty much all you need to know about the different coatings [here](http://www.printninja.com/printing-resource-center/printing-options/book-services/paper/coating) but to summarise, in comics there are three main paper coating types:
 
 - **Gloss coating** will give your pages a reflective shine. This is the choice of most modern day saddle-stitched comics.
 

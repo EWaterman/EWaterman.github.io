@@ -17,7 +17,7 @@ I was invited onto the Comix Launch podcast to talk about how to turn procrastin
 <hr><br>
 Here are a few tips to help you stay productive:
 
-- **Build a schedule and stick to it.** If you have designated writing time during the day (say, 6-8 PM), your brain will be more likely to stay focused on writing during that time period.
+- **Build a schedule and stick to it.** If you have designated writing time during the day (say, 6-8 PM), you’ll develop a routine and be more likely to stay focused on writing during that time period.
 
 - Similarly, **have a designated work spot.** If you work in the same place you sleep and watch cat videos, you’re going to have trouble staying focused on your work. If you take a break, leave your work spot.
 
@@ -52,7 +52,7 @@ After a while of this, I decided to try something new.
 
 My second approach attempted to mitigate the previous problem by instead **designating specific work hours each day**.
 
-I decided that I would work every weekday from 7 PM until midnight no matter how much I got done. Each day I would pick up whichever tasks were most pressing and work on those for five hours. This approach let me be in control of my time, allowing me to dedicate a specific portion of my schedule to comic work. The fixed hours also meant that I wouldn't over work myself and allowed me to more easily switch my thinking brain off at the end of the day. This was a gift to my mental health.
+I decided that I would work every weekday from 7 PM until midnight no matter how much I got done. Each day I would pick up whichever tasks were most pressing and work on those for five hours. This approach let me be in control of my time, allowing me to dedicate a specific portion of my schedule to comic work. The fixed hours also meant that I wouldn't overwork myself and allowed me to more easily switch my thinking brain off at the end of the day. This was a gift to my mental health.
 
 Unfortunately, this approach meant that I was less sure of what I’d end up completing each day. It also required more discipline as I was no longer working against a specific deadline for each to-do item.
 
