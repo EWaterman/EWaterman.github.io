@@ -52,6 +52,7 @@ body {
 
 #main {
   background: $homepageBg;
+  min-height: 100vh;
 }
 
 .container {
@@ -257,16 +258,34 @@ code {
   align-items: center;
 }
 
+.stylized-btn-light {
+  border: 2px solid $offWhite;
+  color: $offWhite;
+
+  &:hover, &:active, &:focus {
+    background-color: $offWhite;
+    color: $black;
+  }
+}
+
 .stylized-btn {
+  border: 2px solid $black;
+  color: $black;
+
+  &:hover, &:active, &:focus {
+    background-color: $black;
+    color: $offWhite;
+  }
+}
+
+.stylized-btn, .stylized-btn-light {
   margin-left: auto;
   margin-right: auto;
   display: block;
   margin-top: 30px;
   min-height: 58px;
   padding: 0 22px;
-  border: 2px solid $black;
   line-height: 52px;
-  color: $black;
   letter-spacing: 0.12em;
   word-spacing: 0.2em;
   text-decoration: none !important;
@@ -274,11 +293,6 @@ code {
   font-weight: 600;
   text-transform: uppercase;
   background-color: transparent;
-
-  &:hover, &:active, &:focus {
-    background-color: $black;
-    color: $offWhite;
-  }
 }
 
 // ================= PAGE NAVIGATOR =======================
@@ -398,46 +412,27 @@ code {
   }
 }
 
-@media (min-width: $mdAndOver) and (orientation: landscape) {
-  #homepage-content {
-    height: 100vh;
-    overflow: hidden;
-  }
 
-  .homepage-main-img-col {
-    height: calc(100vh - 150px);
-  }
+@media (min-width: $lgAndOver)
+{
+    #homepage-btn-section
+    {
+      width: 40%;
+    }
 }
 
-// Sets the min height of the page minus the mobile image to be: total view height - height of the top bit of the image
-// The height of the image is calculated by: x == 100vw ; y/x == A ; y == A * x
-#homepage-non-mobile {
-  min-height: calc(100vh - (0.630864895 * 100vw));
+@media (max-width: $mdAndUnder)
+{
+    #homepage-btn-section
+    {
+      width: 90%;
+    }
 }
 
-#homepage-main-img-wrapper {
-  position: relative;
-  height: inherit;
-}
-
-.homepage-desk-img {
-  left: 0;
-  position: absolute;
-}
-
-.homepage-desk-img-tall {
-  top: 0;
-}
-
-.homepage-desk-img-short {
-  bottom: 0;
-  max-height: 100%;
-}
-
-.homepage-doodle {
-  display: none;
-  padding: 0 15px;
-  z-index: 20;
+#homepage-content
+{
+    position:relative;
+    min-height: 100vh;
 }
 
 .homepage-text-wrapper {
@@ -462,19 +457,12 @@ code {
   left: 0;
 }
 
-// Uses apect ratio of bgt_mobile.png (1116/1769) to determine height.
-// Assumes the image takes the full page width on mobile
-#mobile-homepage-main-img-wrapper {
-    height: calc(0.630864895 * 100vw);
-    overflow: hidden;
-}
-
 #homepage-pizza {
   z-index: 10;
   position: absolute;
   width: 75px;
   height: 75px;
-  bottom: 20px;
+  top: 20px;
   left: 20px;
 
   img {
@@ -511,55 +499,70 @@ code {
   to {bottom: 75px;}
 }
 
+.homepage-btn-content
+{
+    border: 9px solid var(--bs-body-color);
+    border-radius: 50px;
+    
+    background-color: #e6e0d2;
 
-#homepage-contact {
-  z-index: 100;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 
-  a:hover, a:active, a:focus {
-    color: $pink;
-    text-decoration: none;
-  }
+    overflow: hidden;
+
+    aspect-ratio : 1 / 1;  // Be square
+
+    -webkit-box-shadow: 4px 3px 5px var(--bs-body-color);
+    -moz-box-shadow: 4px 3px 5px var(--bs-body-color);
+    box-shadow: 4px 3px 5px var(--bs-body-color);
 }
 
-#homepage-btns-desk {
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#homepage-btns-mobile {
-  width: 100%;
-}
-
-#homepage-btn-2 {
-  animation-delay: -3.3s;
-}
-
-#homepage-btn-3 {
-  animation-delay: -2.6s;
-}
-
-.homepage-btn-wrapper {
-  animation: homepage-btn-wrapper 4s ease-in-out infinite;
-  margin: 20px;
+.homepage-btn-container {
+  position: relative;
 
   a {
-    color: $pink;
-    
-    &:hover, &:active, &:focus {
-      color: $black;
-    }
+    z-index: 100;
+    height: 100%;
+    width: 100%;
   }
 
-  &:hover {
-    animation-play-state: paused;
+  &:hover, &:active, &:focus {
+    cursor: pointer;
+
+    .homepage-btn-content {
+      color: $pink;
+      border-color: $pink;
+
+      -webkit-box-shadow: 4px 3px 5px #580333;
+      -moz-box-shadow: 4px 3px 5px #580333;
+      box-shadow: 4px 3px 5px #580333;
+
+      animation:
+        MoveUp 1s ease-in-out,
+        MoveDownAndUp 3s ease-in-out 1s infinite;
+    }
   }
 }
 
-@keyframes homepage-btn-wrapper {
+.homepage-btn-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    font-size:calc(50% + 1vw);
+}
+
+// Split into two animations (the second with a 1s delay) so that
+// we don't also ease out when returning back to the center.
+@keyframes MoveUp {
+  from { transform: translate(0, 0px); }
+  to   { transform: translate(0, -12px); }
+}
+@keyframes MoveDownAndUp {
   from { transform: translate(0, -12px); }
   50%  { transform: translate(0, 12px); }
   to   { transform: translate(0, -12px); }
@@ -665,34 +668,7 @@ code {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 }
 
-.on-hover-hide {
-  height: 100%;
-
-  position: absolute;
-  top: 0;
-
-  -webkit-transition: .2s ease-in-out all;
-  -moz-transition: .2s ease-in-out all;
-  -o-transition: .2s ease-in-out all;
-  transition: .2s ease-in-out all;
-}
-
 #dev-languages {
-  .on-hover-hide {
-    width: 100%;
-    background-color: $homepageBg;
-  }
-
-  .on-hover-base {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 100px;  // Height of icons
-    margin-bottom: 50px;
-    overflow: hidden;
-  }
-
   [class^="col-"] {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -744,6 +720,8 @@ code {
 }
 
 .dev-jobs {
+  position: relative;
+
   .on-hover-base {
     vertical-align: top;
 
@@ -753,9 +731,16 @@ code {
     box-shadow: inset 0 0 5px #000000;
   }
   .on-hover-hide {
-    width: calc(100% - 30px);
-    left: 15px;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    -webkit-transition: .2s ease-in-out all;
+    -moz-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    transition: .2s ease-in-out all;
   }
   &:hover .on-hover-hide {
     height: 0;
@@ -873,6 +858,13 @@ code {
   }
 }
 
+#ff-section {
+    background: url("/images/comic/ff-background-darker.jpg");
+    background-size: cover;
+
+    color: $offWhite;
+}
+
 #mtm-content {
   b {
     color: $red;
@@ -924,6 +916,7 @@ code {
 #mtm-main-img-wrapper {
   padding-top: 40px;
   display: flex;
+  position: relative;
   justify-content: center;
 }
 
@@ -931,7 +924,7 @@ code {
   z-index: 10;
 }
 
-.comic-main-img-bg {
+.mtm-main-img-bg {
   animation: slide 180s linear infinite;
   background: url("/images/comic/carson-bg-low-op.jpg") repeat-y;
   background-size: 100% auto;
@@ -988,10 +981,6 @@ code {
   margin-bottom: 30px;
 }
 
-.comic-shorts-row {
-  overflow: hidden;
-}
-
 #comic-octra-section {
   background-image: linear-gradient(141deg, #401461 0%, #331648 51%, #1a0b25 75%);
   background-color: #170723;
@@ -1008,42 +997,47 @@ code {
 
 #comic-horror-section {
   background-color: $offWhite;
+  overflow: hidden;
 
   h1 {
     font-family: $aloja;
     word-spacing: 0.4em;
   }
+}
 
-  .horror-card {
+#horror-cards-container {
+    position: relative;
+}
+
+.horror-card {
     position: absolute;
     top: 0;
     width: 100%;
     right: -120%;
     margin-top: 30px;
-  }
+}
 
-  #buck-card {
+#buck-card {
     transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
-  }
+}
 
-  #rebirth-card {
+#rebirth-card {
     transform: rotate(2deg);
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
-  }
+}
 
-  #oysters-card {
+#oysters-card {
     transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
-  }
+}
 
-  .horror-paint-container {
+.horror-paint-container {
     margin-bottom: 75px;
     text-align: left;
-  }
 }
 
 #comic-zine-section {

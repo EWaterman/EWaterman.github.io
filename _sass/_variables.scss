@@ -45,6 +45,15 @@ $mdAndUnder: 991px;
 $lgAndOver: 992px;
 $lgAndUnder: 1199px;
 
+// Bootstrap values. Switch mine to match??
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1320px
+// );
+
 // Mobile breakpoints
 @mixin mobile {
   @media (max-width: $smAndUnder), (orientation: portrait) {

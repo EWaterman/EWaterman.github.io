@@ -5,83 +5,121 @@ description: Evan Waterman makes many things.
 ---
 
 <div id="homepage-content">
-	<div id="homepage-non-mobile">
-		<!--Text at top-->
-		<div id="homepage-text-wrapper-desk" class="homepage-text-wrapper d-none d-md-block">
-			<h1><b>Evan Waterman</b> makes&nbsp;</h1>
+	<!--Text at top-->
+	<div id="homepage-text-wrapper-desk" class="homepage-text-wrapper d-none d-md-block">
+		<h1><b>Evan Waterman</b> &nbsp;</h1>
 
-			<div id="homepage-variable-text-wrapper">
-				<!--Needed to center the text-->
-				<h1 style="visibility: hidden;">many things.</h1>
+		<div id="homepage-variable-text-wrapper">
+			<!--Needed to center the text-->
+			<h1 style="visibility: hidden;">makes many things.</h1>
 
-				<!--Displays when nothing is hovered on-->
-				<h1 class="homepage-text" id="default-text">many things.</h1>
+			<!--Displays when nothing is hovered on-->
+			<h1 class="homepage-text" id="default-text">makes many things.</h1>
 
-				<!--Text on Hover-->
-				<h1 class="homepage-text" id="comic-text" style="display: none;">comics.</h1>
-				<h1 class="homepage-text" id="guide-text" style="display: none;">tutorials.</h1>
-				<h1 class="homepage-text" id="dev-text" style="display: none;">websites.</h1>
-				<h1 class="homepage-text" id="pizza-text" style="display: none;">🍕.</h1>
-			</div>
-		</div>
-		<div id="homepage-text-wrapper-mobile" class="homepage-text-wrapper d-md-none">
-			<h2><b>Evan Waterman</b> makes many things.</h2>
-		</div>
-
-		<!-- Image and button content -->
-		<div class="container-fluid">
-			<div class="row">
-
-				<!--Left side-->
-				<div class="homepage-main-img-col col-md-6 d-none d-md-block bottom-align-imgs">
-					<!--Main image-->
-					<div id="homepage-main-img-wrapper">
-						<img class="homepage-desk-img"
-						     sizes="(max-width: 1200px) 100vw,
-												(max-width: 1400px) 50vw,
-												 2600px"
-							 srcset="/images/home/bgt_200.png 200w,
-											 /images/home/bgt_705.png 705w,
-											 /images/home/bgt_1024.png 1024w,
-											 /images/home/bgt_1263.png 1263w,
-											 /images/home/bgt_1400.png 1400w,
-											 /images/home/bgt_2600.png 2600w"
-							 src="/images/home/bgt_2600.png"
-							 alt="A photo of Evan smiling.">
-					</div>
-
-					<!--Doodles-->
-					<div class="d-none d-md-block">
-						<img class="homepage-doodle homepage-desk-img" id="comic-doodle" src="/images/home/comic.png" alt="">
-						<img class="homepage-doodle homepage-desk-img" id="guide-doodle" src="/images/home/guide.png" alt="">
-						<img class="homepage-doodle homepage-desk-img" id="dev-doodle" src="/images/home/dev2.png" alt="">
-					</div>
-				</div>
-
-				<!--Right side. On desktop show icons. On mobile show buttons. -->
-				<div id="homepage-btns-desk" class="col-md-5 align-self-center d-none d-md-flex">
-					<div id="homepage-btn-1" class="homepage-btn-wrapper">
-						<a id="comic" href="/comic/" class="homepage-btn"><i class="far fa-comment fa-8x"></i></a>
-					</div>
-					<div id="homepage-btn-2" class="homepage-btn-wrapper">
-						<a id="guide" href="/guide/" class="homepage-btn"><i class="fas fa-book fa-8x"></i></a>
-					</div>
-					<div id="homepage-btn-3" class="homepage-btn-wrapper">
-						<a id="dev" href="/dev/" class="homepage-btn"><i class="fas fa-code fa-8x"></i></a>
-					</div>
-				</div>
-				<div id="homepage-btns-mobile" class="col-md-4 d-md-none">
-					<a href="/comic/" class="stylized-btn">Comics</a>
-					<a href="/guide/" class="stylized-btn">Guide Books</a>
-					<a href="/dev/" class="stylized-btn">Websites</a>
-				</div>
-			</div>
+			<!--Text on Hover-->
+			<h1 class="homepage-text" id="comic-text" style="display: none;">makes comics.</h1>
+			<h1 class="homepage-text" id="guide-text" style="display: none;">makes tutorials.</h1>
+			<h1 class="homepage-text" id="games-text" style="display: none;">makes games.</h1>
+			<h1 class="homepage-text" id="dev-text" style="display: none;">makes websites.</h1>
+			<h1 class="homepage-text" id="evan-text" style="display: none;">is.</h1>
+			<h1 class="homepage-text" id="prose-text" style="display: none;">writes prose.</h1>
+			<h1 class="homepage-text" id="kids-text" style="display: none;">makes kids books.</h1>
+			<h1 class="homepage-text" id="cat-text" style="display: none;">likes cats.</h1>
+			<h1 class="homepage-text" id="contact-text" style="display: none;">is contactable.</h1>
+			<h1 class="homepage-text" id="pizza-text" style="display: none;">makes 🍕.</h1>
 		</div>
 	</div>
+	<!--Mobile simply displays the standard text-->
+	<div id="homepage-text-wrapper-mobile" class="homepage-text-wrapper d-md-none">
+		<h2><b>Evan Waterman</b> makes many things.</h2>
+	</div>
 
-	<!-- Main image mobile (hidden on md and larger) -->
-	<div id="mobile-homepage-main-img-wrapper" class="d-md-none bottom-align-imgs">
-		<img id="mobile-homepage-main-img" src="/images/home/bgt_mobile.png" alt="A photo of Evan smiling.">
+	<!-- Main section buttons. 3 per row. -->
+	<div id="homepage-btn-section" class="container pb-5">
+		<div class="row row-cols-3 g-4 justify-content-center">
+			<div class="col">
+				<div id="comic" class="homepage-btn-container">
+					<a href="/comic/" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="far fa-comment fa-5x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div id="guide" class="homepage-btn-container">
+					<a href="/guide/" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-question fa-5x"></i>	
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div id="games" class="homepage-btn-container">
+					<a href="https://h2o-man.itch.io/" target="_blank" rel="noopener noreferrer" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-gamepad fa-5x"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div id="dev" class="homepage-btn-container">
+					<a href="/dev/" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-code fa-5x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div id="evan" class="homepage-btn-container">
+					<a class="homepage-btn-link" href="https://www.linkedin.com/in/evan-waterman/" target="_blank" rel="noopener noreferrer"></a>
+					<div class="homepage-btn-content">
+						<img id="evan-1-1" style="display:none" src="/images/home/evan-square-1-1.jpg" alt="A photo of Evan smiling.">
+						<img id="evan0-1" style="display:none" src="/images/home/evan-square0-1.jpg" alt="A photo of Evan smiling.">
+						<img id="evan1-1" style="display:none" src="/images/home/evan-square1-1.jpg" alt="A photo of Evan smiling.">
+						<img id="evan-10" style="display:none" src="/images/home/evan-square-10.jpg" alt="A photo of Evan smiling.">
+						<img id="evan00" style="display:block" src="/images/home/evan-square00.jpg" alt="A photo of Evan smiling.">
+						<img id="evan10" style="display:none" src="/images/home/evan-square10.jpg" alt="A photo of Evan smiling.">
+						<img id="evan-11" style="display:none" src="/images/home/evan-square-11.jpg" alt="A photo of Evan smiling.">
+						<img id="evan01" style="display:none" src="/images/home/evan-square01.jpg" alt="A photo of Evan smiling.">
+						<img id="evan11" style="display:none" src="/images/home/evan-square11.jpg" alt="A photo of Evan smiling.">
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div id="prose" class="homepage-btn-container">
+					<a href="/prose/" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-pen-nib fa-5x"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div id="kids" class="homepage-btn-container">
+					<a href="/kids/" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-hippo fa-5x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div id="cat" class="homepage-btn-container" onclick="meow()">
+					<a class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-cat fa-5x"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div id="contact" class="homepage-btn-container">
+					<a href="/contact/" class="homepage-btn-link"></a>
+					<div class="homepage-btn-content">
+						<i class="fas fa-envelope fa-5x"></i>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- It's pizza time -->
@@ -89,74 +127,72 @@ description: Evan Waterman makes many things.
 		<div id="pizza-cover">
 			<img src="/images/home/cartoon-skull.png" alt="The lid for the panic button. Has a cartoon pink skull on it.">
 		</div>
-		<a id="pizza" href="https://www.youtube.com/watch?v=TRgdA9_FsXM" class="homepage-btn" target="_blank" rel="noopener noreferrer">
+		<a id="pizza" href="https://www.youtube.com/watch?v=TRgdA9_FsXM" class="homepage-btn-container" target="_blank" rel="noopener noreferrer">
 			<img src="/images/home/panic-btn.png" alt="A big red panic button.">
 		</a>
 	</div>
-
-	<!-- Contact button -->
-	<div class="d-none d-md-block">
-		<div id="homepage-contact">
-			<h3><a href="/contact/"><i class="fa fa-envelope"></i> Contact</a></h3>
-		</div>
-	</div>
 </div>
-
-<!-- Dynamic fixing of desktop photo sizing. -->
-<script>
-	// Only checks once we're done resizing the window
-	var waitForFinalEvent = (function () {
-	  var timers = {};
-	  return function (callback, ms, uniqueId) {
-	    if (!uniqueId) {
-	      uniqueId = "Don't call this twice without a uniqueId";
-	    }
-	    if (timers[uniqueId]) {
-	      clearTimeout (timers[uniqueId]);
-	    }
-	    timers[uniqueId] = setTimeout(callback, ms);
-	  };
-	})();
-
-    // If left image is taller than the column containing it, make it overflow, else glue it to the bottom of the screen
-	function repositionImg() {
-		if ($('.homepage-desk-img').height() >= $('.homepage-main-img-col').height()) {
-	    	$('.homepage-desk-img').removeClass('homepage-desk-img-short').addClass('homepage-desk-img-tall');
-		} else {
-	    	$('.homepage-desk-img').removeClass('homepage-desk-img-tall').addClass('homepage-desk-img-short');
-	    }
-	}
-	
-	 // Call it once on load then on any time we resize the window..
-	$(function() {
-		repositionImg();
-	});
-	$(window).resize(function () {
-	    waitForFinalEvent(function(){
-	    	repositionImg();
-	    }, 50, "homepage-desk-img-resizer");
-	});
-
-</script>
 
 <!-- Display doodles and alter text on hover -->
 <script>
-	$('.homepage-btn').hover(
+	$('.homepage-btn-container').hover(
 	function() { // on mouse over
-		var target = "#" + $(this).attr('id') + "-doodle";
-		$(target).fadeIn();
-		$(target).siblings("img").finish();
-
 		$("#" + $(this).attr('id') + "-text").show();
 		$('#default-text').hide();
 	},
 	function() { // on mouse out
-		var target = "#" + $(this).attr('id') + "-doodle";
-		$(target).fadeOut();
-		$(target).siblings("img").finish();
-
 		$("#" + $(this).attr('id') + "-text").hide();
 		$('#default-text').show();
+	});
+</script>
+
+
+<!-- Track mouse position and change middle image-->
+<script>
+	var loadedImageIndex;
+	$(document).mousemove(function(e)
+	{
+		var elemToCenterOn = document.getElementById("evan").getBoundingClientRect();
+
+		var leftOfElem = elemToCenterOn.left;
+		var rightOfElem = elemToCenterOn.left + elemToCenterOn.width;
+		var topElem = elemToCenterOn.top;
+		var bottomElem = elemToCenterOn.top + elemToCenterOn.height;
+
+		var mouseX = e.clientX;
+		var mouseY = e.clientY;
+
+		var horizontalPos;
+		if (mouseX < leftOfElem)
+		{
+			horizontalPos = -1;
+		}
+		else if (mouseX < rightOfElem)
+		{
+			horizontalPos = 0;
+		}
+		else
+		{
+			horizontalPos = 1;
+		}
+		
+		var verticalPos;
+		if (mouseY < topElem)
+		{
+			verticalPos = -1;
+		}
+		else if (mouseY < bottomElem)
+		{
+			verticalPos = 0;
+		}
+		else
+		{
+			verticalPos = 1;
+		}
+		
+		var target = "#" + "evan" + horizontalPos + verticalPos;
+		$(target).css("display", "block");
+		$(target).siblings().css("display", "none");
 	});
 </script>
 
@@ -167,12 +203,12 @@ description: Evan Waterman makes many things.
 	});
 </script>
 
-<!--Mobile. Move me down on click. -->
+<!-- Cat Meow -->
 <script>
-	$('#mobile-homepage-main-img').click(function() {
-	    $('#mobile-homepage-main-img').animate({marginTop: '+=1000'}, 1000, function() {
-		    // And after a while, move me back up.
-		    $('#mobile-homepage-main-img').delay(1000).animate({marginTop: '-=1000'}, 1000);
-		});
-	});
+	var audio = document.createElement("audio");
+  	audio.src = "/audio/cat-meow.mp3";
+
+	function meow(){
+		audio.play();
+	}
 </script>
