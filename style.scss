@@ -502,7 +502,7 @@ code {
 .homepage-btn-content
 {
     border: 9px solid var(--bs-body-color);
-    border-radius: 50px;
+    border-radius: 20%;
     
     background-color: #e6e0d2;
 
@@ -517,6 +517,16 @@ code {
     -webkit-box-shadow: 4px 3px 5px var(--bs-body-color);
     -moz-box-shadow: 4px 3px 5px var(--bs-body-color);
     box-shadow: 4px 3px 5px var(--bs-body-color);
+}
+
+.homepage-btn-content-inner {
+    h6 {
+        margin: 0;
+    }
+
+    svg {
+        height: 70px;
+    }
 }
 
 .homepage-btn-container {
