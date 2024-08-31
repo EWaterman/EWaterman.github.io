@@ -1,6 +1,6 @@
 # Evan Waterman's Online Portfolio
 
-live at evanjwaterman.com
+live at https://evanjwaterman.com
 
 ## Testing Locally
 
