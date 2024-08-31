@@ -1,6 +1,8 @@
 # Evan Waterman's Online Portfolio
 
-####built with Jekyll using Bootstrap and JQuery.
+live at evanjwaterman.com
 
-###live at evanjwaterman.com
+## Testing Locally
 
+Run with: jekyll serve
+Accessible at: http://127.0.0.1:4000/
