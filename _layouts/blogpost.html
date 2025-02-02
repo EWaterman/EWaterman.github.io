@@ -1,0 +1,67 @@
+---
+layout: page
+title: A Little Not Too Serious
+description: Just another software engineer blogging about things and stuff.
+---
+
+<article class="blogpost">
+	<div class="container-fluid">
+	    <div class="row">
+
+			<!-- Main Content Section -->
+			<div class="guide-main-section col-md-9">
+				<div id="guidepost-content-box">
+
+					<div id="blogpost-header">
+						<span><i>{{ page.date | date: "%B %-d, %Y" }}</i></span>
+					</div>
+
+					<hr>
+
+					<div id="blogpost-title-area" class="text-center">
+		    			<!-- add an "image:" field in the meta of a post to have the image show up. Has to be under /assets/images because it's dynamic -->
+					    {%- if page.image -%}
+				      		<img src="{{- page.image | relative_url -}}" id="blogpost-featured-image">
+					    {%- endif -%}
+
+						<h2>{{ page.title }}</h2>
+					</div>
+
+					<div id="guidepost-content">
+						{{ content }}
+					</div>
+
+					<hr>
+					
+					<div id="blogpost-footer">
+						<a href="/blog/">Back To Blog Homepage</a>
+					</div>
+				</div>
+
+				<a id="bookmark-this" href="#" title="Bookmark This Page"><i class="far fa-bookmark fa-4x"></i></a>
+			</div>
+
+			<div id="guide-toc" class="col-md-3">
+
+				<h3 id="toc-title">Other Posts</h3>
+
+				<ul class="list-unstyled">
+				  {% for post in site.categories.blog %}
+				    {% if post.url %}
+		    			<!-- Hilight current page -->
+						{% if page.url == post.url %}
+							<li class="active"><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% else %}
+							<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endif %}
+						<hr style="border-top: 1px solid #000;">
+				    {% endif %}
+				  {% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</article>
+
+<script async src="/js/addtohomescreen.min.js"></script>
+<script async src="/js/bookmark.min.js"></script>

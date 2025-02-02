@@ -21,7 +21,7 @@ description: A collection of everything to do with the comic making process.
 					{% endif %}
 
 					<div id="guidepost-content">
-				{{ content }}
+						{{ content }}
 					</div>
 					<hr>
 					{% include page-nav.html %}
@@ -37,8 +37,8 @@ description: A collection of everything to do with the comic making process.
 
 				{% for category in site.categories %}
 					{% assign cat = category | first %}
-					{% unless cat == "guide" %}
-						<h3><a href="{{ site.baseurl }}/guide/{{ cat | downcase }}/overview">{{ cat }}</a></h3>
+					{% unless cat == "guide" or cat == "blog" %}
+						<h3><a href="{{ site.baseurl }}/guide/{{ cat | downcase }}/overview/">{{ cat }}</a></h3>
 
 						<hr>
 

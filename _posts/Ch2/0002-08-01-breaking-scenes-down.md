@@ -33,20 +33,22 @@ The first thing I do when breaking down a scene is to take my notes and split th
 
 Atoms are snapshots in time, consisting of a single action or state change. A dog lies down. Someone smiles. A gun fires. Atoms are just about the lowest level you can break a scene down into. Any time something moves from one state to another, no matter how small the change, it can be considered as an atomic action.
 
-Here’s an example scene from my comic:
+Here’s an example scene from an superhero comic that I wrote for us to play with:
 
-`Carson shoots fire at the drug dealer’s car. James shoots frost at the car to put out the fire. As the fire dissipates the car takes off. One of the drug dealers in the car spots Faith in the road in front of them, pulls out a gun and shoots at Faith.`
+`Carson shoots a blast of fire from his hands at a car. In response, James shoots frost from his hands at the car to put out the fire. As the fire dissipates the car takes off. The driver of the car spots Faith standing in the road in front of him, blocking their way. The driver pulls out a gun, leans out the window, and shoots at Faith.`
 
 That scene broken into atoms might look like the following:
 
-- Carson shoots fire at the drug dealer’s car.
-- James shoots frost at the car to put out the fire.
+- Carson shoots a blast of fire from his hands at a car.
+- James shoots frost from his hands at the car to put out the fire.
 - The fire dissipates.
+- The driver hits the gas pedal.
 - The car takes off.
-- One of the drug dealers spots Faith in the road.
-- The drug dealer reaches into the glove box.
-- The drug dealer pulls out a gun.
-- The drug dealer shoots at Faith.
+- The driver spots Faith in the road.
+- The driver reaches into the glove box.
+- The driver pulls out a gun from the glove box.
+- The driver leans out the window.
+- The driver shoots the gun at Faith.
 
 Each of the above lines contains a single action.
 
@@ -93,16 +95,18 @@ Of course planning page turns requires knowing what pages will be followed by su
 Here’s the previous scene split into pages:
 
 Page 1
-- Carson shoots fire at the drug dealer’s car.
-- James shoots frost at the car to put out the fire.
+- Carson shoots a blast of fire from his hands at a car.
+- James shoots frost from his hands at the car to put out the fire.
 - The fire dissipates.
+- The driver hits the gas pedal.
 - The car takes off.
 
 Page 2
-- One of the drug dealers spots Faith in the road.
-- The drug dealer reaches into the glove box.
-- The drug dealer pulls out a gun.
-- The drug dealer shoots at Faith.
+- The driver spots Faith in the road.
+- The driver reaches into the glove box.
+- The driver pulls out a gun from the glove box.
+- The driver leans out the window.
+- The driver shoots the gun at Faith.
 
 Notice how the final atom acts as a sort of cliffhanger for each page. How will the heroes respond to the car escaping and where is it going? Does Faith get shot? These questions make us (hopefully) want to turn the page to find the answers.
 
@@ -185,22 +189,33 @@ Here are a few tips for how to do that:
 ![](/images/guide/y-sister.jpg)
 *[Y the Last Man](https://www.amazon.ca/Y-Last-Man-Book-One/dp/140125151X) - [Brian K. Vaughan](http://bkvcomics.com/), [Pia Guerra](http://hellkitty.com/pia-guerra/), [Jose Marzan Jr.](http://josemarzan.com/)*
 
-There’s just one action: Yorick pointing the gun. No dialogue. No other characters. That's what makes the moment so more powerful. Some might even choose to stretch an atom like this across multiple panels.
+There’s just one action: Yorick pointing the gun. No dialogue. No other characters. That's what makes the moment so powerful. Some might even choose to stretch an atom like this across multiple panels.
 
 - **The faster the pace of a scene, the fewer the atoms you want per panel.** While adding more atoms/panels to a page speeds up the pacing of that page (because the individual panels within that page must become smaller and thus, simpler), the opposite is true for within a single panel. The more actions/atoms occurring in a panel, the more detailed that panel must be to show them all clearly. Because more details means more time required for the reader to absorb it all, more complex panels are often perceived by the reader as slower paced. This is great for quiet, intimate scenes, but less so for intense battle scenes. (Unless you're trying to show scale or pause for a big crescendo.) If you want the panel to seem fast paced, it's a good idea to try and simplify it into one or two atoms. By the way, that's not to say that ALL single atom panels are fast paced. Just take a look at the above photo from Y the Last Man again. It's a single atom but the moment is slowed way down. It's almost frozen in time, like it could last forever.
 
 - **Cut unnecessary atoms and panels.** Every atom that doesn’t have a purpose would be a waste of space to include in or as a panel. Ask yourself what each atom achieves. Also ask yourself whether or not a previous atom already achieves that purpose. If you already have a panel showing your character is thirsty, do you really need that second one showing the same thing? Maybe you do, maybe you don't. Either way, it's worth thinking about. And remember that not every panel and atom needs to have a grandiose purpose. Your reasoning could be as simple as the panel helps to frame the scene for the reader, or reinforces the tone of the scene. Just make sure that, whatever it is, there‘s a reason behind each panel.
 
-Here's that scene from earlier with the atoms merged into panels (with dialogue removed). Remember the atoms:
+Here's that scene from earlier with the atoms merged into panels:
 
-- Carson shoots fire at the drug dealer’s car.
-- James shoots frost at the car to put out the fire.
-- The fire dissipates.
-- The car takes off.
-- One of the drug dealers spots Faith in the road.
-- The drug dealer reaches into the glove box.
-- The drug dealer pulls out a gun.
-- The drug dealer shoots at Faith.
+- Panel 1.1
+    - Carson shoots a blast of fire from his hands at a car.
+- Panel 1.2
+    - James shoots frost from his hands at the car to put out the fire.
+- Panel 1.3
+    - The fire dissipates.
+- Panel 1.4
+    - The driver hits the gas pedal.
+    - The car takes off.
+- Panel 2.1 + 2.2
+    - The driver spots Faith in the road.
+- Panel 2.3
+    - The driver reaches into the glove box.
+    - The driver pulls out a gun from the glove box.
+- Panel 2.4
+    - The driver leans out the window.
+    - The driver shoots the gun at Faith.
+
+And take a look at those panels fully drawn out (with dialogue removed):
 
 ![](/images/guide/atoms.jpg)
 

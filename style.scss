@@ -26,6 +26,7 @@
 // DEV PAGE
 // COMIC PAGE
 // GUIDE PAGE
+// BLOG PAGE
 // PROSE PAGES
 // FOOTER
 
@@ -107,7 +108,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 
-  &:hover, &:active {
+  &:hover {
     color: $blue;
   }
 }
@@ -227,7 +228,7 @@ code {
   font-family: inherit!important;
 }
 
-.emphasis, .hover-emphasis:hover {
+.emphasis, .hover-emphasis:hover, .hover-emphasis:active, .hover-emphasis:focus {
   transform: scale(1.05);
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
@@ -238,7 +239,7 @@ code {
     -ms-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 
-    &:hover {
+    &:hover, &:active, &:focus {
       transform: scale(1.05) rotate(3deg);
       -ms-transform: scale(1.05) rotate(3deg);
       -webkit-transform: scale(1.05) rotate(3deg);
@@ -1328,6 +1329,25 @@ code {
   padding-bottom: 20px;
   background-color: $elevatedBg;
 
+  li {
+    border-radius: 10px;
+
+    &:hover, &:active, &:focus {
+      color: $black;
+      background-color: $lightGray;
+    }
+
+    a {
+      display: block;
+      border-radius: 10px;
+
+      &:hover, &:active, &:focus {
+        color: $black;
+        background-color: $lightGray;
+      }
+    }
+  }
+
   @media (min-width: $mdAndOver) and (orientation: landscape) {
     border-left: 5px groove;
   }
@@ -1442,6 +1462,72 @@ code {
   color: black;
 }
 // =================== END GUIDE PAGE ========================
+
+
+// ===========================================================
+// ======================== BLOG PAGE ========================
+// ===========================================================
+
+#blog-main-header {
+  margin-bottom: 50px;
+}
+
+#blog-main-posts {
+  text-align: left;
+}
+
+.blog-main-post-card {
+  background-color: $offWhite;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+  -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+
+  &:hover, &:active, &:focus {
+    background-color: $white;
+    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+  }
+
+  a {
+    padding: 20px;
+    &:hover, &:active, &:focus {
+      color: $black;
+    }
+  }
+}
+
+.blog-main-post-card-image {
+  // make it display from the center and crop it if needed instead of squeezing it
+}
+
+.blog-main-post-card-body {
+  color: $gray;
+}
+
+#blogpost-header {
+  color: $darkGray;
+}
+
+#blogpost-title-area {
+  h2 {
+    border-bottom: 10px solid #2AA198;
+  }
+}
+
+#blogpost-featured-image {
+  
+}
+
+#blogpost-footer {
+  text-align: center;
+}
+
+// ==================== END BLOG PAGE ========================
 
 // ===========================================================
 // ======================= PROSE PAGES =======================
